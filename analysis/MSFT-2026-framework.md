@@ -574,6 +574,113 @@ Nadella 在財報會把這套講死了：歷史上的 Office 很窄，Copilot �
 
 ---
 
+## 9. 最新財報重點、未來展望與產業趨勢
+
+資料基準：FY26 Q4 / FY2026 全年（截至 2026-06-30，2026-07-29 公布）。金額為美元。
+
+### 9.1 最新財報重點
+
+**一季與一年，先看這張表。**
+
+| | Q4 FY26 | YoY | FY2026 全年 | YoY |
+| --- | --- | --- | --- | --- |
+| 營收 | **$900.1 億** | **+18%**（CC +17%） | **$3,318 億** | **+18%**（CC +16%） |
+| 營業利益 | $406 億 | +18% | $1,552 億 | +21% |
+| GAAP 淨利 / EPS | $358 億 / $4.81 | +31% / +32% | $1,337 億 / $17.95 | +31% / +32% |
+| 非 GAAP 淨利 / EPS（剔 OpenAI 投資） | $353 億 / $4.74 | +22% / +23% | $1,288 億 / $17.28 | +22% / +22% |
+| 毛利率 | 約 67% | YoY 下降 | **67.9%** | mix 轉向 Azure |
+| 營業利益率 | 約 45% | 略升 | **46.8%** | 經營槓桿仍在 |
+| 營運現金 / FCF | $554 億 / $196 億 | FCF 被 capex 壓 | $1,829 億 / **$670 億** | FCF 低於 FY25 $716 億 |
+| 股東回報 | $102 億 | — | 約 $430 億 | 股利 + 回購 |
+
+GAAP 獲利被兩筆投資損益放大：全年 OpenAI 投資淨利益 $50 億（+$0.67/股）；Q4 另有 Anthropic 投資利益 **$32 億**。看經營，用非 GAAP。Q4 相對 4/29 指引還有 +$0.27 EPS 的一次性項目（Anthropic、退休專案費用低於預期，部分被 Xbox 減損與遣散抵銷）。
+
+**部門與產品：增長幾乎全在雲 + AI。**
+
+| | Q4 營收 | YoY | 全年營收 | YoY | 重點 |
+| --- | --- | --- | --- | --- | --- |
+| Productivity and Business Processes | $378 億 | +14% | $1,400 億 | +16% | 利潤錨，營業利益率全年 59.9% |
+| Intelligent Cloud | $393 億 | **+32%** | $1,378 億 | **+30%** | 增長第一引擎 |
+| More Personal Computing | $129 億 | **-4%** | $541 億 | **-1%** | Windows / Xbox 拖累 |
+| Microsoft Cloud | $593 億 | **+27%** | **$2,144 億** | **+27%** | 佔全年營收 65%；近 90% 來自非 frontier 客戶 |
+| Azure and other cloud | — | **+43%** | **>$1,000 億** | **+41%** | 首度破千億；高於街市約 40% 的預期 |
+| M365 Commercial cloud | — | +14%（調整後 +16%） | 產品線 $1,020 億 | +16% | 席位 +6%，差額是 ARPU（Copilot / E5） |
+| M365 Consumer cloud | — | +24% | $92 億 | +24% | 訂閱 +7%，也是 ARPU |
+| LinkedIn | — | +12% | $198 億 | +11% | Q4 主因 Marketing Solutions |
+| Dynamics 365 | — | +13% | 產品線 $90 億 | +15% | ERP 穩、CRM 銷售週期變長 |
+| Windows OEM + Devices | — | -7% | $171 億 | -1% | PC 弱、通路庫存、零件漲價 |
+| Xbox | — | -10% | $218 億 | -7% | 高基期 + 內容重整 |
+
+**比營收更硬的三個數字：**
+
+1. **商業 RPO $6,780 億，+84%。** 加權 2.3 年；約 30%（~$2,030 億）未來 12 個月認列（近端 +37%，遠端 +112%）。剔除 OpenAI 仍 +25%；當季環比增量全部來自非 frontier。ex-OpenAI bookings +18%。
+2. **Copilot 付費席 >3,000 萬**，單季淨增翻倍；>5 萬席客戶數 YoY ×7。GitHub Copilot 6 月改用量計價後營收 QoQ +60%。
+3. **Q4 capex $410 億**（現金購置 PPE $358 億），約 **2/3 是短壽命 CPU／GPU**。需求仍大於產能；Q4 多放出的產能「當季就被變現」。
+
+來源：[EX-99.1](https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-ex99_1.htm)、[財報會](https://www.fool.com/earnings/call-transcripts/2026/08/07/microsoft-msft-q4-2026-earnings-call-transcript/)、[CNBC](https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html)
+
+### 9.2 未來展望
+
+**公司自己給的指引（比街市更重要）。**
+
+| 項目 | Q1 FY27 | FY27 全年 |
+| --- | --- | --- |
+| 總營收 | **$898.5–909.5 億**（+16–17%） | 再一年**雙位數**營收與營業利益 |
+| PBP | $367–370 億（+11–12%） | — |
+| Intelligent Cloud | $409.5–412.5 億（**+33–34%**） | — |
+| MPC | $122–127 億 | Windows OEM **高 teens 下滑** |
+| Azure | 約 **+45% CC**（高於街市 ~41%） | 上半年增速還要再加速；單季會因產能時點波動 |
+| M365 Commercial cloud | 調整後約 +16% CC；帳面 +15% | **全年會加速**（Copilot／E5／E7 + 7 月起用量計價） |
+| LinkedIn | 高個位數 | — |
+| Dynamics 365 | 低 teens | ERP 穩、CRM 仍受較長銷售週期影響 |
+| Search ex-TAC | 中個位數 | 受第三方合作影響，低於 Q4 的 +10% |
+| Xbox content | 中個位數下滑 | 全年預期回正 |
+| 地端 Server / 部分 Commercial products | 低至中個位數下滑 | 全年中個位數下滑（高基期） |
+| COGS | $296–298 億（+23–24%） | mix 續偏 Azure，毛利率壓力仍在 |
+| 營業費用 | $168–169 億（+7–8%） | 全年中至高個位數（研發算力／人才／資料） |
+| 營業利益率 | 同比大致持平 | **下降不到 1 個百分點** |
+| 有效稅率 | 約 20% | 約 20% |
+| Capex | **>$500 億**（含租賃重分類） | 同比再增；**FCF 仍為正** |
+| 匯率 | 少於 1 個點的拖累 | 少於 1 個點 |
+
+**會計變化，不要誤讀成「減碼」：** FY27 起資料中心與辦公室耐用年數 15→25 年。實質投資不變，但更多機房租賃從「融資租賃（算 capex）」改列「營運租賃（不算 capex）」。日曆 2026 帳面 capex 因此從約 **$1,900 億改口 $1,750 億**。折舊時點變好看，現金流出沒變。FY27 營業利益的好處「很小」。來源：[Fortune](https://fortune.com/2026/07/29/microsoft-azure-100-billion-annual-revenue-earnings-revenue-cloud-ai/)、[Reuters](https://www.reuters.com/business/microsoft-tops-quarterly-cloud-growth-estimates-easing-spending-concerns-2026-07-29/)
+
+**街市共識（約 2026-08）：** FY27 營收 $3,911 億（+18%）、EPS $19.73；FY28 營收 $4,680 億（+20%）、EPS $23.57。[Yahoo Finance](https://finance.yahoo.com/quote/MSFT/analysis/)
+
+**管理層對展望的三句定性：**
+
+1. 需求仍大於供給；效率與提早交付的產能會很快變成當季營收。
+2. 商業模式從「每人計價」變成「每人 + 用量」；M365 的 TAM 被打開，不只是再賣一套 Office。
+3. 模型可替換、企業資料留在自己租戶；客人選哪家模型，錢都還是走 Azure。
+
+### 9.3 產業趨勢
+
+Microsoft 現在站在三條同時加速的產業曲線上，不是單一「雲端滲透」故事。
+
+**趨勢 1｜雲基礎設施被 AI 重新加速，不是成熟期。**  
+Synergy：Q2’26 企業雲基礎設施單季 **$1,434 億、+43%**（八年最快），TTM 約 $5,000 億；連續 11 季加速，近 11 季市場規模翻倍。GenAI 專屬雲 **+165%**。市佔 AWS 28%／Microsoft 20%／Google 15%；前三名 67%。AWS 一年掉 2 個百分點，Google 升 2 個百分點，Microsoft 在 20–21% 橫盤——份額沒爆衝，但是在一個 +43% 的市場裡守住第二。  
+[Synergy](https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years)、[CRN](https://www.crn.com/news/cloud/2026/cloud-market-share-q2-2026-google-gains-share-as-aws-falls)
+
+**趨勢 2｜AI 支出從「訓練」切到「推論」，對雲廠更有利。**  
+Gartner：2026 全球 AI 支出 **$2.60 兆（+47%）**，2027 $3.49 兆；基礎設施佔 >45%。AI-optimized IaaS 2026 **$423 億（+96%）**、2027 $661 億；2026 年推論支出首度超過訓練（55% vs 45%）。推論是持續、分散、跟企業應用綁在一起的用量——這正是 Azure + Copilot + GitHub 的交會點，不是一次買完 GPU 就結束。  
+[Gartner AI 支出](https://www.morningstar.com/news/business-wire/20260519405832/gartner-forecasts-worldwide-ai-spending-to-grow-47-in-2026)、[Gartner AI IaaS](https://www.gartner.com/en/newsroom/press-releases/2026-08-10-gartner-forecasts-worldwide-artificial-intelligence-optimized-iaas-spending-to-grow-96-percent-in-2026)
+
+**趨勢 3｜企業軟體從「席位」改成「席位 + 代理人用量」。**  
+這不是 Microsoft 獨有，但是它基數最大：M365 商業席 >4.5 億，Copilot 滲透仍約 6–7%。產業方向是：IT 要管 token 花費（FinOps／SecOps），所以會買控制面（E7、Agent 365），不是只買聊天視窗。GitHub「1/3 的 PR 已有 agent」是開發者端已經先走完的樣貌。
+
+**趨勢 4｜供應鏈與單位成本決定誰賺得到錢。**  
+GPU／零件漲價、現貨算力仍貴、電力與機房交期是共同約束。Hyperscaler 的應對分化：Microsoft 把 capex 的 2/3 放在短壽命晶片、自研 Maia／Cobalt、用較小模型扛 90% 任務。產業風險是 2027 之後若供給追上、現貨價回落，高 capex 公司會同時面對折舊與價格壓力。
+
+**趨勢 5｜主權雲、多模型、neocloud 在挖邊緣。**  
+企業要資料主權與模型可替換（Microsoft 已引 Mistral 進 Sovereign Cloud）。CoreWeave、Oracle、Anthropic 自有雲等「tier two」增速快，專吃 GPU 訓練／推論。這不會立刻動搖三強，但會讓「所有 AI 工作負載都自然留在 Azure」這句話變得沒有以前那麼自動。
+
+**趨勢 6｜PC／遊戲週期與雲脫鉤。**  
+Windows 10 結束支援的換機潮已過，零件漲價壓抑出貨；Xbox 在內容重整。產業上這是「成熟硬體週期」vs「AI 雲超週期」分道揚鑣。Microsoft 的 MPC 部門正是這條裂縫的財報表達。
+
+**對 Microsoft 的產業含義：** 大方向對它有利（推論 > 訓練、席位加用量、企業要治理層），競爭也不再是「只跟 AWS 比 IaaS」，而是同時跟 Google 搶雲份額、跟 neocloud 搶 GPU、跟每一家代理人新創搶工作流程。它的優勢是已經有租戶、身份與資料；風險是 capex 節奏必須卡在推論用量真正起來之前。
+
+---
+
 ## 主要資料來源
 
 ### 公司原始揭露
