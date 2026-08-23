@@ -559,6 +559,103 @@ Cloud 增速與 backlog 是否同步 → Search 是否仍 ≥15% → TAC 率有�
 
 ---
 
+## 9. 最新財報重點、公司展望與產業趨勢（2026 Q2）
+
+> 截至 2026-08-23，最新完整季度為 **2026 Q2**（2026-07-22 公告）。公司不給營收／EPS 指引，正式前瞻幾乎只有 CapEx 與質性說明。
+
+### 9.1 最新財報重點
+
+**集團（單位：十億美元）**
+
+| | Q2’25 | Q2’26 | YoY |
+| --- | --- | --- | --- |
+| 營收 | 96.4 | **119.8** | **+24%**（固定匯率 +23%） |
+| 營業利益 | 31.3 | **40.8** | **+30%** |
+| 營業利益率 | 32% | **34%** | +2 ppt |
+| 其他收益（淨額） | 2.7 | **98.0** | 主因股權證券利益 **99.0** |
+| 歸屬普通股淨利 | 28.2 | 112.1 | GAAP EPS **9.11**；其中利益貢獻約 **6.26** |
+| 營業現金流 | 27.7 | 39.1 | TTM 1,857 |
+| CapEx | 22.4 | **44.9** | 約 +100%；60% 伺服器、40% 資料中心／網路 |
+| 自由現金流 | +5.3 | **−5.9** | TTM 仍有 533 |
+
+連續第 **12** 季雙位數營收。H1 營收 2,297 億（+23%）。員工 198,933 人。
+
+**部門**
+
+| | 營收 | YoY | 營業利益 | 利益率 |
+| --- | --- | --- | --- | --- |
+| Search & other | 632.7 億 | **+17%** | — | — |
+| YouTube ads | 110.6 億 | **+13%** | — | — |
+| Network | 73.0 億 | −0.7% | — | — |
+| 訂閱／平台／裝置 | 129.1 億 | **+15%** | — | — |
+| **Google Services** | **945.4 億** | **+15%** | 395.4 億 | **41.8%** |
+| **Google Cloud** | **247.7 億** | **+82%** | **88.1 億** | **35.6%**（一年前 20.7%） |
+| Other Bets | 3.8 億 | +2% | −18.0 億 | 虧損 |
+
+**經營量能（法說，非 GAAP 指標）**
+
+- Cloud backlog **USD 5,140 億**（季增 >500 億）；集團剩餘履約義務 5,195 億，約一半 24 個月內認列。
+- 現有雲端客戶用量超過承諾 **>50%**；新客獲取速度 YoY 逾兩倍；Marketplace 交易額 YoY **>7 倍**。
+- Gemini App MAU **9.5 億**（DAU 一年內約 3 倍）；API **220 億 tokens／分鐘**（上季 160 億+）。
+- AI Mode 全球 MAU **超過 10 億**；公司稱 AI 功能每週仍向網站送出數十億次點擊。
+- AI Mode 單次回應成本降至上線以來最低。Antigravity 週活用戶 240 萬；Gemma 下載累計逾 9 億次。
+- YouTube 世界盃相關影片 **17 億**獨立觀看者；Ask YouTube 6 月逾 1.4 億使用者。
+- 約 90% Fortune 100 使用 Gemini Enterprise 與 Google Cloud Security。
+- Q2 **首次**把 TPU 系統送到客戶自有資料中心並認列收入；CFO：本季金額小，既有合約 **絕大部分 2027 認列**。剔除 TPU 後 Cloud 仍明顯加速。
+- TAC 162 億（+10%），廣告 TAC 率 **19.8%**（一年前 20.6%）。
+- 6 月普通股 + 強制轉優先股淨籌 **496 億**；授權 400 億 ATM（Q2 尚未動用）。H1 回購 **0**。普通股股息調至 **USD 0.22／季**。
+
+**讀財報時不要被 EPS 9.11 誤導。** 股權利益（含 Anthropic、SpaceX 等持股市價）把淨利放大約四倍；經營真相是營收 +24%、營業利益 +30%、FCF 轉負。
+
+來源：[Q2 Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm)、[Q2 法說逐字稿](https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx)、[Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm)
+
+### 9.2 公司展望（他們真正講了什麼）
+
+Alphabet **不給**營收或 EPS 指引。能寫進模型的前瞻只有這些：
+
+| 項目 | 公司說法 | 含義 |
+| --- | --- | --- |
+| **FY2026 CapEx** | 上修至 **USD 1,950–2,050 億**（前次 1,800–1,900 億；再前次約 1,750–1,850 億） | 第三度上修。主因產能交付加速、需求大於自有供給 |
+| **FY2027 CapEx** | 「會 **顯著高於** 2026，細節稍後再給」 | 產能週期未到高峰；FCF 壓力至少再延一年 |
+| **Q3 Cloud 利益率** | 產能不夠，Q3 擴大使用 **第三方算力當橋接**，近端對 Cloud 營業利益率有 **溫和壓力**；Wiz 整併 2026 也有逆風 | Q3 不要用 35.6% 外推 |
+| **TPU 認列** | 2026 持續爬坡，既有銷售協議 **絕大部分收入在 2027** | 2027 Cloud 會多一層硬體浪，毛利結構可能不同 |
+| **算力分配優先序** | ① 前沿模型／AGI 訓練 ② Search、YouTube 等核心產品 ③ Cloud 上的第一方模型服務（Vertex／Gemini Enterprise） | 賣給客戶的裸金屬 TPU 排在自家模型之後 |
+| **供給** | 仍 **supply constrained**；第三方短約「前六個月成本很高，但多年期 ROI 仍划算」 | 成長受產能限制，不是需求限制 |
+| **FCF** | 技術基礎設施投資會讓 FCF **持續承壓** | 與 Q2 轉負一致 |
+| **股權融資** | CFO：除本季開始的 400 億 ATM（主用於員工股權稅）外，**暫無進一步增發計畫** | 496 億已發完這一輪 |
+| **產品節奏** | Gemini 4 進行「迄今最雄心」預訓練；模型改版朝 **近乎月更** | 與 OpenAI 等拼前沿，同時用 Flash 打性價比 |
+
+賣方共識（非公司指引）：2026 營收約 **4,980 億（+24%）**、2027 約 **6,080 億（+22%）**、2028 約 **7,230 億（+19%）**。
+
+### 9.3 產業趨勢：公司長在兩條斜率不同的賽道上
+
+**1. 公有雲／AI 基礎設施：加速、寡占、Google 在搶份額**
+
+- 2026 Q2 全球雲端基礎設施支出 **USD 1,430 億**（約 +43%，八年最快）；年化約 5,720 億。AWS 28%、Azure 20%、**Google Cloud 15%（+2 ppt，三大裡升最快）**。[Synergy](https://www.srgresearch.com/articles/q2-cloud-market-passes-143-billion-highest-growth-rate-in-eight-years)
+- Gartner：2026 公有雲支出約 **USD 8,500 億（+21.3%）**，2029 年 **1.48 兆**。
+- AI 基礎設施：2025 USD 1,583 億 → 2030 **4,188 億**，CAGR **21.5%**。[BCC](https://www.bccresearch.com/market-research/artificial-intelligence-technology/ai-infrastructure-market.html)
+- 四大廠 2026 CapEx 合計朝約 **USD 7,250 億**（Amazon ~2,000、Microsoft ~1,900、Alphabet 1,950–2,050、Meta 1,150–1,350），vs 2025 約 4,100 億。這是產業級資本競賽，不是 Alphabet 獨有。
+- 趨勢含義：需求被 GenAI 點燃（Synergy：GenAI 相關雲服務 YoY +165%），瓶頸是電、晶片、機櫃。誰能交付產能，誰就能把 backlog 變成營收。Google 的差異化是 **TPU 全棧 + 模型當解決方案配料**（資安、分析、Workspace），不是單賣模型 API。
+
+**2. 數位廣告：大盤仍增，結構正在離開「搜尋框」**
+
+- 數位廣告 TAM 2025 約 0.71–0.86 兆，至 2029/30 CAGR 約 **8–15%**（口徑差大，方向是「大而穩」）。
+- eMarketer：2026 Meta 全球數位廣告營收或 **2,435 億**、Google **2,395 億**，**Meta 可能首次超車**；Google 全球廣告市佔預估 26.4%（下滑中）。[eMarketer](https://www.emarketer.com/press-releases/meta-to-surpass-google-in-digital-ad-revenues-for-first-time-ever/)
+- 美國搜尋廣告：Google 市佔預估 **48.5%**，二十多年來首次低於五成，Amazon 零售媒體是主要蠶食者。
+- 公司財報的對沖：Search 仍 +17%、query 創新高、AI Mode 10 億 MAU，且宣稱 AI 功能仍在給網站送點擊。趨勢尚未在 Alphabet 損益表上變成「搜尋衰退」，但 **預算正在被社交與零售媒體分流**；Network 連續負成長就是先行指標。
+
+**3. 生成式 AI 介面：從聊天框變成作業系統層**
+
+- 消費端：Gemini App 9.5 億 MAU vs 外部 ChatGPT 等；Google 的策略是把模型嵌進 Search／YouTube／Android，而不是只做獨立聊天 App。
+- 企業端：代理（agent）框架、資安、資料分析打包出售；Pichai 強調模型只是配料，護城河在端到端工作流、資料隔離與治理。
+- 監管：美國搜尋案已進入資料分享 + 禁止獨家預設；DOJ 上訴要求禁分成。這會改變廣告賽道的獲客成本，較少直接打擊雲端賽道。
+
+**產業結論：** Alphabet 同時踩在「20%+ 的雲／AI 基建」與「高個位數至低雙位數的數位廣告」。Q2 的 24% 集團增速，本質是 **Cloud 權重上升把兩條賽道加權平均拉高**；產業層面最大的共同主題是 **產能競賽**，廣告層面最大的共同主題是 **入口從搜尋框裂成社交、零售媒體與 AI 答案層**。
+
+---
+
+
+
 ## 資料來源（依主題）
 
 **公司財報 / SEC**
@@ -568,6 +665,7 @@ Cloud 增速與 backlog 是否同步 → Search 是否仍 ≥15% → TAC 率有�
 - [SEC 10-K 部門營運 R42](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/R42.htm)
 - [Alphabet 2026 Q1 Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/googexhibit991q12026.htm)
 - [Alphabet 2026 Q2 Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm)
+- [Alphabet 2026 Q2 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm)
 - [2025 Q4 法說頁](https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx)
 - [2026 Q2 法說頁](https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx)
 
