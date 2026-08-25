@@ -644,7 +644,7 @@ WhatsApp 付費訊息 + 訂閱 Q2 +73% 至 $10 億。Business Agent 已有每週
 | **8** | **企業 AI 是否出現可審計數字** | 目前為 0 | 2026 年底前：API / Agent / 算力轉售任一開始單獨披露，哪怕只有幾億 | 沒有這條，1,300 億 CapEx 就只能用「廣告 ROI 還有 headroom」來辯護。有了這條，第三層客人才從故事變成 SAM。 |
 
 **觀察順序的邏輯：**  
-先看單價（客人還肯不肯加錢）→ 再看 FoA 利潤率（機器有沒有被成本吃掉）→ 再看 CapEx / FCF（產能帳單會不會失控）→ 最後才看 WhatsApp 與 API（第二、第三層客人有沒有出現）。倒過來盯「AI 產品發表」沒有決策價值，那些是投入，不是客人付錢的證據。
+先看單價（客人還肯不肯加錢）→ 再看 FoA 利潤率（機器有沒有被成本吃掉）→ 再看 CapEx / FCF（產能帳單會不會失控）→ 最後才看 WhatsApp 與 API（第二、第三層客人有沒有出現）。倒過來盯「AI 產品發表」沒有決策價值，那些是投入，不是客人付錢的證據。若要用「營收 × 營利率 → 給幾倍 PE」做追蹤，門檻校準見 §11。
 
 **什麼叫論述被推翻：** 連續兩季廣告單價轉負，或 2027 CapEx 再大幅上修而 FoA 其他 + 企業收入仍 < 總營收 3%，或歐洲營收因 LPA 明顯失速。這三件事任一發生，前面 21% CAGR 與 51% 價值空間都要重算。
 
@@ -902,6 +902,36 @@ CapEx「有用」的領先指標不是利率，是第 8.4 節已經列的：**�
 - PE=20：只對應「增長與利率都變差，但市佔還沒丟」。一旦確認市佔被吃，倍數應該低於 20，不是停在 20。
 
 來源：本報告 §2.2 街預期、§3.3 歷史 PE、§4.1 利率拆分、§9.3 廣告增量市佔、[Q2 2026 財報](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)、[Q2 指引](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)
+
+---
+
+## 12. 季度追蹤表：2025 Q1–2026 Q2
+
+公司只公布廣告展示次數與平均單價的 **YoY**，不公布絕對值。CapEx 為官方口徑：購置不動產及設備 + 融資租賃本金。FoA 利潤率 = FoA 營業利益 ÷ FoA 營收（GAAP，未剔除法律／遣散）。
+
+| | **2025 Q1** | **2025 Q2** | **2025 Q3** | **2025 Q4** | **2026 Q1** | **2026 Q2** |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| **營收（百萬美元）** | 42,314 | 47,516 | 51,242 | 59,893 | 56,311 | 60,801 |
+| **營收 YoY** | **+16%** | **+22%** | **+26%** | **+24%** | **+33%** | **+28%** |
+| **廣告展示次數 YoY** | **+5%** | **+11%** | **+14%** | **+18%** | **+19%** | **+14%** |
+| **平均廣告單價 YoY** | **+10%** | **+9%** | **+10%** | **+6%** | **+12%** | **+12%** |
+| **FoA 營收** | 41,902 | 47,146 | 50,772 | 58,938 | 55,909 | 60,370 |
+| **FoA 營業利益** | 21,765 | 24,971 | 24,967 | 30,766 | 26,900 | 23,394 |
+| **FoA 利潤率** | **51.9%** | **53.0%** | **49.2%** | **52.2%** | **48.1%** | **38.8%** |
+| **CapEx** | 13,692 | 17,012 | 19,370 | 22,140 | 19,840 | 31,078 |
+| **CapEx YoY** | **+104%** | **+101%** | **+111%** | **+49%** | **+45%** | **+83%** |
+| CapEx / 營收（附） | 32.4% | 35.8% | 37.8% | 37.0% | 35.2% | **51.1%** |
+
+驗算：展示次數 YoY × 單價 YoY ≈ 廣告營收 YoY（Q1 2025：1.05×1.10=16%；Q2 2026：1.14×1.12=28%）。CapEx YoY 用同年官方數字對上年同季：2024 Q1–Q4 分別為 **67.2 / 84.7 / 92.0 / 148.4 億**。
+
+**這六季怎麼讀（對應 §11 的追蹤規則）：**
+
+1. **營收與單價是牛，利率是熊。** 營收從 +16% 爬到 +33% 再落到 +28%，從未掉到 20% 以下。單價除 2025 Q4 的 +6%（低變現庫存 mix）外都在 9–12%。FoA 利率 2025 年四季都在 **49–53%**，2026 Q1 掉到 48%、Q2 掉到 **38.8%**（剔除法律 $24 億 + 遣散 $12 億後約 **44.7%**）。這就是「CapEx 消化期」：廣告機器在加速，利潤率被折舊與費用打穿。
+2. **量在 2025 下半年接手，2026 Q2 交回給價。** 展示次數從 Q1 的 +5% 一路加到 Q1 2026 的 +19%，Q2 回到 +14%；單價則在 2026 上半年站穩 +12%。Q2 2026 不是「只靠灌庫存」，價量仍齊升。
+3. **CapEx 的斜率在 Q2 2026 才真正陡。** 2025 年幾乎每個季度都是倍增（+100% 上下），但佔營收還在 32–38%。2026 Q1 仍 35%；**Q2 跳到 51%（$311 億，+83%）**，這才是 FCF 歸零的那一季。
+4. 用 §11 的三檔套這張表：營收與單價對得上「牛／基準」，FoA 利率與 CapEx 佔比對得上「消化差」。不要因為利率掉了就把 2026 上半年判成「市佔被吃」——展示與單價都還在加。
+
+來源：[2025 Q1](https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-First-Quarter-2025-Results/default.aspx)、[2025 Q2](https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Second-Quarter-2025-Results/default.aspx)、[2025 Q3](https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx)、[2025 Q4](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx)、[2026 Q1](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx)、[2026 Q2](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)；2024 CapEx：[Q2 2024](https://www.marketscreener.com/quote/stock/META-PLATFORMS-INC-10547141/news/Meta-Reports-Second-Quarter-2024-Results-47520732/)、[Q3 2024](https://investor.atmeta.com/investor-news/press-release-details/2024/Meta-Reports-Third-Quarter-2024-Results/default.aspx)、[FY2024 Exhibit 99.1](https://s21.q4cdn.com/399680738/files/doc_financials/2024/q4/Meta-12-31-2024-Exhibit-99-1-FINAL.pdf)
 
 ---
 
