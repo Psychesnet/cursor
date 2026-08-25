@@ -527,6 +527,83 @@ Iridium 不是高成長資產（FY2025 只 +5%），它的價值是經常性收�
 
 ---
 
+## 附錄：最新財報重點、未來展望、產業趨勢（截至 2026-08-25）
+
+最新一期為 **Q2 2026**（截至 2026-06-30，8/10 公布）。公司不給全年指引，只給下一季。
+
+### 最新財報重點
+
+**損益（Q2 2026 vs Q2 2025）**
+
+| 項目 | Q2 2026 | Q2 2025 | 變化 |
+| --- | --- | --- | --- |
+| 營收 | **$234.1M** | $144.5M | **+62.0%** YoY、+16.8% QoQ |
+| Space Systems | **$189.5M（81%）** | — | +93.6% YoY、+38.6% QoQ |
+| Launch Services | **$44.6M（19%）** | — | 季減約 30%（HASTE overtime，不是次數崩掉） |
+| Product / Service | $181.3M / $52.7M | $92.7M / $51.8M | 產品近乎翻倍；服務僅 **+1.8%** |
+| GAAP 毛利率 | **36.1%** | 32.1% | 高於指引；非 GAAP **41.5%**（含關稅退稅，被 Neutron Flight II 存貨準備抵銷） |
+| 營業虧損 | **−$57.5M** | −$59.6M | 營收多 $90M，營業虧損只改善 $2M |
+| 淨損 | **−$49.3M（−$0.08）** | −$66.4M | 收窄主因利息收入 $16.5M，不是本業 |
+| Adj. EBITDA | **−$8.8M** | −$27.6M | 優於指引 −$20 至 −$26M |
+| H1 2026 營收 | **$434.4M** | $267.1M | **+62.7%** |
+
+**能見度與資產負債**
+
+- Backlog **$23.6 億**（+137% YoY）：Launch ~40% / Space Systems ~60%；約 **45.5%** 預期 12 個月內轉成營收
+- Q2 及季後新簽：**發射 >$437M**（含 Space Force HASTE 最多 18 次 **$266M**）、Space Systems **>$581M**（Flatellite **$397M**、GEO **>$160M**）；合計新約 **>$10 億**，發射清單 **90+ 次**
+- 現金及有價證券約 **$24 億**；有息負債僅約 $15M；H1 ATM 淨募約 $15 億
+- 經營現金流 H1 **−$1.34 億**；Q2 資本支出 $26M（主要 Neutron）
+- 員工人數 **3,217**（季增 439，含 Mynaric / Motiv）
+- 已關閉 Mynaric、Motiv；宣布收購 Iridium（EV 約 $80 億，目標 2027 年中）
+
+**Q3 2026 指引（市場解讀為營收優於共識、獲利指引變差）**
+
+| 項目 | 指引 |
+| --- | --- |
+| 營收 | **$250–265M**（中點較 Q2 約 +10%） |
+| GAAP / 非 GAAP 毛利率 | **29–31%** / 35–37%（Space Systems mix 轉差） |
+| GAAP / 非 GAAP 營業費用 | $143–149M / $121–127M（Neutron 首飛相關費用） |
+| 淨利息收入 | $21M |
+| Adj. EBITDA | **虧損 $17–23M**（比 Q2 的 −$8.8M 擴大） |
+| 加權股數 | 約 641M（含約 41M 優先股） |
+
+來源：[Q2 新聞稿](https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-second-quarter-2026-financial-results-posts)｜[8-K EX-99.1](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm)｜[財報會](https://www.fool.com/earnings/call-transcripts/2026/08/17/rocket-lab-rklb-q2-2026-earnings-call-transcript/)
+
+### 未來展望（公司口徑 + 共識）
+
+公司只給一季。管理層把 2026–2028 拆成三件事：SDA 等造星放量、Neutron 從研發轉庫存再轉飛行、Iridium 把模式切到應用層。
+
+| 時點 | 公司自己怎麼說 | 數字含義 |
+| --- | --- | --- |
+| **已鎖住的 12 個月** | 45.5% backlog 轉營收；國防專案約 4 年、**10/40/40/10** 認列 | 約 **$10.7 億**近端能見度，不靠 Neutron 首飛 |
+| **2026 Q4** | Neutron 一級貯箱組裝對齊 **Q4 運到發射台**；「年底首飛窗口在收窄」；策略是優先 **第 10 次飛行** 而非第一次；爬坡預期類似 Electron 的 **1-3-5** | Q3 費用從研發轉入飛行硬體庫存。CFO：FCF 在首次試飛前仍會燒，之後才談 Adj. EBITDA、再談 FCF 轉正 |
+| **2027 年中** | Iridium 目標交割；Beck 稱進入「space applications era」。Iridium FY2025 **$8.72 億**、2.54M 用戶。管理層預期交割後 FCF 結構會重置 | 共識尚未完整計入併表。現金 $27/股 + 股票 collar + **$36 億**過橋 |
+| **華爾街共識** | 不代表公司指引 | 2026E 營收 **$953M（+58%）**、2027E **$1.36B（+42%）**；GAAP EPS 2026 −$0.27、2027 仍約 −$0.07 |
+
+發射端：管理層稱需求 extreme，**2029 以後能訂的位子極少**；部分 Neutron 運力會留給自有應用，不是全賣給外部。歐洲：Mynaric + Rocket Lab Germany，對應德國等國尋求主權造星 / 發射（Beck 舉德國逾 $400 億飛彈預警預算為例）。
+
+**展望的矛盾：** Q3 營收中點創新高，但毛利率指引跌回 29–31%、EBITDA 虧損擴大。這是「造星 mix + Neutron 前載費用」的組合，不是需求消失。
+
+### 產業趨勢（RKLB 真正吃到的那幾條）
+
+上游（發射 + 造星）長得比整個太空經濟快；國防把空間從探索改成基礎設施。RKLB 的訂單結構（SDA、HASTE、Flatellite、響應發射）對得上這些趨勢，不是對得上 Starlink 消費寬頻。
+
+| 趨勢 | 數據 | 對 RKLB 的含義 |
+| --- | --- | --- |
+| 太空經濟擴張 | 2025 全球 **$6,860 億、+12%**；五年 CAGR **9.8%**；商業佔 79%（[Space Foundation 2026 年報](https://www.spacefoundation.org/wp-content/uploads/2026/07/SF-GSE-REPORT-2026July-FOR-RELEASE.pdf)） | 大盤在長；RKLB 不吃 PNT 消費盤，吃的是上游 |
+| **上游爆發** | 商業衛星製造 **+67.2%**、商業發射 **+49.4%**；軌道發射價值 **$191.7 億（+33.5%）** | 這才是 Space Systems 81% 營收、SDA 放量的產業背景 |
+| 發射次數創新高、供給仍緊 | 2025 全球軌道嘗試 **324 次（+28%）**；美國 193、中國 92；Falcon 9 獨佔 **165 次**。白宮 2026-08 政策要美方 2030 年支援最多 **1,000 次/年**（[Air & Space Forces](https://www.airandspaceforces.com/white-house-policy-launch-range-infrastructure-crunch/)） | 發射場與中型運力是瓶頸。解釋為何 Neutron 未飛就能收訂單，以及 GHOST / 阿拉斯加墊的戰略 |
+| SpaceX 轉 Starship | SpaceX 稱 2025–2026 可能是 Falcon 高峰，之後更多任務轉 Starship | 中型商業發射出現空檔，也是 Neutron 的窗口；同時 Starship 成功會再壓價格 |
+| **國防空間基礎設施化** | 全球政府太空預算 2025 約 **$1,410 億（+7.4%）**；美國政府 $783 億。Golden Dome 十年成本估計 **$1,750–1,850 億**，已有 $225 億到位、約 95% 已承諾，但 **2027 有撥款斷層風險**（[SpaceNews](https://spacenews.com/golden-dome-faces-2027-funding-cliff/)） | HASTE、SDA Tracking Layer、SB-AMTI Flatellite、VICTUS HAZE 都屬「現在就有合約的成熟能力」，不是太空攔截器那種远期概念 |
+| 分散式星座取代少數大星 | SDA PWSA 持續 tranche 採購；商業造星收入一年 +67% | 有利垂直整合、能快速量產小星的廠商；也把毛利從高值組件拉向較低的平台合約 |
+| 歐洲主權 | 地緣下歐洲要本國造星 / 發射能力 | Mynaric + 德國公司是對這個缺口的卡位，2026 還不是營收主軸 |
+| 應用層（Iridium 在買的） | 商業衛星通訊 2025 **$284 億（+9.5%）**；D2D 有機構看到 2033 近 $100 億。L-band 不是寬頻主戰場 | Beck 明確不跟 Starlink / Amazon 搶寬頻，要的是天氣可穿透、室內可用的安全關鍵頻譜 |
+
+**產業結論：** 2025–2026 的趨勢對 RKLB 的「現有生意」（造星 + 專屬小發射 + 高超音速試驗）是順風；對「定價用的生意」（Neutron 中型可回收 + Iridium 應用層）則是窗口存在、執行未完成。Golden Dome / SDA 是近端訂單來源，2027 撥款斷層是同一條國防線上的政策風險。
+
+---
+
+
 ## 資料來源（主要）
 
 1. [Rocket Lab FY2025 Q4 與全年新聞稿](https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-fourth-quarter-and-full-year-2025-financial)
