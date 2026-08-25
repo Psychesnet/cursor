@@ -296,32 +296,59 @@ MarketScreener 用約 559 的市值給出 17.6x / 16.5x / 14.3x，三年平均�
 
 ### 3.3 合理估值依據
 
-給予合理 PE 的邏輯，而不是套公式：
+給予合理 PE 的邏輯，而不是套公式。先把口徑對齊，否則「歷史 30x」跟「合理 22x」會比錯東西：
+
+**歷史上的 30x 幾乎都是 Trailing P/E**（股價 ÷ 過去四季 EPS），出現在廣告機器健康、FCF 還很厚的年份。本節公式用的是 **Forward / 三年平均預期 PE**。兩者差一年的盈餘增長，不能直接互相比。
+
+| 年底（MacroTrends，Trailing） | PE | 當時在發生什麼 |
+| --- | --- | --- |
+| 2016 | 32.7x | 廣告高速增長期 |
+| 2017 | 32.5x | 同上 |
+| 2018 | 17.2x | Cambridge Analytica |
+| 2019 | 31.6x | 修復後重回品質溢價 |
+| 2020 | 26.8x | 疫情流量紅利 |
+| 2021 | 24.2x | 成熟期，仍是純廣告現金牛 |
+| 2022 | 13.9x | ATT + 加息 + 元宇宙開支 |
+| 2023 | 23.6x | Year of Efficiency |
+| 2024 | 24.4x | AI 開始見效 |
+| 2025 | 28.1x | 廣告再加速；當年 Q3 曾到 **32.4x** |
+| **2026-08-24** | **21.1x** | CapEx 消化折價；股價 559 |
+
+健康廣告年（剔除 2018、2022）年底 Trailing 落在 **24–33x**，中樞約 **26–28x**，高峰才是「30 水準」。五年均值約 **25.3x**（TGMCharts / TIKR），十年中位 **28.0x**（GuruFocus）。現價 Trailing **20.7–21.1x**，確實低於這段廣告品質史。
+
+把「30x Trailing」翻成 Forward，才跟公式同一單位：TTM EPS 約 $27、2026E $31.72（+17%）。股價 $810（= 30 × 27）對應 **2026 Forward 約 25.5x**。反過來說，前一版取的 **22x Forward ≈ Trailing 26x**（22 × 31.72 / 27），已經接近五年均值，但低於 2025 年底的 28x 與十年中位。
 
 | 因子 | 方向 | 幅度 |
 | --- | --- | --- |
-| 3 年營收 CAGR 21.5%，已達 20% 成長股門檻 | 加分 | 高成長股常見 20–28x |
-| 毛利率 82%、FoA 營業利益率曾達 51%，護城河 4.0/5.0 | 加分 | 應有品質溢價 |
-| 廣告 98%、無 RPO、監管與青少年訴訟 | 減分 | 不能給雲端軟體那種 30x+ |
-| 2027E EPS 只 +7%，FCF 2026–27 共識轉負 | 減分 | 必須低於歷史成長期高點（曾 >25x） |
-| 相對互聯網同業 26x、自身 Forward 已 17–18x | 中性 | 市場已在折價，不是泡沫 |
+| 本業仍是廣告（97.6%），且在加速（Q2 +28%、單價 +12%） | 加分 | 應按廣告品質史定價，不是按「轉型中的 AI 公司」折價 |
+| 3 年營收 CAGR 21.5%，毛利率 82%，護城河 4.0/5.0 | 加分 | 健康年 Trailing 24–33x → Forward 約 22–28x |
+| 廣告 98%、無 RPO、監管與青少年訴訟 | 減分 | 不能給雲端軟體那種 30x+ **Forward** |
+| 2027E EPS 只 +7%，FCF 2026–27 共識轉負 | 減分 | 這是相對 2016–2019「FCF 機器」必須打的折，但折在 **Forward 2–4 檔**，不是腰斬到 18x |
+| 相對互聯網同業 Trailing 26x、自身 Forward 已 17–18x | 中性 | 市場已在折價；街預期 12 個月目標價 $754 ≈ 2026E 的 **23.8x** |
 
-綜合：**合理 PE 區間 20–24x**，取中點 **22x**。這低於「純品質溢價」應給的 25–28x，已經把 CapEx 消化期與監管折價算進去；但高於目前 16x 的三年平均預期 PE，因為 21% 營收增長 + 80% 毛利的生意不該永遠按「FCF 歸零」定價——前提是 2028 年 FCF 能轉正（共識僅 +22 億，非常薄）。
+綜合：**合理 Forward PE 區間改為 22–26x**，取中點 **24x**。  
+- **22x** 留給「FCF 再真空 24 個月、2027 CapEx 還可能上修」——這是前一版的基準，現在降成保守／消化期下限。  
+- **24x** 是廣告品質中樞：對應 Trailing 約 **28x**（24 × 31.72 / 27），對上 2025 年底與十年中位，也幾乎等於街預期目標價隱含的 2026 Forward。本業沒變，不該因為自己在燒算力就把廣告機器從「品質溢價」改成「困境折價」。  
+- **26x** 才是把歷史「30 水準」正確翻譯成 Forward 的樂觀檔（26 × 31.72 / 27 ≈ Trailing 30.5x），前提是單價續漲、FoA 利率守住、2028 FCF 明顯轉正。  
+18x 更接近 2018 / 2022 的危機倍數，不是「合理」的地板。
+
+來源：[MacroTrends META PE](https://www.macrotrends.net/stocks/charts/META/meta-platforms/pe-ratio)、[GuruFocus PE（十年中位 27.96）](https://www.gurufocus.com/term/pe-ratio/META)、[TGMCharts 五年均值](https://tgmcharts.com/stocks/META/pe-ratio)、[TIKR 五年／十年均值](https://www.tikr.com/blog/metas-p-e-ratio-current-levels-historical-trends-and-outlook)
 
 ### 3.4 潛在價值空間
 
 \[
-(22 \div 15.9 - 1) \times 100\% \approx \mathbf{38.4\%}
+(24 \div 15.9 - 1) \times 100\% \approx \mathbf{50.9\%}
 \]
 
-| 情景 | 合理 PE | 對 15.9x 的空間 |
-| --- | --- | --- |
-| 保守（CapEx 失控、FCF 長期為負） | 18x | +13% |
-| **基準** | **22x** | **+38%** |
-| 樂觀（代理 / API 成第二曲線、FCF 2028 明顯轉正） | 24x | +51% |
+| 情景 | 合理 Forward PE | 對應 Trailing（約） | 對 15.9x 的空間 |
+| --- | --- | --- | --- |
+| 保守（CapEx 失控、FCF 長期為負） | 20x | ~23x | +26% |
+| 消化期下限（前一版基準） | 22x | ~26x | +38% |
+| **基準（廣告品質中樞）** | **24x** | **~28x** | **+51%** |
+| 樂觀（歷史 30x Trailing 的 Forward 譯本；代理 / API 成氣候） | 26x | ~30.5x | +64% |
 
-與街預期目標價 +37% 幾乎重疊。  
-**結論：價值空間充足。** 便宣的是「廣告機器的盈餘」；不便宣、甚至可能偏貴的是「未來兩年的自由現金流」。本架構公式用的是盈餘 PE，所以結論偏正面；若投資人的約束是 FCF 而非 EPS，現價沒有安全邊際。
+24x × 2026E EPS $31.72 ≈ **$761**，與街預期目標價 $754 幾乎同一點；公式空間 51% 高於目標價對現價的 +37%，差在分母用的是三年平均預期 PE（2028E 才 14.0x），不是未來十二個月。  
+**結論：價值空間充足。** 前一版 22x 對「仍是廣告公司、而且在加速」偏低一檔；對「未來兩年 FCF」則仍不算鬆。便宣的是盈餘，不是現金。若投資人的約束是 FCF 而非 EPS，現價沒有安全邊際——這條沒變。
 
 ---
 
@@ -483,7 +510,7 @@ Instagram、WhatsApp、Facebook 是全球數十億人的日常動詞，不是需
 | 面向 | 標籤 | 依據 |
 | --- | --- | --- |
 | 增長 | **增長優異** ✓ | FY2025 +22%、TTM +28%、2025–2028 營收 CAGR 21.5%，達到 20% 標準 |
-| 估值 | **價值空間充足** ✓ | 三年平均預期 PE 15.9x vs 合理 22x，公式空間約 **38%** |
+| 估值 | **價值空間充足** ✓ | 三年平均預期 PE 15.9x vs 合理 Forward 24x（≈ Trailing 28x），公式空間約 **51%** |
 | 護城河 | **高護城河** ✓ | 4.0 / 5.0；網絡效應 0.9 是核心 |
 | 盈利 | **盈利仍強、現金流轉弱** △ | 毛利率 82%、TTM 營業利益率 38%，但 Q2 FCF 近乎歸零、ROIC 快速下降 |
 
@@ -491,7 +518,7 @@ Instagram、WhatsApp、Facebook 是全球數十億人的日常動詞，不是需
 
 Meta 目前是全球少數能在 **2,000 億營收基數上再加速到 20%+** 的大型科技公司：FY2025 營收 2,010 億（+22%），2026 Q2 已到 608 億（+28%），eMarketer 預估它會在 2026 年首次於數位廣告營收上超車 Google。增長幾乎全部來自廣告機器——印象 +14%、單價 +12%、Advantage+ 年化 750 億——而不是 Reality Labs 或新業務。護城河建立在 36 億 DAP 的雙邊網絡上，毛利率 82%、FoA 曾交出 51% 營業利益率，這不是週期性雜訊能輕易拆掉的生意。
 
-市場給的三年平均預期 PE 約 16x，對 21% 營收增長與高護城河來說偏低，公式上的價值空間約 38%，與街預期目標價 +37% 一致。**便宣的是盈餘，不是現金。** 2026 CapEx 中點 1,375 億把 Q2 FCF 壓到 7.8 億，回購暫停，股息開始吃資產負債表；共識還顯示 2026–2027 FCF 轉負、2027 EPS 只增長 7%。最大隱憂因此不是「廣告會不會明年突然歸零」，而是 **這輪 AI 產能的回報率、歐洲 / 美國監管對定向廣告的切割、以及 98% 收入集中度在壓力測試下的脆弱性**。
+市場給的三年平均預期 PE 約 16x，對 21% 營收增長與高護城河來說偏低。歷史健康廣告年 Trailing 在 24–33x（中樞 26–28x，高峰才 30x）；現價 Trailing ~21x、Forward 17–18x。合理 Forward 從 22x 上修到 **24x**（對應 Trailing ~28x），公式空間約 **51%**；24x × 2026E EPS 約 $761，與街預期目標價 $754 同點。前一版 22x 把 CapEx 折價折過頭——本業沒變，仍是廣告。**便宣的是盈餘，不是現金。** 2026 CapEx 中點 1,375 億把 Q2 FCF 壓到 7.8 億，回購暫停，股息開始吃資產負債表；共識還顯示 2026–2027 FCF 轉負、2027 EPS 只增長 7%。最大隱憂因此不是「廣告會不會明年突然歸零」，而是 **這輪 AI 產能的回報率、歐洲 / 美國監管對定向廣告的切割、以及 98% 收入集中度在壓力測試下的脆弱性**。
 
 客觀歸類：**趨勢成長股，處於 AI 基礎設施消化期**——核心廣告現金牛仍在加速，但投資論述已從「高 FCF + 回購」切到「先把產能建起來、再用代理 / API / 算力證明第二曲線」。適合能忍受 24 個月 FCF 真空、並追蹤每季廣告單價、FoA 利潤率與 CapEx 指引的投資人；不適合把 Trailing P/FCF 當安全邊際的現金流折現型買盤。
 
@@ -523,7 +550,7 @@ Meta 目前是全球少數能在 **2,000 億營收基數上再加速到 20%+** �
 | 亞太 | $538 億 | 26.8% | +20% | 用戶最多、單價最低；印象增長的來源 |
 | 其他 | $217 億 | 10.8% | +27% | WhatsApp 商務較深（印度、巴西等） |
 
-全球 ARPP（每位日活貢獻的 FoA 營收）FY2025 全年 **$57.03（+15%）**。Q2 2026 粗估：FoA $603.7 億 ÷ DAP 36.0 億 ≈ **單季 $16.8**，高於 2025 Q4 的 $16.56，代表「同一批人被抽更多」，不是「更多人進來」。
+全球 ARPP（每位日活貢獻的 FoA 營收）FY2025 全年 **$57.03（+15%）**。官方定義是當季 FoA 營收 ÷ 季初與季末 DAP 平均。Q2 2026：FoA $603.7 億 ÷ ((Q1 35.6 億 + Q2 36.0 億) / 2) ≈ **單季 $16.86**，高於 2025 Q4 官方的 $16.56，代表「同一批人被抽更多」，不是「更多人進來」。
 
 **一句話：** 現在的客人是全球效果廣告主（SMB 用 Advantage+ 自動化、大品牌買覆蓋與轉換）；未來想長出來的客人是 WhatsApp 商家與企業 AI 買家。使用者不是客人，是庫存。
 
@@ -611,7 +638,7 @@ WhatsApp 付費訊息 + 訂閱 Q2 +73% 至 $10 億。Business Agent 已有每週
 | **2** | **廣告印象 YoY，且最好能拆地區** | Q2 **+14%**（FY2025 +12%，亞太最快） | 雙位數，但不要只靠低價地區 | 量是庫存。若美加 / 歐洲印象停、亞太獨走，營收還能漲，但 ARPP 與利潤率會往下走。 |
 | **3** | **FoA 營業利益率** | FY2025 **51.5%** → Q2 **38.8%** | 調整一次性費用後守住高 30% / 回升 40%+ | 核心機器有沒有被折舊與法律費用打穿。營收 +28% 對營業利益帳面 −8%，就是這條線在說話。 |
 | **4** | **CapEx 指引與 FCF** | 2026 **$1,300–1,450 億**；Q2 FCF **$7.8 億** | 2027 指引不再上修失控；FCF 最差在 2027 見底 | 這是「第三層客人」的代價。CFO 拒絕給 2027 CapEx。若 2027 再往 $1,800 億+ 走而 API / 代理仍無收入，ROIC 會從 23% 繼續掉，估值重定價會快過營收失速。 |
-| **5** | **ARPP 與 DAP** | FY2025 ARPP **$57.03（+15%）**；DAP **36.0 億（+3%）** | ARPP 續雙位數；DAP 不要掉到 0 附近 | 成長公式 = 人數 × 每人產值。人數已接近天花板，只能盯每人產值。DAP 若轉負，是時長被 TikTok / 對話 AI 搶走的領先指標。 |
+| **5** | **ARPP 與 DAP，且要拆「每人印象」** | FY2025 ARPP **$57.03（+15%）**；Q2 ARPP 約 **$16.86**（vs Q4 $16.56）；DAP **36.0 億（+3%）**；每人印象約 **+11%** | ARPP 續雙位數；DAP 不要轉負；每人印象維持高個位數 | 人數已接近天花板（詳 §10.2）。成長 = DAP × 每人印象 × 單價。AI 同時推後兩項，不是只推單價。DAP 若轉負，才是時長被 TikTok / 對話 AI 搶走的領先指標。 |
 | **6** | **FoA 其他收入（WhatsApp 付費訊息）** | Q2 **$10.1 億（+73%）** | 維持 >50% 增速、2026 年挑戰 $40 億+ | 唯一已入帳的第二曲線。這條線證明「同一批 SMB 開始付非廣告的錢」。斷掉就代表第二層客人沒長出來。 |
 | **7** | **歐洲營收 / LPA 滲透、美國青少年訴訟準備** | 歐洲 FY2025 **$466 億（23%）**；Q2 法律準備 **$24 億** | 歐洲 YoY 不要明顯低於全球；不再出現「material loss」級準備 | 高 ARPU 客人集中在美歐。監管打的是利潤最厚的那層，不是亞太低價庫存。CFO 已用 material loss 這個詞，不能當罰款噪音。 |
 | **8** | **企業 AI 是否出現可審計數字** | 目前為 0 | 2026 年底前：API / Agent / 算力轉售任一開始單獨披露，哪怕只有幾億 | 沒有這條，1,300 億 CapEx 就只能用「廣告 ROI 還有 headroom」來辯護。有了這條，第三層客人才從故事變成 SAM。 |
@@ -619,7 +646,7 @@ WhatsApp 付費訊息 + 訂閱 Q2 +73% 至 $10 億。Business Agent 已有每週
 **觀察順序的邏輯：**  
 先看單價（客人還肯不肯加錢）→ 再看 FoA 利潤率（機器有沒有被成本吃掉）→ 再看 CapEx / FCF（產能帳單會不會失控）→ 最後才看 WhatsApp 與 API（第二、第三層客人有沒有出現）。倒過來盯「AI 產品發表」沒有決策價值，那些是投入，不是客人付錢的證據。
 
-**什麼叫論述被推翻：** 連續兩季廣告單價轉負，或 2027 CapEx 再大幅上修而 FoA 其他 + 企業收入仍 < 總營收 3%，或歐洲營收因 LPA 明顯失速。這三件事任一發生，前面 21% CAGR 與 38% 價值空間都要重算。
+**什麼叫論述被推翻：** 連續兩季廣告單價轉負，或 2027 CapEx 再大幅上修而 FoA 其他 + 企業收入仍 < 總營收 3%，或歐洲營收因 LPA 明顯失速。這三件事任一發生，前面 21% CAGR 與 51% 價值空間都要重算。
 
 來源：[10-K ARPP 與廣告段落](https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm)、[Q2 2026 財報](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)、[Q2 法說逐字稿](https://www.fool.com/earnings/call-transcripts/2026/08/07/meta-meta-q2-2026-earnings-call-transcript/)、[Yahoo / MarketScreener 共識](https://finance.yahoo.com/quote/META/analysis/)
 
@@ -704,6 +731,108 @@ Alphabet / Amazon / Meta / Microsoft Q2 CapEx 合計 **$1,701 億**，等於四�
 
 ---
 
+## 10. 補充：合理 PE 是否過低、ARPP vs DAP
+
+### 10.1 合理 PE 20–24x（取 22x）是否太低？歷史有 30 水準，本業仍是廣告
+
+**短答：前一版 22x Forward 對「仍是廣告公司」偏低一檔，但不該直接改用 Trailing 30x。** 基準已上修到 **Forward 24x**（≈ Trailing 28x），公式空間從 38% 改為 **51%**。歷史「30 水準」是健康年的 Trailing 高峰，翻譯成 Forward 約 **25–26x**，對應本表樂觀檔，不是基準。
+
+三個容易混在一起的數字：
+
+| 口徑 | 現在讀數 | 歷史健康年 | 怎麼用 |
+| --- | --- | --- | --- |
+| **Trailing P/E**（股價 ÷ 過去四季 EPS） | **20.7–21.1x**（2026-08） | 年底常見 **24–33x**；2016 / 2017 / 2019 年底 32.7 / 32.5 / 31.6；2025 年底 **28.1**、當年 Q3 **32.4** | 這才是「歷史 30x」的來源 |
+| **NTM Forward P/E**（股價 ÷ 2026E EPS $31.72） | **17.3–18.4x** | 健康 Trailing 30x ÷ 約 17% EPS 增長 ≈ **Forward 25.5x** | 跟同業 GOOG ~23x、MSFT ~24x 比的是這一列 |
+| **三年平均預期 PE**（本架構分母） | **15.9x** | — | 2026–28 的 17.3 / 16.2 / 14.0 平均；2028E 把整段拉低 |
+
+「30x」不是常態中樞。剔除 2018（Cambridge，17.2x）與 2022（ATT / 元宇宙，13.9x）之後，年底 Trailing 中樞比較接近 **26–28x**；五年均值約 **25.3x**，十年中位 **28.0x**。[MacroTrends](https://www.macrotrends.net/stocks/charts/META/meta-platforms/pe-ratio)、[GuruFocus](https://www.gurufocus.com/term/pe-ratio/META)、[TIKR](https://www.tikr.com/blog/metas-p-e-ratio-current-levels-historical-trends-and-outlook)。
+
+本業沒變，這句是對的：FY2025 與 2026 Q2 廣告都佔 **97.6%**，Reality Labs 1% 上下。市場現在給 ~21x Trailing，不是因為它變成 AI 硬體公司，而是因為 **同一台廣告機器的 FCF 被 CapEx 吃掉**——Q2 FCF 只剩 $7.8 億、2026 指引 CapEx $1,300–1,450 億、2027 EPS 共識只 +7%。2016–2019 能給 30x Trailing，是因為那時還是「高 FCF + 回購」；現在不是。
+
+所以折價應該折在哪：
+
+- **不該**把合理倍數打到 18–20x Forward。那是危機檔（2018、2022），廣告機器當時是壞的或被當成壞的。2026 Q2 營收 +28%、單價 +12%、eMarketer 還預期它今年數位廣告營收超車 Google，品質沒壞。
+- **不該**把公式基準改成 Trailing 30x。30 / 15.9 − 1 = 89% 空間，等於假設 CapEx 帳單不存在、2027 盈利不會減速。
+- **該改的**是前一版把消化期折價（Forward 22x ≈ Trailing 26x）當成基準。那是五年均值附近，對「廣告仍在加速」少算了一檔品質溢價。
+
+上修後的對照：
+
+| | Forward | 隱含 Trailing | 對 15.9x | 對 2026E EPS 的隱含股價 |
+| --- | --- | --- | --- | --- |
+| 前一版基準 | 22x | ~26x | +38% | $698 |
+| **本版基準** | **24x** | **~28x** | **+51%** | **$761**（街預期目標價 $754） |
+| 歷史 30x Trailing 的 Forward 譯本 | 26x | ~30.5x | +64% | $825 |
+
+24x 幾乎就是把「本業仍是廣告」寫進倍數裡，同時留下 2 檔給 CapEx / 監管；26x 才是把 2016–2019 的 30x 原樣搬過來。現價 Forward 17–18x 距離 24x 仍有空間，距離 30x Trailing 更遠——但那多出來的距離是 FCF 真空的租金，不是免費午餐。
+
+### 10.2 ARPP vs DAP：AI 是否只幫忙抬單價？DAP 成長慢，管理層在做什麼？
+
+**短答：AI 不是只抬單價。** Q2 廣告營收 +27% 拆開，人數幾乎沒動，量和價各貢獻一半以上。管理層也沒有在「再找十億新用戶」；策略是讓同一批人看更久、在更多表面被變現。DAP +3% 慢，是飽和後的設計結果，不是產品失敗——除非它轉負。
+
+先把身份分開：**DAP 是庫存，不是付費客人。** 付錢的是廣告主。官方 ARPP = 當季 FoA 營收 ÷ 季初與季末 DAP 平均。FY2025 全年 **$57.03（+15%）**；Q2 2026 ≈ **$16.86**（$603.7 億 ÷ 35.8 億平均 DAP），高於 2025 Q4 官方 $16.56。
+
+廣告營收的乘法：
+
+\[
+\text{廣告營收} \approx \text{DAP} \times \text{每人印象數} \times \text{單價}
+\]
+
+Q2 2026 代入財報三個官方數：
+
+| 因子 | YoY | 含義 |
+| --- | --- | --- |
+| DAP | **+3%** | 人數：全球聯網人口過半，增量空間見底 |
+| 印象數 | **+14%** | 庫存總量 |
+| → 每人印象（印象 ÷ DAP） | **約 +11%** | 同一個人被多看到 11% |
+| 平均廣告單價 | **+12%** | 拍賣價格 |
+| 廣告營收 | **+27%** | 1.03 × 1.11 × 1.12 ≈ 1.28，對得上 |
+
+人數只解釋了 +3 個百分點。剩下的 +24 個百分點裡，**時長／庫存（每人印象 +11%）與單價（+12%）幾乎平分。** 「AI 只會讓廣告更精準、所以只抬 CPM」這句少算了左半邊。
+
+Susan Li 在 Q2 法說把營收驅動寫成兩件事，不是一件：「deliver engaging experiences」以及「monetizing that engagement」。兩邊都有 AI。
+
+**左半邊：AI → 時長 → 每人印象（量，不是價）**
+
+- Instagram 全球時長 **雙位數**增長，主因 Feed / Reels 推薦。
+- Facebook 影片時長全球 **+9%**，美加 **>10%**。
+- 單次最大的 Reels ranking 更新：Instagram sessions **+15 bps**，轉發與時長特別強；同一套架構正在搬進 Feed。
+- Instagram Feed **超過一半**推薦內容不到一天新，一年前這個比例不到一半。
+- Muse 系列 LLM 做內容理解（主題、摘要）；推薦系統 2026 下半年到 **2027 仍有 headroom**（CFO 原話）。
+- 印象 +14% 的官方拆解是「engagement + users + **ad load optimizations**」——連廣告負載都是在既有 DAP 上擠庫存，不是靠拉新。
+
+**右半邊：AI → 轉換 → 單價（價）**
+
+- Meta Generative Recommender：不再逐條打分，用 LLM 一起推論廣告內容與使用者偏好。IG 早期試點 app event 轉換 **+1%**。
+- 使用者理解模型 + GEM ranking：Facebook 廣告點擊 **+8.3%**、轉換 **+15.7%**。
+- Advantage+ 年化 **$750 億**；900 萬家 SMB 用至少一項 AI 創意工具。廣告主 ROAS 變好才肯在拍賣加價，這才是單價 +12% 裡「ad performance gains」那一塊（另外還有總經與匯兌）。
+- 單價漲幅被「低變現表面與地區的強印象增長」部分抵銷——mix 仍在拖後腿，所以單價能漲 12% 更說明匹配效率在補。
+
+**DAP 已經不是策略目標。** 36 億大約是全球聯網人口的一半。10-K 寫明：高滲透市場的活躍人數會波動甚至下降，公司「will become increasingly dependent on our ability to maintain or increase levels of user engagement and monetization in order to grow revenue」。Q1 DAP 季減是伊朗斷網與俄羅斯限制 WhatsApp，不是產品流失。管理層對「人數不再長」的做法有七條，沒有一條是「再買十億用戶」：
+
+| # | 做法 | 證據 | 對營收的路徑 |
+| --- | --- | --- | --- |
+| 1 | **同一批人看更久** | IG 時長雙位數；FB 影片 +9%；Reels ranking → sessions +15 bps | 每人印象 ↑ |
+| 2 | **同一批人、新表面** | Threads **5 億 MAU**、全球廣告已鋪完；WhatsApp Status 廣告朝全球 rollout；Forum / Seller / Instants 新 App，用推薦系統找現有用戶 | 每人可售庫存 ↑ |
+| 3 | **廣告負載優化** | 法說點名 ad load；10-K：可調頻率；Reels 變現仍低於 Feed / Stories——這是還沒收滿的庫存 | 每人印象 ↑，但可能壓單價 |
+| 4 | **留存：讓演算法可調** | IG「Your Algo」、FB「Shape Your Feed」，早期留存 **>80%** | 防止 DAP / 時長被 TikTok、對話 AI 挖走 |
+| 5 | **下一層入口：個人代理** | Meta AI 重建後每日互動人數 **+60%**；WhatsApp 已是 Meta AI 最大入口 | 時長新場景；尚未變現 |
+| 6 | **剩餘人數增長放在低 ARPP 地區** | 印象增長亞太最快；美加 / 歐洲高 ARPU 已飽和 | DAP 還能 +3%，但 mix 偏向下 |
+| 7 | **把飽和的 App 交給會變現的人** | Kunal Shah 接掌 WhatsApp（支付背景，不是成長駭客）；付費訊息 Q2 **$10.1 億 +73%** | 同一 DAP，非廣告 ARPP |
+
+眼鏡與 Quest 是更後面的計算表面，P&L 上還不是答案。
+
+**這套打法的上限與風險：**
+
+- 做得好：DAP 維持低個位數或持平，ARPP 續雙位數（FY2025 已 +15%，Q2 價量齊升隱含單季 ARPP 更高），營收就能在人數不動時繳 20%+。這正是 2025–2026 正在發生的事。
+- 做過頭：ad load 加太猛或 Reels 等低價庫存佔比繼續升，單價會先掉。Q2 已經出現「印象強、低變現表面拖單價」的抵銷。
+- 做錯：DAP 轉負。那不是「拉新變慢」，是時長被搶、庫存開始縮。這比單價少漲一個季度嚴重。
+
+觀察順序因此不是「DAP 能不能回到 +7%」，而是：**每人印象是否還在加、單價是否還在加、DAP 是否守住零以上。** 三條同時成立，廣告機器就還在；DAP 單獨慢，不是管理層沒做事的證據。
+
+來源：[Q2 2026 財報（DAP / 印象 / 單價）](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)、[Q2 法說逐字稿（時長、推薦、轉換、Threads、WhatsApp、Meta AI）](https://www.fool.com/earnings/call-transcripts/2026/08/07/meta-meta-q2-2026-earnings-call-transcript/)、[10-K ARPP $57.03 與 Family Metrics](https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm)
+
+---
+
 ## 資料來源（主要）
 
 **公司財報 / SEC**
@@ -738,6 +867,13 @@ Alphabet / Amazon / Meta / Microsoft Q2 CapEx 合計 **$1,701 億**，等於四�
 **資本效率與信用**
 
 - [MetricDuck：ROIC 與盈餘品質](https://www.metricduck.com/blog/meta-ai-capex-depreciation-roic-earnings-quality)
+- [MacroTrends META PE 歷史](https://www.macrotrends.net/stocks/charts/META/meta-platforms/pe-ratio)
+- [GuruFocus META PE（十年中位）](https://www.gurufocus.com/term/pe-ratio/META)
+- [TGMCharts META 五年 PE 均值](https://tgmcharts.com/stocks/META/pe-ratio)
+- [TIKR：META PE 歷史與五年／十年均值](https://www.tikr.com/blog/metas-p-e-ratio-current-levels-historical-trends-and-outlook)
 - [GuruFocus 利息覆蓋率](https://www.gurufocus.com/term/interest-coverage/META)
 - [Bondsupermart 信評整理](https://www.bondsupermart.com/bsm/article-detail/RSS316)
 - [Reuters：Q2 FCF 年減 91%](https://www.marketscreener.com/news/meta-narrows-annual-capex-forecast-as-ai-buildout-grows-ce7f51d3dd8bf525)
+- [eMarketer 社群廣告（2026-08-21）](https://www.emarketer.com/content/social-media-fuels-digital-ad-growth-meta-extends-its-lead)
+- [Axis Intelligence：Q2 2026 數位廣告增量集中度](https://axis-intelligence.com/digital-marketing-statistics/)
+- [Axis Intelligence：AI CapEx Tracker（2026-08-19）](https://axis-intelligence.com/ai-capex-tracker/)
