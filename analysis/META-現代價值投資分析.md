@@ -625,6 +625,85 @@ WhatsApp 付費訊息 + 訂閱 Q2 +73% 至 $10 億。Business Agent 已有每週
 
 ---
 
+## 9. 最新財報重點、未來展望、產業趨勢（2026-08 簡報）
+
+最新完整財報仍是 **2026 Q2**（2026-07-29 公布，截至 2026-06-30）。下次例行財報約 2026-10-28。股價在指引後約跌 8–10%，市場罰的是 CapEx / FCF，不是廣告。
+
+### 9.1 最新財報重點
+
+**一句话：廣告機器在加速，現金機器在熄火。**
+
+| 項目 | 2026 Q2 | YoY | 怎麼讀 |
+| --- | --- | --- | --- |
+| 營收 | **$608.0 億** | **+28%**（固定匯率 +27%） | 2021 年以來最快檔之一；H1 已 +30% |
+| 廣告 | $593.6 億 | +27% | 佔營收 97.6%；增量幾乎全部在這裡 |
+| 印象數 / 單價 | — | **+14% / +12%** | 價量齊升，不是灌低價庫存能單獨解釋 |
+| FoA 其他 | **$10.1 億** | **+73%** | 首次單季破 10 億；WhatsApp 付費訊息為主 |
+| Reality Labs | $4.3 億 | +16% | 眼鏡拉、Quest 仍弱；營業虧損 $46 億 |
+| 營業利益 / 利率 | $187.8 億 / **31%** | −8% / −12 ppt | 含法律 $24 億 + 裁員 $12 億；剔除後營業利益約 +9% |
+| 淨利 / EPS | $158.5 億 / $6.18 | −14% / −13% | 費用 +55% 吃掉營收 +28% |
+| DAP | **36.0 億** | +3% | 拉新已不是引擎；Q1 曾季減 |
+| Instagram 日活 / Threads MAU | 20 億 / 5 億 | — | 時長與新表面仍在擴 |
+| Advantage+ | 年化 **$750 億** | — | AI 自動投放已是核心引擎 |
+| 營運現金流 / CapEx / FCF | $318.6 / **$310.8** / **$7.8 億** | FCF 年減約 91% | CapEx 吃掉 97.5% 營運現金流 |
+| 現金 vs 長期債 | $902.6 / $836.6 億 | 當季發債淨額 $249 億 | 仍近淨現金，但已在加槓桿 |
+| 回購 / 股息 | **$0** / $13.5 億 | 回購暫停 | 股息已大於當季 FCF |
+| 員工人數 | 75,472 | −1% | 含約 8,000 名 5 月裁員對象，Q3 將出表 |
+
+部門：FoA 營收 $603.7 億（+28%）、營業利益 $234 億（−6%，利率 38.8%，FY2025 曾是 51.5%）。H1 營收 $1,171 億、營業利益 $416 億（+10%）。
+
+來源：[Q2 2026 財報](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)、[SEC Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm)
+
+### 9.2 未來展望（公司指引 + 街預期）
+
+**公司只給短指引，不給 2027 CapEx。**
+
+| 項目 | 指引 | 相對上一版 | 含義 |
+| --- | --- | --- | --- |
+| 2026 Q3 營收 | **$610–640 億** | 中點 $625 億 ≈ YoY **+22%**（對上年 Q3 $512 億） | 增速從 Q2 的 28% 減速，但仍遠高於 20%；匯兌約 −1 個百分點 |
+| FY2026 總費用 | **$1,650–1,690 億** | 下限從 $1,620 億上修（吃進 Q2 法律 $24 億） | 對 2026E 營收約 65–66% |
+| FY2026 營業利益 | 「高於 2025」（>$833 億） | 維持 | 管理層仍承諾利潤絕對值不退 |
+| FY2026 CapEx（含融資租賃本金） | **$1,300–1,450 億** | 下限從 $1,250 億再抬 $50 億 | 中點約 $1,375 億，約 2026E 營收一半；H2 單季將高於 Q2 的 $311 億 |
+| 剩餘季度稅率 | **15–17%** | 先前 13–16% | 稅盾變薄 |
+| 2027 CapEx | **不給** | — | 2026–27 產能全力建；2028 以後只鎖土地與電力 |
+| 法律 | 美國青少年相關審判「可能重大損失」 | 已入帳 $24 億 | 不是罰款噪音 |
+
+產能原則（CFO）：公司自認 **demand-constrained**——核心廣告都還有 ROI 為正、缺算力才能填的位置；與 BlackRock 合建 El Paso **1 GW** 機房是把一部分建設成本改成租回。
+
+**街預期（Yahoo / MarketScreener，2026-08）：** 2026E 營收 $2,542 億（+26.5%）、2027E $3,054 億（+20%）、2028E $3,606 億（+18%）；EPS $31.72 / $33.89 / $39.22。2025–2028 營收 CAGR **21.5%**，但 2027 EPS 只 +7%，FCF 共識 2026–27 轉負。分析師 12 個月目標價平均約 **$754**。
+
+**展望的結構：** 2026 年營收仍能繳 20%+；股東剩餘改走「營業利益微增、FCF 接近零、回購暫停」。第二曲線（WhatsApp 訊息、代理、API）2026 年還撐不起總盤。
+
+來源：[Q2 CFO Outlook](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)、[Q2 法說](https://www.fool.com/earnings/call-transcripts/2026/08/07/meta-meta-q2-2026-earnings-call-transcript/)、[Yahoo Analysis](https://finance.yahoo.com/quote/META/analysis/)
+
+### 9.3 產業趨勢
+
+四條同時成立，決定 Meta 為什麼能漲營收、卻被罰估值。
+
+**1. 數位廣告在長，增量幾乎全進三巨頭。**  
+公開揭露廣告線的五家平台 Q2 合計 **$1,627 億（+20.5%）**；其中 Google + Meta + Amazon 吃掉增量的 **98.3%**，Meta 一家就吃 **46.2%**（+$128 億）。eMarketer 預估 2026 年 Meta 全球淨廣告營收 **$2,435 億（+24.1%，市佔 26.8%）**，Google **$2,395 億（+11.9%，26.4%）**，可能史上首次超車；加上 Amazon 約 $821 億，三家合計 **62.3%**。Omdia / eMarketer（2026-08-21）：社群廣告 2026 年 +19%，非社群網路廣告 +9%；Meta 約佔社群廣告 **70%**。產業本身是高單位數 / 低雙位數，Meta 用 AI 把份額從 Google 手上搶來，所以公司層能繳 20%+。
+
+**2. 效果廣告正在被 AI 自動化，轉換率變成護城河。**  
+Advantage+ 年化 $750 億、900 萬 SMB 用 AI 創意，方向是「給 URL 與預算、其餘交給模型」。這讓 SMB 轉換成本升高、代理的手調價值下降。同一季 Amazon 也在推 Ads Agent（自稱 CPI −8%、CPA −6%）。戰場從「誰有流量」轉成「誰的模型讓每一塊預算買到更多轉換」。Meta 目前在這場裡領先，這也是單價 +12% 的產業解釋。
+
+**3. 時長戰場仍在，短影音與對話 AI 是結構對手。**  
+Instagram / Facebook / YouTube / TikTok 合計超過社群廣告的 90%。Reels 在追 TikTok / YouTube Shorts，但 10-K 仍寫 Reels 變現率低於 Feed / Stories。DAP 只 +3%，代表產業增量不在拉新，在既有用戶的時長與 ARPU。對話式 AI（ChatGPT 等）開始搶「從問到買」的入口，這是搜尋的問題也是社交的中期風險。
+
+**4. AI 資本開支是全產業現象，Meta 的差別是沒有雲端收入對沖。**  
+Alphabet / Amazon / Meta / Microsoft Q2 CapEx 合計 **$1,701 億**，等於四家營運現金流的 **99%**。2026 指引中點量級：Amazon ~$2,200 億、Alphabet $1,950–2,050 億、Microsoft 日曆年約 $1,750 億、Meta **$1,300–1,450 億**。記憶體與元件漲價是共同上修原因。差別在回報口徑：微軟有 Azure +43%、Alphabet 有 Cloud +82% 與 TPU 銷售；Meta 的 AI 花費幾乎 100% 先回到廣告引擎，新收入線尚未入帳。所以同樣「CapEx 吃光 FCF」，市場對 Meta 的容忍度最低——Q2 後約跌 8–10%，對照 Alphabet 約 4–5%、微軟反而上漲。
+
+**監管是產業常數，不是 Meta 獨有，但打在它最厚的利潤上。** 歐洲 DMA / 少個人化廣告直接砍高 ARPU 定向；美國青少年訴訟 Q2 已入帳 $24 億。這不會讓數位廣告停，但會讓「單價能不能繼續漲」變得更脆弱。
+
+來源：[eMarketer 2026-04-13](https://www.emarketer.com/press-releases/meta-to-surpass-google-in-digital-ad-revenues-for-first-time-ever/)、[eMarketer 社群廣告 2026-08-21](https://www.emarketer.com/content/social-media-fuels-digital-ad-growth-meta-extends-its-lead)、[Axis：Q2 廣告增量集中度](https://axis-intelligence.com/digital-marketing-statistics/)、[Axis：AI CapEx Tracker](https://axis-intelligence.com/ai-capex-tracker/)、[GII 數位廣告 TAM](https://www.giiresearch.com/report/tbrc1968860-digital-ad-spending-global-market-report.html)
+
+### 9.4 三塊放在一起的結論
+
+產業給 Meta 的順風是真的：增量廣告預算在集中、社群比搜尋長得快、AI 自動化讓效果平台更值錢。公司用這股順風交出 Q2 營收 +28%、單價 +12%。同一季產業也把「AI 軍備競賽」的帳單開給所有人，而 Meta 是四巨頭裡 **最沒有第二條收入對沖這張帳單** 的一家。
+
+因此展望不是「廣告會不會垮」，而是 **2026–2027 這輪產能能不能繼續轉成單價與 FoA 利率，以及 WhatsApp / 代理能不能在 FCF 轉正之前長成可審計的第二曲線。**
+
+---
+
 ## 資料來源（主要）
 
 **公司財報 / SEC**
