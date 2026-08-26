@@ -174,6 +174,26 @@
     .src a { color: #1d4ed8; text-decoration: none; }
     .src a:hover { text-decoration: underline; }
     .formula { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 10.2px; }
+    table.cmp {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 9.6px;
+      margin: 3px 0 5px;
+    }
+    table.cmp th, table.cmp td {
+      border: 1px solid #e5e7eb;
+      padding: 2.5px 4px;
+      text-align: right;
+    }
+    table.cmp th {
+      background: #1e3a5f;
+      color: #fff;
+      font-weight: 700;
+      text-align: center;
+    }
+    table.cmp td:first-child, table.cmp th:first-child { text-align: left; font-weight: 700; }
+    table.cmp tr.me { background: #fef3c7; }
+    table.cmp .c { text-align: center; font-weight: 500; }
     @media print {
       body { background: #fff; }
       .sheet { box-shadow: none; margin: 0; page-break-after: always; }
@@ -345,7 +365,7 @@
     </section>
 
     <footer class="bar">
-      <span>第 1 頁 / 共 2 頁</span>
+      <span>第 1 頁 / 共 3 頁</span>
       <span>價格基準：2026-08-25 收盤 $183.92｜財報：FY2025、Q2'26</span>
       <span class="disc">僅為報告參考，非投資建議</span>
     </footer>
@@ -460,8 +480,207 @@
     </div>
 
     <footer class="bar">
-      <span>第 2 頁 / 共 2 頁</span>
+      <span>第 2 頁 / 共 3 頁</span>
       <span>計算備註：市值 = $183.92 × 2.3756 億股；TTM = Q3'25+Q4'25+Q1'26+Q2'26；核心指標為非 GAAP</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </article>
+
+  <!-- PAGE 3 -->
+  <article class="sheet">
+    <header class="top">
+      <div>
+        <h1>CBRS 現代價值投資報告</h1>
+        <div style="font-size:11px;opacity:.9;margin-top:2px;">同業分環、估值定義與倍數對照｜2026年08月26日</div>
+      </div>
+      <div class="meta">NASDAQ: CBRS<br />倍數基準 2026-08-25 收盤</div>
+    </header>
+
+    <section class="box s1">
+      <h2>同類公司：沒有單一對標，要分三環看 <span class="sub">產品架構 ≠ 客戶預算 ≠ 財報結構</span></h2>
+      <div class="row">
+        <div class="k">內環：架構對手</div>
+        <div class="v">
+          比的是「高速度 SRAM 推論晶片／系統」。<b>沒有乾淨的上市公司雙胞胎</b>。
+          最接近的 <b>Groq（LPU）</b> 仍未上市：2025-12 NVIDIA 以約 $200 億授權／挖角其核心團隊後，獨立 Groq 轉向 neocloud，2026-08 再募 $3.5 億、估值 <b>$35 億</b>（較 2025-09 的 $69 億下修）。SambaNova、Graphcore 仍私募或已失勢。Google TPU、AWS Trainium、Microsoft Maia 是超大規模「自研、不外售」的結構性對手，會切預算但不是可買的同業。<sup>19,20</sup>
+        </div>
+        <div class="tag a">無公開對標</div>
+      </div>
+      <div class="row">
+        <div class="k">中環：預算對手</div>
+        <div class="v">
+          客戶（OpenAI、AWS、主權 AI）把資本支出在 <b>NVIDIA、AMD、Broadcom 客製 XPU、Marvell 客製 ASIC</b> 之間分配。CBRS 搶的是同一筆「推論／加速器」預算，不是同一種晶片。NVIDIA 是訓練＋推論預設平台（CUDA）；AMD 是第二供應商，且已與 CBRS 做 Helios prefill＋Cerebras decode；AVGO／MRVL 走 hyperscaler 客製 ASIC，吃的是「自研替代 merchant GPU」那條線。<sup>21</sup>
+        </div>
+        <div class="tag g">可公開比倍數</div>
+      </div>
+      <div class="row">
+        <div class="k">外環：模式對手</div>
+        <div class="v">
+          CBRS 雲端業務的財報長相（燒 CapEx、RPO／backlog、客戶集中、尚未穩定獲利）更像 <b>CoreWeave（CRWV）、Nebius（NBIS）</b> 這類 GPU neocloud，而不是 NVDA。差別：neocloud 買別人的 GPU 再出租；CBRS 賣自己的晶圓級系統＋自有雲，毛利路徑理論上更高、規模小一個數量級。Multiples.vc 把 CBRS 放在「Big AI／晶片設計」組（EV/NTM 16.9x），而不是 neocloud 組（中位 8.8x）。<sup>21,22</sup>
+        </div>
+        <div class="tag a">雲端可比、晶片不可比</div>
+      </div>
+    </section>
+
+    <section class="box s3">
+      <h2>估值如何定義 <span class="sub">本報告用四層；CBRS 現階段 PE 失效</span></h2>
+      <div class="row">
+        <div class="k">① 當前倍數</div>
+        <div class="v">
+          <b>PE</b>＝股價／過去 12 個月 EPS；<b>PS</b>＝市值／TTM 營收；<b>P/FCF</b>＝市值／TTM 自由現金流；<b>EV/Sales</b>＝（市值＋有息負債−現金）／營收，用來校正淨現金或高槓桿。
+          CBRS：TTM 虧損 → PE 無意義；FCF −$6.8 億 → P/FCF 無意義。因此<b>當前估值的主定義是 PS／EV/Sales</b>。FY2025 GAAP 淨利 $2.38 億含 $3.63 億一次性利益，不能拿來算 PE。
+        </div>
+        <div class="tag r">PE／P/FCF 失效</div>
+      </div>
+      <div class="row">
+        <div class="k">② 預期倍數</div>
+        <div class="v">
+          用 Street 或公司指引的未來營收／EPS：Forward PS、FY2026E–2028E PE。這回答「現價已經預支了哪一年的成績」。CBRS 2026E 仍虧 → 第一個可算的 PE 是 <b>2027E 144.8x</b>，2028E 中點約 <b>43.4x</b>。
+        </div>
+        <div class="tag a">看 2027–2028 而非 TTM</div>
+      </div>
+      <div class="row">
+        <div class="k">③ 相對估值</div>
+        <div class="v">
+          同一天、同一資料源的同業倍數。行業錨：Damodaran 半導體 PS 15.46x／Forward PE 37.3x；Simply Wall St 美股半導體 PS 8.9x。Big AI 組 EV/NTM 中位 <b>9.8x</b>（Multiples.vc 2026-08-19），CBRS 同表為 <b>16.9x</b>。<sup>11,12,21</sup>
+        </div>
+        <div class="tag r">高於晶片組中位</div>
+      </div>
+      <div class="row">
+        <div class="k">④ 合理倍數與空間</div>
+        <div class="v">
+          <b>合理 PE</b>不是行業平均，而是「以成長、護城河、利潤率為條件，願意為<u>獲利年</u>付多少倍」。本報告給 45–55x、中樞 50x：高於 AMD 報告所用 38–45x（因 CBRS 三年營收 CAGR ~145% vs AMD ~44%），低於把 75x 打在 2028 EPS 上的部分 Sell-side（因毛利率、集中度、網絡效應都弱於 NVDA）。
+          <span class="formula">潛在價值空間＝（合理 PE ÷ 平均預期 PE − 1）</span>。用 2027–2028 平均 94.1x → <b>−46.9%</b>；若改用 2028E 43.4x 當錨 → <b>+15.2%</b>。兩個答案差在「你承認哪一年的盈餘已經被現價買走」。
+        </div>
+        <div class="tag a">公式已寫死，錨年可選</div>
+      </div>
+    </section>
+
+    <section class="box s2">
+      <h2>同口徑倍數對照 <span class="sub">StockAnalysis，2026-08-25 收盤</span></h2>
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th>公司</th>
+            <th>角色</th>
+            <th>市值</th>
+            <th>TTM 營收</th>
+            <th>PS</th>
+            <th>Fwd PS</th>
+            <th>PE / Fwd PE</th>
+            <th>EV/Sales</th>
+            <th>P/FCF</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="me">
+            <td>CBRS</td>
+            <td class="c">晶圓級＋自有雲</td>
+            <td>$43.7B</td>
+            <td>$0.68B</td>
+            <td><b>64.2x</b></td>
+            <td><b>29.9x</b></td>
+            <td>n/a / n/a</td>
+            <td>54.7x</td>
+            <td>n/a</td>
+          </tr>
+          <tr>
+            <td>NVDA</td>
+            <td class="c">GPU 平台（預算龍頭）</td>
+            <td>$5.16T</td>
+            <td>~$253B</td>
+            <td>20.4x</td>
+            <td>11.7x</td>
+            <td>32.6 / 21.2x</td>
+            <td>20.2x</td>
+            <td>43.3x</td>
+          </tr>
+          <tr>
+            <td>AMD</td>
+            <td class="c">GPU 第二源＋合作</td>
+            <td>$782B</td>
+            <td>$41.3B</td>
+            <td>18.9x</td>
+            <td>11.6x</td>
+            <td>122.3 / 43.1x</td>
+            <td>18.7x</td>
+            <td>93.1x</td>
+          </tr>
+          <tr>
+            <td>AVGO</td>
+            <td class="c">客製 AI ASIC／XPU</td>
+            <td>$1.70T</td>
+            <td>$75.5B</td>
+            <td>22.5x</td>
+            <td>11.9x</td>
+            <td>59.4 / 22.6x</td>
+            <td>23.1x</td>
+            <td>51.8x</td>
+          </tr>
+          <tr>
+            <td>MRVL</td>
+            <td class="c">客製 ASIC／互連</td>
+            <td>$211B</td>
+            <td>$8.7B</td>
+            <td>24.2x</td>
+            <td>16.5x</td>
+            <td>83.0 / 52.4x</td>
+            <td>24.4x</td>
+            <td>126.6x</td>
+          </tr>
+          <tr>
+            <td>CRWV</td>
+            <td class="c">GPU neocloud（模式近）</td>
+            <td>$48.6B</td>
+            <td>$7.59B</td>
+            <td>6.4x</td>
+            <td>2.5x</td>
+            <td>n/a / n/a</td>
+            <td>12.5x*</td>
+            <td>n/a</td>
+          </tr>
+          <tr>
+            <td>NBIS</td>
+            <td class="c">AI 雲（模式近）</td>
+            <td>$60.8B</td>
+            <td>$1.36B</td>
+            <td>44.9x</td>
+            <td>8.7x</td>
+            <td>無意義 / n/a</td>
+            <td>46.5x</td>
+            <td>n/a</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">*CRWV 的 EV/Sales 高於 PS，因淨負債約 $461 億（EV $94.6B）；CBRS 相反，淨現金約 $64 億，故 EV/Sales（54.7x）低於股權 PS（64.2x）。Fwd PS 為 NTM／共識前瞻營收，不是同一財年，跨公司只宜看相對高低。<sup>4,22–27</sup></p>
+    </section>
+
+    <section class="box sum">
+      <h2>讀表結論：估值貴在哪裡</h2>
+      <ul style="padding-left:16px;font-size:10.6px;margin:0;">
+        <li><b>對晶片組：</b>成熟 AI 半導體 Fwd PS 集中在 <b>12–17x</b>（NVDA 11.7、AMD 11.6、AVGO 11.9、MRVL 16.5）。CBRS Fwd PS <b>29.9x</b> 約是這組的 2–2.5 倍，而且它們已經獲利、有 FCF。這就是「估值偏高」的主證據，不是拿 Damodaran 全體半導體 15x 亂比。</li>
+        <li><b>對 neocloud：</b>市值幾乎同級的 CRWV（$48.6B）TTM 營收已是 CBRS 的 <b>11 倍</b>（$75.9 億 vs $6.8 億），PS 僅 6.4x、Fwd PS 2.5x——市場付的是「已規模化的出租算力」，槓桿極高。NBIS 軌跡營收 PS 44.9x 最接近 CBRS，但前瞻已壓到 8.7x（三年營收成長共識 248%）。CBRS 的前瞻倍數沒有同樣壓縮，代表 Street 對 2027 以後的營收能見度仍打折，或現價仍在買「選擇權」而非已兌現規模。</li>
+        <li><b>對 2027 營收：</b>若核心真的到 ~$29.5 億，EV/2027E Sales ≈ <b>12.6x</b>，就掉進 NVDA／AMD 現在的 Fwd PS 區間。換句話說：<b>現價不是在買 2026，是在預支 2027 三倍營收且幾乎不容許失手</b>。這也是為何框架用 2027–2028 平均 PE 94x 會算出 −47% 空間，而 Sell-side 用 2028 EPS×75x 會算出 +59%。</li>
+        <li><b>合理 PE 50x 的定位：</b>NVDA 現在 Fwd PE 僅 21x（高利潤、高護城河、成長已從三位數落到 ~50%）；AMD Fwd PE 43x。CBRS 若 2028 才接近規模獲利，給 45–55x 是「成長溢價＋品質折價」的折衷，不是行業平均，也不是目標價方法。</li>
+      </ul>
+    </section>
+
+    <div class="src">
+      <b>本頁資料來源：</b>
+      19. <a href="https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/" target="_blank">TechCrunch：Groq $3.5B 估值與 NVIDIA 授權</a>　
+      20. <a href="https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-groq-stock/" target="_blank">Motley Fool：Groq 未上市、NVIDIA $200 億交易</a>　
+      21. <a href="https://multiples.vc/insights/ai-valuation-multiples" target="_blank">Multiples.vc：2026-08 公開 AI 倍數（含 CBRS EV/NTM 16.9x）</a>　
+      22. <a href="https://stockanalysis.com/stocks/nvda/statistics/" target="_blank">NVDA</a>　
+      23. <a href="https://stockanalysis.com/stocks/amd/statistics/" target="_blank">AMD</a>　
+      24. <a href="https://stockanalysis.com/stocks/avgo/statistics/" target="_blank">AVGO</a>　
+      25. <a href="https://stockanalysis.com/stocks/mrvl/statistics/" target="_blank">MRVL</a>　
+      26. <a href="https://stockanalysis.com/stocks/crwv/statistics/" target="_blank">CRWV</a>　
+      27. <a href="https://stockanalysis.com/stocks/nbis/statistics/" target="_blank">NBIS</a>
+    </div>
+
+    <footer class="bar">
+      <span>第 3 頁 / 共 3 頁</span>
+      <span>倍數同源 StockAnalysis 2026-08-25；Multiples.vc 為 2026-08-19 EV/NTM</span>
       <span class="disc">僅為報告參考，非投資建議</span>
     </footer>
   </article>
