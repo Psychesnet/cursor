@@ -2,7 +2,7 @@
 
 繁體中文報告，資料以 **Q2 2026 財報（2026-08-04）** 與 2026-08 產業數據為準。
 
-1. [`amd-price-plan-330.html`](./amd-price-plan-330.html) — 現價偏貴怎麼看；對照 EPS×PE 矩陣與 **330 起買／550 全賣**（價格基準 2026-08-26 收盤 **$480.93**）。
+1. [`amd-price-plan-330.html`](./amd-price-plan-330.html) — 現價偏貴怎麼看；對照 EPS×PE 矩陣、**330／550**，以及補篇：**2027 EPS $13、現價 ~$460、400 才下手**。
 2. [`amd-earnings-outlook-trends.html`](./amd-earnings-outlook-trends.html) — 最新財報重點、未來展望、產業趨勢。
 3. [`amd-customers-outlook.html`](./amd-customers-outlook.html) — 客人是誰、錢花在哪、成長路徑與觀察指標。
 4. [`amd-modern-value-report.html`](./amd-modern-value-report.html) — 七步估值，價格基準 2026-08-24 收盤 **$456.75**。
