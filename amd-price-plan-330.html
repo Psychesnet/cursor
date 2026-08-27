@@ -107,7 +107,7 @@
   </section>
 
   <footer class="bar">
-    <span>第 1 頁 / 共 3 頁</span>
+    <span>第 1 頁 / 共 4 頁</span>
     <span>對照使用者估值矩陣；價格 $480.93（2026-08-26）</span>
     <span class="disc">僅為報告參考，非投資建議</span>
   </footer>
@@ -211,7 +211,7 @@
   </section>
 
   <footer class="bar">
-    <span>第 2 頁 / 共 3 頁</span>
+    <span>第 2 頁 / 共 4 頁</span>
     <span>內容依公開資料整理，假設變了結論就變</span>
     <span class="disc">僅為報告參考，非投資建議</span>
   </footer>
@@ -312,8 +312,87 @@
   </section>
 
   <footer class="bar">
-    <span>第 3 頁 / 共 3 頁</span>
+    <span>第 3 頁 / 共 4 頁</span>
     <span>補篇：打折共識 $13 × 35 倍 vs 400 買點</span>
+    <span class="disc">僅為報告參考，非投資建議</span>
+  </footer>
+</article>
+
+<article class="sheet">
+  <header class="top">
+    <div>
+      <h1>合理 PE 抓 35 倍，合適嗎？</h1>
+      <div style="font-size:11px;opacity:.9;margin-top:2px;">結論：當「2027 年成長股退出倍數」合適偏保守；當「明年 NTM」偏鬆；當「週期底部」則偏貴</div>
+    </div>
+    <div class="meta">對照 NVDA／AVGO／TSM<br/>PEG ≈ 1 的條件是 2028 後仍 ≥25–30% 成長</div>
+  </header>
+
+  <section class="box op">
+    <h2>十、先講倍數用在哪一年——35 不是抽象的好數字</h2>
+    <p>本益比沒有單獨的對錯，只有「乘在哪一年的 EPS 上」。同樣 35 倍：</p>
+    <table>
+      <thead><tr><th style="width:22%">乘在</th><th>隱含公允（用你的 $13 或街數）</th><th>判讀</th></tr></thead>
+      <tbody>
+        <tr><td><b>2026 NTM</b>（街 ~$7.57）</td><td>35 × 7.57 = <b>$265</b></td><td class="a">對 80% 增速的成長股太苛刻，那是危機價，不是公允。Yahoo 目前 NTM Forward PE 約 41–65×，市場不會用 35× 給明年。</td></tr>
+        <tr class="faircell"><td><b>2027</b>（你 $13／街 $15.45）</td><td>35 × 13 = <b>$455</b>；35 × 15.45 = <b>$541</b></td><td>這才是你表上在用的。付的是「16 個月後的盈餘 × 成長股倍數」，沒折現。</td></tr>
+        <tr><td><b>2028</b>（你 $16.66）</td><td>35 × 16.66 = <b>$583</b></td><td class="a">今天就付 2028 的 35 倍，等於假設兩年後公司仍配得起成長溢價，且零資金時間價值。這檔偏鬆。</td></tr>
+        <tr><td>週期底部／論文動搖</td><td>20–25 × 2027 ≈ $260–$325</td><td>半導體通週期、AI capex 回落時該用的帶。你表上 17.5–24.5 倍那幾列是這個角色。</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:4px;"><b>所以：35 倍合適，前提是你把它當「2027 的成長 PE」，而且相信 2028–2030 還能賺到 25–30% 以上的 EPS 增長。</b> 若 2027 之後增速掉到 15–20%，公允該落到 22–28 倍，35 就貴了。</p>
+  </section>
+
+  <section class="box audit">
+    <h2>十一、用 PEG、同業、品質折價三個尺子量</h2>
+    <table>
+      <thead><tr><th style="width:18%">尺子</th><th>數字</th><th>對 35× 的含義</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><b>PEG ≈ 1</b></td>
+          <td>你原表 2027→2030：$11.40 → $27.18，CAGR 約 <b>34%</b>。35／34 ≈ <b>1.03</b>。若用 $13 再接到你的 2028 $16.66（+28%），PEG 升到約 <b>1.25</b>。</td>
+          <td>成長若照你的表走，35× 教科書式公允。成長若提前減速，35× 略貴，<b>30–32× 更乾淨</b>。</td>
+        </tr>
+        <tr>
+          <td><b>同業 NTM</b></td>
+          <td>約 2026-08：NVDA Forward ~20–25×（盈餘已很大）；AVGO ~19–33×；TSM ~21–25×；AMD NTM ~41–65×（盈餘還在爬坡）。Zacks 一組同業：AMD 41.6× vs NVDA 19.9× vs AVGO 23.8×。</td>
+          <td>AMD 不該拿 NVDA 的 NTM——毛利率 56% vs ~70%、CUDA／規模差一截。但 AMD 的 NTM 高，是因為 2026 EPS 還沒跟上，不是因為品質更好。公平比的是 <b>2027E PE</b>：現價 460 對街 $15.45 已是 ~30×，對你 $13 才是 35×。</td>
+        </tr>
+        <tr>
+          <td><b>品質折價</b></td>
+          <td>前一份七步報告給 38–45×、中樞 <b>42×</b>（用三年平均預期 PE 38.3× 那套公式）。扣打來自：GPU 市佔 5–10%、ROCm vs CUDA、認股權最多 ~20%、半導體週期。</td>
+          <td>你的 35× 比那份中樞低 7 檔，<b>當買點紀律更嚴</b>。42× 是「故事成立且 Helios／OM 接近達標」的上沿，不該當起買倍數。</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:4px;">歷史教訓也同向：AMD 的遠期 PE 衝上 50–60× 後，多次靠倍數壓縮而不是靠論文死亡來回歸。2026-06 高點附近遠期約 53×，其後已從 $585 回到 460s。35× 2027 是「回歸後的成長股」，不是「狂熱期的 AMD」。</p>
+  </section>
+
+  <section class="box plan">
+    <h2>十二、建議把 35 當公允上沿，不是買點本身</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>2027 合理 PE</th>
+          <th class="num">× $11.40</th>
+          <th class="num">× $13.00</th>
+          <th class="num">× $15.45</th>
+          <th>何時用</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>28× 保守／含稀釋</td><td class="num">$319</td><td class="num">$364</td><td class="num">$433</td><td>認股權按滿、或 2028 後增速降到 ~20%。</td></tr>
+        <tr class="buycell"><td><b>30–32× 更乾淨的公允</b></td><td class="num">$342–365</td><td class="num"><b>$390–416</b></td><td class="num">$464–494</td><td>第二供應商、毛利率仍低於 NVDA。你的 400 幾乎落在這一帶。</td></tr>
+        <tr class="faircell"><td>35× 你現在用的</td><td class="num">$399</td><td class="num">$455</td><td class="num">$541</td><td>2028–30 仍 ≥25–30% 成長。適合當「不要再貴」的天花板，不是起買。</td></tr>
+        <tr><td>42× 七步報告中樞</td><td class="num">$479</td><td class="num">$546</td><td class="num">$649</td><td>Helios 放量、non-GAAP OM 朝 35% 走、ROCm 進生產之後才配得起。</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:5px;"><b>直接回答：35 倍可以留，但要把它當成公允區間的上沿，不是中位數。</b> 對你現在這套「$13、460 觀望、400 下手」——400／13 = <b>30.8 倍</b>，其實比 35 倍更經得起品質折價。換句話說：合理 PE 若從 35 修到 31–32，你的 400 買點幾乎不用改；要改的是「460 已經合理」這句話——460 是 35.4×，剛好踩在上沿，不是中間。</p>
+    <p style="margin-top:3px;">實務上可記三檔，避免單一數字：<b>28× 含稀釋／週期</b> → <b>32× 基礎公允</b> → <b>35× 成長仍在才給</b>。EPS 用打折後的 $13，倍數就不要再給滿 35；EPS 若敢用街的 $15.45，35× 才勉強配得起，但那是另一套更樂觀的論文。</p>
+  </section>
+
+  <footer class="bar">
+    <span>第 4 頁 / 共 4 頁</span>
+    <span>合理 PE 35× 的適用條件與同業對照</span>
     <span class="disc">僅為報告參考，非投資建議</span>
   </footer>
 </article>
