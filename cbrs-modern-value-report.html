@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CBRS 現代價值投資報告 - 2026年08月26日</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0b1f4a;
+      --navy-2: #132a62;
+      --ink: #1a2332;
+      --muted: #4b5563;
+      --line: #d7dee8;
+      --green: #166534;
+      --green-bg: #dcfce7;
+      --red: #b91c1c;
+      --red-bg: #fee2e2;
+      --amber: #b45309;
+      --amber-bg: #fef3c7;
+      --blue: #1d4ed8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+      background: #c5cdd8;
+      color: var(--ink);
+      line-height: 1.35;
+    }
+    .sheet {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 12px auto;
+      background: #fff;
+      padding: 8.5mm 9mm 8mm;
+      box-shadow: 0 8px 28px rgba(15, 23, 42, 0.18);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    header.top {
+      background: linear-gradient(90deg, var(--navy) 0%, var(--navy-2) 100%);
+      color: #fff;
+      border-radius: 6px;
+      padding: 9px 14px 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 7px;
+    }
+    header.top h1 { font-size: 17.5px; font-weight: 800; letter-spacing: 0.2px; }
+    header.top .meta { font-size: 10.5px; opacity: 0.92; text-align: right; line-height: 1.4; }
+    .box {
+      border: 1.6px solid;
+      border-radius: 7px;
+      padding: 6px 8px 7px;
+      margin-bottom: 6px;
+    }
+    .box h2 {
+      font-size: 12.4px;
+      font-weight: 800;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .box h2 .sub { font-size: 10.5px; font-weight: 600; opacity: 0.78; }
+    .s1 { border-color: #60a5fa; background: #eff6ff; }
+    .s1 h2 { color: #1d4ed8; }
+    .s2 { border-color: #4ade80; background: #f0fdf4; }
+    .s2 h2 { color: #166534; }
+    .s3 { border-color: #f9a8d4; background: #fdf2f8; }
+    .s3 h2 { color: #9d174d; }
+    .s4 { border-color: #fbbf24; background: #fffbeb; }
+    .s4 h2 { color: #92400e; }
+    .s5 { border-color: #c4b5fd; background: #f5f3ff; }
+    .s5 h2 { color: #5b21b6; }
+    .risk { border-color: #f87171; background: #fff1f2; }
+    .risk h2 { color: #9f1239; }
+    .sum { border-color: #38bdf8; background: #f0f9ff; }
+    .sum h2 { color: #075985; }
+    .row {
+      display: grid;
+      grid-template-columns: 92px 1fr 118px;
+      gap: 6px;
+      align-items: start;
+      padding: 2.2px 0;
+      border-bottom: 1px dashed #e5e7eb;
+      font-size: 10.6px;
+    }
+    .row:last-child { border-bottom: 0; }
+    .k { font-weight: 700; color: #111827; }
+    .v { color: #1f2937; }
+    .v b { font-weight: 700; }
+    .tag {
+      font-size: 10px;
+      font-weight: 800;
+      text-align: right;
+      white-space: nowrap;
+      padding-top: 1px;
+    }
+    .g { color: var(--green); }
+    .r { color: var(--red); }
+    .a { color: var(--amber); }
+    .note { font-size: 10.3px; color: #374151; margin-top: 3px; }
+    .moat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 10px; }
+    .moat-item { font-size: 10.4px; }
+    .moat-item .hd {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 800;
+      margin-bottom: 1px;
+    }
+    .moat-item ul { padding-left: 14px; margin: 0; }
+    .moat-item li { margin: 0.5px 0; }
+    .scorebar {
+      margin-top: 6px;
+      background: #ede9fe;
+      border: 1px solid #c4b5fd;
+      border-radius: 999px;
+      padding: 4px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11.5px;
+      font-weight: 800;
+      color: #5b21b6;
+    }
+    .pill {
+      background: #f59e0b;
+      color: #fff;
+      border-radius: 999px;
+      padding: 2px 10px;
+      font-size: 11px;
+    }
+    .risk ul, .sum ul { padding-left: 16px; font-size: 10.6px; }
+    .risk li { margin: 2.2px 0; }
+    .verdict {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      margin: 5px 0 6px;
+    }
+    .chip {
+      border-radius: 6px;
+      padding: 5px 4px;
+      text-align: center;
+      font-size: 10.6px;
+      font-weight: 800;
+      border: 1px solid;
+    }
+    .chip.ok { background: #dcfce7; border-color: #86efac; color: #166534; }
+    .chip.warn { background: #ffedd5; border-color: #fdba74; color: #9a3412; }
+    .chip.bad { background: #fee2e2; border-color: #fca5a5; color: #991b1b; }
+    footer.bar {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      font-size: 9.4px;
+      color: #6b7280;
+      padding-top: 4px;
+      border-top: 1px solid #e5e7eb;
+    }
+    footer.bar .disc { color: #dc2626; font-weight: 700; }
+    .src {
+      font-size: 8.6px;
+      color: #4b5563;
+      line-height: 1.38;
+      margin-top: 5px;
+    }
+    .src a { color: #1d4ed8; text-decoration: none; }
+    .src a:hover { text-decoration: underline; }
+    .formula { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 10.2px; }
+    table.cmp {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 9.6px;
+      margin: 3px 0 5px;
+    }
+    table.cmp th, table.cmp td {
+      border: 1px solid #e5e7eb;
+      padding: 2.5px 4px;
+      text-align: right;
+    }
+    table.cmp th {
+      background: #1e3a5f;
+      color: #fff;
+      font-weight: 700;
+      text-align: center;
+    }
+    table.cmp td:first-child, table.cmp th:first-child { text-align: left; font-weight: 700; }
+    table.cmp tr.me { background: #fef3c7; }
+    table.cmp .c { text-align: center; font-weight: 500; }
+    @media print {
+      body { background: #fff; }
+      .sheet { box-shadow: none; margin: 0; page-break-after: always; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <!-- PAGE 1 -->
+  <article class="sheet">
+    <header class="top">
+      <div>
+        <h1>CBRS 現代價值投資報告</h1>
+        <div style="font-size:11px;opacity:.9;margin-top:2px;">Cerebras Systems Inc.（NASDAQ: CBRS；常被寫成 CRBS）｜資料截止 2026-08-26</div>
+      </div>
+      <div class="meta">
+        收盤價 <b>$182.15</b><br />
+        市值約 <b>$43.3B</b>（流通 2.376 億股）<br />
+        2026年08月26日
+      </div>
+    </header>
+
+    <section class="box s1">
+      <h2>步驟一：Known - 熟悉度評估 <span class="sub">釐清賺錢方式、產業鏈位置與受眾</span></h2>
+      <div class="row">
+        <div class="k">業務模式</div>
+        <div class="v">
+          無晶圓廠（fabless）<b>AI 推論基礎設施公司</b>，處於半導體「IC 設計 → 系統／機櫃 → 自有雲」垂直整合位置。核心是全球唯一商業化量產的<b>晶圓級處理器 Wafer-Scale Engine</b>（整片晶圓當一顆晶片，SRAM 片上記憶體，避開 HBM／CoWoS／3nm 瓶頸），封裝成 CS-3／CS-4 超級電腦後，以<b>賣硬體（on-prem）</b>與<b>賣 token／容量（Cerebras Cloud、即將上 AWS Bedrock）</b>兩種方式變現。管理層自述目前只有 Google、Amazon、NVIDIA、Cerebras 四家同時做處理器、系統、資料中心並提供 AI 雲服務。<sup>1,2,3</sup>
+        </div>
+        <div class="tag g">商業模式清晰</div>
+      </div>
+      <div class="row">
+        <div class="k">收入來源</div>
+        <div class="v">
+          <b>FY2025 總營收 $5.100 億</b>：硬體 <b>$3.584 億（70.3%）</b>、雲端及其他服務 <b>$1.516 億（29.7%）</b>。<sup>2</sup>
+          <b>Q2'26 結構已翻轉為雲端主導</b>：GAAP 營收 $1.801 億＝硬體 $5,412 萬（30.0%）＋雲端 $1.260 億（70.0%）；核心（core，非 GAAP）營收 <b>$2.099 億</b>＝硬體 $8,214 萬（39.1%）＋雲端 $1.277 億（60.9%）。<sup>1</sup>
+          核心指標會加回客戶認股權攤銷（contra-revenue）並剔除資料中心 pass-through，較能反映真實產品／服務定價。
+        </div>
+        <div class="tag g">雲端占比快速提升</div>
+      </div>
+      <div class="row">
+        <div class="k">客戶群體</div>
+        <div class="v">
+          純 <b>B2B</b>：超大規模雲（AWS）、基礎模型實驗室（OpenAI）、主權 AI（阿布達比 <b>G42、MBZUAI</b>）、企業與 AI-native（CrowdStrike、Figma、GSK、Block、AlphaSense、Cognition、Lovable）。<sup>1,2</sup>
+          <b>集中度極高</b>：FY2025 客戶 A（MBZUAI）<b>62%</b>、客戶 B（G42）<b>24%</b>，兩者為 ASC 850 關聯方、合計 <b>86%</b>；FY2024 G42 獨佔 <b>85%</b>。應收帳款同日 MBZUAI 佔 77.9%。<sup>2</sup>
+          前瞻合約重心已轉向 OpenAI：2025 年 12 月簽署 MRA，承諾採購 <b>750MW</b> 推論算力、估值 <b>&gt;$200 億</b>，可選擇再加 1.25GW 至合計 2GW；同時提供 $10 億營運資金貸款與最多 <b>3,344.5 萬股</b> Class N 認股權（行權價 $0.00001）。<sup>2</sup>
+        </div>
+        <div class="tag r">歷史收入高度集中</div>
+      </div>
+    </section>
+
+    <section class="box s2">
+      <h2>步驟二：Growth - 增長分析 <span class="sub">成長動能、賽道空間與可持續性</span></h2>
+      <div class="row">
+        <div class="k">總收入與 YoY</div>
+        <div class="v">
+          歷史：2022 $2,462 萬 → 2023 $7,874 萬（+220%）→ 2024 $2.903 億（+269%）→ <b>FY2025 $5.100 億，YoY +75.7%</b>。<sup>2,4</sup>
+          Q2'26 GAAP $1.801 億（+74%）；核心 $2.099 億（<b>+103%</b>）。H1'26 GAAP $3.735 億 vs H1'25 $2.028 億（+84%）。<sup>1</sup>
+          TTM 營收 <b>$6.807 億</b>（Q3'25–Q2'26）。<sup>4</sup>
+        </div>
+        <div class="tag g">遠超 20% 標準</div>
+      </div>
+      <div class="row">
+        <div class="k">未來增長指引</div>
+        <div class="v">
+          公司上修 FY2026 核心營收 <b>$8.80–8.90 億</b>（中點 vs FY2025 +74%），並稱 <b>2027 核心營收將超過 3 倍</b>（隱含 ≥$26.4 億）。Q3'26 核心營收指引 $2.14–2.16 億。<sup>1</sup>
+          Street（Yahoo／StockAnalysis，9–11 位）：FY2026 營收 <b>$8.873 億（+74%）</b>、FY2027 <b>$29.5 億（+233%）</b>；EPS −$0.47 / <b>$1.27</b>。<sup>5,6</sup>
+          TickerGate 列 FY2028 營收 <b>$71.8 億</b>、EPS $4.68 → 2025–2028 營收 CAGR 約 <b>141%</b>。StockAnalysis 三年營收成長預測 <b>145.48%</b>。<sup>4,7</sup>
+        </div>
+        <div class="tag g">遠超 20% 標準</div>
+      </div>
+      <div class="row">
+        <div class="k">市場空間 TAM</div>
+        <div class="v">
+          <b>大 M</b>：Bloomberg Intelligence（2026/6）生成式 AI 2032 年 <b>$2.3 兆</b>；其中<b>推論 $1.3 兆（CAGR 32%）</b>、訓練 $6,580 億。推論將早於先前預期超越訓練。<sup>8</sup><br />
+          <b>中 M／S-1 引用</b>：AI 推論基礎設施 2025 <b>$2,510 億 → 2029 $6,720 億（CAGR 28%）</b>；訓練 2025 $1,850 億 → 2029 $3,800 億（20%）；推論裝置 $660 億 → $2,920 億（45%）。<sup>2</sup><br />
+          <b>小 M／SAM</b>：Cerebras 切的是「高速度（tokens/user）SRAM 晶圓級推論」利基，不是全部 GPU 推論。FY2025 $5.1 億僅約 2025 推論 TAM 的 <b>0.2%</b>，滲透空間大，但可服務 TAM 受資料中心電力與軟體生態限制。
+        </div>
+        <div class="tag g">超大型市場空間</div>
+      </div>
+      <div class="row">
+        <div class="k">業務部門增長</div>
+        <div class="v">
+          <b>雲端是主引擎</b>：FY2025 雲端 +94%（$7,829 萬 → $1.516 億）；Q2'26 核心雲端 <b>$1.277 億、+287%</b>（近四倍），GAAP 雲端 +281%。<sup>1,2</sup>
+          硬體 FY2025 +69%（$2.120 億 → $3.584 億）；Q2'26 核心硬體僅 +17% 至 $8,214 萬，因客戶資料中心時程使硬體出貨波動大。<sup>1</sup>
+          驅動力：OpenAI 部署爬坡、coding／agentic（Figma、Cognition、Lovable）、安全新場景（CrowdStrike 用 LLM 做 inline 流量檢測）。<sup>1,3</sup>
+        </div>
+        <div class="tag g">雲端／OpenAI 驅動</div>
+      </div>
+      <div class="row">
+        <div class="k">增長持續性</div>
+        <div class="v">
+          <b>RPO $254 億</b>（2026-06-30），為營收能見度核心；管理層強調其中<b>尚不含 AWS 及其他超大規模業者</b>的 backlog。<sup>1,3</sup>
+          產能：至 2027 年底 live／已簽約資料中心 <b>&gt;600MW</b>，pipeline 以 GW 計；製造產能 2026 年將 &gt;10 倍（Flex、Sanmina、Rocket EMS）；TSMC 5nm 晶圓已鎖定，且<b>不用 HBM／CoWoS／3nm</b>。<sup>1</sup>
+          產品：2026-08-18 發表 <b>CS-4</b>（三片 WSE-3 Turbo／機櫃，GPT-OSS-120B 上 &gt;4,400 TPS/user、號稱較 GPU 快最多 30 倍、較 CS-3 吞吐最多 10 倍／瓦），本季開始出貨；CS-5 目標 2027 下半年。與 AMD Helios、AWS Trainium 做 prefill／decode 分離推論，Q4'26 量產、Bedrock 預計 2027Q1。<sup>9,10</sup>
+        </div>
+        <div class="tag g">$254 億 RPO 能見度高</div>
+      </div>
+    </section>
+
+    <section class="box s3">
+      <h2>步驟三：Valuation - 估值評估 <span class="sub">對標行業、預期 PE 與潛在價值空間</span></h2>
+      <div class="row">
+        <div class="k">當前估值對比</div>
+        <div class="v">
+          以 2026-08-26 收盤 <b>$182.15</b>、2.3756 億股計，市值 <b>$43.27B</b>；企業價值 $36.84B（淨現金約 $64 億）。<sup>4</sup><br />
+          <b>PE：不適用</b>。TTM 淨損 $4.872 億、EPS −$6.33；FY2025 GAAP 稀釋 EPS $1.38 含一次性遠期合約負債消滅利益 $3.633 億，非經營獲利。<sup>2,4</sup> 行業 Current PE <b>70.13x</b>／Forward PE <b>37.29x</b>（Damodaran 2026/1）；美股半導體 2026-08-26 中位 PE <b>45.2x</b>、加權 Absolute PE 23.6x。<sup>11,12</sup> → 公司尚無可持續盈餘，無法用 PE 說「低估」。<br />
+          <b>PS（TTM）63.60x</b> vs Damodaran 半導體 <b>15.46x</b>、Simply Wall St 全體 <b>8.4x</b>。<sup>4,11,12</sup> FY2026E PS ≈ 48.8x；NTM Forward PS <b>29.66x</b>。<sup>4</sup> → <span class="r">遠高於行業</span><br />
+          <b>P/FCF：不適用</b>（TTM FCF −$6.802 億；經營現金流 $6,631 萬、資本支出 $7.465 億）。成熟 AI 半導體 P/FCF 約 43–94x。<sup>4</sup> → <span class="r">現金流為負</span>
+        </div>
+        <div class="tag r">銷售倍數顯著溢價</div>
+      </div>
+      <div class="row">
+        <div class="k">預期 PE</div>
+        <div class="v">
+          Yahoo／StockAnalysis 共識（Q2 後）：FY2026E EPS <b>−$0.47 → PE N/A</b>；FY2027E <b>$1.27 → 143.4x</b>（$182.15 ÷ 1.27）。<sup>5,6</sup><br />
+          FY2028E：TickerGate 共識 EPS <b>$4.68 → 38.9x</b>；Seeking Alpha 獨立模型 $3.79 → 48.1x。取中點 $4.24 → <b>43.0x</b>。<sup>7,13</sup><br />
+          因 2026 虧損無法納入平均，<b>兩年（2027–2028）平均預期 PE = (143.4 + 43.0) / 2 = 93.2x</b>。若執行達標，倍數壓縮發生在 2028 而非現在。
+        </div>
+        <div class="tag r">近兩年倍數極高</div>
+      </div>
+      <div class="row">
+        <div class="k">合理估值依據</div>
+        <div class="v">
+          給予獲利年 <b>45–55x</b>、中樞 <b>50x</b>：145% 量級的三年營收 CAGR 與 $254 億 RPO 可拿極端成長溢價（高於 AMD 報告所用 38–45x）；但（1）仍未獲利、核心毛利率僅 ~41% vs NVIDIA ~70%；（2）護城河中等偏弱、CUDA 生態落差大；（3）OpenAI 認股權最多再稀釋 ~14%、歷史 86% 客戶集中。不宜給 NVDA 等級的「現在就 50x TTM」。50x 是<b>對 2028 年 EPS 的目標倍數</b>，不是對當前虧損的 PE。
+        </div>
+        <div class="tag a">合理 PE 45–55x（獲利年）</div>
+      </div>
+      <div class="row">
+        <div class="k">潛在價值空間</div>
+        <div class="v">
+          <span class="formula">(合理 PE ÷ 平均預期 PE − 1) × 100% = (50 ÷ 93.2 − 1) × 100% ≈ <b>−46.4%</b></span><br />
+          敏感度：若只用 2028E 43.0x 當錨，(50 ÷ 43.0 − 1) ≈ <b>+16.3%</b>。Street 11 位目標價平均 <b>$291.64（+60.1%）</b>、UBS 高標 $330，本質是把約 70x 倍數打在 2028 EPS 上。<sup>6,13</sup>
+          框架公式結論：<b>以近兩年預期 PE 衡量當前估值偏高</b>；價值空間取決於 2028 盈餘能否接近 $4 且市場願意維持 45x+。
+        </div>
+        <div class="tag r">框架口徑：估值偏高</div>
+      </div>
+    </section>
+
+    <section class="box s4">
+      <h2>步驟四：Profitability - 盈利能力 <span class="sub">賺錢效率、股東回報與財務安全</span></h2>
+      <div class="row">
+        <div class="k">利潤率指標</div>
+        <div class="v">
+          <b>毛利率</b>：FY2025 GAAP <b>39.0%</b>（硬體 42.9%、雲端 29.9%）；Q2'26 GAAP 僅 14.2%（認股權／pass-through 扭曲），<b>核心 40.6%</b>（雲端 41.8%、硬體 38.8%，YoY +940bp）。FY2026 核心 GM 指引 41–43%；管理層中期目標 <b>60%+</b>。<sup>1,2</sup> 行業：Damodaran 半導體毛利率約 <b>59%</b>、美廠平均約 41%。<sup>11,14</sup> → <span class="g">超過 30% 標準</span>，<span class="r">但低於 fabless AI 龍頭與行業均值</span><br />
+          <b>營運利潤率</b>：FY2025 GAAP −28.6%；Q2'26 GAAP −265%（IPO 相關 SBC $3.77 億），核心 <b>−16%</b>（YoY 改善 2,600bp）；FY2026 核心 OM 指引 <b>−19% 至 −17%</b>。Damodaran 半導體稅前營運利潤率 <b>35.31%</b>。<sup>1,11</sup> → <span class="r">未達標、但斜率向上</span><br />
+          <b>淨利率</b>：FY2025 GAAP +46.6% <span class="r">不可用</span>（$3.633 億非現金利益）；non-GAAP 淨損 $7,574 萬（−14.8%）。TTM −75.3%。<sup>2,4</sup> → <span class="r">遠低於行業 30.45%</span>
+        </div>
+        <div class="tag a">核心毛利達標，仍未獲利</div>
+      </div>
+      <div class="row">
+        <div class="k">股東回報</div>
+        <div class="v">
+          <b>股息率 0%</b>，不配息。<sup>4</sup>
+          股數一年 <b>+61.24%</b>、單季 +140%（IPO／優先股轉換），買回收益率 <b>−61.24%</b>＝大幅稀釋而非回購。<sup>4</sup>
+          另外：OpenAI Warrant 最多 3,344.5 萬股、G42 另有約 351 萬股認股權；Q2 SBC $3.77 億。IPO 定價 $185、開盤 $350，其後高點 $386.34、近月回落至 $184。<sup>2,4,15</sup>
+        </div>
+        <div class="tag r">股權大幅稀釋、無股息</div>
+      </div>
+      <div class="row">
+        <div class="k">資本效率與安全</div>
+        <div class="v">
+          Q2'26 現金＋受限現金＋短投 <b>$86 億</b>，未動用循環信貸 $8.5 億；營運資金貸款帳面約 $9.18 億（OpenAI $10 億融資）、總負債 $14.9 億、淨現金 $64 億、流動比率 5.82、D/E 0.16。<sup>1,4</sup>
+          <b>ROIC −24.0%</b>，尚未為股東創造經濟利潤。<sup>4</sup>
+          <b>利息覆蓋 −14.3x</b>（EBIT 為負），低於「&gt;2 即安全」門檻；但利息負擔相對現金部位很小，H1'26 尚有其他收益 $2,698 萬（主要利息收入）。真正約束是 <b>CapEx 與資料中心爬坡</b>（H1 購置 PPE $5.49 億），不是償債能力。<sup>1,4</sup>
+        </div>
+        <div class="tag a">流動性極強；ROIC／覆蓋率未達標</div>
+      </div>
+    </section>
+
+    <footer class="bar">
+      <span>第 1 頁 / 共 5 頁</span>
+      <span>價格基準：2026-08-26 收盤 $182.15｜財報：FY2025、Q2'26</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </article>
+
+  <!-- PAGE 2 -->
+  <article class="sheet">
+    <header class="top">
+      <div>
+        <h1>CBRS 現代價值投資報告</h1>
+        <div style="font-size:11px;opacity:.9;margin-top:2px;">護城河、風險與綜合觀點｜2026年08月26日</div>
+      </div>
+      <div class="meta">NASDAQ: CBRS<br />資料截止 2026-08-26</div>
+    </header>
+
+    <section class="box s5">
+      <h2>步驟五：Moat - 護城河評估 <span class="sub">五維各 0–1.0，滿分 5.0</span></h2>
+      <div class="moat-grid">
+        <div class="moat-item">
+          <div class="hd"><span>成本優勢</span><span>0.55 / 1.0</span></div>
+          <ul>
+            <li>Fabless + 自有系統 BOM 不含 GPU 廠商的通路毛利；管理層稱每 MW 淨資本支出低於多數 AI 雲，且 OpenAI 會報銷部分資料中心 fit-out。<sup>3</sup></li>
+            <li>走 TSMC 5nm、不用 HBM／CoWoS／3nm，在供應短缺期有「避開瓶頸」的成本與交期優勢。<sup>1</sup></li>
+            <li>核心毛利率僅 40.6%，低於 NVIDIA ~70%、Broadcom ~65%、行業 ~59%。短期還因「向雲客戶租回系統」再轉售容量而壓低約 500bp。<sup>1,3</sup></li>
+            <li>路徑：Q3 是核心 GM 低點（38–40%），隨自有系統替換租賃產能、吞吐 20x 路線圖，目標 2027 起趨向 60%+。<sup>1</sup></li>
+          </ul>
+        </div>
+        <div class="moat-item">
+          <div class="hd"><span>網絡效應</span><span>0.40 / 1.0</span></div>
+          <ul>
+            <li>推論雲走 OpenAI 相容 API，「改兩行程式」即可切換，<b>轉換成本偏低</b>，有利獲客、不利鎖定。<sup>2</sup></li>
+            <li>On-prem 系統與資料中心部署有較高遷移成本；服務 GPT-5.6 Sol 讓軟體堆疊取得前沿模型洞察，屬弱網絡、強學習曲線。<sup>3</sup></li>
+            <li>CUDA 仍是開發者預設。Cerebras 的反制是與 AMD／AWS 做分離式推論，把 GPU 裝進自己的 decode 流程，而非取代 CUDA。<sup>1,3</sup></li>
+          </ul>
+        </div>
+        <div class="moat-item">
+          <div class="hd"><span>品牌優勢</span><span>0.50 / 1.0</span></div>
+          <ul>
+            <li>在 AI 基礎設施圈是「最快推論／晶圓級」的代名詞；2026-05-14 IPO 募資 $64 億（半導體史上最大），打開度瞬間拉高。<sup>15,16</sup></li>
+            <li>尚無 Brand Finance 等級的全球品牌價值排名；對企業採購決策，品牌弱於 NVIDIA／AWS，強於多數 AI 新創。</li>
+            <li>CrowdStrike、OpenAI 作為標竿客戶，對安全與前沿模型場景有示範效應。<sup>1</sup></li>
+          </ul>
+        </div>
+        <div class="moat-item">
+          <div class="hd"><span>技術門檻</span><span>0.85 / 1.0</span></div>
+          <ul>
+            <li>截至 2026-03-31：<b>已核准專利 96 件、申請中 50 件</b>（美國核准 50、申請 47），涵蓋晶圓級處理器、封裝冷卻與加速架構；美國專利到期 2038–2041。<sup>2</sup></li>
+            <li>WSE-3 是商業化最大 AI 晶片；CS-4 單機櫃三晶圓、750 PFLOPS、晶圓間延遲低至 2μs，號稱 10 兆參數級模型、較 GPU 最多 30 倍 tokens/user。<sup>9,10</sup></li>
+            <li>SRAM 架構在「速度 vs 吞吐」上與 HBM-GPU 互補而非同構，複製需重做製造、封裝、冷卻與編譯器，門檻高。路線圖稱未來數年速度每年倍增、18 個月吞吐 &gt;20x。<sup>3</sup></li>
+          </ul>
+        </div>
+      </div>
+      <div class="moat-item" style="margin-top:5px;">
+        <div class="hd"><span>業務韌性</span><span>0.40 / 1.0</span></div>
+        <ul>
+          <li>產品線開始雙軌（硬體 30–70% 波動 + 雲端經常性收入），地理上資料中心已擴到美、加、北歐、法國。<sup>1,3</sup></li>
+          <li>資產負債表極強：$86 億流動性 vs $15 億負債。Altman Z 13.1 反映淨現金，不是獲利品質。<sup>4</sup></li>
+          <li><b>韌性的硬傷是客戶結構</b>：FY2025 兩家阿聯關聯方 86%；RPO $254 億高度綁 OpenAI 750MW 合約（可因 SLA 部分／全部終止，且認股權需 OpenAI 加買至 2GW 才完全歸屬）。G42／MBZUAI 需出口許可。單一客戶或地區政策變化會直接打斷成長曲線。<sup>2</sup></li>
+        </ul>
+      </div>
+      <div class="scorebar">
+        <span>護城河總評　<b>2.7 / 5.0</b></span>
+        <span class="pill">中等偏弱護城河</span>
+      </div>
+    </section>
+
+    <section class="box risk">
+      <h2>主要風險</h2>
+      <ul>
+        <li><b>客戶與合約集中：</b>FY2025 兩客戶 86%；前瞻 RPO 主要由 OpenAI MRA 構成。OpenAI 若削減推論支出、延後 750MW 接收、或依 SLA 終止部分合約，營收與認股權歸屬都會同步受創。G42／MBZUAI 為關聯方且位於阿聯，地緣與出口許可是第二顆地雷。<sup>2</sup></li>
+        <li><b>資料中心產能是成長上限：</b>管理層反覆強調「電力／機房是全產業瓶頸」。600MW 已簽約仍「遠不夠」消化需求；任何交付延遲會把 2027「三倍營收」變成紙上數字。Q2 還在租回自有系統應急，直接犧牲毛利率。<sup>1,3</sup></li>
+        <li><b>NVIDIA／自研 ASIC 競爭：</b>訓練市場仍近乎 NVIDIA 獨佔；推論若軟體優化讓 GPU 在「夠快」區間追上，Cerebras 的溢價定價會被壓縮。Google TPU、AWS Trainium、Microsoft Maia 也會先切超大規模內部需求。與 AMD／AWS 合作是雙面刃——對方同時是通路與潛在替代。<sup>2,3</sup></li>
+        <li><b>執行與製造爬坡：</b>2026 年製造產能要 &gt;10 倍、CS-4 本季出貨、CS-5 於 2027H2。良率、編譯器、多晶圓機櫃散熱（CS-4 約 120–140kW／櫃）任一環節失手，都會反映在 GM 與出貨。<sup>1,10</sup></li>
+        <li><b>稀釋、SBC 與仍未獲利：</b>IPO 後股數 +61%；OpenAI 認股權再 14% 潛在稀釋；Q2 GAAP 營業損失 $4.77 億主因 SBC。核心仍指引全年營業利潤率 −18% 左右。TTM FCF −$6.8 億，2027 放量前還要燒資料中心 CapEx。<sup>1,4</sup></li>
+        <li><b>估值與情緒：</b>IPO 後高點 $386 已回落約 53% 至 $182，Q2 財報仍因「未夠驚艷」單日跌約 16%。TTM PS 64x、2027E PE 143x，任何 RPO 轉換慢於預期或 GM 未在 Q4 回升，都可能再壓縮倍數。<sup>4,15</sup></li>
+      </ul>
+    </section>
+
+    <section class="box sum">
+      <h2>綜合分析與觀點</h2>
+      <div class="verdict">
+        <div class="chip ok">✓ 增長優異</div>
+        <div class="chip bad">✗ 估值偏高</div>
+        <div class="chip warn">▲ 中等偏弱護城河</div>
+        <div class="chip warn">▲ 盈利尚未達標</div>
+      </div>
+      <p class="note" style="font-size:10.7px;">
+        Cerebras 是一檔典型的<b>高風險 AI 推論趨勢成長股</b>，不是已經賺到現金流的價值股。亮點非常具體：FY2025 營收 $5.10 億（+76%），Q2'26 核心營收再倍增至 $2.10 億、雲端近四倍；公司把 2026 核心指引上修到 $8.80–8.90 億，並給出 2027「超過三倍」與 Street $29.5 億的斜率；<b>$254 億 RPO</b>、OpenAI 750MW、AWS Bedrock、AMD 分離式推論與剛出貨的 CS-4，構成少見的多年代工可見度。弱點同樣具體：護城河總評僅 <b>2.7/5.0</b>——技術門檻高，但網絡效應弱、FY2025 兩家阿聯客戶佔 86%、核心毛利率 41% 距 60% 目標仍遠、ROIC −24%、利息覆蓋為負。以 $182.15 對應 2027–2028 平均預期 PE 93.2x、合理中樞 50x，框架公式得出潛在價值空間約 <b>−46%</b>；只有當投資者改用 2028E ~43x 當錨時，才出現約 16% 的溫和空間。Street 平均目標價 $292（+60%）是在賭 2028 EPS 接近 $4 且市場給 70x 左右成長溢價。適合作為「推論速度溢價」主題的衛星倉，用倉位管理 OpenAI 執行、Q4 毛利率回升與 2027 三倍營收三個催化劑，而不是按傳統價值股的安全邊際加碼。
+      </p>
+    </section>
+
+    <div class="src">
+      <b>資料來源（點擊可開）：</b>
+      1. <a href="https://www.sec.gov/Archives/edgar/data/2021728/000162828026056186/cbrsannouncesfinancialresu.htm" target="_blank">CBRS Q2'26 財報新聞稿（SEC 8-K 附件）</a>　
+      2. <a href="https://www.sec.gov/Archives/edgar/data/2021728/000162828026025762/cerebras-sx1april2026.htm" target="_blank">Cerebras Form S-1（2026-04）</a>　
+      3. <a href="https://finance.yahoo.com/quote/CBRS/earnings/CBRS-Q2-2026-earnings_call-686677.html" target="_blank">Q2'26 法說逐字稿（Yahoo）</a>　
+      4. <a href="https://stockanalysis.com/stocks/cbrs/statistics/" target="_blank">StockAnalysis：市值、PS、FCF、ROIC、股數</a>　
+      5. <a href="https://finance.yahoo.com/quote/CBRS/analysis/" target="_blank">Yahoo Finance 分析師共識（營收／EPS）</a>　
+      6. <a href="https://stockanalysis.com/stocks/cbrs/forecast/" target="_blank">StockAnalysis 目標價與 2026–2027 預估</a>　
+      7. <a href="https://www.tickergate.com/stocks/cbrs/stock-forecast" target="_blank">TickerGate：2028 營收／EPS 共識</a>　
+      8. <a href="https://www.bloomberg.com/company/press/generative-ai-market-poised-to-reach-2-3-trillion-by-2032-as-agentic-systems-proliferate-and-infrastructure-demand-surges-according-to-bloomberg-intelligence/" target="_blank">Bloomberg Intelligence：生成式 AI／推論 TAM</a>　
+      9. <a href="https://investors.cerebras.ai/news-releases/news-release-details/cerebras-unveils-cs-4-30-times-faster-gpu-based-solutions/" target="_blank">Cerebras：CS-4 發布（2026-08-18）</a>　
+      10. <a href="https://futurumgroup.com/insights/cerebras-cs-4-makes-the-rack-the-new-chip-by-doubling-power-and-tripling-wafers/" target="_blank">Futurum：CS-4 規格與功耗</a>　
+      11. <a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html" target="_blank">Damodaran：半導體 PE（2026/1）</a>　／　<a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html" target="_blank">PS／利潤率</a>　／　<a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html" target="_blank">Margins</a>　
+      12. <a href="https://simplywall.st/markets/us/tech/semiconductors" target="_blank">Simply Wall St：美股半導體行業 PE／PS（2026-08-20）</a>　
+      13. <a href="https://seekingalpha.com/article/4937021-cerebras-3x-2027-revenue-guidance-changes-the-valuation-debate" target="_blank">Seeking Alpha：2028 EPS／估值討論</a>　
+      14. <a href="https://www.soccash.com/business-entrepreneurship/semiconductor-profit-margins/" target="_blank">2026 半導體毛利率分型（fabless／IDM）</a>　
+      15. <a href="https://www.cnbc.com/2026/06/23/cerebras-cbrs-q1-earnings-report-2026.html" target="_blank">CNBC：IPO 定價與 Q1'26</a>　
+      16. <a href="https://www.storagenewsletter.com/2026/06/26/cerebras-systems-fiscal-1q26-financial-results/" target="_blank">Q1'26 財報摘要（IPO $64 億、OpenAI 貸款）</a>　
+      17. <a href="https://investors.cerebras.ai/" target="_blank">Cerebras Investor Relations</a>　
+      18. <a href="https://www.sec.gov/Archives/edgar/data/2021728/000162828026029503/cerebras-sx1amay2026.htm" target="_blank">Cerebras S-1/A（2026-05）</a>
+    </div>
+
+    <footer class="bar">
+      <span>第 2 頁 / 共 5 頁</span>
+      <span>計算備註：市值 = $182.15 × 2.3756 億股；TTM = Q3'25+Q4'25+Q1'26+Q2'26；核心指標為非 GAAP</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </article>
+
+  <!-- PAGE 3 -->
+  <article class="sheet">
+    <header class="top">
+      <div>
+        <h1>CBRS 現代價值投資報告</h1>
+        <div style="font-size:11px;opacity:.9;margin-top:2px;">同業分環、估值定義與倍數對照｜2026年08月26日</div>
+      </div>
+      <div class="meta">NASDAQ: CBRS<br />倍數基準 2026-08-26 收盤</div>
+    </header>
+
+    <section class="box s1">
+      <h2>同類公司：沒有單一對標，要分三環看 <span class="sub">產品架構 ≠ 客戶預算 ≠ 財報結構</span></h2>
+      <div class="row">
+        <div class="k">內環：架構對手</div>
+        <div class="v">
+          比的是「高速度 SRAM 推論晶片／系統」。<b>沒有乾淨的上市公司雙胞胎</b>。
+          最接近的 <b>Groq（LPU）</b> 仍未上市：2025-12 NVIDIA 以約 $200 億授權／挖角其核心團隊後，獨立 Groq 轉向 neocloud，2026-08 再募 $3.5 億、估值 <b>$35 億</b>（較 2025-09 的 $69 億下修）。SambaNova、Graphcore 仍私募或已失勢。Google TPU、AWS Trainium、Microsoft Maia 是超大規模「自研、不外售」的結構性對手，會切預算但不是可買的同業。<sup>19,20</sup>
+        </div>
+        <div class="tag a">無公開對標</div>
+      </div>
+      <div class="row">
+        <div class="k">中環：預算對手</div>
+        <div class="v">
+          客戶（OpenAI、AWS、主權 AI）把資本支出在 <b>NVIDIA、AMD、Broadcom 客製 XPU、Marvell 客製 ASIC</b> 之間分配。CBRS 搶的是同一筆「推論／加速器」預算，不是同一種晶片。NVIDIA 是訓練＋推論預設平台（CUDA）；AMD 是第二供應商，且已與 CBRS 做 Helios prefill＋Cerebras decode；AVGO／MRVL 走 hyperscaler 客製 ASIC，吃的是「自研替代 merchant GPU」那條線。<sup>21</sup>
+        </div>
+        <div class="tag g">可公開比倍數</div>
+      </div>
+      <div class="row">
+        <div class="k">外環：模式對手</div>
+        <div class="v">
+          CBRS 雲端業務的財報長相（燒 CapEx、RPO／backlog、客戶集中、尚未穩定獲利）更像 <b>CoreWeave（CRWV）、Nebius（NBIS）</b> 這類 GPU neocloud，而不是 NVDA。差別：neocloud 買別人的 GPU 再出租；CBRS 賣自己的晶圓級系統＋自有雲，毛利路徑理論上更高、規模小一個數量級。Multiples.vc 把 CBRS 放在「Big AI／晶片設計」組（EV/NTM 16.9x），而不是 neocloud 組（中位 8.8x）。<sup>21,22</sup>
+        </div>
+        <div class="tag a">雲端可比、晶片不可比</div>
+      </div>
+    </section>
+
+    <section class="box s3">
+      <h2>估值如何定義 <span class="sub">本報告用四層；CBRS 現階段 PE 失效</span></h2>
+      <div class="row">
+        <div class="k">① 當前倍數</div>
+        <div class="v">
+          <b>PE</b>＝股價／過去 12 個月 EPS；<b>PS</b>＝市值／TTM 營收；<b>P/FCF</b>＝市值／TTM 自由現金流；<b>EV/Sales</b>＝（市值＋有息負債−現金）／營收，用來校正淨現金或高槓桿。
+          CBRS：TTM 虧損 → PE 無意義；FCF −$6.8 億 → P/FCF 無意義。因此<b>當前估值的主定義是 PS／EV/Sales</b>。FY2025 GAAP 淨利 $2.38 億含 $3.63 億一次性利益，不能拿來算 PE。
+        </div>
+        <div class="tag r">PE／P/FCF 失效</div>
+      </div>
+      <div class="row">
+        <div class="k">② 預期倍數</div>
+        <div class="v">
+          用 Street 或公司指引的未來營收／EPS：Forward PS、FY2026E–2028E PE。這回答「現價已經預支了哪一年的成績」。CBRS 2026E 仍虧 → 第一個可算的 PE 是 <b>2027E 143.4x</b>，2028E 中點約 <b>43.0x</b>。
+        </div>
+        <div class="tag a">看 2027–2028 而非 TTM</div>
+      </div>
+      <div class="row">
+        <div class="k">③ 相對估值</div>
+        <div class="v">
+          同一天、同一資料源的同業倍數。行業錨：Damodaran 半導體 PS 15.46x／Forward PE 37.3x；Simply Wall St 美股半導體 2026-08-26 PS <b>8.4x</b>、中位 PE 45.2x。Big AI 組 EV/NTM 中位 <b>9.8x</b>（Multiples.vc 2026-08-19），CBRS 同表為 <b>16.9x</b>。<sup>11,12,21</sup>
+        </div>
+        <div class="tag r">高於晶片組中位</div>
+      </div>
+      <div class="row">
+        <div class="k">④ 合理倍數與空間</div>
+        <div class="v">
+          <b>合理 PE</b>不是行業平均，而是「以成長、護城河、利潤率為條件，願意為<u>獲利年</u>付多少倍」。本報告給 45–55x、中樞 50x：高於 AMD 報告所用 38–45x（因 CBRS 三年營收 CAGR ~145% vs AMD ~44%），低於把 75x 打在 2028 EPS 上的部分 Sell-side（因毛利率、集中度、網絡效應都弱於 NVDA）。
+          <span class="formula">潛在價值空間＝（合理 PE ÷ 平均預期 PE − 1）</span>。用 2027–2028 平均 93.2x → <b>−46.4%</b>；若改用 2028E 43.0x 當錨 → <b>+16.3%</b>。兩個答案差在「你承認哪一年的盈餘已經被現價買走」。
+        </div>
+        <div class="tag a">公式已寫死，錨年可選</div>
+      </div>
+    </section>
+
+    <section class="box s2">
+      <h2>同口徑倍數對照 <span class="sub">StockAnalysis，2026-08-26 收盤</span></h2>
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th>公司</th>
+            <th>角色</th>
+            <th>市值</th>
+            <th>TTM 營收</th>
+            <th>PS</th>
+            <th>Fwd PS</th>
+            <th>PE / Fwd PE</th>
+            <th>EV/Sales</th>
+            <th>P/FCF</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="me">
+            <td>CBRS</td>
+            <td class="c">晶圓級＋自有雲</td>
+            <td>$43.3B</td>
+            <td>$0.68B</td>
+            <td><b>63.6x</b></td>
+            <td><b>29.7x</b></td>
+            <td>n/a / n/a</td>
+            <td>54.1x</td>
+            <td>n/a</td>
+          </tr>
+          <tr>
+            <td>NVDA</td>
+            <td class="c">GPU 平台（預算龍頭）</td>
+            <td>$5.08T</td>
+            <td>$253.5B</td>
+            <td>20.0x</td>
+            <td>11.5x</td>
+            <td>32.6 / 21.2x</td>
+            <td>19.9x</td>
+            <td>42.7x</td>
+          </tr>
+          <tr>
+            <td>AMD</td>
+            <td class="c">GPU 第二源＋合作</td>
+            <td>$785B</td>
+            <td>$41.0B</td>
+            <td>19.1x</td>
+            <td>11.7x</td>
+            <td>122.3 / 43.2x</td>
+            <td>18.9x</td>
+            <td>94.0x</td>
+          </tr>
+          <tr>
+            <td>AVGO</td>
+            <td class="c">客製 AI ASIC／XPU</td>
+            <td>$1.69T</td>
+            <td>$75.5B</td>
+            <td>22.3x</td>
+            <td>11.9x</td>
+            <td>59.4 / 22.6x</td>
+            <td>22.9x</td>
+            <td>51.4x</td>
+          </tr>
+          <tr>
+            <td>MRVL</td>
+            <td class="c">客製 ASIC／互連</td>
+            <td>$215B</td>
+            <td>$8.7B</td>
+            <td>24.7x</td>
+            <td>16.8x</td>
+            <td>84.7 / 53.4x</td>
+            <td>24.8x</td>
+            <td>129.1x</td>
+          </tr>
+          <tr>
+            <td>CRWV</td>
+            <td class="c">GPU neocloud（模式近）</td>
+            <td>$48.5B</td>
+            <td>$7.58B</td>
+            <td>6.4x</td>
+            <td>2.5x</td>
+            <td>n/a / n/a</td>
+            <td>12.5x*</td>
+            <td>n/a</td>
+          </tr>
+          <tr>
+            <td>NBIS</td>
+            <td class="c">AI 雲（模式近）</td>
+            <td>$58.6B</td>
+            <td>$1.35B</td>
+            <td>43.3x</td>
+            <td>8.4x</td>
+            <td>無意義 / n/a</td>
+            <td>44.9x</td>
+            <td>n/a</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">*CRWV 的 EV/Sales 高於 PS，因淨負債約 $461 億（EV $94.6B）；CBRS 相反，淨現金約 $64 億，故 EV/Sales（54.1x）低於股權 PS（63.6x）。Fwd PS 為 NTM／共識前瞻營收，不是同一財年，跨公司只宜看相對高低。<sup>4,22–27</sup></p>
+    </section>
+
+    <section class="box s4">
+      <h2>情境：若三年營收 CAGR 只有 35% <span class="sub">對 $43.3B 現市值的空間｜(1.35)³ = 2.46x</span></h2>
+      <div class="row">
+        <div class="k">營收終值</div>
+        <div class="v">
+          這是<b>低於公司指引</b>的情境（公司 2026 核心 +74%、2027「超過三倍」）。從 FY2026E $8.873 億出發：Y3（FY2029）營收 = 0.887 × 2.46 = <b>$21.8 億</b>。若改從 FY2025 $5.10 億起算，Y3（FY2028）僅 <b>$12.6 億</b>。
+        </div>
+        <div class="tag a">遠低於 Street $71.8 億</div>
+      </div>
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th>出場 PS</th>
+            <th>含義</th>
+            <th>Y3 $21.8 億隱含市值</th>
+            <th>vs $43.3B</th>
+            <th>Y3 $12.6 億隱含市值</th>
+            <th>vs $43.3B</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>12x</td>
+            <td class="c">NVDA／AMD Fwd PS</td>
+            <td>$26.2B</td>
+            <td class="c">0.61 倍現價（−40%）</td>
+            <td>$15.1B</td>
+            <td class="c">0.35 倍（−65%）</td>
+          </tr>
+          <tr>
+            <td>15.5x</td>
+            <td class="c">Damodaran 半導體</td>
+            <td>$33.8B</td>
+            <td class="c">0.78 倍現價（−22%）</td>
+            <td>$19.4B</td>
+            <td class="c">0.45 倍（−55%）</td>
+          </tr>
+          <tr class="me">
+            <td>20x</td>
+            <td class="c">35% 成長溢價（主錨）</td>
+            <td>$43.7B</td>
+            <td class="c"><b>1.01 倍 ≈ 0 倍空間</b></td>
+            <td>$25.1B</td>
+            <td class="c">0.58 倍（−42%）</td>
+          </tr>
+          <tr>
+            <td>25x</td>
+            <td class="c">偏樂觀成長溢價</td>
+            <td>$54.6B</td>
+            <td class="c">1.26 倍（+26%）</td>
+            <td>$31.4B</td>
+            <td class="c">0.73 倍（−27%）</td>
+          </tr>
+          <tr>
+            <td>30x</td>
+            <td class="c">接近現在 Fwd PS</td>
+            <td>$65.5B</td>
+            <td class="c">1.51 倍（+51%）</td>
+            <td>$37.6B</td>
+            <td class="c">0.87 倍（−13%）</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">
+        <b>讀法：</b>「幾倍成長空間」＝隱含市值 ÷ 現市值 − 1。主錨 20x 是因為 35% CAGR 仍高於 20% 標準、但不再是 145% 超級成長，不該繼續享有現在 30–64x 的銷售倍數。
+        反推：現價要在三年後 20x PS 下回本，Y3 營收需 $43.3B ÷ 20 = <b>$21.6 億</b>，剛好等於 2026E 起 35% CAGR。換句話說<b>現價已經把 35% 成長買完了</b>。若改用 PE：Y3 $21.8 億 × 淨利率 15–20% × 合理 PE 35–40x（對應 35% 成長，接近 ORCL 報告的 35–42x），隱含股價約 $48–74，對 $182 是 <b>0.3–0.4 倍現價（−60% 至 −74%）</b>。
+      </p>
+    </section>
+
+    <section class="box sum">
+      <h2>讀表結論：估值貴在哪裡</h2>
+      <ul style="padding-left:16px;font-size:10.6px;margin:0;">
+        <li><b>對晶片組：</b>成熟 AI 半導體 Fwd PS 集中在 <b>12–17x</b>（NVDA 11.5、AMD 11.7、AVGO 11.9、MRVL 16.8）。CBRS Fwd PS <b>29.7x</b> 約是這組的 2–2.5 倍，而且它們已經獲利、有 FCF。這就是「估值偏高」的主證據，不是拿 Damodaran 全體半導體 15x 亂比。</li>
+        <li><b>對 neocloud：</b>市值幾乎同級的 CRWV（$48.5B）TTM 營收已是 CBRS 的 <b>11 倍</b>（$75.8 億 vs $6.8 億），PS 僅 6.4x、Fwd PS 2.5x——市場付的是「已規模化的出租算力」，槓桿極高。NBIS 軌跡營收 PS 43.3x 最接近 CBRS，但前瞻已壓到 8.4x。CBRS 的前瞻倍數沒有同樣壓縮，代表 Street 對 2027 以後的營收能見度仍打折，或現價仍在買「選擇權」而非已兌現規模。</li>
+        <li><b>對 2027 營收：</b>若核心真的到 ~$29.5 億，EV/2027E Sales ≈ <b>12.5x</b>，就掉進 NVDA／AMD 現在的 Fwd PS 區間。換句話說：<b>現價不是在買 2026，是在預支 2027 三倍營收且幾乎不容許失手</b>。這也是為何框架用 2027–2028 平均 PE 93x 會算出 −46% 空間，而 Sell-side 用 2028 EPS×約 70x 會算出 +60%。</li>
+        <li><b>合理 PE 50x 的定位：</b>NVDA 現在 Fwd PE 僅 21x（高利潤、高護城河、成長已從三位數落到 ~48%）；AMD Fwd PE 43x。CBRS 若 2028 才接近規模獲利，給 45–55x 是「成長溢價＋品質折價」的折衷，不是行業平均，也不是目標價方法。</li>
+      </ul>
+    </section>
+
+    <div class="src">
+      <b>本頁資料來源：</b>
+      19. <a href="https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/" target="_blank">TechCrunch：Groq $3.5B 估值與 NVIDIA 授權</a>　
+      20. <a href="https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-groq-stock/" target="_blank">Motley Fool：Groq 未上市、NVIDIA $200 億交易</a>　
+      21. <a href="https://multiples.vc/insights/ai-valuation-multiples" target="_blank">Multiples.vc：2026-08 公開 AI 倍數（含 CBRS EV/NTM 16.9x）</a>　
+      22. <a href="https://stockanalysis.com/stocks/nvda/statistics/" target="_blank">NVDA</a>　
+      23. <a href="https://stockanalysis.com/stocks/amd/statistics/" target="_blank">AMD</a>　
+      24. <a href="https://stockanalysis.com/stocks/avgo/statistics/" target="_blank">AVGO</a>　
+      25. <a href="https://stockanalysis.com/stocks/mrvl/statistics/" target="_blank">MRVL</a>　
+      26. <a href="https://stockanalysis.com/stocks/crwv/statistics/" target="_blank">CRWV</a>　
+      27. <a href="https://stockanalysis.com/stocks/nbis/statistics/" target="_blank">NBIS</a>
+    </div>
+
+    <footer class="bar">
+      <span>第 3 頁 / 共 5 頁</span>
+      <span>倍數同源 StockAnalysis 2026-08-26；Multiples.vc 為 2026-08-19 EV/NTM</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </article>
+
+  <!-- PAGE 4 -->
+  <article class="sheet">
+    <header class="top">
+      <div>
+        <h1>CBRS 現代價值投資報告</h1>
+        <div style="font-size:11px;opacity:.9;margin-top:2px;">145% 從哪來｜每年 100%／150% 對應幾倍市值｜2026年08月26日</div>
+      </div>
+      <div class="meta">現市值 $43.3B<br />收盤 $182.15</div>
+    </header>
+
+    <section class="box s2">
+      <h2>145% 不是「每年長 145%」 <span class="sub">S&amp;P Global／StockAnalysis 的三年營收 CAGR</span></h2>
+      <div class="row">
+        <div class="k">這個數字是什麼</div>
+        <div class="v">
+          StockAnalysis 統計頁的 <b>Revenue Growth Forecast (3Y) = 145.48%</b> 來自 S&amp;P Global 分析師共識，是<b>三年年複合成長率</b>，不是公司承諾每年 +145%。<sup>4</sup>
+          還原路徑（實際一年一年並不平滑）：FY2025 <b>$5.10 億</b> → FY2026E <b>$8.87 億（+74%）</b> → FY2027E <b>$29.5 億（+233%）</b> → FY2028E 約 <b>$71.8–80 億（再 +143% 至 +171%）</b>。<sup>5,6,7</sup>
+          驗算：(7.18 ÷ 0.51)^(1/3) − 1 ≈ <b>141%</b>；若終值用 Morgan Stanley 的 2028 年 $80 億，CAGR ≈ <b>150%</b>；145.48% 對應終值約 $75 億，落在這個區間。<sup>28</sup>
+        </div>
+        <div class="tag a">算術平均約 150%，CAGR 約 141–150%</div>
+      </div>
+      <div class="row">
+        <div class="k">市場為什麼敢給</div>
+        <div class="v">
+          不是 TAM 故事，是<b>已簽約產能被排程成營收</b>：
+          （1）公司自己把 2026 核心指引收到 <b>$8.80–8.90 億</b>，並說 <b>2027 核心營收超過三倍</b>（≥$26.4 億；Street 再加到 $29.5 億）。<b>145% 幾乎整段被 2027 這一跳拉起來。</b><sup>1</sup>
+          （2）OpenAI MRA：750MW、估值 &gt;$200 億、可加到 2GW；Sacra 引 Morgan Stanley 2028 年 $80 億「主要由這張合約驅動」。<sup>2,28</sup>
+          （3）RPO <b>$254 億</b>（2026-06-30；S-1 年底為 $246 億）。Q2 10-Q：未來 24 個月至 <b>2028-06-30 認約 22%（≈$56 億）</b>，第 25–48 個月認 43%（≈$109 億），其餘其後。S-1 舊口徑是至 2027-12-31 認 15%。<sup>1,2,29</sup>
+          （4）RPO<b>尚不含</b> AWS Bedrock（預計 2027Q1）及其他超大規模業者（管理層稱 2027 年中起貢獻）。這是 2028 年 Street 把營收收到 $70 億以上、高於 RPO 切片的理由。<sup>3</sup>
+          （5）產能故事：至 2027 年底 &gt;600MW 已簽約、製造 2026 年 &gt;10 倍、不用 HBM／CoWoS。分析師把「電力＋機櫃爬坡」當成 2027 三倍能否兌現的條件，不是當成需求是否存在。
+        </div>
+        <div class="tag r">合約能見度高，認列後置</div>
+      </div>
+      <div class="row">
+        <div class="k">必須打折的點</div>
+        <div class="v">
+          $254 億 RPO ≠ 三年內入帳 $254 億。Q2 10-Q 口徑下，至 2028 年中只排到認約 <b>$56 億（22%）</b>；後面 78% 綁 OpenAI 部署時程與 SLA，可延後或終止。AWS 已簽約但<b>尚未開始認列、也不在 RPO</b>。145% 是「合約＋指引被分析師排程後的 CAGR」，執行風險在資料中心。
+        </div>
+        <div class="tag a">需求有合約，節奏沒保證</div>
+      </div>
+    </section>
+
+    <section class="box s3">
+      <h2>每年 100%／150%：市值是現在的幾倍 <span class="sub">現市值 $43.3B｜主表從 FY2026E $8.87 億往後三年</span></h2>
+      <p class="note" style="margin-bottom:4px;">
+        100%／年 → 三年營收變 <b>8 倍</b>（2³）；150%／年 → 三年營收變 <b>15.6 倍</b>（2.5³）。
+        市值倍數還取決於出場 PS：成長仍是三位數時給 25–30x；若三年後已變成規模公司、倍數壓到行業 15.5x，市值倍數會小一截。
+        「市值是現在的幾倍」＝隱含市值 ÷ $43.3B（<b>4 倍 = 市值變成四倍，上漲 3 倍／+300%</b>）。
+      </p>
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th>情境</th>
+            <th>Y1 → Y2 → Y3 營收</th>
+            <th>20x PS</th>
+            <th>25x PS（主錨）</th>
+            <th>30x PS</th>
+            <th>15.5x 行業</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="me">
+            <td>100%／年<br />自 2026E</td>
+            <td class="c">$17.8 → $35.5 → <b>$71.0 億</b></td>
+            <td>$142B<br />3.3 倍</td>
+            <td><b>$178B<br />4.1 倍</b></td>
+            <td>$213B<br />4.9 倍</td>
+            <td>$110B<br />2.5 倍</td>
+          </tr>
+          <tr>
+            <td>150%／年<br />自 2026E</td>
+            <td class="c">$22.2 → $55.5 → <b>$139 億</b></td>
+            <td>$277B<br />6.4 倍</td>
+            <td><b>$347B<br />8.0 倍</b></td>
+            <td>$416B<br />9.6 倍</td>
+            <td>$215B<br />5.0 倍</td>
+          </tr>
+          <tr>
+            <td>100%／年<br />自 FY2025</td>
+            <td class="c">$10.2 → $20.4 → <b>$40.8 億</b></td>
+            <td>$82B<br />1.9 倍</td>
+            <td>$102B<br />2.4 倍</td>
+            <td>$122B<br />2.8 倍</td>
+            <td>$63B<br />1.5 倍</td>
+          </tr>
+          <tr>
+            <td>150%／年<br />自 FY2025</td>
+            <td class="c">$12.8 → $31.9 → <b>$79.7 億</b></td>
+            <td>$159B<br />3.7 倍</td>
+            <td>$199B<br />4.6 倍</td>
+            <td>$239B<br />5.5 倍</td>
+            <td>$124B<br />2.9 倍</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">
+        對照：Street 的 145% CAGR 是從 FY2025 長到 2028 約 $72–80 億，路徑為 74%／233%／~143%，<b>終值接近「從 2025 起每年 150%」（$80 億）或「從 2026E 起每年 100% 再多一年」（$71 億）</b>。
+        現價 $43.3B 對「2026E 起每年 100%、Y3 $71 億」已是 <b>6.1x 當年營收</b>；對每年 150%、Y3 $139 億則是 3.1x——若真長到那種斜率，現價相對終值並不貴，貴的是<b>你必須先相信斜率</b>。
+      </p>
+    </section>
+
+    <section class="box sum">
+      <h2>三句話收斂</h2>
+      <ul style="padding-left:16px;font-size:10.6px;margin:0;">
+        <li><b>145% 的理由：</b>公司 2027「三倍」指引 + OpenAI 750MW／$254 億 RPO 的認列排程 + AWS 等尚未進 RPO 的增量。不是分析師憑空給一個 TAM 百分比。</li>
+        <li><b>每年 100%（自 2026E，出場 25x）：</b>三年後市值約 <b>$178B，是現在的 4.1 倍</b>（上漲約 3.1 倍）。每年 150%、同口徑：約 <b>$347B，是現在的 8 倍</b>。</li>
+        <li><b>跟 35% 情境的差別：</b>35% 時現價已買完成長（約 0 倍）；100–150% 才開始出現「市值變 4–8 倍」。現價買的就是這段斜率會不會發生，不是買便宜的銷售倍數。</li>
+      </ul>
+    </section>
+
+    <div class="src">
+      <b>本頁資料來源：</b>
+      1–7 同第 2 頁（Q2 8-K、S-1、法說、StockAnalysis、Yahoo、TickerGate）。　
+      28. <a href="https://sacra.com/c/cerebras-systems/" target="_blank">Sacra：Morgan Stanley 2028 年營收 $80 億（OpenAI 合約驅動）</a>　
+      29. <a href="https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm" target="_blank">CBRS Q2'26 Form 10-Q：RPO $254 億、22% 至 2028-06-30</a>
+    </div>
+
+    <footer class="bar">
+      <span>第 4 頁 / 共 5 頁</span>
+      <span>100% → (2)³ = 8x 營收；150% → (2.5)³ = 15.6x 營收；市值倍數另乘出場 PS</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </article>
+
+  <!-- PAGE 5 -->
+  <article class="sheet">
+    <header class="top">
+      <div>
+        <h1>CBRS 現代價值投資報告</h1>
+        <div style="font-size:11px;opacity:.9;margin-top:2px;">確定訂單 vs 確定產能｜以 Q2'26 10-Q／法說為準</div>
+      </div>
+      <div class="meta">資料日 2026-06-30<br />2026年08月26日</div>
+    </header>
+
+    <section class="box s1">
+      <h2>訂單：帳上確定的是 $254 億 RPO <span class="sub">不是 $254 億三年內入帳</span></h2>
+      <div class="row">
+        <div class="k">已入帳義務</div>
+        <div class="v">
+          截至 <b>2026-06-30</b>，剩餘履約義務（RPO）<b>$254 億</b>。這是已簽約、尚未（或部分尚未）滿足的履約義務，含遞延收入與未來將開立發票的金額；<b>排除一年以內合約</b>。公司寫「相當大部分」來自 OpenAI MRA。<sup>29</sup>
+          H1'26 已開始認列 OpenAI：Q2 $5,680 萬、H1 $7,440 萬（已扣認股權攤銷）。<sup>29</sup>
+        </div>
+        <div class="tag g">合約在帳上</div>
+      </div>
+      <div class="row">
+        <div class="k">認列排到哪年</div>
+        <div class="v">
+          Q2 10-Q 公司自己的預期（<b>可因客戶交貨時程變動</b>）：<br />
+          • 至 <b>2028-06-30</b>（未來 24 個月）：約 <b>22% ≈ $56 億</b><br />
+          • <b>2028-07 至 2030-06</b>（第 25–48 個月）：約 <b>43% ≈ $109 億</b><br />
+          • <b>2030-07 以後</b>：其餘約 <b>35% ≈ $89 億</b><br />
+          加總：到 2030 年中累計排入約 <b>$165 億（65%）</b>，不是 2028 年以前吃完。之所以拖這麼長，是因為 750MW 是「2026–2028 分批部署」，服務期限 3–4 年、OpenAI 可延長至最長 5 年，收入隨容量提供認列，不是出貨當下一次入帳。<sup>29</sup>
+        </div>
+        <div class="tag a">近端 $56 億／至 2028 中</div>
+      </div>
+      <div class="row">
+        <div class="k">什麼算確定、什麼不算</div>
+        <div class="v">
+          <b>確定（已承諾採購）：</b>OpenAI <b>750MW</b> Committed Capacity，分批部署於 <b>2026–2028</b>。<sup>29</sup><br />
+          <b>選擇權、不在「確定」裡：</b>再加 <b>1.25GW</b>、合計可到 2.0GW、部署至 <b>2030 年底</b>。10-Q 寫 Extra Capacity 相關認股權「<b>不視為很可能歸屬</b>」。公告裡的「>$200 億」是選擇權上限敘述，不是已承諾下限。<sup>29</sup><br />
+          <b>已簽約但還沒進 RPO：</b>2026-06 與 AWS 簽全球硬體租賃／商業協議，系統裝在 AWS 機房、經 Bedrock 提供；截至 6/30 <b>租賃尚未起租、尚未認列營收</b>，管理層預期 <b>2027Q1 全面供貨</b>。RPO「不含 AWS 及其他超大規模業者 backlog」。其他超大規模業者：管理層稱 2027 年中起有營收、2028 放量——仍是預期。<sup>1,29</sup><br />
+          <b>其他已簽：</b>Q2 另簽 6 筆各超過 $3,000 萬的雲端合約（Figma、Cognition、Lovable 等），若期限 &gt;1 年會進 RPO，但金額相對 OpenAI 是零頭。<sup>1</sup>
+        </div>
+        <div class="tag r">1.25GW／AWS 都還不是 RPO</div>
+      </div>
+      <div class="row">
+        <div class="k">合約也能被拆掉</div>
+        <div class="v">
+          未按里程碑交付容量、或 SLA 達一定失敗門檻，OpenAI <b>可終止部分或全部 MRA</b>；交貨時程「依客戶要求」可改。尚未對應到已認列租賃的 pass-through 電費／裝修<b>被排除在 RPO 之外</b>。雲端客戶合約相對資料中心租約更短、可終止。所以「確定」是會計上的履約義務，不是不可撤銷的現金。<sup>29</sup>
+        </div>
+        <div class="tag r">SLA／延遲可終止</div>
+      </div>
+    </section>
+
+    <section class="box s2">
+      <h2>產能：確定拿到的是什麼、到哪年</h2>
+      <div class="row">
+        <div class="k">資料中心電力</div>
+        <div class="v">
+          法說／8-K：過去約 7 個月拿下 <b>超過 600MW</b>，「<b>現已上線，或已簽約、將於 2027 年底前交付</b>」。沒有拆開 live vs contracted。管理層原文：這「遠不夠」消化需求；pipeline 以 GW 計——<b>GW 只是商機管道，不是合約</b>。<sup>1</sup>
+          對照訂單：OpenAI 單筆就要 750MW（至 2028）。600MW 是 Cerebras 自有雲／已簽約機房；OpenAI／AWS 也可選裝在客戶機房，所以不是 600 對 750 的硬缺口，但自有側確實還小於承諾交付。
+        </div>
+        <div class="tag a">600MW 至 2027 年底</div>
+      </div>
+      <div class="row">
+        <div class="k">製造組裝</div>
+        <div class="v">
+          相對 2025 上半年已 <b>4 倍</b>；2026 年內要到 <b>&gt;10 倍</b>（年內目標，不是已完成）。新產線在 Flex、Sanmina、Rocket EMS。2027：已簽約廠房再擴 <b>3–4 倍</b>，且「還有時間再簽」。<sup>1</sup>
+          10-Q 風險：幾乎所有製造服務與零件是<b>按採購單、沒有產能／數量承諾</b>。所以「10 倍」是擴線計畫＋委外產能，不是長期 take-or-pay 鎖定。
+        </div>
+        <div class="tag a">2026 目標 10x；2027 已簽 3–4x</div>
+      </div>
+      <div class="row">
+        <div class="k">晶圓（TSMC）</div>
+        <div class="v">
+          管理層：TSMC 已提供成長所需晶圓，走 <b>5nm</b>（較不缺、較便宜），<b>不用 HBM、CoWoS、3nm</b>。CFO：晶圓供給「不只夠今年剩下，也夠明年」。這是供應商關係陳述，公開文件<b>沒有披露鎖定的晶圓片數</b>。<sup>1,29</sup>
+        </div>
+        <div class="tag a">夠 2026 餘年＋2027（口頭）</div>
+      </div>
+      <div class="row">
+        <div class="k">AWS 側產能</div>
+        <div class="v">
+          系統裝在<b>亞馬遜自己的資料中心</b>，不佔上面那 600MW。截至 2026-06-30 租賃尚未起租；目標 2027Q1 上線。這條線的產能「確定」程度低於 600MW，高於其他尚未具名的超大規模洽談。<sup>29</sup>
+        </div>
+        <div class="tag a">2027Q1 目標，尚未起租</div>
+      </div>
+    </section>
+
+    <section class="box s3">
+      <h2>情境：600MW 於 2028-06-30 全部開滿、三年平均爬坡</h2>
+      <p class="note" style="margin-bottom:4px;">
+        假設從 2026-07-01 的 0 起線性爬到 2028-06-30 的 600MW（24 個月、每月 25MW），覆蓋 2026／2027／2028 三年。
+        每 MW 年營收用 OpenAI 合約反推：RPO $254 億 ÷ 750MW ÷ 約 4 年服務期 ≈ <b>$850 萬／MW／年</b>（含少量已入帳 pass-through；核心可能略低）。這只算這 600MW 自有雲產能，不含硬體外售、不含 AWS 客戶機房。
+      </p>
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th>年</th>
+            <th>年底／期末 MW</th>
+            <th>年平均在役 MW</th>
+            <th>營收（$850 萬／MW）</th>
+            <th>YoY</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>FY2026E（公司指引，不全是這 600MW）</td>
+            <td class="c">約 150（H2 爬坡）</td>
+            <td class="c">—</td>
+            <td><b>$8.87 億</b>（指引）</td>
+            <td class="c">+74%</td>
+          </tr>
+          <tr class="me">
+            <td>FY2027</td>
+            <td class="c">450</td>
+            <td class="c">300</td>
+            <td><b>$25.5 億</b></td>
+            <td class="c"><b>+187%（2.87 倍）</b></td>
+          </tr>
+          <tr>
+            <td>FY2028（H1 到 600、H2 滿載）</td>
+            <td class="c">600</td>
+            <td class="c">563</td>
+            <td><b>$47.8 億</b></td>
+            <td class="c">+88%</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">
+        對 FY2025 $5.10 億，三年 CAGR ≈ <b>111%</b>。滿載 run-rate＝600 × $850 萬＝<b>$51 億／年</b>。
+        敏感度：若每 MW 只有 $500 萬，2027 僅 $15 億（+69%）、2028 $28 億、CAGR 約 77%；若 $1,200 萬，2027 $36 億（+306%）、2028 $68 億、CAGR 約 137%。
+        解讀：在 $850 萬這個錨下，<b>600MW 如期開滿，幾乎就能交出公司講的 2027「三倍」（2.87x），但到不了 Street 的 2028 年 $72–80 億</b>——差的那一截要靠 AWS／客戶機房／750MW 裡超出這 600MW 的部分。
+      </p>
+    </section>
+
+    <section class="box sum">
+      <h2>對齊看：訂單比產能長、近端產能比近端訂單緊</h2>
+      <ul style="padding-left:16px;font-size:10.6px;margin:0;">
+        <li><b>確定訂單：</b>$254 億 RPO（主體＝OpenAI 750MW，部署 2026–2028，服務可收到約 2030–2032）。近端能認列的只有至 2028 年中約 <b>$56 億</b>。</li>
+        <li><b>確定產能：</b>資料中心 <b>&gt;600MW，到 2027 年底</b>（live＋已簽約）；製造 2026 衝 10x、2027 已簽再 3–4x；晶圓口頭夠到 2027。</li>
+        <li><b>缺口：</b>750MW 承諾 vs 600MW 自有機房（部分可放客戶機房）；1.25GW 選擇權與 AWS／其他超大規模<b>都還不在 RPO</b>。2027「三倍營收」要成立，靠的是這 600MW 如期上電，而不是再去找買家。</li>
+      </ul>
+    </section>
+
+    <div class="src">
+      <b>本頁資料來源：</b>
+      1. Q2'26 8-K／法說：RPO $254 億、600MW 至 2027 年底、製造 10x、AWS 不在 RPO。　
+      29. <a href="https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm" target="_blank">Form 10-Q（截至 2026-06-30）</a>：RPO 22%/43% 認列窗、OpenAI 750MW 與 1.25GW 選擇權、AWS 租賃未起租、製造無量承諾。
+    </div>
+
+    <footer class="bar">
+      <span>第 5 頁 / 共 5 頁</span>
+      <span>「確定」＝已入帳 RPO／已簽約或已上線產能；選擇權與 pipeline 不計入</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </article>
+</body>
+</html>
