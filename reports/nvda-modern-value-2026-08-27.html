@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NVDA 現代價值投資報告 - 2026年08月27日</title>
+  <style>
+    :root {
+      --navy: #1b2a4a;
+      --navy-2: #24365e;
+      --blue-bg: #e8f1fb;
+      --blue-bd: #7ba3d4;
+      --green-bg: #e7f5ea;
+      --green-bd: #7cbc86;
+      --pink-bg: #f8e9ef;
+      --pink-bd: #d4a0b4;
+      --yellow-bg: #f7f1dc;
+      --yellow-bd: #d4c48a;
+      --purple-bg: #eee8f6;
+      --purple-bd: #a992c9;
+      --red-bg: #fdecee;
+      --red-bd: #d98993;
+      --ok: #1a7f3c;
+      --warn: #c45c12;
+      --bad: #c0392b;
+      --mid: #b45309;
+      --ink: #1f2933;
+      --muted: #5b6775;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #d9dde3;
+      color: var(--ink);
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .page {
+      width: 210mm;
+      margin: 16px auto;
+      background: #fff;
+      box-shadow: 0 8px 28px rgba(0,0,0,.12);
+      padding: 0 0 18px;
+      position: relative;
+      overflow: visible;
+    }
+    .header {
+      background: linear-gradient(90deg, var(--navy), var(--navy-2));
+      color: #fff;
+      padding: 14px 22px 10px;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+    .header .sub {
+      display: block;
+      margin-top: 4px;
+      font-size: 11.5px;
+      font-weight: 500;
+      opacity: .88;
+      letter-spacing: 0;
+    }
+    .wrap { padding: 12px 18px 8px; }
+    .box {
+      border: 1.5px solid #ccc;
+      border-radius: 8px;
+      padding: 10px 12px 8px;
+      margin: 0 0 10px;
+    }
+    .box h2 {
+      margin: 0 0 8px;
+      font-size: 14.5px;
+      font-weight: 800;
+    }
+    .s1 { background: var(--blue-bg); border-color: var(--blue-bd); }
+    .s2 { background: var(--green-bg); border-color: var(--green-bd); }
+    .s3 { background: var(--pink-bg); border-color: var(--pink-bd); }
+    .s4 { background: var(--yellow-bg); border-color: var(--yellow-bd); }
+    .s5 { background: var(--purple-bg); border-color: var(--purple-bd); }
+    .risk { background: var(--red-bg); border-color: var(--red-bd); }
+    .sum { background: #eaf2fb; border-color: #7ea4d2; }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 168px;
+      gap: 8px;
+      align-items: start;
+      margin: 0 0 6px;
+      padding-bottom: 5px;
+      border-bottom: 1px dashed rgba(0,0,0,.08);
+    }
+    .row:last-child { border-bottom: 0; margin-bottom: 0; }
+    .label { font-weight: 800; }
+    .status {
+      text-align: right;
+      font-weight: 800;
+      font-size: 12.5px;
+      white-space: nowrap;
+    }
+    .ok { color: var(--ok); }
+    .warn { color: var(--warn); }
+    .bad { color: var(--bad); }
+    .mid { color: var(--mid); }
+    .note { color: var(--muted); font-size: 12px; }
+    ul { margin: 4px 0 0; padding-left: 18px; }
+    li { margin: 0 0 3px; }
+    .moat-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+    }
+    .score { font-weight: 800; }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 18px 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .disclaimer { color: #c0392b; font-weight: 700; }
+    .tags { display: flex; flex-wrap: wrap; gap: 10px 16px; margin: 6px 0 8px; }
+    .tag { font-weight: 800; }
+    .sources a { color: #1d4f91; word-break: break-all; }
+    .sources li { margin-bottom: 4px; }
+    @media print {
+      body { background: #fff; }
+      .page { box-shadow: none; margin: 0; page-break-after: always; }
+    }
+  </style>
+</head>
+<body>
+  <section class="page" id="page1">
+    <div class="header">NVDA 現代價值投資報告 - 2026年08月27日
+      <span class="sub">基準：Nasdaq 收盤 $209.66（2026-08-26，Q2 FY27 盤後公布）｜金額為億美元（1 億美元 = US$100 million）｜僅供參考，非投資建議</span>
+    </div>
+    <div class="wrap">
+      <div class="box s1">
+        <h2>步驟一：Known - 熟悉度評估</h2>
+        <div class="row">
+          <div><span class="label">業務模式：</span>無晶圓廠（fabless）的完整 AI 運算平台商，而非單純賣 GPU 的晶片商。位置在半導體價值鏈的設計／系統整合端：自研 GPU、CPU（Vera）、DPU、NVLink／Spectrum 交換與 CUDA 軟體堆疊，晶圓代工交給 TSMC／Samsung，先進封裝依賴 TSMC CoWoS。客戶買的是「AI 工廠」機架級系統（Blackwell → Vera Rubin），不是單顆加速器。</div>
+          <div class="status ok">商業模式清晰</div>
+        </div>
+        <div class="row">
+          <div>
+            <span class="label">收入來源：</span>FY2026（迄 2026-01-25）總營收 2,159.4 億美元。<br>
+            資料中心 1,937 億美元（89.7%，YoY +68%）；Gaming 160 億美元（7.4%，+41%）；專業視覺化 32 億美元（1.5%，+70%）；車用／機器人 23 億美元（1.1%，+39%）；其他約 7 億美元（0.3%）。<br>
+            FY2027 起改報兩大平台：Q2 FY27 資料中心 890 億美元（92.5%）、邊緣運算 72 億美元（7.5%）。Q1 資料中心再拆：Hyperscale 379 億美元 vs ACIE（AI 雲／工業／企業）374 億美元，約各半；舊口徑計算 604 億美元、網路 148 億美元（網路 YoY +199%）。
+          </div>
+          <div class="status warn">高度集中資料中心</div>
+        </div>
+        <div class="row">
+          <div><span class="label">客戶群體：</span>以 B2B 為主。直接客戶含 CSP、ODM／OEM、系統整合商與模型實驗室；最終需求來自超大規模雲（AWS、Azure、Google、OCI）、AI 雲（CoreWeave、Nebius 等）、主權／企業 AI 工廠，以及 PC／遊戲、工作站、車用與機器人。FY2026 兩大直接客戶各佔營收 22% 與 14%（合計 36%），幾乎全數落在 Compute &amp; Networking。地理：美國總部客戶 69.3%（1,496 億美元），台灣 19.6%，中國含香港 9.1%（197 億美元，YoY -21.5%）。</div>
+          <div class="status warn">B2B 超大規模為核心</div>
+        </div>
+      </div>
+
+      <div class="box s2">
+        <h2>步驟二：Growth - 增長分析</h2>
+        <div class="row">
+          <div><span class="label">總收入與 YoY：</span>FY2026 2,159.4 億美元，YoY +65%（對比 FY2025 1,305.0 億美元）。Q2 FY27 單季 962.2 億美元，QoQ +18%、YoY +106%；H1 FY27 已達 1,778.4 億美元，約等於 FY2026 全年的 82%。Q3 FY27 指引 1,080 億美元 ±2%，且不計入中國資料中心計算營收。</div>
+          <div class="status ok">遠超 20% 標準</div>
+        </div>
+        <div class="row">
+          <div><span class="label">未來增長指引：</span>Street 共識（Yahoo／MarketScreener，Q2 公布前）：FY2027 營收約 3,930–3,970 億美元（+83%）、EPS 約 $9.05；FY2028 約 5,620–5,740 億美元（+43–45%）、EPS 約 $13.13；FY2029 約 6,900 億美元（+23%）、EPS 約 $15.32。以 FY2026→FY2029 計算，3 年營收 CAGR 約 47%、EPS CAGR 約 46%。Q2 實際與 Q3 指引均高於原共識，上修後 CAGR 可能更高。</div>
+          <div class="status ok">遠超 20% 標準</div>
+        </div>
+        <div class="row">
+          <div>
+            <span class="label">市場空間（TAM）：</span><br>
+            大 M：AI 加速器市場 — Bloomberg Intelligence 估 2024 1,160 億美元 → 2033 6,040 億美元（CAGR 16%）；Mordor Intelligence 估 AI GPU 2026 2,884 億美元 → 2031 6,217 億美元（2026–2031 CAGR 16.6%）。<br>
+            小 M：商用資料中心 AI GPU（排除客戶自研 ASIC 內部產能）。Mordor 估 NVIDIA 2026 年佔資料中心 AI 加速器營收約 80–85%；BI 預期至 2030 仍持有 70–75%。<br>
+            SAM：NVIDIA 賣的是 GPU＋網路＋機架系統＋軟體，晶片 TAM 會低估可服務市場。FY2026 資料中心已 1,937 億美元；Q2 年化 run-rate 約 3,560 億美元。管理層稱 2025–2027 年 Blackwell＋Rubin 累計營收能見度超過 1 兆美元（不含獨立 Vera CPU）。
+          </div>
+          <div class="status ok">大市場，且系統 TAM 大於晶片 TAM</div>
+        </div>
+        <div class="row">
+          <div><span class="label">業務部門增長：</span>FY2026 資料中心 +68% 至 1,937 億美元是主引擎。Q2 FY27 資料中心 890 億美元、YoY +117%；邊緣運算 72 億美元、YoY +27%。Q1 結構訊號更重要：Hyperscale QoQ +12%，ACIE QoQ +31%（AI 雲年增逾三倍），顯示成長不再只靠少數雲巨頭 CapEx。網路從「配角」變成第二引擎（Q1 +199%）。</div>
+          <div class="status ok">資料中心為核心驅動力</div>
+        </div>
+        <div class="row">
+          <div><span class="label">增長持續性：</span>連續 14 季高於自家指引；Q2 相對指引中值 910 億美元超標 5.7%。能見度來自三層：① Blackwell／Rubin 1 兆美元累計營收能見度（2025–2027）；② Q3 指引 1,080 億美元；③ 與 Apollo、BlackRock、Blackstone、Brookfield、高盛、KKR 等合作，目標動員逾 5,000 億美元第三方資金建 AI 基礎設施。Vera Rubin 已進入量產（CoreWeave、Google、Azure、OCI、Nebius）。限制項：中國資料中心計算營收指引為零；產能綁在 TSMC CoWoS 與 HBM。</div>
+          <div class="status ok">訂單／平台能見度高</div>
+        </div>
+      </div>
+
+      <div class="box s3">
+        <h2>步驟三：Valuation - 估值評估</h2>
+        <div class="row">
+          <div><span class="label">當前 PE：</span>26.51 倍（收盤 $209.66 ÷ TTM GAAP EPS $7.91；TTM = Q3FY26–Q2FY27）。美股半導體簡單平均 PE 45.2 倍、市值加權 Absolute PE 23.6 倍（Simply Wall St，2026-08-26）；GuruFocus 產業中位數約 38.4 倍。</div>
+          <div class="status ok">低於產業簡單平均／中位數</div>
+        </div>
+        <div class="row">
+          <div><span class="label">當前 PS：</span>16.76–16.81 倍（市值約 5.08–5.09 兆美元 ÷ TTM 營收 3,030 億美元）。美股半導體 PS 8.4 倍（Simply Wall St）；大型同業掃描約 13.3 倍（ScanX）。高 PS 反映 75% 毛利率，不宜單獨解讀為高估。</div>
+          <div class="status warn">高於產業平均</div>
+        </div>
+        <div class="row">
+          <div><span class="label">P/FCF：</span>39.98–40.03 倍（TTM FCF 1,268.9 億美元）。MacroTrends 同日約 43.0 倍。大型同業區間約 40–47 倍（美光約 40.8、Microchip 約 46.5）。FY2026 FCF 965.8 億美元，FCF 利潤率 44.7%。</div>
+          <div class="status ok">略優於大型同業</div>
+        </div>
+        <div class="row">
+          <div><span class="label">預期 PE：</span>以 $209.66 與 Yahoo 共識（Q2 前、多為 non-GAAP）：FY2027 $9.05 → 23.17 倍；FY2028 $13.13 → 15.97 倍；FY2029 $15.32 → 13.69 倍。三年平均預期 PE = 17.61 倍。Forward PE（stockanalysis）約 19.1 倍。Q2 已 beat，共識尚未完全上修，實際遠期 PE 可能更低。</div>
+          <div class="status ok">遠期倍數快速壓縮</div>
+        </div>
+        <div class="row">
+          <div><span class="label">合理估值依據：</span>47% 三年營收 CAGR + 約 75% 毛利率 + 60%+ 營運利潤率 + CUDA／系統護城河，理論上可給 35–40 倍（2025 年高增長階段常見區間）。但現已是 5 兆美元級巨擘、FY2029 增速將降至約 23%，且客戶集中／自研 ASIC 風險上升，合理 PE 下修為 <b>28–35 倍</b>，中值 <b>31.5 倍</b>。對應 PEG（23.17 ÷ 47）約 0.49，遠低於 1.0。</div>
+          <div class="status ok">給予 28–35x 溢價但不追高歷史 50x+</div>
+        </div>
+        <div class="row">
+          <div><span class="label">潛在價值空間：</span>(31.5 ÷ 17.61 − 1) × 100% ≈ <b>78.9%</b>。若改用保守 25 倍：約 42%。61 位分析師平均目標價 $305.79，隱含 45.9% 上檔（MarketScreener）。</div>
+          <div class="status ok">價值空間充足</div>
+        </div>
+      </div>
+
+      <div class="box s4">
+        <h2>步驟四：Profitability - 盈利能力</h2>
+        <div class="row">
+          <div><span class="label">毛利率：</span>FY2026 GAAP 71.1%（Q1 含 H20 相關約 45 億美元費用，壓低全年）；Q2 FY27 與 TTM 約 75.0%／74.7%。GuruFocus 半導體中位數 29.51%；大型 fabless 同業約 50–55%。</div>
+          <div class="status ok">遠超 30% 標準</div>
+        </div>
+        <div class="row">
+          <div><span class="label">營運利潤率：</span>FY2026 60.4%（營業利益 1,303.9 億美元）；Q2 FY27 66.2%；TTM 65.2%。產業中位數約 4.0%（GuruFocus，含大量虧損小公司）；優質大型同業約 30% 量級。</div>
+          <div class="status ok">遠高於產業</div>
+        </div>
+        <div class="row">
+          <div><span class="label">淨利率：</span>FY2026 55.6%（淨利 1,200.7 億美元）。TTM 63.7%、Q2 62.0%，但含大量權益證券評價利益（H1 FY27 約 237 億美元），經營品質應以營運利潤為準。產業中位數約 3.5%。</div>
+          <div class="status ok">遠高於產業（須扣掉投資利益）</div>
+        </div>
+        <div class="row">
+          <div><span class="label">股權回購：</span>稀釋後股本 FY2022 253.5 億股 → FY2026 245.1 億股，五年平均每年約 <b>−0.47%</b>（淨回購、未稀釋）。FY2026 回購 400.9 億美元＋股息 9.7 億美元；H1 FY27 回購 390.4 億美元。Q1 再授權 800 億美元，Q2 末剩餘授權約 990 億美元。</div>
+          <div class="status ok">積極回購、股本收縮</div>
+        </div>
+        <div class="row">
+          <div><span class="label">股息率：</span>2026 年 5 月季息由 $0.01 提高至 $0.25。年化 $1.00 ÷ $209.66 ≈ <b>0.48%</b>。仍非收益型標的，資本返還以回購為主。</div>
+          <div class="status mid">股息仍低、但已不再接近零</div>
+        </div>
+        <div class="row">
+          <div><span class="label">ROIC：</span>Macrotrends ROI（2026-04-30）<b>107.7%</b>；FY2026 約 106%。以營業利益扣稅、剔除超額現金後約 70–94%。遠高於合理 WACC（約 9%），確認在為股東創造經濟利潤，而非只靠財務槓桿。</div>
+          <div class="status ok">極高資本效率</div>
+        </div>
+        <div class="row">
+          <div><span class="label">利息覆蓋率：</span>FY2026 營業利益 1,303.9 億美元 ÷ 利息 2.59 億美元 = <b>503 倍</b>。Q2 末因發行約 249 億美元債券，長期負債升至 323.7 億美元，覆蓋率將下降，但對照 TTM 自由現金流 1,269 億美元與約 994 億美元現金及有價證券，財務仍極安全。</div>
+          <div class="status ok">極度安全（&gt;2 即安全）</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>第 1 頁 / 共 3 頁</span>
+      <span class="disclaimer">僅為報告參考，非投資建議</span>
+    </div>
+  </section>
+
+  <section class="page" id="page2">
+    <div class="header">NVDA 現代價值投資報告 - 2026年08月27日
+      <span class="sub">基準：Nasdaq 收盤 $209.66（2026-08-26，Q2 FY27 盤後公布）｜金額為億美元（1 億美元 = US$100 million）｜僅供參考，非投資建議</span>
+    </div>
+    <div class="wrap">
+      <div class="box s5">
+        <h2>步驟五：Moat - 護城河評估</h2>
+        <div class="row">
+          <div>
+            <div class="moat-head"><span class="label">成本優勢</span><span class="score">0.9 / 1.0</span></div>
+            毛利率從 FY2026 的 71.1%（含 H20 費用）回到 Q2 的 75.0%，大幅高於產業中位數 29.5% 與多數大型同業。無晶圓廠把重資產 CapEx 轉給 TSMC／封測／HBM 供應商，FY2026 資本支出僅 60.4 億美元（營收的 2.8%），FCF 利潤率 44.7%。規模讓公司在先進產能競標中有定價權，但成本並非「自己擁有產能」的成本領先，而是規模＋輕資產＋產品溢價。扣 0.1：上游 CoWoS／HBM 瓶頸與中國折價晶片會侵蝕結構性毛利。
+          </div>
+          <div class="status ok">規模經濟＋輕資產</div>
+        </div>
+        <div class="row">
+          <div>
+            <div class="moat-head"><span class="label">網絡效應</span><span class="score">0.9 / 1.0</span></div>
+            CUDA 生態約 <b>750 萬</b>開發者、超過 6,000 個加速應用；TOP500 超算中逾 78% 使用 NVIDIA GPU 或網路（公司年報口徑）。轉換成本是「重寫軟體堆疊＋重訓人才＋重做叢集網路」，不是換一張採購單。網路（NVLink、Spectrum、InfiniBand）把單卡鎖定升級成機架鎖定。扣 0.1：這比較接近高轉換成本的標準壟斷，而非典型雙邊網絡；CUDA 相容層與客戶自研軟體堆疊仍在蠶食邊緣。
+          </div>
+          <div class="status ok">CUDA 鎖定深</div>
+        </div>
+        <div class="row">
+          <div>
+            <div class="moat-head"><span class="label">品牌優勢</span><span class="score">0.9 / 1.0</span></div>
+            Interbrand 2025 Best Global Brands：NVIDIA 品牌價值 432 億美元、全球第 15、年增 <b>116%</b>（該榜史上最大單年增幅）。Brand Finance 2026：品牌價值 1,843 億美元、全球第 5、年增 110%。在 AI 基礎設施採購中，「NVIDIA」幾乎等於預設規格。扣 0.1：品牌溢價高度綁定 AI 資本支出周期，若 ROI 叙事動搖，品牌溢價會比 CUDA 技術債更快壓縮。
+          </div>
+          <div class="status ok">AI 基礎設施代名詞</div>
+        </div>
+        <div class="row">
+          <div>
+            <div class="moat-head"><span class="label">技術門檻</span><span class="score">0.9 / 1.0</span></div>
+            一年一代系統節奏（Blackwell → Blackwell Ultra → Rubin → Rubin Ultra → Feynman）把競爭從「單晶片 FLOPS」改寫成「CPU＋GPU＋DPU＋交換＋光通訊＋軟體」共設計。Q2 強調 Vera Rubin 已量產；Groq 3 LPX 推理加速器進入量產；MLPerf Training 6.0 與 AgentPerf 全類別領先。FY2026 R&amp;D 185.0 億美元。扣 0.1：Google TPU、Amazon Trainium、Microsoft Maia、Meta 自研晶片證明「單點加速器」可被複製，NVIDIA 的護城河在系統與軟體，不在永遠無法被做出來的矽。
+          </div>
+          <div class="status ok">系統級迭代領先</div>
+        </div>
+        <div class="row">
+          <div>
+            <div class="moat-head"><span class="label">業務韌性</span><span class="score">0.6 / 1.0</span></div>
+            正面：資產負債表仍淨現金（Q2 現金及有價證券約 994 億美元 vs 總負債中帶息債務約 334 億美元）；ACIE 已佔資料中心近一半，降低「只靠三家雲」的表象。負面：資料中心佔營收 92.5%；兩大直接客戶 36%；美國總部客戶 69%；製造與 CoWoS 高度集中亞洲／TSMC；中國資料中心計算指引為零。這是高利潤、低財務槓桿、但需求與供應都高度集中的商業模式。
+          </div>
+          <div class="status warn">財務強、需求與供應集中</div>
+        </div>
+        <div class="row">
+          <div><span class="label">護城河總評：</span><b>4.2 / 5.0</b> — 高護城河。弱項幾乎全部落在「客戶／供應／地理集中」，而非產品可被輕易替代。</div>
+          <div class="status ok">高護城河</div>
+        </div>
+      </div>
+
+      <div class="box risk">
+        <h2>主要風險</h2>
+        <ul>
+          <li><b>客戶集中且買家即競爭者：</b>FY2026 兩大直接客戶 22%＋14%。10-K 同時把 Alphabet、Amazon、Microsoft、阿里、百度、華為列為自研矽競爭者。22% 營收的客戶若把訓練／推理遷移到 ASIC，衝擊不是線性的「少一個標案」，而是整代平台的利用率。</li>
+          <li><b>出口管制與中國需求歸零假設：</b>中國含香港營收已從 FY2025 250 億美元降至 FY2026 197 億美元（-21.5%）；FY2026 Q1 提列約 45 億美元 H20 相關費用。公司連續數季指引「不假設任何中國資料中心計算營收」——這是基線，不是悲觀情境；若管制再擴大到更多地區或更多產品，上檔會被削。</li>
+          <li><b>供應鏈單點：</b>先進製程與 CoWoS 綁 TSMC，HBM 綁 SK hynix／三星／美光。需求再強，出貨被封裝與記憶體卡死。公司已在亞利桑那（TSMC）、德州組裝（Foxconn／Wistron）做美國產能，但 2026–2027 年仍無法替代台灣先進產能。</li>
+          <li><b>AI CapEx 周期與 ROI 證偽：</b>目前敘事是「token 已能產生收入」（黃仁勳 Q2：compute is revenue）。若雲端／企業的 AI 專案投資回收低於資金成本，Hyperscale 50% 那一半會先砍單，且因交付週期長，砍單會以「延後提貨、砍下一世代」形式出現，落後財報一至兩個季度。</li>
+          <li><b>自研 ASIC 與乙太網路替代：</b>Google TPU、Amazon Trainium、Microsoft Maia 及客製 ASIC（含 Marvell 等）在推理與特定訓練工作負載搶市佔。Broadcom 在乙太網路交換仍強。NVIDIA 用 Spectrum／NVLink Fusion 防守，但「單一供應商 80%+ 市佔」本身就會催生第二來源政策。</li>
+          <li><b>增長斜率下降與估值再定價：</b>共識隱含 FY2027 +83% → FY2029 +23%。即便絕對利潤仍增長，倍數會從「超高增長」切到「優質成長股」。Q2 發行約 249 億美元債、權益投資帳面膨脹，也增加非經營損益波動。</li>
+        </ul>
+      </div>
+
+      <div class="box sum">
+        <h2>綜合分析與觀點</h2>
+        <div class="label">評估結果</div>
+        <div class="tags">
+          <span class="tag ok">✓ 增長優異</span>
+          <span class="tag ok">✓ 價值空間充足</span>
+          <span class="tag ok">✓ 高護城河</span>
+          <span class="tag ok">✓ 盈利能力卓越</span>
+        </div>
+        <div><span class="label">綜合分析：</span>NVIDIA 已從「AI GPU 供應商」變成「AI 工廠平台商」：FY2026 營收 2,159 億美元、+65%，Q2 FY27 單季 962 億美元、+106%，資料中心佔比約 90–93%，毛利率回到 75%，營運利潤率 60–66%，ROIC 超過 100%。Street 對未來三年仍給約 47% 營收 CAGR，但遠期 PE 已壓到三年平均 17.6 倍；以 31.5 倍合理 PE 估算上檔約 79%，即使用 25 倍保守值也有約 42%，與分析師目標價隱含的 46% 更接近。護城河的核心是 CUDA＋機架級共設計，不是單顆晶片效能；真正的折價來自集中度——兩個客戶 36%、資料中心 92%、中國計算營收被假設為零、產能綁 TSMC。這是典型的<b>趨勢成長股（平台型）</b>：基本面與現金流足以支撐中長期持有，但倉位必須對「雲端 CapEx 放緩＋客戶自研 ASIC」做情景管理，而不是用 2023–2025 的 100%+ 增速外推到 2029。</div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>第 2 頁 / 共 3 頁</span>
+      <span class="disclaimer">僅為報告參考，非投資建議</span>
+    </div>
+  </section>
+
+  <section class="page" id="page3">
+    <div class="header">NVDA 資料來源與計算說明 - 2026年08月27日</div>
+    <div class="wrap">
+      <div class="box s1 sources">
+        <h2>估值基準日與關鍵計算</h2>
+        <ul>
+          <li>股價：$209.66（Nasdaq 2026-08-26 收盤）；盤後 $219.73。市值約 5.08–5.09 兆美元。</li>
+          <li>TTM 營收：57.006＋68.127＋81.615＋96.221 = 3,029.69 億美元。</li>
+          <li>TTM GAAP EPS：1.30＋1.76＋2.39＋2.46 = $7.91；PE = 209.66／7.91 = 26.51。</li>
+          <li>TTM FCF：220.89＋349.02＋485.54＋213.41 = 1,268.86 億美元；P/FCF ≈ 40.0。</li>
+          <li>三年平均預期 PE：(209.66／9.05＋209.66／13.13＋209.66／15.32)／3 = 17.61。</li>
+          <li>3 年營收 CAGR：(6901.49／2159.38)^(1／3) − 1 ≈ 47.3%（MarketScreener FY2029 共識）。</li>
+          <li>價值空間：(31.5／17.61 − 1) ≈ 78.9%。</li>
+          <li>利息覆蓋：130,387／259 = 503.4 倍（FY2026 GAAP）。</li>
+          <li>五年股本變化：(1.00% − 1.10% − 0.52% − 0.55% − 1.17%)／5 = −0.47%／年。</li>
+        </ul>
+      </div>
+      <div class="box s2 sources">
+        <h2>主要資料來源（請以原文為準）</h2>
+        <ul>
+          <li>NVIDIA Q4／FY2026 財報：<a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026">https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026</a></li>
+          <li>NVIDIA Q1 FY2027 財報：<a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027">https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027</a></li>
+          <li>NVIDIA Q2 FY2027 財報：<a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027">https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027</a></li>
+          <li>SEC FY2026 業績公告：<a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm">https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/q4fy26pr.htm</a></li>
+          <li>NVIDIA 2026 Annual Review（1 兆美元能見度）：<a href="https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf">https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf</a></li>
+          <li>FY2026 10-K 客戶集中／地區營收摘錄：<a href="https://app.edgar.tools/companies/NVDA/disclosures/segments">https://app.edgar.tools/companies/NVDA/disclosures/segments</a></li>
+          <li>Yahoo Finance 分析師預估：<a href="https://finance.yahoo.com/quote/NVDA/analysis/">https://finance.yahoo.com/quote/NVDA/analysis/</a></li>
+          <li>MarketScreener 財務預估：<a href="https://www.marketscreener.com/quote/stock/NVIDIA-CORPORATION-57355629/finances/">https://www.marketscreener.com/quote/stock/NVIDIA-CORPORATION-57355629/finances/</a></li>
+          <li>StockAnalysis 估值統計：<a href="https://stockanalysis.com/stocks/nvda/statistics/">https://stockanalysis.com/stocks/nvda/statistics/</a></li>
+          <li>Simply Wall St 美股半導體產業倍數：<a href="https://simplywall.st/markets/us/tech/semiconductors">https://simplywall.st/markets/us/tech/semiconductors</a></li>
+          <li>GuruFocus 毛利率／本益比產業中位數：<a href="https://www.gurufocus.com/term/gross-margin/NVDA">https://www.gurufocus.com/term/gross-margin/NVDA</a>、<a href="https://www.gurufocus.com/term/pettm/NVDA">https://www.gurufocus.com/term/pettm/NVDA</a></li>
+          <li>Bloomberg Intelligence AI 加速器 TAM：<a href="https://www.bloomberg.com/company/press/ai-accelerator-market-looks-set-to-exceed-600-billion-by-2033-driven-by-hyperscale-spending-and-asic-adoption-according-to-bloomberg-intelligence/">https://www.bloomberg.com/company/press/ai-accelerator-market-looks-set-to-exceed-600-billion-by-2033-driven-by-hyperscale-spending-and-asic-adoption-according-to-bloomberg-intelligence/</a></li>
+          <li>Mordor Intelligence AI GPU 市場：<a href="https://www.mordorintelligence.com/industry-reports/ai-gpu-chip-market">https://www.mordorintelligence.com/industry-reports/ai-gpu-chip-market</a></li>
+          <li>Interbrand 2025 品牌榜：<a href="https://interbrand.com/best-global-brands/global/nvidia/">https://interbrand.com/best-global-brands/global/nvidia/</a></li>
+          <li>Brand Finance 2026 品牌價值報導：<a href="https://businesschief.com/news/how-nvidia-became-one-of-the-worlds-most-valuable-brands">https://businesschief.com/news/how-nvidia-became-one-of-the-worlds-most-valuable-brands</a></li>
+          <li>Macrotrends ROIC／股本：<a href="https://www.macrotrends.net/stocks/charts/NVDA/nvidia/roi">https://www.macrotrends.net/stocks/charts/NVDA/nvidia/roi</a>、<a href="https://www.macrotrends.net/stocks/charts/NVDA/nvidia/shares-outstanding">https://www.macrotrends.net/stocks/charts/NVDA/nvidia/shares-outstanding</a></li>
+          <li>Q1 分部（Hyperscale／ACIE）：<a href="https://wccftech.com/nvidia-confirms-vera-rubin-launch-in-q3-volume-ramp-q4-blackwell-continues-to-see-massive-demand/">https://wccftech.com/nvidia-confirms-vera-rubin-launch-in-q3-volume-ramp-q4-blackwell-continues-to-see-massive-demand/</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer">
+      <span>第 3 頁 / 共 3 頁</span>
+      <span class="disclaimer">僅為報告參考，非投資建議</span>
+    </div>
+  </section>
+</body>
+</html>
