@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TSMC 現代價值投資報告 - 2026年9月1日</title>
+  <style>
+    :root {
+      --navy: #1b2a4a;
+      --navy-2: #243656;
+      --blue-bd: #5b8def;
+      --blue-bg: #f3f7fd;
+      --green-bd: #3d9b6e;
+      --green-bg: #f2faf5;
+      --pink-bd: #d47a9a;
+      --pink-bg: #fdf4f7;
+      --gold-bd: #c9a227;
+      --gold-bg: #fdf8ec;
+      --purple-bd: #8b7ec8;
+      --purple-bg: #f6f4fb;
+      --red-bd: #d36b6b;
+      --red-bg: #fdf4f4;
+      --sky-bd: #6aa8d8;
+      --sky-bg: #f3f8fc;
+      --ok: #1b7a4a;
+      --warn: #c27812;
+      --bad: #c0392b;
+      --ink: #1f2430;
+      --muted: #5c6573;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: #e8ebf0;
+      color: var(--ink);
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 16px auto;
+      background: #fff;
+      box-shadow: 0 8px 28px rgba(20, 30, 50, 0.12);
+      padding: 0 0 18px;
+      position: relative;
+      overflow: hidden;
+    }
+    header.banner {
+      background: var(--navy);
+      color: #fff;
+      text-align: center;
+      padding: 11px 16px;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .wrap { padding: 12px 16px 0; }
+    .box {
+      border: 1.5px solid #ccc;
+      border-radius: 8px;
+      padding: 8px 12px 9px;
+      margin-bottom: 9px;
+    }
+    .box h2 {
+      margin: 0 0 6px;
+      font-size: 14.5px;
+      font-weight: 700;
+    }
+    .known { border-color: var(--blue-bd); background: var(--blue-bg); }
+    .known h2 { color: #1f4e9b; }
+    .growth { border-color: var(--green-bd); background: var(--green-bg); }
+    .growth h2 { color: #1d6b48; }
+    .val { border-color: var(--pink-bd); background: var(--pink-bg); }
+    .val h2 { color: #9b3d5e; }
+    .prof { border-color: var(--gold-bd); background: var(--gold-bg); }
+    .prof h2 { color: #8a6a10; }
+    .moat { border-color: var(--purple-bd); background: var(--purple-bg); }
+    .moat h2 { color: #5a4d96; }
+    .risk { border-color: var(--red-bd); background: var(--red-bg); }
+    .risk h2 { color: #a33b3b; }
+    .sum { border-color: var(--sky-bd); background: var(--sky-bg); }
+    .sum h2 { color: #2b6a96; }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: start;
+      padding: 1.5px 0;
+    }
+    .row .left b { font-weight: 700; }
+    .tag {
+      font-weight: 700;
+      white-space: nowrap;
+      font-size: 12.5px;
+      padding-top: 1px;
+    }
+    .ok { color: var(--ok); }
+    .warn { color: var(--warn); }
+    .bad { color: var(--bad); }
+    .moat-item { margin: 4px 0 7px; }
+    .moat-item .title { font-weight: 700; }
+    .moat-item .score { font-weight: 700; color: #4b3f86; }
+    .total-moat {
+      margin-top: 4px;
+      font-weight: 800;
+      font-size: 14px;
+    }
+    ul.risks {
+      margin: 2px 0 0 18px;
+      padding: 0;
+    }
+    ul.risks li { margin: 3px 0; }
+    .pills { display: flex; flex-wrap: wrap; gap: 8px 14px; margin: 4px 0 8px; }
+    .pill { font-weight: 700; }
+    .analysis { margin: 0; text-align: justify; }
+    footer.bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 18px 0;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    footer.bar .disc { color: var(--bad); font-weight: 600; }
+    .src-list { margin: 0; padding-left: 18px; }
+    .src-list li { margin: 3px 0; font-size: 11.5px; }
+    .src-list a { color: #1f4e9b; word-break: break-all; }
+    @media print {
+      body { background: #fff; }
+      .page { margin: 0; box-shadow: none; page-break-after: always; }
+      .page:last-child { page-break-after: auto; }
+    }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <header class="banner">TSMC 現代價值投資報告 - 2026年9月1日</header>
+    <div class="wrap">
+      <section class="box known">
+        <h2>步驟一：Known - 熟悉度評估</h2>
+        <div class="row"><div class="left"><b>業務模式：</b>全球最大純晶圓代工廠（Foundry），處於半導體產業鏈中游製造端；客戶設計晶片、TSMC 負責先進製程與先進封裝量產，自身不販售終端品牌產品。2025 年以 305 項製程、為 534 家客戶製造 12,682 項產品。</div></div>
+        <div class="row"><div class="left"><b>收入來源（FY2025）：</b>高效能運算 HPC 58%、智慧型手機 29%、物聯網 5%、車用 5%、消費性電子 1%、其他 2%。晶圓製程：5nm 36%、3nm 24%、7nm 14%，7nm 及以下先進製程佔晶圓營收 74%。2Q26 最新結構已轉向 HPC 66%、手機 22%；2nm 開始貢獻 3%，先進製程升至 77%。</div></div>
+        <div class="row"><div class="left"><b>客戶群體：</b>純 B2B。2025 年客戶 A（市場普遍對應 NVIDIA）佔營收 19%（NT$7,270 億，年增逾一倍）、客戶 B（Apple）佔 17%（NT$6,452 億）。其餘為 AMD、Qualcomm、Broadcom、MediaTek 及雲端業者自研 ASIC。2Q26 北美客戶佔營收 78%。</div></div>
+      </section>
+
+      <section class="box growth">
+        <h2>步驟二：Growth - 增長分析</h2>
+        <div class="row">
+          <div class="left"><b>總收入：</b>FY2025 營收 NT$3.809 兆（US$1,224.2 億），年增 31.6%（美元 +35.9%）。2Q26 單季 US$402.0 億，YoY +33.7%；H1'26 合計約 US$761 億。</div>
+          <div class="tag ok">遠超 20% 標準</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>未來增長指引：</b>公司上修 FY2026 美元營收年增「略高於 40%」；中期指引 2024–2029 美元營收 CAGR 約 25%。分析師共識未來 3 年營收 CAGR 約 34%、EPS CAGR 約 40%。</div>
+          <div class="tag ok">遠超 20% 標準</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>市場空間（TAM）：</b>大 M：全球半導體 2024–2030 CAGR 8.7%、2030 年逾 US$1 兆。小 M：純晶圓代工 2026 US$1,848 億 → 2031 US$2,666 億（CAGR 7.61%）。SAM：先進製程（&lt;10nm）CAGR 9.05%；資料中心 AI 加速器出貨 2024–2030 CAGR 40%，先進封裝市場 CAGR 45.5% 至 2030 年 US$531 億。TSMC 2025 年全球代工市佔 69.9%（TrendForce）。</div>
+          <div class="tag ok">市場空間龐大</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>業務部門增長：</b>FY2025 HPC +48% YoY（最大增量來源）、車用 +34%、物聯網 +15%、手機 +11%。2Q26 HPC 季增 20% 至營收 66%，為結構性主引擎；3nm 佔晶圓營收已升至 30%。</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>增長持續性：</b>3Q26 營收指引 US$446–458 億（中點 QoQ +12%、YoY +37%）；2nm 進入陡峭放量。2026 資本支出上修至 US$600–640 億（原 US$520–560 億），管理層明示「更高 CapEx 對應後續更高成長」。AI 加速器 2024–2029 CAGR 上修至中高 30%。客戶與雲端業者持續給出多年強需求訊號。</div>
+        </div>
+      </section>
+
+      <section class="box val">
+        <h2>步驟三：Valuation - 估值評估</h2>
+        <div class="row">
+          <div class="left"><b>當前 PE：</b>28.23（TSM ADR，2026/8/31），行業市值加權平均 47.3</div>
+          <div class="tag ok">低於行業平均</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>當前 PS：</b>14.09，行業平均 8.0（高毛利使本益比仍較低）</div>
+          <div class="tag bad">高於行業平均</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>P/FCF：</b>54.52，行業參考約 52.3（2026 CapEx 大幅上修壓抑近期待 FCF）</div>
+          <div class="tag warn">略高於行業平均</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>預期 PE：</b>以收盤價 US$415.32 計算：FY2026E 24.58（EPS US$16.90）、FY2027E 19.07（US$21.78）、FY2028E 15.57（共識 US$26.67）；三年平均預期 PE <b>19.74</b>。</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>合理估值依據：</b>考量 25%+ 中期營收 CAGR、約 50–60% 營業利益率、先進製程近乎獨佔與 4.1/5.0 高護城河，給予合理 PE <b>30–35 倍</b>（取中值 32.5）。資本密集度使其不應對標純軟體，但相對同業加權 47x 與自身成長仍屬折價。</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>潛在價值空間：</b>(32.5 ÷ 19.74 − 1) × 100% ≈ <b>64.6%</b></div>
+          <div class="tag ok">價值空間充足</div>
+        </div>
+      </section>
+
+      <section class="box prof">
+        <h2>步驟四：Profitability - 盈利能力</h2>
+        <div class="row">
+          <div class="left"><b>毛利率：</b>FY2025 59.9%／TTM 64.23%／2Q26 67.7%，行業約 53.9%</div>
+          <div class="tag ok">遠超 30% 標準</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>營運利潤率：</b>FY2025 50.8%／TTM 56.08%／2Q26 60.3%，行業約 31.0%</div>
+          <div class="tag ok">遠高於行業平均</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>淨利率：</b>FY2025 45.1%／TTM 49.92%／2Q26 55.6%，行業約 28.9%</div>
+          <div class="tag ok">遠高於行業平均</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>股權回購：</b>近五年流通股約 51.86 億股幾乎不變；TTM 買回收益率 −0.01%</div>
+          <div class="tag warn">股本穩定、非積極回購</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>股息率：</b>約 0.78%–1.04%；2026 年每季現金股利 NT$7.0／普通股（ADR 約 US$1.08–1.11），配發率約 24–26%，採累進股利政策</div>
+          <div class="tag warn">殖利率偏低但可持續成長</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>ROIC（近期）：</b>53.96%（ROE 39.97%）</div>
+          <div class="tag ok">資本效率極高</div>
+        </div>
+        <div class="row">
+          <div class="left"><b>利息覆蓋率：</b>210.97 倍；2Q26 現金及約當＋有價證券 NT$3.52 兆 vs 計息負債 NT$1.03 兆，淨現金 NT$2.49 兆</div>
+          <div class="tag ok">財務極度穩健</div>
+        </div>
+      </section>
+    </div>
+    <footer class="bar">
+      <span>第1頁 / 共3頁</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </section>
+
+  <section class="page">
+    <header class="banner">TSMC 現代價值投資報告 - 2026年9月1日</header>
+    <div class="wrap">
+      <section class="box moat">
+        <h2>步驟五：Moat - 護城河評估</h2>
+        <div class="moat-item">
+          <span class="title">成本優勢：</span><span class="score">0.9/1.0</span>
+          — 2Q26 毛利率 67.7%，較 GlobalFoundries／UMC 約 26–30% 高出逾 35 個百分點；2025 年代工市佔 69.9%，先進節點近滿載帶來規模與良率優勢。輕資產設計公司無法複製其資本與製程學習曲線；海外廠有 2–4 個百分點毛利率稀釋，故未給滿分。
+        </div>
+        <div class="moat-item">
+          <span class="title">網絡效應：</span><span class="score">0.8/1.0</span>
+          — Open Innovation Platform® 綁定 EDA／IP 生態；客戶 PDK、光罩與設計定案轉換至三星或 Intel 需 18–24 個月且良率風險極高。CoWoS／SoIC 先進封裝與前段製程綁定，提高轉換成本。屬「生態＋轉換成本」型網絡，非消費端雙邊網絡。
+        </div>
+        <div class="moat-item">
+          <span class="title">品牌優勢：</span><span class="score">0.8/1.0</span>
+          — 先進製程代工的絕對代名詞；Brand Finance 2025 品牌價值約 US$342 億（年增 37%），半導體品牌強度 AA+、排名第二（次於 NVIDIA）。純 B2B 品牌，終端消費者知名度低於 Intel／NVIDIA，故未給 0.9。
+        </div>
+        <div class="moat-item">
+          <span class="title">技術門檻：</span><span class="score">1.0/1.0</span>
+          — 2025 年底全球累計專利申請逾 11.4 萬件、獲證近 7.9 萬件，美國專利申請／獲證均列全球第 2、台灣第 1；美國核准率接近 100%。2nm 已於 4Q25 進入量產、2Q26 佔晶圓營收 3%，N2P／A16（ Super Power Rail）規劃 2026 下半年量產，A14 持續開發。CoWoS 高階封裝市佔逾七成，為 AI GPU／ASIC 實質瓶頸。研發佔 2025 營收 6.5%（約 NT$2,476 億）。
+        </div>
+        <div class="moat-item">
+          <span class="title">業務韌性：</span><span class="score">0.6/1.0</span>
+          — 534 家客戶、五大平台分散，但前兩大客戶合計 36%，2Q26 HPC 已佔 66%、北美 78%，終端需求高度綁定少數雲端／GPU 客戶。產能仍高度集中台灣；亞利桑那／熊本／德國與額外 US$1,000 億美國投資正在分散，但短期無法改變地緣單點風險。財務面淨現金 NT$2.49 兆、利息覆蓋 211 倍，抗週期能力強。
+        </div>
+        <div class="total-moat">護城河總評：4.1 / 5.0　<span class="ok">高護城河</span></div>
+      </section>
+
+      <section class="box risk">
+        <h2>主要風險</h2>
+        <ul class="risks">
+          <li><b>地緣政治與產能集中：</b>先進產能仍高度集中台灣；台海、出口管制與美國對中高端晶片限制，可能同時衝擊中國營收（2Q26 僅 6%，但供應鏈中斷代價遠大於營收佔比）。</li>
+          <li><b>客戶與平台集中：</b>NVIDIA＋Apple 約 36% 營收；HPC／AI 已佔 2Q26 營收 66%。若 2027 年雲端資本支出消化、或 NVIDIA 世代交替空窗，營收波動會被放大。</li>
+          <li><b>資本支出與海外廠稀釋：</b>2026 CapEx 上修至 US$600–640 億，自由現金流被壓縮（P/FCF 54.5x）；海外廠與 2nm 爬坡對毛利率有 2–4 個百分點稀釋，若需求不如預期將出現折舊壓力。</li>
+          <li><b>雲端自研 ASIC 與競爭者超車：</b>Google TPU、Amazon Trainium、Microsoft Maia、Broadcom 客製化加速器成長，可能改變 NVIDIA 訂單結構；Intel 18A／Samsung 2nm 若良率突破，將削弱定價權（近 1–2 年機率偏低）。</li>
+          <li><b>非 AI 週期與資源約束：</b>手機／消費性電子仍具週期；台灣水電、人才與設備交期（EUV）可能限制產能爬坡速度。</li>
+        </ul>
+      </section>
+
+      <section class="box sum">
+        <h2>觀點參考</h2>
+        <div><b>評估結果：</b></div>
+        <div class="pills">
+          <span class="pill ok">✓ 增長優異</span>
+          <span class="pill ok">✓ 價值空間充足</span>
+          <span class="pill ok">✓ 高護城河</span>
+          <span class="pill ok">✓ 盈利能力卓越</span>
+        </div>
+        <p class="analysis"><b>綜合分析：</b>TSMC 是 AI 基礎設施的實質瓶頸資產，而非單純的週期性代工廠。FY2025 美元營收 US$1,224 億（+35.9%），公司將 2026 年增長上修至「略高於 40%」，並維持 2024–2029 約 25% CAGR；HPC 已從 2024 年 51% 升至 2025 年 58%、2Q26 更達 66%，3nm／2nm 與 CoWoS 是增量核心。以三年平均預期 PE 19.74 對合理 32.5 倍計算，潛在價值空間約 64.6%。毛利率／營業利益率／淨利率全面大幅領先行業，ROIC 54%、淨現金逾 NT$2.4 兆，財務幾乎沒有槓桿風險。4.1/5.0 的高護城河建立在製程領先、生態轉換成本與封裝卡位，主要折價來自台灣地緣、前兩大客戶集中與天量 CapEx。綜合判斷：屬於具備定價權的<b>趨勢成長股／核心複合成長股</b>，適合能承受地緣波動的長期投資人，而非短線估值修復標的。</p>
+      </section>
+    </div>
+    <footer class="bar">
+      <span>第2頁 / 共3頁</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </section>
+
+  <section class="page">
+    <header class="banner">TSMC 現代價值投資報告 - 2026年9月1日</header>
+    <div class="wrap">
+      <section class="box known">
+        <h2>資料來源（依引用主題）</h2>
+        <ol class="src-list">
+          <li>TSMC 2025 年報／財務表現：<a href="https://investor.tsmc.com/static/annualReports/2025/english/index.html">https://investor.tsmc.com/static/annualReports/2025/english/index.html</a></li>
+          <li>TSMC 2025 年報第 5 章（客戶、研發、專利）：<a href="https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf">https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf</a></li>
+          <li>4Q25／FY2025 法說會稿（平台與製程全年拆分、中期 CAGR）：<a href="https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/51d09df96cd89ac19d65af39032b038dc2896a24/TSMC%204Q25%20Transcript.pdf">4Q25 Transcript</a></li>
+          <li>4Q25 財報與 2026 年資本預算（原 US$520–560 億）：<a href="https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/3e49621566a3ca53bdf8aee2586929b666c17fd6/4Q25EarningsRelease.pdf">4Q25 Earnings Release</a></li>
+          <li>1Q26 財報：<a href="https://pr.tsmc.com/english/news/3297">https://pr.tsmc.com/english/news/3297</a></li>
+          <li>2Q26 財報：<a href="https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/a80d7933be643644081584087731f73b22ea5a2c/2Q26%20EarningsRelease.pdf">2Q26 Earnings Release</a></li>
+          <li>2Q26 法說會稿（全年 +40%、CapEx US$600–640 億、2nm／平台）：<a href="https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/547d1696765e05ce3adb81c108ce1c8c1682b80c/TSMC%202Q26%20Transcript.pdf">2Q26 Transcript</a></li>
+          <li>2Q26 營運報告（製程／平台／地區、現金負債）：<a href="https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/reports/2026-07/6f49632674bd2d0fd48cb65aaf89ec6ab510b559/2Q26%20ManagementReport.pdf">2Q26 Management Report</a></li>
+          <li>SEC 6-K 2Q26（毛利率 67.7%、先進製程 77%）：<a href="https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26e_withguidancexfinal.htm">SEC filing</a></li>
+          <li>股利政策（1Q26／2Q26 各 NT$7）：<a href="https://investor.tsmc.com/english/latest-dividend">https://investor.tsmc.com/english/latest-dividend</a></li>
+          <li>估值與獲利倍數（2026/8/31）：<a href="https://stockanalysis.com/stocks/tsm/statistics/">https://stockanalysis.com/stocks/tsm/statistics/</a>、<a href="https://stockanalysis.com/stocks/tsm/financials/ratios/">ratios</a></li>
+          <li>分析師營收／EPS 共識：<a href="https://finance.yahoo.com/quote/TSM/analysis/">Yahoo Finance Analysis</a>；2028 EPS 共識：<a href="https://businessquant.com/stocks/tsm/estimates/">BusinessQuant</a></li>
+          <li>半導體行業 PE／PS（2026/8/31）：<a href="https://simplywall.st/markets/us/tech/semiconductors">Simply Wall St — US Semiconductors</a></li>
+          <li>行業 PE 區間：<a href="https://www.basisreport.com/resources/pe-ratio-by-industry">Basis Report 2026 PE by Industry</a></li>
+          <li>代工 TAM：<a href="https://www.mordorintelligence.com/industry-reports/semiconductor-foundry-market">Mordor Intelligence Foundry Market</a></li>
+          <li>2025 代工市佔 69.9%（TrendForce）：<a href="https://economictimes.indiatimes.com/tech/technology/tsmc-rides-ai-wave-to-net-nearly-70-of-global-foundry-market-in-2025/articleshow/129571503.cms">Economic Times / Focus Taiwan</a></li>
+          <li>Foundry 2.0 與 AI 需求：<a href="https://my.idc.com/getdoc.jsp?containerId=prAP53273625">IDC Foundry 2.0 2025</a></li>
+          <li>AI 加速器／先進封裝 TAM：<a href="https://www.digitimes.com/reports/ai/2025_ai_chip_packaging/">DIGITIMES AI Chip Packaging 2024–2030</a></li>
+          <li>客戶 A／B 營收佔比：<a href="https://www.taiwannews.com.tw/news/6310676">Taiwan News</a>；年報表格見來源 2</li>
+          <li>Brand Finance 2025 品牌價值約 US$342 億、AA+：<a href="https://blog.landg.com/categories/investment-strategy/spotlight-on-the-worlds-strongest-brands-tsmc/">L&amp;G / Brand Finance</a></li>
+          <li>流通股數穩定：<a href="https://www.macrotrends.net/stocks/charts/TSM/taiwan-semiconductor-manufacturing/shares-outstanding">Macrotrends Shares Outstanding</a></li>
+        </ol>
+        <p style="margin-top:14px;color:#5c6573;font-size:12px;">數據基準日：2026 年 9 月 1 日。股價與倍數以 TSM ADR 2026/8/31 收盤為準；財務以公司 TIFRS 合併報表為準。匯率與 ADR／普通股換算可能造成美元數字與新台幣數字的微小差異。本文件僅供研究架構演示，不構成任何買賣建議。</p>
+      </section>
+    </div>
+    <footer class="bar">
+      <span>第3頁 / 共3頁</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </section>
+</body>
+</html>
