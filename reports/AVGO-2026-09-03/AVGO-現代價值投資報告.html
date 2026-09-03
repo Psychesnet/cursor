@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AVGO 現代價值投資報告 - 2026年09月03日</title>
+  <style>
+    :root {
+      --navy: #1b2a4a;
+      --navy-2: #24365e;
+      --blue-bg: #e8f1fb;
+      --blue-bd: #7ba3d4;
+      --green-bg: #e7f5ea;
+      --green-bd: #7cbc86;
+      --pink-bg: #f8e9ef;
+      --pink-bd: #d4a0b4;
+      --yellow-bg: #f7f1dc;
+      --yellow-bd: #d4c48a;
+      --purple-bg: #eee8f6;
+      --purple-bd: #a992c9;
+      --red-bg: #fdecee;
+      --red-bd: #d98993;
+      --ok: #1a7f3c;
+      --warn: #c45c12;
+      --bad: #c0392b;
+      --mid: #b45309;
+      --ink: #1f2933;
+      --muted: #5b6775;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #d9dde3;
+      color: var(--ink);
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .page {
+      width: 210mm;
+      margin: 16px auto;
+      background: #fff;
+      box-shadow: 0 8px 28px rgba(0,0,0,.12);
+      padding: 0 0 18px;
+      position: relative;
+      overflow: visible;
+    }
+    .header {
+      background: linear-gradient(90deg, var(--navy), var(--navy-2));
+      color: #fff;
+      padding: 14px 22px 10px;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+    .header .sub {
+      display: block;
+      margin-top: 4px;
+      font-size: 11.5px;
+      font-weight: 500;
+      opacity: .88;
+      letter-spacing: 0;
+    }
+    .wrap { padding: 12px 18px 8px; }
+    .box {
+      border: 1.5px solid #ccc;
+      border-radius: 8px;
+      padding: 10px 12px 8px;
+      margin: 0 0 10px;
+    }
+    .box h2 {
+      margin: 0 0 8px;
+      font-size: 14.5px;
+      font-weight: 800;
+    }
+    .s1 { background: var(--blue-bg); border-color: var(--blue-bd); }
+    .s2 { background: var(--green-bg); border-color: var(--green-bd); }
+    .s3 { background: var(--pink-bg); border-color: var(--pink-bd); }
+    .s4 { background: var(--yellow-bg); border-color: var(--yellow-bd); }
+    .s5 { background: var(--purple-bg); border-color: var(--purple-bd); }
+    .risk { background: var(--red-bg); border-color: var(--red-bd); }
+    .sum { background: #eaf2fb; border-color: #7ea4d2; }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 168px;
+      gap: 8px;
+      align-items: start;
+      margin: 0 0 6px;
+      padding-bottom: 5px;
+      border-bottom: 1px dashed rgba(0,0,0,.08);
+    }
+    .row:last-child { border-bottom: 0; margin-bottom: 0; }
+    .label { font-weight: 800; }
+    .status {
+      text-align: right;
+      font-weight: 800;
+      font-size: 12.5px;
+      white-space: nowrap;
+    }
+    .ok { color: var(--ok); }
+    .warn { color: var(--warn); }
+    .bad { color: var(--bad); }
+    .mid { color: var(--mid); }
+    .note { color: var(--muted); font-size: 12px; }
+    ul { margin: 4px 0 0; padding-left: 18px; }
+    li { margin: 0 0 3px; }
+    .moat-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+    }
+    .score { font-weight: 800; }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 18px 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .disclaimer { color: #c0392b; font-weight: 700; }
+    .tags { display: flex; flex-wrap: wrap; gap: 10px 16px; margin: 6px 0 8px; }
+    .tag { font-weight: 800; }
+    .sources a { color: #1d4f91; word-break: break-all; }
+    .sources li { margin-bottom: 4px; }
+    @media print {
+      body { background: #fff; }
+      .page { box-shadow: none; margin: 0; page-break-after: always; }
+    }
+  </style>
+</head>
+<body>
+  <section class="page" id="page1">
+    <div class="header">AVGO 現代價值投資報告 - 2026年09月03日
+      <span class="sub">基準：Nasdaq 收盤 $367.24（2026-09-02，Q3 FY2026 盤後公布）｜市值約 1.75 兆美元｜僅供參考，非投資建議</span>
+    </div>
+    <div class="wrap">
+      <div class="box s1">
+        <h2>步驟一：Known - 熟悉度評估</h2>
+        <div class="row">
+          <div><span class="label">業務模式：</span>無晶圓廠（fabless）半導體設計商＋企業基礎設施軟體商，位於產業鏈設計／IP 端，代工與先進封裝外包。四條賺錢線：(1) 與 Google TPU、Meta MTIA、OpenAI Jalapeno、Anthropic 共設計的客製 AI 加速器（XPU）；(2) Tomahawk／Jericho 乙太網路交換、PCIe、光學 DSP；(3) 寬頻／無線／儲存等非 AI 矽；(4) 2023 年併入的 VMware Cloud Foundation 及資安／主機軟體。客戶買的是「建不成 AI 叢集或缺了就無法運行私有雲」的關鍵元件，不是消費品牌。</div>
+          <div class="status ok">商業模式清晰</div>
+        </div>
+        <div class="row">
+          <div>
+            <span class="label">收入來源：</span>FY2025 總營收 638.87 億美元——半導體 368.58 億（58%，+22%）、基礎設施軟體 270.29 億（42%，+26%）；AI 半導體全年約 203 億（由 FY2026 指引 580 億、+186% 反推）。<br>
+            Q3 FY2026 更能代表當前結構：半導體 208.39 億（70%，+127%），其中 AI 167 億（佔總營收 <b>56%</b>，YoY +221%、QoQ +54%）、非 AI 42 億（+5%）；軟體 87.52 億（30%，+29%，ARR +15%）。XPU 出貨 +3.5 倍、佔 AI 營收 73%；AI 網路 +2.5 倍。軟體單季毛利率 94%、營運利潤率約 84%。
+          </div>
+          <div class="status warn">成長已高度集中 AI</div>
+        </div>
+        <div class="row">
+          <div><span class="label">客戶群體：</span>純 B2B。六家 XPU 客戶：Google（TPU v7 放量、v8i 已量產，簽署未來數代 TPU＋網路、規劃每年數百億美元級出貨）、Anthropic（2027 年 5GW + 2028 年 10GW，管理層預期成最大 XPU 客戶）、OpenAI（Jalapeno 2027 年 1.3GW、2028 年逾 5GW）、Meta（三世代 MTIA，至 2028 可見 3GW）。軟體端為 Fortune 500／政府的 VMware／VCF。FY2025 前五大終端客戶約 <b>40%</b>、經銷商 48%、半導體單一通路客戶 32%。出貨地：美洲 29.6%、亞太 56.2%、EMEA 14.2%；美國 165.1 億、中國含香港 111.6 億（終端多在美歐）。</div>
+          <div class="status warn">B2B 超大規模＋模型實驗室</div>
+        </div>
+      </div>
+
+      <div class="box s2">
+        <h2>步驟二：Growth - 增長分析</h2>
+        <div class="row">
+          <div><span class="label">總收入與 YoY：</span>FY2025 638.87 億美元，+23.9%。Q1–Q3 FY2026：193.11 億（+29%）→ 221.87 億（+48%）→ 295.91 億（<b>+86%</b>）。Q4 指引約 348 億（+93%），隱含全年約 1,059 億（<b>+66%</b>）。YTD 三季 710.89 億 vs 458.72 億（+55%）。</div>
+          <div class="status ok">遠超 20% 標準</div>
+        </div>
+        <div class="row">
+          <div><span class="label">未來增長指引：</span>公司 AI 半導體：FY2026 <b>580 億</b>（+186%，由 560 億上修）→ FY2027 約 <b>1,150 億</b> → FY2028 約 <b>2,300 億</b>（連續翻倍；供給已鎖定，需求更高）。FY2028 EPS 目標 <b>超過 $30</b>（Street 原約 $26.4）。Yahoo 共識：FY2026 營收 1,061 億／EPS $11.63；FY2027 1,734 億／$19.57。StockAnalysis 未來 3 年營收 CAGR <b>57.16%</b>、EPS 59.69%。Street FY2028 營收 2,322 億仍低於「僅 AI 就 2,300 億」的公司路徑。</div>
+          <div class="status ok">遠超 20% 標準</div>
+        </div>
+        <div class="row">
+          <div>
+            <span class="label">市場空間（TAM）：</span><br>
+            大 M：AI 加速器 2024 1,160 億 → 2033 6,040 億（CAGR 16%，Bloomberg Intelligence）；客製 ASIC CAGR 27%。<br>
+            小 M：客製 AI ASIC 2025 92.5 億 → 2032 684 億（CAGR 33%）。Broadcom 約 60% 市佔、Marvell 約 35%，雙佔約 95%。<br>
+            SAM／SOM：高階乙太網路交換矽約 80% 市佔；內容約 200–300 億美元／GW。Q4 AI 年化 run-rate 約 868 億；FY2028 公司路徑 2,300 億。成長斜率遠高於大盤 16%，因為增量在客製 ASIC 與交換，不是正面搶 GPU。
+          </div>
+          <div class="status ok">大市場，且落在高市佔細分</div>
+        </div>
+        <div class="row">
+          <div><span class="label">業務部門增長：</span>AI 是唯一主引擎（Q3 +221%，佔總營收 56%）。半導體整體 +127%、佔比由 FY2025 的 58% 升至 70%。非 AI 半導體 +5%，已不是成長來源。軟體 Q1 僅 +1%、Q3 +29%（ARR +15%），VMware Private AI Cloud 打開企業端第二曲線。管理層稱 AI 網路未來數年增速將與 XPU 相當。</div>
+          <div class="status ok">XPU 為核心、網路為第二引擎</div>
+        </div>
+        <div class="row">
+          <div><span class="label">增長持續性：</span>四層能見度：① Q4 指引 348 億／AI 217 億；② FY2026 AI 580 億；③ FY2027–2028 供給鎖定的 1,150 億＋2,300 億（兩年合計約 3,500 億）；④ 客戶 GW 路徑（Anthropic 15GW、OpenAI &gt;6.3GW、Meta 3GW、Google 每年數百億美元級 TPU）。Tomahawk 6 已覆蓋幾乎所有合作 hyperscaler；Tomahawk 7（200 Tbps）已 tape-out；新加坡基板 FY2027 投產。限制：土地／電力／機殼與 HBM／基板決定能否在財年窗口點亮，不是需求消失。</div>
+          <div class="status ok">訂單／供給能見度高</div>
+        </div>
+      </div>
+
+      <div class="box s3">
+        <h2>步驟三：Valuation - 估值評估</h2>
+        <div class="row">
+          <div><span class="label">當前 PE：</span>46.88 倍（$367.24 ÷ TTM GAAP EPS $7.83）。美股半導體簡單平均 46.5 倍、市值加權 Absolute PE 21 倍（Simply Wall St，2026-09-03）。Yahoo 仍顯示 61.3 倍（EPS $5.99）為未計入 Q3 的過期數字。對簡單平均約略持平，對加權平均偏貴——加權被超高獲利巨頭壓低。</div>
+          <div class="status mid">TTM 不便宜，看遠期</div>
+        </div>
+        <div class="row">
+          <div><span class="label">當前 PS：</span>19.61 倍（市值 1.75 兆 ÷ TTM 營收 891 億）。產業 7.9 倍。高 PS 對應 ~75% 毛利率與 66% 營收增速，不宜單獨解讀為高估。</div>
+          <div class="status warn">高於產業平均</div>
+        </div>
+        <div class="row">
+          <div><span class="label">P/FCF：</span>44.34 倍（TTM FCF 394 億美元，FCF 利潤率 44.2%）。大型同業區間約 40–47 倍。Q3 單季 FCF 136.7 億、佔營收 46%。與優質大型同業相當，不是估值泡沫的主證。</div>
+          <div class="status ok">與大型同業相當</div>
+        </div>
+        <div class="row">
+          <div><span class="label">預期 PE：</span>以 $367.24 與 Yahoo／公司數字：FY2026 EPS $11.63 → <b>31.58 倍</b>；FY2027 $19.57 → <b>18.77 倍</b>；FY2028 公司目標 &gt;$30 → <b>約 12.24 倍</b>（Q3 前 Street 約 $26.38 → 13.92 倍）。三年平均預期 PE = <b>20.86 倍</b>。StockAnalysis Forward PE 20.90。PEG（18.77 ÷ 57%）約 0.33。</div>
+          <div class="status ok">遠期倍數快速壓縮</div>
+        </div>
+        <div class="row">
+          <div><span class="label">合理估值依據：</span>54–60% 三年 CAGR + ~75% 毛利率 + ~67% 營運利潤率 + 客製 ASIC 約 60%／高階交換約 80% 市佔，理論可給 32–38 倍。扣分：六家 XPU 過濃、XPU 記憶體稀釋毛利、淨負債 354 億、FY2028 取決於機房與供給。合理 PE 定為 <b>28–34 倍</b>，中值 <b>31 倍</b>（對齊同架構 NVDA 報告的 31.5 倍中樞，不追 40x+ 泡沫倍數）。</div>
+          <div class="status ok">給予 28–34x，中值 31x</div>
+        </div>
+        <div class="row">
+          <div><span class="label">潛在價值空間：</span>(31 ÷ 20.86 − 1) × 100% ≈ <b>48.6%</b>。保守 28 倍約 34%；樂觀 34 倍約 63%。49 位分析師平均目標價 $531.37，隱含 44.7% 上檔，與 31 倍中樞同向。</div>
+          <div class="status ok">價值空間充足</div>
+        </div>
+      </div>
+
+      <div class="box s4">
+        <h2>步驟四：Profitability - 盈利能力</h2>
+        <div class="row">
+          <div><span class="label">毛利率：</span>FY2025 GAAP 67.8%／non-GAAP 78.7%；Q3 non-GAAP <b>75%</b>（QoQ -210bp，AI 混比），Q4 指引約 73%（一年前 78%）。TTM GAAP 約 69%。Damodaran 半導體 58.97%。稀釋來自 XPU 記憶體含量，不是成本失控。</div>
+          <div class="status ok">遠超 30% 標準</div>
+        </div>
+        <div class="row">
+          <div><span class="label">營運利潤率：</span>FY2025 GAAP 39.9%／non-GAAP 65.7%；Q3 GAAP 53.9%／non-GAAP <b>67.9%</b>（+240bp YoY）。分部：半導體 61%、軟體約 <b>84%</b>。Q4 指引仍約 66%——營運槓桿對沖毛利率下移。行業 40.4%。</div>
+          <div class="status ok">遠優於行業</div>
+        </div>
+        <div class="row">
+          <div><span class="label">淨利率：</span>FY2025 GAAP 36.2%（含一次性稅務利益）；Q3 GAAP 44.2%／non-GAAP 55.3%；TTM GAAP <b>42.9%</b>。行業 30.5%。GAAP 含併購攤銷，經營品質以分部營運利潤與 FCF 為準。</div>
+          <div class="status ok">優於行業</div>
+        </div>
+        <div class="row">
+          <div><span class="label">股權回購：</span>近一年股本 <b>+1.00%</b>（淨稀釋）；五年平均約 -3.0%／年（FY2024 VMware 換股 -11.85% 為主因）。FY2026 前三季回購 84.5 億（幾乎全在 Q1 的 78 億）；Q3 改還債 56 億。SBC 仍高（FY2025 75.7 億、Q3 單季 20.2 億）。歷史稀釋，近四季開始用 FCF 回購，尚未穩定收縮股本。</div>
+          <div class="status warn">股本仍淨稀釋</div>
+        </div>
+        <div class="row">
+          <div><span class="label">股息率：</span>年化 $2.60 ÷ $367.24 = <b>0.71%</b>。連續 15 年調升，FY2026 季息 +10% 至 $0.65。接近行業約 0.8%。屬成長股附帶股息，資本返還以 FCF 還債／回購為主。</div>
+          <div class="status mid">略低於／接近行業</div>
+        </div>
+        <div class="row">
+          <div><span class="label">ROIC：</span>TTM <b>30.68%</b>（FY2025 20.38% → AI 放量跳升），WACC 約 12.1%。五年：15.6% → 25.6% → 31.3% → 11.1%（VMware 資本膨脹）→ 20.4% → 30.7%。確認在創造經濟利潤。</div>
+          <div class="status ok">高資本效率</div>
+        </div>
+        <div class="row">
+          <div><span class="label">利息覆蓋率：</span>TTM 約 <b>14.0 倍</b>（StockAnalysis 13.96）；Q3 單季 GAAP 15,955／778 = 20.5 倍。總負債約 594 億、現金 240 億、淨負債 354 億；固定利率本金 596 億、票息 4%、平均到期 7.4 年。負債／EBITDA 由 FY2024 的 2.65 降至 <b>1.13</b>。遠高於「&gt;2 即安全」。</div>
+          <div class="status ok">安全（槓桿已快速下降）</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>第 1 頁 / 共 3 頁</span>
+      <span class="disclaimer">僅為報告參考，非投資建議</span>
+    </div>
+  </section>
+
+  <section class="page" id="page2">
+    <div class="header">AVGO 現代價值投資報告 - 2026年09月03日
+      <span class="sub">基準：Nasdaq 收盤 $367.24（2026-09-02，Q3 FY2026 盤後公布）｜市值約 1.75 兆美元｜僅供參考，非投資建議</span>
+    </div>
+    <div class="wrap">
+      <div class="box s5">
+        <h2>步驟五：Moat - 護城河評估</h2>
+        <div class="row">
+          <div>
+            <div class="moat-head"><span class="label">成本優勢</span><span class="score">0.9 / 1.0</span></div>
+            無晶圓廠把重資產轉給代工／HBM／基板。FY2025 CapEx 僅 6.23 億（營收 1.0%）；FY2026 前三季 CapEx 10.1 億 vs FCF 319.4 億。Q3 FCF 利潤率 46%。半導體 OpEx 僅佔該部營收 6%、營運利潤率 61%；軟體營運利潤率約 84%、毛利率 94%。VMware 成本裁減已反映在利潤率。扣 0.1：XPU 記憶體含量使合併毛利率從 ~78% 走向 ~73%，是產品組合代價而非規模不經濟。
+          </div>
+          <div class="status ok">輕資產＋極高現金轉換</div>
+        </div>
+        <div class="row">
+          <div>
+            <div class="moat-head"><span class="label">網絡效應</span><span class="score">0.8 / 1.0</span></div>
+            兩層鎖定：XPU 共設計跨數個製程世代（Google 已簽未來數代 TPU），轉換成本是重做晶片＋重佈機房；Tomahawk 乙太網路是開放標準，hyperscaler 即使用別人的加速器也常用 Broadcom 交換。VMware／VCF 轉換成本高，但不是雙邊網絡。扣 0.2：沒有 CUDA 百萬開發者平台；乙太網路開放性同時降低專有鎖定。
+          </div>
+          <div class="status ok">共設計＋交換附著</div>
+        </div>
+        <div class="row">
+          <div>
+            <div class="moat-head"><span class="label">品牌優勢</span><span class="score">0.7 / 1.0</span></div>
+            資料中心網路上「Tomahawk」幾乎等於高階交換矽預設規格；客製加速器上是 Google TPU 十年夥伴的代名詞。這是採購規格品牌，不是消費品牌，全球品牌榜能見度遠低於 NVIDIA。可替代敘事（Marvell、聯發科介入 TPU）仍在。
+          </div>
+          <div class="status mid">規格品牌，非消費代名詞</div>
+        </div>
+        <div class="row">
+          <div>
+            <div class="moat-head"><span class="label">技術門檻</span><span class="score">0.9 / 1.0</span></div>
+            截至 2025-11-02 約 <b>19,000</b> 件已獲專利、2,170 件申請中；33,000 名員工中 57% 在研發；FY2025 R&amp;D 109.8 億（營收 17.2%）。護城河被管理層說成：領先 SerDes、晶片間互連、HBM／SRAM 整合、先進封裝，以及從定義到量產最快。TPU v8i 量產領先更早啟動的聯發科版本；Tomahawk 7 為業界首款 200 Tbps；Jalapeno 在 OpenAI 工作負載上宣稱優於 Grace Blackwell Ultra。扣 0.1：單點 ASIC 可被複製，護城河在反覆按時交出複雜系統。
+          </div>
+          <div class="status ok">系統級量產能力</div>
+        </div>
+        <div class="row">
+          <div>
+            <div class="moat-head"><span class="label">業務韌性</span><span class="score">0.7 / 1.0</span></div>
+            相對 NVIDIA（資料中心 &gt;90%），仍有 30% 軟體、ARR +15%、非 AI 半導體約 42 億／季的基本盤；淨負債可用約一年 FCF 覆蓋，利息覆蓋 14 倍。負面：Q3 AI 已佔 56% 且來自六家客戶；FY2025 前五大終端 40%、經銷商 48%、單一半導體通路客戶 32%；製造與 CoWoS／HBM 仍在亞洲。韌性來自第二引擎與現金流，不是客戶分散。
+          </div>
+          <div class="status warn">財務強、需求集中</div>
+        </div>
+        <div class="row">
+          <div><span class="label">護城河總評：</span><b>4.0 / 5.0</b> — 高護城河。弱項幾乎全部落在客戶／供給集中，而非產品可被下季替代。深度不如 NVIDIA 的 CUDA 平台，但遠厚於普通 fabless。</div>
+          <div class="status ok">高護城河</div>
+        </div>
+      </div>
+
+      <div class="box risk">
+        <h2>主要風險</h2>
+        <ul>
+          <li><b>客戶集中且買家即潛在替代者：</b>六家 XPU 客戶驅動幾乎全部增量。Google／Meta／OpenAI 可加重自研或導入第二供應商（聯發科已介入 TPU）。前五大終端 40% 是 FY2025 數字，2026 年 AI 混比上升後實際更高。</li>
+          <li><b>部署約束 ≠ 晶片需求：</b>FY2027／2028 指引被建成「低於帳面需求」，卡點是土地、電力、機殼、HBM、基板、先進晶圓。GW 若無法在財年內點亮，營收滑到下一財年，倍數會先砍。</li>
+          <li><b>毛利率結構性下移：</b>Q4 指引 73% vs 一年前 78%。只要高記憶體 XPU 佔比續升，合併毛利率不會回到軟體＋傳統半導體時代。市場若用「毛利率崩壞」叙事，股價波動會大於基本面。</li>
+          <li><b>負債與或有融資：</b>淨負債 354 億、票息 4% 可負擔。與 Apollo／Blackstone 的 AI XPV 平台已關閉 Anthropic 首筆 350 億，Broadcom 可能提供適度殘值保證——或有負債，把公司與客戶 capex 週期綁得更緊。</li>
+          <li><b>地緣政治與出口管制：</b>中國含香港出貨地 FY2025 111.6 億。終端雖多在美歐，實體清單擴大、對先進封裝／HBM 的管制、或台灣產能中斷，會同時打擊 XPU 與交換矽。</li>
+          <li><b>競爭超車：</b>Marvell 約 35% 客製 ASIC（Amazon Trainium、Microsoft Maia）；NVIDIA Spectrum-X；聯發科介入 TPU。開放乙太網路降低專有鎖定，也降低新進者門檻。</li>
+          <li><b>軟體執行：</b>VMware 訂閱轉換與定價曾引發反彈；Q1 軟體僅 +1%、Q3 才 +29%，增速不線性。歐盟／雲監管可能限制軟體再加速。</li>
+        </ul>
+      </div>
+
+      <div class="box sum">
+        <h2>綜合分析與觀點</h2>
+        <div class="label">評估結果</div>
+        <div class="tags">
+          <span class="tag ok">✓ 增長優異</span>
+          <span class="tag ok">✓ 價值空間充足</span>
+          <span class="tag ok">✓ 高護城河</span>
+          <span class="tag ok">✓ 盈利能力卓越</span>
+        </div>
+        <div><span class="label">綜合分析：</span>Broadcom 已從「高利潤多元半導體＋VMware 現金牛」切到「客製 AI 加速器與乙太網路的核心供應商」。FY2025 營收 638.87 億美元、+24%；Q3 單季 295.91 億、+86%，AI 半導體 167 億（+221%）已佔總營收 56%。公司給出 FY2026／2027／2028 AI 營收 580 億 → 1,150 億 → 2,300 億，並稱 FY2028 EPS 將超過 $30。現價 $367.24 的 TTM PE 46.9 倍看起來不便宜，但三年平均遠期 PE 已壓到 20.9 倍；以 31 倍合理 PE 估算上檔約 49%，與分析師目標價隱含的 45% 同向。護城河的核心是「能按時量產極度複雜的客製矽＋高階乙太網路」，加上 VMware 84% 營運利潤率的現金墊；真正的折價來自集中度——六家 XPU 客戶、前五大終端 40%、供給綁在 TSMC／HBM／基板、以及機房能否在財年窗口點亮。這是典型的<b>趨勢成長股（基礎設施型）</b>：基本面與訂單路徑足以支撐中長期持有，但倉位必須對「少數客戶延後部署＋毛利率混比下移」做情景管理，而不是把 2026–2028 的翻倍外推成永續 50% CAGR。</div>
+      </div>
+    </div>
+    <div class="footer">
+      <span>第 2 頁 / 共 3 頁</span>
+      <span class="disclaimer">僅為報告參考，非投資建議</span>
+    </div>
+  </section>
+
+  <section class="page" id="page3">
+    <div class="header">AVGO 資料來源與計算說明 - 2026年09月03日</div>
+    <div class="wrap">
+      <div class="box s1 sources">
+        <h2>估值基準日與關鍵計算</h2>
+        <ul>
+          <li>股價：$367.24（Nasdaq 2026-09-02 收盤）；盤後約 $364。市值約 1.75 兆美元；股本 47.6 億股。</li>
+          <li>TTM 營收：638.87 − 458.72 ＋ 710.89 = 891.04 億美元。</li>
+          <li>TTM GAAP EPS $7.83；PE = 367.24／7.83 = 46.88。</li>
+          <li>TTM FCF 394 億美元；P/FCF = 44.34。</li>
+          <li>FY2026 隱含營收：19.311＋22.187＋29.591＋34.8 = 1,058.9 億（+65.7%）。</li>
+          <li>FY2026 AI：8.4＋10.8＋16.7＋21.7 = 576 億，約公司指引 580 億。</li>
+          <li>三年平均預期 PE：(367.24／11.63 ＋ 367.24／19.57 ＋ 367.24／30)／3 = 20.86。</li>
+          <li>價值空間：(31／20.86 − 1) ≈ 48.6%。</li>
+          <li>利息覆蓋 TTM：約 43,500／3,116 ≈ 14.0 倍；Q3 單季 15,955／778 = 20.5 倍。</li>
+          <li>五年股本稀釋：(−1.57% − 11.85% − 0.95% ＋ 1.35% − 1.90%)／5 ≈ −2.98%／年。</li>
+          <li>Q3 GAAP 毛利率 20,456／29,591 = 69.1%；non-GAAP 22,191／29,591 = 75.0%。</li>
+          <li>Q3 GAAP 營運利潤率 15,955／29,591 = 53.9%；non-GAAP 20,095／29,591 = 67.9%。</li>
+          <li>FY2025 前五大終端客戶約 40%；經銷商 48%；半導體單一通路客戶 32%；專利約 19,000 件。</li>
+        </ul>
+      </div>
+      <div class="box s2 sources">
+        <h2>主要資料來源（請以原文為準）</h2>
+        <ul>
+          <li>Q3 FY2026 官方新聞稿：<a href="https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial">https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial</a></li>
+          <li>PR Newswire 同稿（完整財報附表）：<a href="https://www.prnewswire.com/news-releases/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial-results-and-quarterly-dividend-302868129.html">https://www.prnewswire.com/news-releases/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial-results-and-quarterly-dividend-302868129.html</a></li>
+          <li>Q3 FY2026 法說會整理：<a href="https://www.tradingkey.com/news/transcripts/262147548-tradingkey">https://www.tradingkey.com/news/transcripts/262147548-tradingkey</a></li>
+          <li>FY2025 Q4／全年 8-K：<a href="https://investors.broadcom.com/static-files/dd25b8a9-a65a-4125-b02b-b1a6eb154cde">https://investors.broadcom.com/static-files/dd25b8a9-a65a-4125-b02b-b1a6eb154cde</a></li>
+          <li>SEC FY2025 Exhibit 99.1：<a href="https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/avgo-11022025x8kxex99.htm">https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/avgo-11022025x8kxex99.htm</a></li>
+          <li>FY2025 Form 10-K：<a href="https://investors.broadcom.com/static-files/5868c796-2455-4855-9f02-3410b11e99e1">https://investors.broadcom.com/static-files/5868c796-2455-4855-9f02-3410b11e99e1</a></li>
+          <li>Q1 FY2026 新聞稿：<a href="https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial">https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial</a></li>
+          <li>Q2 FY2026 8-K 摘要：<a href="https://www.stocktitan.net/sec-filings/AVGO/8-k-broadcom-inc-reports-material-event-ca5d7db2f903.html">https://www.stocktitan.net/sec-filings/AVGO/8-k-broadcom-inc-reports-material-event-ca5d7db2f903.html</a></li>
+          <li>Yahoo Finance 分析師預估：<a href="https://finance.yahoo.com/quote/AVGO/analysis/">https://finance.yahoo.com/quote/AVGO/analysis/</a></li>
+          <li>Yahoo Finance 關鍵統計：<a href="https://finance.yahoo.com/quote/AVGO/key-statistics/">https://finance.yahoo.com/quote/AVGO/key-statistics/</a></li>
+          <li>StockAnalysis 估值統計：<a href="https://stockanalysis.com/stocks/avgo/statistics/">https://stockanalysis.com/stocks/avgo/statistics/</a></li>
+          <li>StockAnalysis 財務比率：<a href="https://stockanalysis.com/stocks/avgo/financials/ratios/">https://stockanalysis.com/stocks/avgo/financials/ratios/</a></li>
+          <li>MarketScreener 財務預估：<a href="https://www.marketscreener.com/quote/stock/BROADCOM-INC-199910242/finances/">https://www.marketscreener.com/quote/stock/BROADCOM-INC-199910242/finances/</a></li>
+          <li>Simply Wall St 美股半導體產業倍數：<a href="https://simplywall.st/markets/us/tech/semiconductors">https://simplywall.st/markets/us/tech/semiconductors</a></li>
+          <li>Bloomberg Intelligence AI 加速器 TAM：<a href="https://www.bloomberg.com/company/press/ai-accelerator-market-looks-set-to-exceed-600-billion-by-2033-driven-by-hyperscale-spending-and-asic-adoption-according-to-bloomberg-intelligence/">https://www.bloomberg.com/company/press/ai-accelerator-market-looks-set-to-exceed-600-billion-by-2033-driven-by-hyperscale-spending-and-asic-adoption-according-to-bloomberg-intelligence/</a></li>
+          <li>MarketsandMarkets 客製 AI ASIC：<a href="https://www.marketsandmarkets.com/Market-Reports/custom-ai-asic-market-130951669.html">https://www.marketsandmarkets.com/Market-Reports/custom-ai-asic-market-130951669.html</a></li>
+          <li>Dataintelo 資料中心交換 ASIC：<a href="https://dataintelo.com/report/data-center-switch-asic-market">https://dataintelo.com/report/data-center-switch-asic-market</a></li>
+          <li>Damodaran／行業利潤率：<a href="https://christopholivierconsulting.com/profit-margin-by-industry/">https://christopholivierconsulting.com/profit-margin-by-industry/</a></li>
+          <li>地區營收拆分：<a href="https://bullfincher.io/companies/broadcom/revenue-by-geography">https://bullfincher.io/companies/broadcom/revenue-by-geography</a></li>
+          <li>10-K 營收認列／地區表：<a href="https://app.edgar.tools/companies/AVGO/disclosures/revenue">https://app.edgar.tools/companies/AVGO/disclosures/revenue</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer">
+      <span>第 3 頁 / 共 3 頁</span>
+      <span class="disclaimer">僅為報告參考，非投資建議</span>
+    </div>
+  </section>
+</body>
+</html>
