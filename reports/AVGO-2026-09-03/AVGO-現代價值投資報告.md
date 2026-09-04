@@ -100,16 +100,22 @@ YTD 三季 US$710.89 億 vs 去年同期 US$458.72 億（+55%）。**遠超過 1
 
 ### 市場空間（TAM）與大 M／小 M／SAM
 
-| 層級 | 定義 | 規模與增速 |
-| --- | --- | --- |
-| **大 M** | AI 加速器晶片整體 | 2024 US$1,160 億 → 2033 US$6,040 億，CAGR **16%**（Bloomberg Intelligence）；GPU 仍主導，客製 ASIC CAGR **27%** |
-| **小 M** | 客製 AI ASIC 共設計 | 2025 US$92.5 億 → 2032 US$684 億，CAGR **33%**（MarketsandMarkets）。Broadcom 約 **60%** 市佔、Marvell 約 35%，兩家合計約 95% |
-| **SAM** | Broadcom 可服務的 XPU＋AI 乙太網路＋光學 | 資料中心交換 ASIC 2025 US$94 億 → 2034 US$248 億，CAGR 11.4%。高階乙太網路交換矽 Broadcom 約 **80%**。公司內容約 **US$200–300 億／GW** |
-| **SOM** | 已拿下的六家前沿模型客戶 | FY2026 AI run-rate（Q4 指引年化）約 US$868 億；FY2028 公司路徑 US$2,300 億 |
+Broadcom 同時吃三條賽道：客製 XPU、AI 乙太網路（交換＋光學）、企業私有雲軟體。下面用「大盤 → 真正在打的細分 → 公司拿得到的份」拆開。舊的研究機構「客製 ASIC 2025 年僅 US$92.5 億」已失效——Broadcom 單家 FY2026 AI 指引就是 US$580 億。
 
-重點：Broadcom 的斜率遠高於「AI 加速器大盤 16%」，因為增量幾乎全部落在客製 ASIC（27–33% CAGR）與乙太網路交換，而不是與 NVIDIA 正面搶通用 GPU。
+| 層級 | 賽道 | 規模與增速 | 對 AVGO 的意義 |
+| --- | --- | --- | --- |
+| **大 M** | 全球半導體 | 2025 **US$8,090 億** → 2026 **US$1.555 兆**（+92%）→ 2027 **US$1.940 兆**（Gartner，2026-08-24） | 大盤被記憶體拉高；Broadcom 吃的是非記憶體／系統矽 |
+| **大 M** | AI 資料中心半導體生態 | 2026 佔全球半導體 **36.5%**（約 US$5,680 億）→ 2030 **超過 53%**（Gartner） | 這才是 Broadcom 成長所在的「大池」 |
+| **大 M** | AI 加速器晶片 | 2024 US$1,160 億 → 2033 US$6,040 億，CAGR **16%**；其中客製 ASIC CAGR **27%**（Bloomberg Intelligence，2026-01） | GPU 仍主導大盤；客製 ASIC 是更快的子曲線 |
+| **小 M** | 客製 XPU／AI ASIC（Broadcom 實際在賣的加速器） | 公司路徑：FY2025 約 **US$203 億** → FY2026 **US$580 億**（+186%）→ FY2027 **US$1,150 億** → FY2028 **US$2,300 億**。內容約 **US$200–300 億／GW** | 這條小 M 已被公司訂單改寫；研究機構 2025 年「US$92 億」口徑過時，不再採用 |
+| **小 M** | AI 後端交換（scale-up／scale-out／scale-across） | Dell'Oro：2026–2030 **累計接近 US$1 兆**；2026 Q1 乙太網路已佔 AI 叢集交換約 **2/3**；2026 Q2 後端交換銷售首度超過前端。650 Group：資料中心網路十年末約 **US$2,000 億／年**；AI scale-out 乙太網路 2030 **超過 US$1,000 億**；scale-up 交換 2030 **超過 US$300 億**（另加光學 US$100 億+） | 管理層稱 AI 網路未來數年增速將與 XPU 相當；Tomahawk 6／7／Ultra 同時打 scale-out 與 scale-up |
+| **小 M** | 企業私有雲／SDDC 軟體 | 企業私有雲基礎設施：2025 **US$333 億** → 2034 **US$1,739 億**，CAGR **20.0%**（Research Intelo）。軟體定義資料中心：2025 **US$1,456 億** → 2030 **US$3,516 億**，CAGR **19.2%** | FY2026 軟體隱含約 US$314 億，已是私有雲軟體堆疊的核心供應商，不是「小玩家等市場長大」 |
+| **SAM** | Broadcom 可服務市場 | 客製 ASIC 共設計約 **60%** 市佔（Marvell 約 35%）；高階乙太網路交換矽約 **80%**；VCF 為全球部署最廣的私有雲軟體堆疊。可服務 = XPU＋交換 ASIC＋光學 DSP／雷射＋VCF／資安，不是單賣一顆加速器 | SAM 大於「晶片 TAM」：一 GW 內容含加速器、交換、光學 |
+| **SOM** | 已拿下的份額 | 六家 XPU 客戶；Q4 FY2026 AI 指引年化約 **US$868 億**；FY2028 AI 路徑 **US$2,300 億**。若對照 BI 2033 加速器 US$6,040 億，公司 2028 年單年 AI 已相當於該終點市場的約 38%——代表要嘛市佔極高、要嘛公開 TAM 仍低估客製矽＋網路 | 能見度在六家客戶的 GW，不在散戶 GPU |
 
-來源：[Bloomberg Intelligence](https://www.bloomberg.com/company/press/ai-accelerator-market-looks-set-to-exceed-600-billion-by-2033-driven-by-hyperscale-spending-and-asic-adoption-according-to-bloomberg-intelligence/)、[MarketsandMarkets 客製 ASIC](https://www.marketsandmarkets.com/Market-Reports/custom-ai-asic-market-130951669.html)、[Dataintelo 交換 ASIC](https://dataintelo.com/report/data-center-switch-asic-market)
+**讀法：** 大 M 確認賽道夠大（AI 資料中心將吃掉半個半導體業）；小 M 確認 Broadcom 打的是增速更快的客製矽與乙太網路，不是跟 NVIDIA 搶通用 GPU；SAM／SOM 確認它已經是這兩條細分的龍頭，限制在供給與機房，不在「市場太小」。
+
+來源：[Gartner 2026-08-24 半導體預測（TechEdgeAI 轉述）](https://techedgeai.com/gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-6-trillion-in-2026/)、[Gartner 原文](https://www.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-trillion-dollars-in-2026)、[Bloomberg Intelligence AI 加速器](https://www.bloomberg.com/company/press/ai-accelerator-market-looks-set-to-exceed-600-billion-by-2033-driven-by-hyperscale-spending-and-asic-adoption-according-to-bloomberg-intelligence/)、[Dell'Oro AI 後端交換 US$1 兆](https://www.prnewswire.com/news-releases/ai-back-end-switch-sales-to-approach-1-trillion-over-the-next-five-years-according-to-delloro-group-302831878.html)、[Dell'Oro 2026 Q2 後端超過前端](https://www.prnewswire.com/news-releases/ai-back-end-networks-switch-sales-surpass-front-end-networks-for-the-first-time-in-2q2026-according-to-delloro-group-302866912.html)、[650 Group 資料中心網路 US$2,000 億](https://650group.com/blog/in-the-ai-era-ethernet-set-to-surge-in-scale-out-and-ramp-in-scale-up/)、[Research Intelo 私有雲](https://researchintelo.com/report/enterprise-private-cloud-infrastructure-market)、[SDDC 市場](https://www.knowledge-sourcing.com/report/software-defined-data-center-market)、[Q3 法說 GW／內容](https://www.tradingkey.com/news/transcripts/262147548-tradingkey)
 
 ### 業務部門增長與驅動力
 
@@ -310,9 +316,15 @@ Broadcom 已從「高利潤的多元半導體＋VMware 現金牛」切到「客�
 - [StockAnalysis Ratios](https://stockanalysis.com/stocks/avgo/financials/ratios/)
 - [MarketScreener 財務預估](https://www.marketscreener.com/quote/stock/BROADCOM-INC-199910242/finances/)
 - [Simply Wall St 美股半導體產業倍數](https://simplywall.st/markets/us/tech/semiconductors)
+- [Gartner 全球半導體預測（TechEdgeAI 轉述）](https://techedgeai.com/gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-6-trillion-in-2026/)
+- [Gartner 新聞稿原文](https://www.gartner.com/en/newsroom/press-releases/2026-08-24-gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-trillion-dollars-in-2026)
 - [Bloomberg Intelligence AI 加速器 TAM](https://www.bloomberg.com/company/press/ai-accelerator-market-looks-set-to-exceed-600-billion-by-2033-driven-by-hyperscale-spending-and-asic-adoption-according-to-bloomberg-intelligence/)
-- [MarketsandMarkets 客製 AI ASIC](https://www.marketsandmarkets.com/Market-Reports/custom-ai-asic-market-130951669.html)
-- [Dataintelo 資料中心交換 ASIC](https://dataintelo.com/report/data-center-switch-asic-market)
+- [Dell'Oro AI 後端交換 2026–2030 累計近 1 兆](https://www.prnewswire.com/news-releases/ai-back-end-switch-sales-to-approach-1-trillion-over-the-next-five-years-according-to-delloro-group-302831878.html)
+- [Dell'Oro 2026 Q2 後端交換超過前端](https://www.prnewswire.com/news-releases/ai-back-end-networks-switch-sales-surpass-front-end-networks-for-the-first-time-in-2q2026-according-to-delloro-group-302866912.html)
+- [Dell'Oro 乙太網路佔 AI scale-out 約 2/3](https://www.prnewswire.com/news-releases/ethernet-extends-lead-in-ai-scale-out-networks-despite-strong-infiniband-rebound-according-to-delloro-group-302788112.html)
+- [650 Group 資料中心網路 TAM](https://650group.com/blog/in-the-ai-era-ethernet-set-to-surge-in-scale-out-and-ramp-in-scale-up/)
+- [Research Intelo 企業私有雲基礎設施](https://researchintelo.com/report/enterprise-private-cloud-infrastructure-market)
+- [SDDC 市場 2025–2030](https://www.knowledge-sourcing.com/report/software-defined-data-center-market)
 - [Damodaran／行業利潤率整理](https://christopholivierconsulting.com/profit-margin-by-industry/)
 - [地區營收拆分](https://bullfincher.io/companies/broadcom/revenue-by-geography)
 - [10-K 營收認列／地區表](https://app.edgar.tools/companies/AVGO/disclosures/revenue)
