@@ -684,6 +684,75 @@ Space Systems 相反：29.4% → 31.0% → **35.3%** → 34.6%。Q2 公司 GAAP 
 
 ---
 
+## 附錄：現價買到哪一年？（法人 EPS × 樂觀 / 合理 / 悲觀 PS）
+
+**基準：2026-09-14 收盤 $62.55；市值 $374.3 億；流通股 598.46M。**  
+格子 = **該年共識營收 × PS ÷ 598.46M 股**，即「若市場願意用這個 PS 買那一年的營收，股價該是多少」。EPS 放在欄位上，是因為 2026–2027 仍虧、PE 算不出來——現價的支撐幾乎全在營收，不在盈餘。
+
+### 法人共識（曆年）
+
+| | **FY2026E** | **FY2027E** | **FY2028E** |
+| --- | --- | --- | --- |
+| **GAAP EPS 共識** | **−$0.27**（區間約 −$0.30 ~ −$0.26） | **−$0.07**（區間約 −$0.07 ~ −$0.02） | **+$0.14**（區間約 +$0.14 ~ +$0.28，覆蓋少） |
+| 非 GAAP EPS（S&P / StockAnalysis） | −$0.04 | +$0.05 | 未完整披露 |
+| **營收共識（PS 的分母）** | **$953M** | **$1.36B** | **$1.76B** |
+| 營收 YoY | +58% | +42% | +30% |
+
+GAAP EPS 取 [MarketScreener](https://ca.marketscreener.com/quote/stock/ROCKET-LAB-CORPORATION-126208072/finances/) 完整三年路徑（−$0.27 / −$0.07 / +$0.14），與 [Yahoo](https://finance.yahoo.com/quote/RKLB/analysis/) 2026–27（−$0.26 / −$0.04）、[WallStreetZen](https://www.wallstreetzen.com/stocks/us/nasdaq/rklb/stock-forecast) 2028（+$0.16）同向。營收取同一組 $953M / $1.36B / $1.76B；[StockAnalysis](https://stockanalysis.com/stocks/rklb/forecast/) 2026E 為 $958M。**這組數字大概率不含 Iridium 併表**（目標 2027 年中交割）。
+
+### 隱含股價表（直欄 PS × 橫欄那年營收）
+
+| PS 情境 | 意義（見下節） | **2026E** EPS −$0.27｜營收 $953M | **2027E** EPS −$0.07｜營收 $1.36B | **2028E** EPS +$0.14｜營收 $1.76B |
+| --- | --- | --- | --- | --- |
+| **樂觀 25x** | 超高增長硬體 / 品類贏家 | **$40** | **$57** | **$73** |
+| **合理 12x** | 高增長製造，溢價於航太國防 | **$19** | **$27** | **$35** |
+| **悲觀 5x** | 當成熟發射 / 國防承包商 | **$8** | **$11** | **$15** |
+| **現價 $62.55 隱含 PS** | 市場實際在付的倍數 | **39x** | **28x** | **21x** |
+| 現價 vs 樂觀 25x | — | 貴 **57%** | 貴 **10%** | 便宜 **15%** |
+| 現價 vs 合理 12x | — | 貴 **3.3 倍** | 貴 **2.3 倍** | 貴 **79%** |
+
+讀法：同一列往右走，是「把同一套 PS 用在更遠的營收」；同一欄往下走，是「對同一年營收，市場肯付多貴」。綠燈只出現在「樂觀 25x × 2028E」（隱含 $73 > 現價 $63）。其餘格子現價都比較貴。
+
+### 所以現價跑到哪一年？
+
+把公式反過來：**需要多少營收，現價才等於該 PS？**  
+應有營收 = $374.3 億 ÷ PS。
+
+| 你願意給的 PS | 現價 $62.55 已經買到的營收 | 對上法人路徑的「年份」 |
+| --- | --- | --- |
+| **樂觀 25x** | **$15.0 億** | **2027 年底～2028 年中**（2027E $13.6 億，2028E $17.6 億） |
+| **合理 12x** | **$31.2 億** | **約 2030–2031**（[ChartMill](https://www.chartmill.com/stock/quote/RKLB/analyst-ratings) 遠年：2030E $25.9 億、2031E $38.9 億） |
+| **悲觀 5x** | **$74.9 億** | **2033 以後**（2033E $65.0 億仍不夠） |
+| 現價自己的倍數 | TTM 49x、$9.53 億的 2026E 為 **39x** | 把「2028 的樂觀倍數」提前兩年付完 |
+
+**一句話：** 市場現在不是在買 2026 的 EPS（那一年還要虧約 $0.27），而是用 **21–28x PS 在買 2027–2028 的營收**。若你認為 25x 對一家尚未穩定獲利的航太製造商算樂觀但可討論，現價大約卡在 **2028 年營收的九折**；若你只願給合理的 12x，現價已經把 **2031 年左右** 的遠年營收折現進來了。
+
+兩個會改結論的開關：
+
+1. **Iridium 若 2027 年中交割並完整併表**，2028 營收可能接近 RKLB $17.6 億 + Iridium ~$9 億 ≈ **$27 億**，現價隱含 PS 降到約 **14x**——從「樂觀 2028」變成「合理偏貴」。但股本會因發股增加（交易一半股票），且 $36 億過橋貸款會抬高 EV，分子分母一起變，不能直接用 $27 億去除今天的 $374 億。
+2. **ATM 續發、轉換債稀釋**：上表用現在 598.46M 股。股數再升，同樣市值對應的每股更低，隱含 PS 不變、隱含「每股價格」會下修。
+
+### 不同 PS 代表什麼？
+
+PS = 市值 / 年營收。它不問「今年賺不賺錢」，只問「市場願意為 $1 的銷售付多少」。RKLB 2026–2027 GAAP EPS 為負，**PE 失效，PS 是唯一還能對年的倍數**。
+
+| PS 帶 | 市場在說什麼 | 誰通常在這帶 | 對 RKLB 的含義 |
+| --- | --- | --- | --- |
+| **3–5x（悲觀）** | 成熟、低雙位數增長、利潤已在帳上；失敗成本由股東承擔 | 航太國防行業約 **3.3x**（Simply Wall St）；發射服務經驗倍數 **2–5x EV/S** | Neutron 沒飛成、被當成「會造小火箭與衛星的國防供應商」。現價要這帶成立，得看到 **$75 億** 年營收 |
+| **8–12x（合理）** | 增長還很快，但本質是製造業：產能、固定價格、客戶集中 | 高增長工業 / 部分半導體設備的中低檔 | Neutron 能飛、SDA 能交貨，但不給「下一個 SpaceX」敘事。現價對 2028E 已是 21x，**比這帶貴約一倍** |
+| **15–25x（樂觀）** | 品類贏家、超高增長，利潤可以「以後再驗證」 | 高增長硬體在敘事最熱時 | 這是現價唯一對得上的帶：21x 2028E、28x 2027E。前提是 2027–28 營收共識達標，且倍數不再壓縮 |
+| **30x+（現價對 2026）** | 把兩三年後的樂觀結局提前付清；執行不能失手 | 2024–25 的 RKLB 自身（TTM 曾 50–60x） | 現價對 **今年** 營收仍是 **39x**。這不是「合理成長股」，是選擇權定價 |
+
+對照檢查：
+
+- **倍數從 39x（2026E）降到 21x（2028E）**，靠的是法人假設營收三年內從 $6.0 億長到 $17.6 億，不是市場變便宜。若 2028 只收到 $13 億（約 2027 共識），現價立刻回到 **29x**。
+- **EPS 要到 2028 才轉正 +$0.14**。即便用樂觀的 MarketWatch 2028E +$0.28，現價仍是 **224x PE**；用 MarketScreener +$0.14 是 **447x**。所以「現價買的是哪一年的 EPS」答案是：**還沒買到有意義的 EPS 年**。
+- 分析師 12 個月目標價中位數約 **$111–115**（[StockAnalysis](https://stockanalysis.com/stocks/rklb/forecast/) 平均 $111），等於給 2028E $17.6 億約 **38x PS**——目標價比現價更貴，不是更便宜。目標價在說「成長故事延續」，不是在說「現在低估」。
+
+資料：[StockAnalysis 報價與統計（2026-09-14 收盤 $62.55、市值 $374.3 億、598.46M 股）](https://stockanalysis.com/stocks/rklb/statistics/)、[StockAnalysis Forecast](https://stockanalysis.com/stocks/rklb/forecast/)、[Yahoo Analysis](https://finance.yahoo.com/quote/RKLB/analysis/)、[MarketScreener 三年損益](https://ca.marketscreener.com/quote/stock/ROCKET-LAB-CORPORATION-126208072/finances/)、[MarketWatch 年度 EPS](https://www.marketwatch.com/investing/stock/rklb/analystestimates)、[WallStreetZen](https://www.wallstreetzen.com/stocks/us/nasdaq/rklb/stock-forecast)、[ChartMill 遠年營收](https://www.chartmill.com/stock/quote/RKLB/analyst-ratings)、[Simply Wall St A&D PS](https://simplywall.st/markets/us/industrials/aerospace-and-defense)
+
+---
+
 ## 資料來源（主要）
 
 1. [Rocket Lab FY2025 Q4 與全年新聞稿](https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-fourth-quarter-and-full-year-2025-financial)
@@ -708,6 +777,14 @@ Space Systems 相反：29.4% → 31.0% → **35.3%** → 34.6%。Q2 公司 GAAP 
 20. [Iridium 8-K 交易條款](https://www.sec.gov/Archives/edgar/data/1418819/000110465926078483/tm2619278d1_ex99-1.htm)
 21. [Via Satellite：FY2025 部門增速與 Neutron 延期](https://www.satellitetoday.com/finance/2026/02/27/rocket-lab-hits-record-revenue-in-25-but-delays-neutron-to-late-26/)
 22. [Motley Fool：59x 營收估值評論](https://www.fool.com/investing/2026/08/22/rocket-lab-trades-at-59-times-revenue-with-neutron-still-unflown/)
+23. [Q3 2025 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1819994/000181999425000021/rklb-20250930.htm)
+24. [FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm)
+25. [Q1 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000028/rklb-20260331.htm)
+26. [Q2 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/rklb-20260630.htm)
+27. [MarketScreener RKLB 三年損益共識](https://ca.marketscreener.com/quote/stock/ROCKET-LAB-CORPORATION-126208072/finances/)
+28. [MarketWatch RKLB Analyst Estimates](https://www.marketwatch.com/investing/stock/rklb/analystestimates)
+29. [WallStreetZen RKLB 三年 EPS / 營收](https://www.wallstreetzen.com/stocks/us/nasdaq/rklb/stock-forecast)
+30. [ChartMill RKLB 遠年營收路徑](https://www.chartmill.com/stock/quote/RKLB/analyst-ratings)
 
 ---
 
