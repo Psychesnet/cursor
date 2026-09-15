@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HIMS 現代價值投資報告（分項詳列）- 2026年09月09日</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0b1f4a; --navy-2: #132a62; --ink: #1a2332; --muted: #4b5563;
+      --green: #166534; --red: #b91c1c; --amber: #b45309; --blue: #1d4ed8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+      background: #c5cdd8; color: var(--ink); line-height: 1.55;
+    }
+    .wrap { max-width: 920px; margin: 16px auto 40px; padding: 0 12px; }
+    header.top {
+      background: linear-gradient(90deg, var(--navy) 0%, var(--navy-2) 100%);
+      color: #fff; border-radius: 8px; padding: 16px 20px;
+      display: flex; justify-content: space-between; align-items: flex-end;
+      margin-bottom: 14px;
+    }
+    header.top h1 { font-size: 22px; font-weight: 800; }
+    header.top .meta { font-size: 12px; opacity: .92; text-align: right; line-height: 1.45; }
+    .toc {
+      background: #fff; border: 1px solid #d7dee8; border-radius: 8px;
+      padding: 12px 16px; margin-bottom: 14px; font-size: 13.5px;
+    }
+    .toc b { display: block; margin-bottom: 6px; }
+    .toc a { color: var(--blue); text-decoration: none; }
+    .toc ol { padding-left: 20px; }
+    .toc li { margin: 3px 0; }
+    .box { border: 1.8px solid; border-radius: 8px; padding: 14px 16px 16px; margin-bottom: 14px; background: #fff; }
+    .s1 { border-color: #60a5fa; }
+    .s2 { border-color: #4ade80; }
+    .s3 { border-color: #f9a8d4; }
+    .s4 { border-color: #fbbf24; }
+    .s5 { border-color: #c4b5fd; }
+    .risk { border-color: #f87171; }
+    .sum { border-color: #38bdf8; }
+    .srcbox { border-color: #94a3b8; }
+    h2 { font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+    .s1 h2 { color: #1d4ed8; } .s2 h2 { color: #166534; } .s3 h2 { color: #9d174d; }
+    .s4 h2 { color: #92400e; } .s5 h2 { color: #5b21b6; } .risk h2 { color: #9f1239; }
+    .sum h2 { color: #075985; }
+    h3 {
+      font-size: 14.5px; font-weight: 800; margin: 16px 0 8px;
+      padding: 6px 10px; border-radius: 6px; background: #f8fafc; border-left: 4px solid #64748b;
+    }
+    .s1 h3 { border-left-color: #3b82f6; background: #eff6ff; }
+    .s2 h3 { border-left-color: #22c55e; background: #f0fdf4; }
+    .s3 h3 { border-left-color: #ec4899; background: #fdf2f8; }
+    .s4 h3 { border-left-color: #f59e0b; background: #fffbeb; }
+    .s5 h3 { border-left-color: #8b5cf6; background: #f5f3ff; }
+    .risk h3 { border-left-color: #ef4444; background: #fff1f2; }
+    p { font-size: 14px; margin: 0 0 8px; }
+    ul, ol { padding-left: 20px; font-size: 14px; margin: 0 0 8px; }
+    li { margin: 4px 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 8px 0 12px; }
+    th, td { border: 1px solid #e5e7eb; padding: 6px 8px; text-align: left; vertical-align: top; }
+    th { background: #f1f5f9; font-weight: 700; }
+    td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+    .g { color: var(--green); font-weight: 700; }
+    .r { color: var(--red); font-weight: 700; }
+    .a { color: var(--amber); font-weight: 700; }
+    .tag {
+      display: inline-block; font-size: 12px; font-weight: 800;
+      padding: 2px 8px; border-radius: 999px; margin-left: 6px; vertical-align: middle;
+    }
+    .tag.g { background: #dcfce7; color: #166534; }
+    .tag.a { background: #fef3c7; color: #92400e; }
+    .tag.r { background: #fee2e2; color: #991b1b; }
+    .formula { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 13px; background: #f8fafc; padding: 8px 10px; border-radius: 6px; margin: 8px 0; }
+    .verdict { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 10px 0 12px; }
+    .chip { border-radius: 6px; padding: 8px 4px; text-align: center; font-size: 13px; font-weight: 800; border: 1px solid; }
+    .chip.ok { background: #dcfce7; border-color: #86efac; color: #166534; }
+    .chip.warn { background: #ffedd5; border-color: #fdba74; color: #9a3412; }
+    .chip.bad { background: #fee2e2; border-color: #fca5a5; color: #991b1b; }
+    .note { font-size: 12.5px; color: #4b5563; }
+    .srcbox a, .box a { color: var(--blue); }
+    footer.bar { font-size: 12px; color: #6b7280; padding: 10px 4px 20px; display: flex; justify-content: space-between; }
+    footer.bar .disc { color: #dc2626; font-weight: 700; }
+    .score { float: right; color: #7c3aed; }
+    @media (max-width: 720px) {
+      .verdict { grid-template-columns: 1fr 1fr; }
+      header.top { flex-direction: column; gap: 8px; align-items: flex-start; }
+      header.top .meta { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>HIMS 現代價值投資報告（分項詳列）</h1>
+      <div style="font-size:12.5px;opacity:.9;margin-top:4px;">Hims &amp; Hers Health, Inc.（NYSE: HIMS）｜濃縮版見 <a href="./hims-modern-value-report.html" style="color:#93c5fd;">兩頁摘要</a>｜<a href="./hims-customers-outlook.html" style="color:#93c5fd;">客人／花錢／KPI</a>｜<a href="./hims-bear-case.html" style="color:#93c5fd;">空頭論點整理</a>｜<a href="./hims-ebitda-model.html" style="color:#93c5fd;">倍數模型</a></div>
+    </div>
+    <div class="meta">
+      收盤價 <b>$29.58</b>（2026-08-31）<br />
+      市值 $6.90B／EV $7.61B（2.333 億股）<br />
+      財報截止 Q2'26；本文 2026-09-09 展開
+    </div>
+  </header>
+
+  <nav class="toc">
+    <b>目錄（每一項目獨立成節，後續可單點討論）</b>
+    <ol>
+      <li><a href="#s1">Known</a>：<a href="#s1a">業務模式</a>／<a href="#s1b">收入來源</a>／<a href="#s1c">客戶群體</a></li>
+      <li><a href="#s2">Growth</a>：<a href="#s2a">總收入與 YoY</a>／<a href="#s2b">未來增長指引</a>／<a href="#s2c">TAM</a>／<a href="#s2d">業務部門增長</a>／<a href="#s2e">增長持續性</a></li>
+      <li><a href="#s3">Valuation</a>：<a href="#s3a">當前估值對比</a>／<a href="#s3b">預期 PE</a>／<a href="#s3c">合理估值依據</a>／<a href="#s3d">潛在價值空間</a></li>
+      <li><a href="#s4">Profitability</a>：<a href="#s4a">利潤率</a>／<a href="#s4b">股東回報</a>／<a href="#s4c">資本效率與安全</a></li>
+      <li><a href="#s5">Moat</a>：成本／網絡／品牌／技術／韌性／總評</li>
+      <li><a href="#s6">主要風險</a></li>
+      <li><a href="#s7">綜合分析與觀點</a></li>
+    </ol>
+  </nav>
+
+  <!-- ========== STEP 1 ========== -->
+  <section class="box s1" id="s1">
+    <h2>步驟一：Known - 熟悉度評估</h2>
+    <p class="note">分析重點：快速釐清基本面、賺錢方式與受眾，評估商業模式清晰度。</p>
+
+    <h3 id="s1a">1.1 業務模式 <span class="tag g">模式清晰、現金支付 B2C</span></h3>
+    <p><b>公司做什麼：</b>Hims &amp; Hers 是現金支付（不走保險）的直銷遠距醫療平台。消費者在網站或 App 填健康問診 → 與簽約醫師（Affiliated Medical Groups，VIE 併表）完成諮詢 → 醫師開立處方時，由自有／合作藥局配製或配送學名藥、複方藥或品牌藥，並以訂閱自動續費出貨。<sup>2</sup></p>
+    <p><b>產業鏈位置：</b>不研發原廠分子、也不經營保險給付網絡。位置在<b>診療入口＋履約中間層</b>：掌握流量、問診數據、處方決策介面與最後一哩配送。上游是藥廠／原料與 503A／503B 藥局產能；下游是自費個人消費者。</p>
+    <p><b>賺錢機制：</b>絕大多數收入是線上產品＋服務（處方藥、非處方、諮詢、會員、實驗室檢測結果），以訂閱計費（30–360 天週期）。批發 OTC 給實體通路只佔 1.5%，功能接近品牌曝光而非利潤中心。<sup>2</sup></p>
+    <p><b>專科範圍：</b>性健康、掉髮、皮膚、減重（GLP-1）、荷爾蒙（睪固酮／更年期）、心理健康、綜合實驗室檢測。2025 另推出睪固酮、更年期／圍更年期支持。<sup>2</sup></p>
+    <p><b>2026 兩件結構變化（必須先記住，後面所有增長／毛利數字都繞這兩件事轉）：</b></p>
+    <ul>
+      <li><b>2026-03 美國減重轉向：</b>與 Novo Nordisk 合作，美國 GLP-1 改以 FDA 核准品牌藥（Ozempic／Wegovy 等）為主；複方 semaglutide 不再廣告、僅限臨床必要的少數個案。這是 Q1 營收只 +4%、毛利率之後掉到 64% 的直接原因。<sup>10</sup></li>
+      <li><b>2026-06 完成 Eucalyptus 收購：</b>估值最高約 $11.5 億（現金＋遞延＋或有對價）。疊加先前 Zava、Livewell，覆蓋美、英、澳、加，並延伸法、德、愛、西、日。Q2 海外營收因此年增 16 倍。<sup>1,11</sup></li>
+    </ul>
+    <p><b>商業模式清晰度：</b>高。收入認列路徑、客群、不走保險、訂閱續費，10-K 都寫得很直。不清晰的是「減重這一塊以後靠品牌藥還能賺多少毛利」，那是執行與產品組合問題，不是模式看不懂。</p>
+
+    <h3 id="s1b">1.2 收入來源 <span class="tag g">訂閱佔絕對多數</span></h3>
+    <p>公司 2025 年起改以<b>美國／海外</b>拆營收；線上／批發預計 2026 起不再作為主要拆分。<sup>2</sup></p>
+    <table>
+      <thead>
+        <tr><th>拆分</th><th class="n">FY2023</th><th class="n">FY2024</th><th class="n">FY2025</th><th>佔比／YoY（2025）</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>總營收</td><td class="n">$8.72 億</td><td class="n">$14.77 億</td><td class="n">$23.48 億</td><td>+59%</td></tr>
+        <tr><td>線上 Online</td><td class="n">$8.42 億</td><td class="n">$14.38 億</td><td class="n">$23.11 億</td><td>98.5%／+61%</td></tr>
+        <tr><td>批發 Wholesale</td><td class="n">$0.30 億</td><td class="n">$0.39 億</td><td class="n">$0.36 億</td><td>1.5%／−6%</td></tr>
+        <tr><td>美國</td><td class="n">$8.54 億</td><td class="n">$14.50 億</td><td class="n">$22.14 億</td><td>94.3%／+53%</td></tr>
+        <tr><td>海外 Rest of World</td><td class="n">$0.18 億</td><td class="n">$0.27 億</td><td class="n">$1.34 億</td><td>5.7%／+399%</td></tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr><th>Q2'26 vs Q2'25</th><th class="n">Q2'25</th><th class="n">Q2'26</th><th>YoY</th><th>佔 Q2'26</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>美國</td><td class="n">$5.37 億</td><td class="n">$6.22 億</td><td class="g">+16%</td><td>82.6%</td></tr>
+        <tr><td>海外</td><td class="n">$0.08 億</td><td class="n">$1.31 億</td><td class="g">+1,641%</td><td>17.4%</td></tr>
+        <tr><td>總營收</td><td class="n">$5.45 億</td><td class="n">$7.53 億</td><td class="g">+38%</td><td>100%</td></tr>
+      </tbody>
+    </table>
+    <p><b>產品／品牌結構（10-K，非完整專科 P&amp;L）：</b></p>
+    <ul>
+      <li>美國收入中，<b>個人化療程 &gt;70%</b>（2024 約一半）。個人化指醫師依個案開的治療計畫，可含複方。<sup>2</sup></li>
+      <li><b>Hers 品牌近 40%</b> 的美國收入（2024 不到 30%），成長來自 GLP-1 與皮膚。<sup>2</sup></li>
+      <li>FY2025「美國收入的多數仍來自非 GLP-1」。減重是增量與敘事，但平台並非單一 GLP-1 公司。<sup>2,25</sup></li>
+      <li>股東信：多個成熟專科（含 Weight Loss、Men’s Dermatology、Sexual Health、Women’s Dermatology）各自年營收已超過 $1 億。<sup>25</sup></li>
+    </ul>
+    <p><b>訂閱指標：</b></p>
+    <table>
+      <thead>
+        <tr><th>指標</th><th class="n">FY2024</th><th class="n">FY2025</th><th class="n">Q2'26</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>期末訂戶</td><td class="n">222.9 萬</td><td class="n">251.1 萬（+13%）</td><td class="n">289.1 萬（+19% YoY）</td></tr>
+        <tr><td>每訂戶月營收（MRPAS）</td><td class="n">$65</td><td class="n">$83（+28%）</td><td class="n">$92（+21% YoY）</td></tr>
+      </tbody>
+    </table>
+    <p>訂戶定義：同意按固定週期自動扣款的顧客；單次購買不算。可取消或暫停。ARPU 上升同時反映個人化／品牌藥單價，以及減重週期變短（出貨更密）。<sup>1,2</sup></p>
+
+    <h3 id="s1c">1.3 客戶群體 <span class="tag a">客群清楚；轉換成本低</span></h3>
+    <ul>
+      <li><b>賣給誰：</b>純 B2C 自費個人。尋求隱私、便利、可負擔處方的消費者，集中在美國，Q2 後國際佔比升至 17%。</li>
+      <li><b>不賣給誰：</b>不是 B2B 企業福利、也幾乎不走保險給付（與 Teladoc 的雇主／保險模式相反）。批發是 OTC 給零售商，公司已表示不再擴張新大型通路。<sup>2</sup></li>
+      <li><b>支付：</b>直接向顧客收費。這讓毛利率可以很高（沒有保險折扣），但也把獲客完全綁在廣告與品牌，CAC 波動直接打進損益。</li>
+      <li><b>轉換成本：</b>低。訂閱可取消／暫停；問診流程可被 Ro 等對手複製。黏性來自自動續費、個人化處方與「已經在用這套療程」，不是技術鎖定。FTC 指控取消流程不透明，等於監管認為黏性有一部分來自摩擦而非自願留存。<sup>22</sup></li>
+    </ul>
+  </section>
+
+  <!-- ========== STEP 2 ========== -->
+  <section class="box s2" id="s2">
+    <h2>步驟二：Growth - 增長分析</h2>
+    <p class="note">分析重點：成長動能是否強勁、是否在擴張賽道、短／長期潛力。</p>
+
+    <h3 id="s2a">2.1 總收入與 YoY <span class="tag g">遠超 20% 標準</span></h3>
+    <table>
+      <thead>
+        <tr><th>期間</th><th class="n">營收</th><th class="n">YoY</th><th>對 10%／20% 標準</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>FY2021</td><td class="n">$2.72 億</td><td class="n">+83%</td><td class="g">遠超 20%</td></tr>
+        <tr><td>FY2022</td><td class="n">$5.27 億</td><td class="n">+94%</td><td class="g">遠超 20%</td></tr>
+        <tr><td>FY2023</td><td class="n">$8.72 億</td><td class="n">+65%</td><td class="g">遠超 20%</td></tr>
+        <tr><td>FY2024</td><td class="n">$14.77 億</td><td class="n">+69%</td><td class="g">遠超 20%</td></tr>
+        <tr><td>FY2025</td><td class="n">$23.48 億</td><td class="n">+59%</td><td class="g">遠超 20%</td></tr>
+        <tr><td>Q1'26</td><td class="n">$6.08 億</td><td class="n">+4%</td><td class="r">未達 10%（複方急轉彎）</td></tr>
+        <tr><td>Q2'26</td><td class="n">$7.53 億</td><td class="n">+38%</td><td class="g">遠超 20%</td></tr>
+        <tr><td>H1'26</td><td class="n">$13.61 億</td><td class="n">+20%</td><td class="g">達到 20%</td></tr>
+        <tr><td>TTM（約）</td><td class="n">$25.8 億</td><td class="n">—</td><td>StockAnalysis TTM</td></tr>
+      </tbody>
+    </table>
+    <p><b>讀法：</b>最新完整財年 +59%，標準上沒有爭議。但成長斜率已從 2022–24 的 65–94% 下修；Q1 的 +4% 說明「高成長」不是線性保證，產品組合一改，季度可以掉到標準以下。Q2 靠品牌 GLP-1 重加速＋Eucalyptus 並表把數字拉回來。<sup>1,2,3,4</sup></p>
+
+    <h3 id="s2b">2.2 未來增長指引 <span class="tag g">三年營收 CAGR 逾 20%</span></h3>
+    <p><b>公司指引（Q2 後上修）：</b></p>
+    <ul>
+      <li>Q3'26 營收 <b>$8.80–9.00 億</b>；Adj. EBITDA $0.75–0.95 億（利潤率 9–11%）。</li>
+      <li>FY2026 營收 <b>$31–33 億</b>（中位 $32 億 ≈ 對 FY2025 +36%）。</li>
+      <li>FY2026 Adj. EBITDA <b>$2.75–3.25 億</b>（利潤率 9–10%），低於 FY2025 的 $3.18 億／14%。這是「用利潤換成長」的明示。<sup>1</sup></li>
+    </ul>
+    <p><b>Street（StockAnalysis／Yahoo，約 14 位營收分析師）：</b></p>
+    <table>
+      <thead>
+        <tr><th>年</th><th class="n">營收共識</th><th class="n">YoY</th><th class="n">非 GAAP EPS</th><th class="n">GAAP EPS（參考）</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>FY2026E</td><td class="n">$32.0 億</td><td class="n">+36%</td><td class="n">$0.54（−51%）</td><td class="n">Yahoo −$0.45；StockAnalysis 淨損約 $1.14 億</td></tr>
+        <tr><td>FY2027E</td><td class="n">$39.8 億</td><td class="n">+24%</td><td class="n">$1.11（+107%）</td><td class="n">Yahoo $0.53</td></tr>
+        <tr><td>三年營收 CAGR</td><td class="n" colspan="4">StockAnalysis 標示 <b>23.94%</b>（達標 20%）</td></tr>
+      </tbody>
+    </table>
+    <p><b>公司 2030 目標：</b>至少 <b>$65 億營收、$13 億 Adj. EBITDA</b>（約 20% 利潤率）。自 FY2025 $23.48 億起五年 CAGR ≈ <b>22.6%</b>；自 FY2026 中位 $32 億起四年 CAGR ≈ 19.4%。這是管理層目標，不是指引，達成取決於國際整合與毛利率止穩。<sup>1,12</sup></p>
+    <p><b>EPS 口徑衝突（估值時必須分開）：</b>2026 年 GAAP 共識是虧損，非 GAAP 仍有 $0.54。後面「預期 PE」用非 GAAP 才能算出倍數；若堅守 GAAP，2026 年 PE 不存在。</p>
+
+    <h3 id="s2c">2.3 市場空間（TAM）<span class="tag g">賽道空間大</span></h3>
+    <p><b>大 M（TAM）— 全球遠距醫療：</b></p>
+    <ul>
+      <li>Mordor：2025 <b>$1,754.8 億</b> → 2030 $5,050.7 億，CAGR <b>23.55%</b>。<sup>13</sup></li>
+      <li>Fortune Business Insights：2025 $1,864.1 億，2026–34 CAGR <b>24.60%</b>。<sup>14</sup></li>
+      <li>HIMS FY2025 $23.5 億 ≈ 大 M 的 <b>1.3%</b>，市佔空間在數學上很大，但大 M 含醫院遠距、保險給付、遠距影像等，HIMS 吃不到全部。</li>
+    </ul>
+    <p><b>小 M／SAM — 現金支付 DTC 專科＋GLP-1 遠距處方：</b></p>
+    <ul>
+      <li>GLP-1 遠距處方平台：2025 <b>$38 億 → 2034 $231 億</b>，CAGR 22.5%。北美 2025 佔 62.4%。<sup>15</sup></li>
+      <li>HIMS 可觸及的另一塊是現金支付性健康／掉髮／皮膚／荷爾蒙。10-K 明確寫美國收入多數仍非 GLP-1，所以 SAM 不是「只有減重」。</li>
+      <li>沒有單一權威數字把「美國現金支付 DTC 專科」加總成一個 TAM；不宜把 $1,800 億遠距醫療直接當 HIMS 的可服務市場。</li>
+    </ul>
+    <p><b>SOM — 公司實際可吃到的：</b>美國 50 州現金支付訂閱，加上英／澳／加／歐／日（Zava、Livewell、Eucalyptus）。Q2 海外已佔 17%。限制條件：不走保險、依賴廣告獲客、減重受 FDA／原廠供應約束。</p>
+
+    <h3 id="s2d">2.4 業務部門增長 <span class="tag a">驅動力切換中</span></h3>
+    <p><b>主驅動力（2024–2025）：</b>美國個人化療程放量（含複方 GLP-1）、Hers 品牌、訂戶與 ARPU 雙升。FY2025 美國 +53%、海外 +399%（基期小，來自收購）。<sup>2</sup></p>
+    <p><b>主驅動力（2026 起）：</b>從「美國複方 GLP-1」切到「品牌 GLP-1 組合＋國際平台」。</p>
+    <ul>
+      <li>Q2 美國 +16%：CFO 說 3 月轉向品牌藥後，新訂戶增加抵銷了品牌藥改月繳的認列逆風。<sup>1,16</sup></li>
+      <li>Q2 海外 +1,641%：幾乎全是 Eucalyptus 6 月並表。這是併購增長，不是有機。</li>
+      <li>ARPU $76 → $92（+21%）：單價上升，但毛利率同步被品牌藥成本稀釋。</li>
+      <li>成熟專科（性健康、掉髮、皮膚）提供現金流；增量看減重品牌藥、荷爾蒙、肽類（sermorelin／NAD+／glutathione，管理層稱年底推出）、Labs AI（最多 130 項生物標記）。<sup>16</sup></li>
+    </ul>
+    <p><b>還不是驅動力的：</b>批發（−6%，刻意不擴）。保險給付（沒有）。自有分子管線（沒有）。</p>
+
+    <h3 id="s2e">2.5 增長持續性 <span class="tag a">能見度中等、可被監管打斷</span></h3>
+    <p><b>支撐持續性的證據：</b></p>
+    <ul>
+      <li>訂閱經常性收入：多數線上銷售是自動續費，10-K 稱兩年以上訂戶貢獻「長期收入留存」的主體。<sup>2</sup></li>
+      <li>289 萬訂戶＋Q3 指引 $8.8–9.0 億，管理層說國內下半年會繼續加速。<sup>1</sup></li>
+      <li>2030 $65 億是公開目標，國際資產已在報表上。</li>
+    </ul>
+    <p><b>削弱持續性的證據：</b></p>
+    <ul>
+      <li><b>沒有 RPO／積壓訂單。</b>能見度是「指引＋訂閱續費假設」，不是雲端那種剩餘履約義務。</li>
+      <li><b>行銷依賴：</b>FY2025 行銷 $9.19 億（佔營收 39%），其中顧客獲取成本 <b>$7.99 億</b>（佔營收 34%）。成長機器的燃料是廣告預算，不是自然流量護城河。<sup>2</sup></li>
+      <li><b>Q1'26 +4% 是壓力測試結果：</b>單一監管／產品決策（停推複方 GLP-1）可以把年增率從 50%+ 打到個位數。這不是抽象風險。</li>
+      <li>品牌 GLP-1 供給受原廠與短缺／配額影響；10-K 寫減重品項高度依賴單一供應商。<sup>2</sup></li>
+    </ul>
+    <p><b>結論：</b>未來 12–18 個月成長「可以」延續（指引與 Q2 已證明品牌藥也能賣），但持續性的條件是：FDA／FTC 不再二次改寫產品組合、CAC 維持可接受、Eucalyptus 不拖垮國內執行。這不是 NVIDIA 那種 $5000 億訂單能見度。</p>
+  </section>
+
+  <!-- ========== STEP 3 ========== -->
+  <section class="box s3" id="s3">
+    <h2>步驟三：Valuation - 估值評估</h2>
+    <p class="note">分析重點：結合增長判斷現價是否合理，計算潛在上漲空間。價格基準 2026-08-31 收盤 <b>$29.58</b>，流通 2.3331 億股，市值 $6.90B，EV $7.61B。<sup>4</sup></p>
+
+    <h3 id="s3a">3.1 當前估值對比 <span class="tag r">PE／P/FCF 高於行業</span></h3>
+    <table>
+      <thead>
+        <tr><th>倍數</th><th class="n">HIMS</th><th>行業／同業</th><th>判定</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>PE（TTM GAAP）</td>
+          <td class="n">無意義（EPS −$0.62，淨損 $1.42 億）</td>
+          <td>TDOC／AMWL 同樣虧損，PE 不可比</td>
+          <td class="r">無法用 TTM PE 說便宜</td>
+        </tr>
+        <tr>
+          <td>PE（FY2025 GAAP）</td>
+          <td class="n">$29.58／$0.51 ≈ <b>58.0x</b></td>
+          <td>Damodaran Healthcare Support 獲利公司 Trailing <b>21.1x</b>；Healthcare IT Forward 37.4x；Healthcare Products Forward 42.3x<sup>17</sup></td>
+          <td class="r">對獲利醫療服務明顯溢價</td>
+        </tr>
+        <tr>
+          <td>Forward PE（非 GAAP）</td>
+          <td class="n">StockAnalysis <b>76.0x</b>；用 $0.54 → 54.8x</td>
+          <td>Healthcare Support Forward 55.3x（含虧損公司會失真）</td>
+          <td class="a">視口徑，中高</td>
+        </tr>
+        <tr>
+          <td>PS（TTM）</td>
+          <td class="n"><b>2.68x</b></td>
+          <td>Healthcare Support 0.37x；Hospitals 1.08x；Healthcare IT 4.70x；SWS 醫療板塊約 1.4x；TDOC ~0.5x<sup>18,19,24</sup></td>
+          <td class="a">對醫療服務溢價、對健康 IT 折價</td>
+        </tr>
+        <tr>
+          <td>Forward PS</td>
+          <td class="n"><b>1.87x</b>（$6.90B／$32.0 億）</td>
+          <td>同業現金支付成長股通常 2–5x；TDOC 困境股 &lt;1x</td>
+          <td class="a">比 TTM PS 合理一些</td>
+        </tr>
+        <tr>
+          <td>P/FCF（TTM）</td>
+          <td class="n">$6.90B／$8,303 萬 = <b>83.2x</b></td>
+          <td>一般醫療／服務常見 15–25x；FY2025 曾近 100x（產能 capex）</td>
+          <td class="r">現金流倍數偏貴</td>
+        </tr>
+        <tr>
+          <td>EV/Sales（TTM）</td>
+          <td class="n">$7.61B／$25.8 億 ≈ <b>2.95x</b></td>
+          <td>Multiples.vc 遠距醫療：HIMS ~2.5x、TDOC 0.6x<sup>24</sup></td>
+          <td class="a">同業 Premia 來自成長，不是折價</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><b>分類提醒：</b>交易所把 HIMS 歸在「Specialty &amp; Generic Drug Manufacturers」，那組 PE／PS 極低（學名藥製造），用來比會低估同業倍數。本報告主對照 <b>Healthcare Support、Healthcare IT、TDOC</b>，並輔以 Damodaran 2026-01 截面。<sup>17,18</sup></p>
+
+    <h3 id="s3b">3.2 預期 PE <span class="tag a">2026 倍數高、2027 後回落</span></h3>
+    <p>價格固定 $29.58。優先用 StockAnalysis <b>非 GAAP EPS</b>（否則 2026 無法算 PE）。</p>
+    <table>
+      <thead>
+        <tr><th>年</th><th class="n">EPS 假設</th><th class="n">預期 PE</th><th>備註</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>未來 1 年（FY2026）</td><td class="n">$0.54 非 GAAP</td><td class="n"><b>54.8x</b></td><td>GAAP 共識虧損，此年 PE 若用 GAAP 不存在</td></tr>
+        <tr><td>未來 2 年（FY2027）</td><td class="n">$1.11 非 GAAP</td><td class="n"><b>26.6x</b></td><td>Yahoo GAAP $0.53 → 55.8x，差距大</td></tr>
+        <tr><td>未來 3 年（FY2028）</td><td class="n">$1.39（由 $1.11 × 1.25）</td><td class="n"><b>21.3x</b></td><td>Street 未完整公開 2028 非 GAAP；MarketScreener GAAP $0.79 → 37.4x</td></tr>
+      </tbody>
+    </table>
+    <div class="formula">三年平均預期 PE = (54.8 + 26.6 + 21.3) / 3 = <b>34.2x</b></div>
+    <p>若改用保守 GAAP（跳過 2026）：(55.8 + 37.4) / 2 = 46.6x，價值空間會更負。本報告主結論用 34.2x，並在合理 PE 裡已折過 2026 虧損與口徑風險。</p>
+
+    <h3 id="s3c">3.3 合理估值依據 <span class="tag a">合理 PE 24–30x，中樞 27x</span></h3>
+    <p><b>為什麼不是 40–60x（2025 年減重故事常用區間）：</b></p>
+    <ol>
+      <li>2026 GAAP 轉虧，盈利品質比「高成長＋已獲利」差一檔。</li>
+      <li>毛利率 74% → 64%，品牌藥結構上更薄，不是暫時運費問題。</li>
+      <li>護城河 2.9/5.0，中等偏弱，給不了 NVIDIA／品牌消費龍頭那種倍數溢價。</li>
+      <li>FTC 訴訟＋FDA 複方收緊，折現率應高於普通成長股。</li>
+      <li>Eucalyptus 後淨負債、流動比 &lt;1，財務彈性下降。</li>
+    </ol>
+    <p><b>為什麼不是 15–20x（成熟醫療服務）：</b>三年營收 CAGR 仍約 24%，訂閱模式、品牌與 289 萬用戶不是 TDOC 那種收縮資產。完全按 Support Services 21x 會忽略成長。</p>
+    <p><b>落點：</b>成長溢價從 30–40x 下修一檔，給 <b>24–30x</b>，中樞 <b>27x</b>——接近 2027 年非 GAAP 26.6x，意思是「2027 修復若兌現，現價大致打平；2026 這一年你在付等待成本與執行風險」。</p>
+
+    <h3 id="s3d">3.4 潛在價值空間 <span class="tag r">估值偏高、空間為負</span></h3>
+    <div class="formula">(合理 PE ÷ 三年平均預期 PE − 1) × 100% = (27 ÷ 34.2 − 1) × 100% ≈ <b>−21.1%</b></div>
+    <table>
+      <thead>
+        <tr><th>合理 PE</th><th class="n">對 34.2x 的空間</th><th>含義</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>24x（區間下限）</td><td class="n r">−29.8%</td><td>若給成熟成長股下限，現價明顯貴</td></tr>
+        <tr><td>27x（中樞）</td><td class="n r">−21.1%</td><td>主結論</td></tr>
+        <tr><td>30x（區間上限）</td><td class="n r">−12.3%</td><td>仍為負，安全邊際不足</td></tr>
+        <tr><td>只用 2027E 26.6x vs 27x</td><td class="n">≈ 0%</td><td>「修復年」打平，沒有上漲空間</td></tr>
+      </tbody>
+    </table>
+    <p>15 位分析師目標均價 <b>$31.23</b>（+5.6%），區間 $23–$42，共識 <b>Hold</b>。市場也沒有在喊大幅低估。<sup>5</sup></p>
+    <p><b>和股價已跌 55%（52 週高 $65.30）如何並存：</b>PS 從 2025 年的 6x+ 壓到 2.68x，看起來便宜很多；但盈餘從正轉負，PE 口徑惡化。跌的是「複方 GLP-1 高毛利故事」的倍數，不是出現了深度價值。</p>
+  </section>
+
+  <!-- ========== STEP 4 ========== -->
+  <section class="box s4" id="s4">
+    <h2>步驟四：Profitability - 盈利能力</h2>
+    <p class="note">分析重點：賺錢效率、成本控管、財務健康。必須把 FY2025「已獲利」和 2026 H1「轉虧」分開看，否則會誤判。</p>
+
+    <h3 id="s4a">4.1 利潤率指標 <span class="tag r">毛利達標，損益已轉虧</span></h3>
+    <table>
+      <thead>
+        <tr><th>指標</th><th class="n">FY2023</th><th class="n">FY2024</th><th class="n">FY2025</th><th class="n">TTM</th><th class="n">Q2'26</th><th>行業對照</th><th>判定</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>毛利率</td>
+          <td class="n">82%</td><td class="n">79%</td><td class="n">73.8%<br />$17.33 億</td>
+          <td class="n">69.5%</td>
+          <td class="n">64%</td>
+          <td>Healthcare Support 12.1%；Health IT 48.3%；TDOC ~54%；藥品 71.7%<sup>20</sup></td>
+          <td class="g">遠超 30%；仍優於多數同業，但一年 −10 至 −12ppt</td>
+        </tr>
+        <tr>
+          <td>營運利潤率</td>
+          <td class="n">−4%</td><td class="n">4%</td><td class="n">4.5%<br />$1.06 億</td>
+          <td class="n">−3.8%</td>
+          <td class="n">−12.9%<br />虧 $9,719 萬</td>
+          <td>Support 3.0%；Health IT 14.7%；TDOC −6% 至 −10%</td>
+          <td class="r">低於健康 IT，且由正轉負</td>
+        </tr>
+        <tr>
+          <td>淨利率</td>
+          <td class="n">−3%</td><td class="n">9%*</td><td class="n">5.5%<br />$1.28 億</td>
+          <td class="n">−5.5%</td>
+          <td class="n">−11.5%<br />虧 $8,629 萬</td>
+          <td>Support 1.3%；Health IT 7.5%</td>
+          <td class="r">TTM 已低於行業且轉虧</td>
+        </tr>
+        <tr>
+          <td>Adj. EBITDA 利潤率</td>
+          <td class="n">6%</td><td class="n">12%</td><td class="n">14%<br />$3.18 億</td>
+          <td class="n">—</td>
+          <td class="n">8%<br />$6,032 萬</td>
+          <td>FY2026 指引 9–10%</td>
+          <td class="a">非 GAAP 仍正，但在退步</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note">*FY2024 淨利率 9% 含遞延稅資產評價準備迴轉約 $6,800 萬，稅前獲利能力沒有帳面看起來那麼好。<sup>2,3</sup></p>
+    <p><b>毛利率為什麼掉：</b>10-K 寫 FY2025 已因減重品（較短配送週期、較高產品／包裝／運費）從 79% 降到 74%。Q2'26 再降到 64%，CFO 原話大意：品牌減重藥與國際收入變大後，毛利率會低於歷史水準——這是結構指引，不是單季意外。<sup>1,2</sup></p>
+    <p><b>費用結構（FY2025 佔營收）：</b>行銷 39%、營運支援 12%、技術 7%、管銷 12%。行銷是最大洞。Q2'26 行銷 $2.62 億（佔營收 35%）仍高。H1 另有法律或有 $6,250 萬、重組 $3,811 萬、購併相關 $4,220 萬，所以 GAAP 營運虧損有一次性成分，但毛利率下滑不是一次性。<sup>1,2</sup></p>
+
+    <h3 id="s4b">4.2 股東回報 <span class="tag r">無股息、股權持續稀釋</span></h3>
+    <p><b>股息率：0%。</b>從未配息，近期也無計畫。<sup>4</sup></p>
+    <p><b>股數與稀釋（Buyback Yield 負值 = 稀釋）：</b></p>
+    <table>
+      <thead>
+        <tr><th>時點</th><th class="n">流通股</th><th>StockAnalysis 稀釋／回購</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>FY2021 底</td><td class="n">2.05 億</td><td>−428%（SPAC 上市年，不可當常態）</td></tr>
+        <tr><td>FY2022</td><td class="n">2.08 億</td><td>−9.50%</td></tr>
+        <tr><td>FY2023</td><td class="n">2.13 億</td><td>−2.36%</td></tr>
+        <tr><td>FY2024</td><td class="n">2.21 億</td><td>−13.12%</td></tr>
+        <tr><td>FY2025</td><td class="n">2.27 億</td><td>−9.05%</td></tr>
+        <tr><td>2026-06-30</td><td class="n">2.33 億（A 2.249 億＋V 838 萬）</td><td>Q2 基本加權股數 +3.3% YoY</td></tr>
+      </tbody>
+    </table>
+    <p>排除 2021 SPAC，近四年年均約 <b>−8.5% 稀釋</b>。StockAnalysis 有一欄 TTM「Buyback Yield 7.33%」與加權股數仍在增加矛盾，本報告不採「正在積極回購」的讀法，而以 10-Q 流通股與 SBC 為準。</p>
+    <p><b>SBC：</b>FY2025 $1.35 億（佔營收 5.8%）；H1'26 $7,898 萬。這是稀釋主因，不是為了買回而發債。</p>
+    <p><b>可轉債：</b>2025 已發一批；2026 再定價增發約 $3.5 億、票面 <b>0%</b>、到期 2032，用於 Eucalyptus 與 AI／履約投資。Q2 帳上可轉債淨額 <b>$13.65 億</b>。有 capped call 部分對沖稀釋，但若股價長期高於轉換價，仍可能增加流通股。<sup>1,21</sup></p>
+    <p><b>判定：</b>股東回報目前是「用股權換成長」，不是現金回饋。五年維度是稀釋，不是回購。</p>
+
+    <h3 id="s4c">4.3 資本效率與安全 <span class="tag r">ROIC 轉負；槓桿上升</span></h3>
+    <p><b>ROIC／ROE：</b></p>
+    <ul>
+      <li>FY2025：ROE 25.2%、ROCE 6.9%——帳面開始為股東創造正回報（仍低於 WACC 14.4% 的 ROCE）。<sup>4,6</sup></li>
+      <li>TTM：<b>ROIC −10.5%</b>、ROE −32.0%、ROA −2.2%。2026 上半年把 2025 的價值創造逆轉。<sup>4</sup></li>
+      <li>五年視角：2021–2023 虧損，五年平均 ROIC 為負，「尚未穩定為股東創造超過資金成本的回報」。</li>
+    </ul>
+    <p><b>資產負債（2026-06-30）：</b></p>
+    <table>
+      <thead>
+        <tr><th>項目</th><th class="n">金額</th><th>意義</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>現金及約當</td><td class="n">$6.10 億（＋短投後 StockAnalysis 現金約 $8.41 億）</td><td>帳面流動性看起來還有</td></tr>
+        <tr><td>有息負債</td><td class="n">$15.5 億（可轉債淨額 $13.65 億）</td><td>從幾乎淨現金變成淨負債</td></tr>
+        <tr><td>淨負債</td><td class="n">約 $7.05 億</td><td>EV 高於市值的原因</td></tr>
+        <tr><td>商譽</td><td class="n">$11.02 億（年底 $2.78 億）</td><td>Eucalyptus 為主，減值風險</td></tr>
+        <tr><td>遞延收購款（流＋非流）</td><td class="n">約 $7.03 億</td><td>還要付，不是已經付完</td></tr>
+        <tr><td>股東權益</td><td class="n">$3.24 億</td><td>負債／權益 4.77x</td></tr>
+        <tr><td>流動比／速動比</td><td class="n">0.93／0.82</td><td>&lt;1，營運資金緊張</td></tr>
+        <tr><td>Altman Z</td><td class="n">1.98</td><td>&lt;3 壓力區，不是破產預測</td></tr>
+      </tbody>
+    </table>
+    <p><b>利息覆蓋：</b></p>
+    <ul>
+      <li>FY2025：淨利息<b>收入</b> $2,353 萬（現金 lev 極低），覆蓋率「安全」但分子是利息收入不是費用。</li>
+      <li>TTM：EBIT 為負，帳面覆蓋 <b>−10.4x</b>，公式上不安全。<sup>4</sup></li>
+      <li>現金利息：H1'26 只付 <b>$173 萬</b>（0% 票面可轉債），H1 營運現金流仍 +$5,342 萬。真正的短債壓力比較像流動比與遞延收購款，而不是付息。</li>
+    </ul>
+    <p><b>判定：</b>以「利息覆蓋 &gt;2 即安全」的舊標準看現金利息，仍過關；以 ROIC、流動比、淨負債與商譽看，財務健康度比 FY2025 年報時差一截。</p>
+  </section>
+
+  <!-- ========== STEP 5 ========== -->
+  <section class="box s5" id="s5">
+    <h2>步驟五：Moat - 護城河評估</h2>
+    <p class="note">五維各 0–1.0，滿分 5.0。分數必須對應事實，不是品牌感覺。</p>
+
+    <h3>5.1 成本優勢 <span class="score">0.6 / 1.0</span></h3>
+    <ul>
+      <li><b>有的部分：</b>問診＋503B／自有藥局＋自動化履約垂直整合，學名藥／複方時代毛利率 74–82%，遠高於 TDOC ~54%、Healthcare Support 12%。規模讓它跟藥廠、3PL 議價，這是真實的單位成本優勢。<sup>2,20</sup></li>
+      <li><b>正在消失的部分：</b>Q2 毛利率 64%。品牌 GLP-1 進貨成本高、月配送更密、國際併購組合更薄。這是「用規模換收入、讓出毛利」，不是護城河加深。</li>
+      <li><b>行銷不是成本優勢：</b>FY2025 行銷佔 39%、CAC $7.99 億。規模沒有把獲客成本壓到結構性低位。</li>
+      <li><b>為何不是 0.8+：</b>沒有原廠那種製造／專利成本牆；毛利率方向向下。0.6 代表「相對遠距醫療同業仍較肥，但優勢在變薄」。</li>
+    </ul>
+
+    <h3>5.2 網絡效應 <span class="score">0.5 / 1.0</span></h3>
+    <ul>
+      <li>289 萬訂戶帶來採購端規模（藥廠／藥局／物流），這是<b>規模經濟</b>，不是「第 N+1 個用戶讓前 N 個用戶更有價值」的雙邊網絡。</li>
+      <li>轉換成本低：可取消、可暫停。個人化處方有一點黏性（換平台要重問診、重調劑量），但 Ro、WW、原廠 DTC 都能做問診表單。</li>
+      <li>FTC 指控取消暗黑模式，反而證明一部分留存可能來自摩擦，這種「護城河」會被監管拆掉。<sup>22</sup></li>
+      <li><b>為何不是 0.3：</b>數據閉環與醫師網絡有弱網絡特徵（更多案例 → MedMatch 更好）。<b>為何不是 0.7：</b>完全沒有社交／開發者鎖定。</li>
+    </ul>
+
+    <h3>5.3 品牌優勢 <span class="score">0.7 / 1.0</span></h3>
+    <ul>
+      <li>Hims／Hers 是美國現金支付男性／女性健康的品類代名詞：去污名化＋生活風格，而不是診所感。2025 超級盃投放是在買心智，不是只買當季訂單。<sup>2</sup></li>
+      <li>Hers 已近美國收入 40%，品牌從「男性 ED／掉髮」擴成雙品牌平台，這比純單品電商強。</li>
+      <li>品牌同時是監管箭靶：複方是否暗示等同原廠、隱私承諾、訂閱扣款，都用同一套品牌語言，也成為 FTC／FDA 執法點。<sup>22,23</sup></li>
+      <li><b>為何不是 0.9：</b>沒有全球品牌價值排行可引用到「絕對代名詞」等級（對比 NVDA＝AI）。在 DTC 減重，Novo／Lilly 的藥名本身比 Hims 更強。</li>
+    </ul>
+
+    <h3>5.4 技術門檻 <span class="score">0.6 / 1.0</span></h3>
+    <ul>
+      <li><b>有的：</b>閉環數據（問診→處方→履約→再購）、MedMatch 分診、Labs AI（最多 130 項生物標記）、自有電子病歷與雲端藥局。複製需要時間、州執照與 503B 合規，不是週末能做完。<sup>12,16</sup></li>
+      <li><b>沒有的：</b>核心藥物是學名藥或授權品牌藥，<b>零分子專利壁壘</b>。任何人有醫師網絡與履約就能賣 finasteride、sildenafil、semaglutide。</li>
+      <li>503B 外包設施 2025-12 已收 FDA 警告信（不良事件通報缺失），這是合規負債，不是加深的技術護城河。<sup>2</sup></li>
+      <li>AI 臨床引擎是差異化敘事，尚未被獨立臨床結果證明為不可替代。</li>
+    </ul>
+
+    <h3>5.5 業務韌性 <span class="score">0.5 / 1.0</span></h3>
+    <ul>
+      <li><b>加分：</b>專科多元（減重、性健康、掉髮、皮膚、荷爾蒙）；FY2025 美國收入多數非 GLP-1；Q2 海外 17%，不再是單一美國；顧客端沒有「前五大客戶 35%」那種集中。<sup>1,2</sup></li>
+      <li><b>減分：</b>現金支付 DTC 對 Meta／Google 演算法與 CAC 極度敏感；產品組合可被 FDA 一紙清單改寫（Q1 已發生）；Eucalyptus 後商譽 $11 億、淨負債 $7.05 億、流動比 0.93；<b>品類敘事集中在減重、通路集中在自有 App</b>。</li>
+      <li>財務抗風險：FY2025 看起來現金充裕；Q2 後變成槓桿化收購資產負債表，韌性下降。</li>
+    </ul>
+
+    <h3>5.6 護城河總評</h3>
+    <div class="formula">0.6 + 0.5 + 0.7 + 0.6 + 0.5 = <b>2.9 / 5.0</b>　→　中等偏弱護城河</div>
+    <p>對照：AMD 樣板約 3.5、NVDA 4.1、2025-06 舊 HIMS 報告 3.1。本次下修是因為毛利率結構惡化與槓桿，不是品牌突然變差。等級結論：<b>中等偏弱</b>（不是「低」、也不是「中等偏強」）。擋得住小 DTC 對手的廣告戰，擋不住原廠自建渠道或第二次監管改寫。</p>
+  </section>
+
+  <!-- ========== RISKS ========== -->
+  <section class="box risk" id="s6">
+    <h2>步驟六：主要風險</h2>
+    <p class="note">下列每條都已在財報或監管文件出現，不是情境想像。</p>
+
+    <h3>6.1 FTC＋加州／猶他州訴訟（2026-07-29）</h3>
+    <p>FTC、猶他州、洛杉磯縣在北加州起訴：進表單後幾乎立刻扣款、取消流程像暗黑模式、把健康資料分享給 Meta／Snap，違反 FTC Act 與 ROSCA。<sup>22</sup> Q2 法律或有事項 $4,750 萬，H1 累計 $6,250 萬。<sup>1</sup> 結果路徑：罰款、同意令、強制改訂閱／像素追蹤 → CAC 上升、轉換率下降。這直接打獲客機器，不是一次性雜訊。</p>
+
+    <h3>6.2 FDA／複方 GLP-1 與 503B 合規</h3>
+    <p>短缺名單解除後，複方空間被壓縮。公司 2026-03 已轉向品牌藥。<sup>10</sup> FDA 2026-03 對遠距醫療複方行銷發出一批警告信。<sup>23</sup> 自有 503B 於 2025-12 收警告信（不良事件通報）。<sup>2</sup> 品牌藥毛利更薄——這是獲利崩潰的結構原因。後續若肽類／其他複方再被限制，又是一次 Q1 式斷檔。</p>
+
+    <h3>6.3 毛利率與 2030 利潤率目標不一致</h3>
+    <p>74% → 64%；Adj. EBITDA 利潤率 14% → 指引 9–10%。2030 要 $13 億 Adj. EBITDA／$65 億營收 ≈ 20% 利潤率，等於未來四年要從 9% 爬到 20%，同時組合更偏品牌藥。目前軌跡相反。若毛利率在 60% 附近再往下，估值用 27x 都會嫌鬆。</p>
+
+    <h3>6.4 併購整合與槓桿</h3>
+    <p>Eucalyptus 最高 $11.5 億；商譽跳到 $11.02 億；遞延收購款約 $7 億還要付；可轉債淨額 $13.65 億；流動比 0.93。<sup>1,11</sup> 整合失敗會同時打掉「國際增長」敘事與資產負債表。Q2 海外 ×17 倍含並表，有機國際增速仍待觀察。</p>
+
+    <h3>6.5 競爭：DTC 對手＋原廠自建渠道</h3>
+    <p>Ro 等現金支付對手、Novo／Lilly 自有或授權 DTC、傳統醫療體系進場。HIMS 沒有獨家分子，武器是品牌、價格、廣告預算。原廠一旦把「便宜官方筆」鋪開，HIMS 的減重 ARPU 與獲客效率會被夾擊。</p>
+
+    <h3>6.6 廣告平台、CAC、供應鏈</h3>
+    <p>FY2025 CAC $7.99 億。Meta／Google 演算法或隱私限制（又與 FTC 資料分享案重疊）會立刻影響新客。減重品 10-K 稱主要靠單一供應商履約。<sup>2</sup></p>
+
+    <h3>6.7 交易結構風險</h3>
+    <p>空單約佔流通股 <b>25.2%</b>，貝塔 2.42，52 週 $13.74–$65.30。<sup>4</sup> 任何指引下修、訴訟進展、毛利率再掉，波動會被空頭放大。這不是基本面因果，但會決定你拿得住拿不住。</p>
+  </section>
+
+  <!-- ========== SUMMARY ========== -->
+  <section class="box sum" id="s7">
+    <h2>步驟七：綜合分析與觀點</h2>
+
+    <h3>7.1 評估結果清單</h3>
+    <div class="verdict">
+      <div class="chip ok">✓ 增長優異</div>
+      <div class="chip bad">✗ 估值偏高</div>
+      <div class="chip warn">▲ 中等偏弱護城河</div>
+      <div class="chip bad">✗ 盈利惡化中</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>面向</th><th>標籤</th><th>一句話依據</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>增長</td><td class="g">優異</td><td>FY2025 +59%，Q2 +38%，三年營收 CAGR ~24%，過 20% 門檻</td></tr>
+        <tr><td>價值空間</td><td class="r">不足／偏高</td><td>(27 ÷ 34.2 − 1) ≈ −21%</td></tr>
+        <tr><td>護城河</td><td class="a">中等偏弱</td><td>2.9/5.0；品牌在、成本優勢變薄</td></tr>
+        <tr><td>盈利</td><td class="r">惡化中</td><td>毛利率 −12ppt，TTM 營運／淨利率轉負</td></tr>
+      </tbody>
+    </table>
+
+    <h3>7.2 綜合分析</h3>
+    <p>HIMS 是<b>現金支付 DTC 遠距醫療的趨勢成長股</b>，不是寬護城河價值複利股。它正從「高毛利複方 GLP-1 故事」切到「品牌藥＋國際平台」的規模化敘事。</p>
+    <p><b>核心亮點：</b>FY2025 營收 +59% 至 $23.5 億；Q2 在產品急轉彎後仍 +38% 至 $7.53 億、訂戶 289 萬、ARPU $92；2026 指引 $31–33 億；2030 目標至少 $65 億／$13 億 Adj. EBITDA；毛利率即使 64% 仍遠高於多數遠距醫療同業。</p>
+    <p><b>驅動力：</b>短線是品牌 GLP-1 重加速＋Eucalyptus 並表；中線是 Hers／個人化／新專科（荷爾蒙、肽類、Labs）與國際；長線才是 2030 的 20% Adj. EBITDA——而那條路目前被毛利率下滑擋住。</p>
+    <p><b>估值現況：</b>$29.58 對應三年平均預期 PE 34.2x、合理中樞 27x，公式空間約 <b>−21%</b>。股價從 $65.30 回落改善的是 PS（2.68x／Forward 1.87x），不是盈餘品質。2026 GAAP 是虧損年。</p>
+    <p><b>最大隱憂：</b>不是「成長消失」，而是「成長的單位經濟被品牌藥與監管改寫」。FTC 訴訟、FDA 複方收緊、流動比 &lt;1、25% 空單，會讓執行差一點就變成倍數壓縮。</p>
+    <p><b>標的類型：</b>趨勢成長股（衛星倉），不是價值股、也還不是品質複利股。觀察點三個：毛利率是否在 60–65% 止穩、Q3 國內是否如管理層所說持續加速、FTC 是否走向可量化和解。這三個沒驗證前，不按傳統價值股的安全邊際加碼。</p>
+  </section>
+
+  <section class="box srcbox">
+    <h2 style="color:#334155;font-size:16px;">資料來源</h2>
+    <ol class="note" style="font-size:13px;line-height:1.55;">
+      <li><a href="https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx">HIMS Q2'26 財報</a></li>
+      <li><a href="https://www.sec.gov/Archives/edgar/data/1773751/000177375126000022/hims-20251231.htm">HIMS FY2025 Form 10-K</a></li>
+      <li><a href="https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx">HIMS FY2025／Q4'25 財報</a></li>
+      <li><a href="https://stockanalysis.com/stocks/hims/statistics/">StockAnalysis：估值與 TTM（2026-08-31）</a></li>
+      <li><a href="https://stockanalysis.com/stocks/hims/forecast/">StockAnalysis：分析師營收／EPS／目標價</a></li>
+      <li><a href="https://stockanalysis.com/stocks/hims/financials/ratios/">StockAnalysis：歷史倍數與稀釋</a></li>
+      <li><a href="https://finance.yahoo.com/quote/HIMS/analysis/">Yahoo Finance 分析師共識</a></li>
+      <li><a href="https://finance.yahoo.com/quote/HIMS/">Yahoo Finance 報價</a></li>
+      <li><a href="https://stockanalysis.com/stocks/hims/financials/metrics/">StockAnalysis：訂戶與營收拆分</a></li>
+      <li><a href="https://investors.hims.com/news/news-details/2026/Hims--Hers-Announces-Strategic-Shift-for-US-Weight-Loss-Business/default.aspx">美國減重策略轉向（Novo 合作）</a></li>
+      <li><a href="https://investors.hims.com/news/news-details/2026/Hims--Hers-Completes-Acquisition-of-Eucalyptus-Advancing-its-Position-as-the-Worlds-Largest-Consumer-Health-Platform/default.aspx">Eucalyptus 收購完成</a></li>
+      <li><a href="https://news.hims.com/newsroom/building-the-future-of-healthcare-our-roadmap-to-6-5b">2030 $65 億路徑</a></li>
+      <li><a href="https://www.mordorintelligence.com/industry-reports/telehealth-market">Mordor：遠距醫療 TAM／CAGR</a></li>
+      <li><a href="https://www.fortunebusinessinsights.com/industry-reports/telehealth-market-101065">Fortune Business Insights：遠距醫療規模</a></li>
+      <li><a href="https://researchintelo.com/report/glp-1-drug-telehealth-prescription-platform-market">Research Intelo：GLP-1 遠距平台 TAM</a></li>
+      <li><a href="https://www.fool.com/earnings/call-transcripts/2026/08/17/hims-hims-q2-2026-earnings-call-transcript/">Q2'26 法說逐字稿</a></li>
+      <li><a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html">Damodaran 行業 PE（2026-01）</a></li>
+      <li><a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html">Damodaran 行業 PS（2026-01）</a></li>
+      <li><a href="https://ca.finance.yahoo.com/news/hims-hers-health-hims-stock-141503974.html">Simply Wall St：醫療板塊 PS ~1.4x</a></li>
+      <li><a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html">Damodaran 行業利潤率（2026-01）</a></li>
+      <li><a href="https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Prices-Upsized-350-Million-Convertible-Senior-Notes-Offering-to-Support-International-Expansion-and-Accelerate-AI-Driven-Platform-Investment/default.aspx">$3.5 億 0% 可轉債定價</a></li>
+      <li><a href="https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices">FTC 2026-07-29 起訴稿</a></li>
+      <li><a href="https://www.foley.com/p/102mmr0/glp1-compliance-fda-targets-telehealth-marketing-in-30-new-warning-letters/">FDA 複方 GLP-1 警告信整理</a></li>
+      <li><a href="https://multiples.vc/telemedicine-virtual-care-valuation-multiples">Multiples.vc：遠距醫療同業倍數</a></li>
+      <li><a href="https://www.sec.gov/Archives/edgar/data/1773751/000177375126000019/finalq42025shareholderle.htm">FY2025 股東信</a></li>
+      <li><a href="./hims-bear-case.html">Seeking Alpha × X.com 不看好論點整理（2026-09-14）</a></li>
+    </ol>
+  </section>
+
+  <footer class="bar">
+    <span>分項詳列｜價格基準 2026-08-31 $29.58｜財報 FY2025 10-K、Q2'26</span>
+    <span class="disc">僅為報告參考，非投資建議</span>
+  </footer>
+</div>
+</body>
+</html>
