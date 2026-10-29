@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SPCX Q3 2026 營運簡報 — 財務如何支撐未來營運</title>
+<style>
+:root {
+ --navy: #1b2a4a;
+ --navy-2: #24365e;
+ --blue-bg: #e8f1fb;
+ --blue-bd: #7ba3d4;
+ --green-bg: #e7f5ea;
+ --green-bd: #7cbc86;
+ --pink-bg: #f8e9ef;
+ --pink-bd: #d4a0b4;
+ --yellow-bg: #f7f1dc;
+ --yellow-bd: #d4c48a;
+ --purple-bg: #eee8f6;
+ --purple-bd: #a992c9;
+ --red-bg: #fdecee;
+ --red-bd: #d98993;
+ --ok: #1a7f3c;
+ --warn: #c45c12;
+ --bad: #c0392b;
+ --mid: #b45309;
+ --ink: #1f2933;
+ --muted: #5b6775;
+}
+* { box-sizing: border-box; }
+html, body {
+ margin: 0; padding: 0; background: #d9dde3; color: var(--ink);
+ font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+ font-size: 12.5px; line-height: 1.42;
+}
+.page {
+ width: 210mm; margin: 16px auto; background: #fff;
+ box-shadow: 0 8px 28px rgba(0,0,0,.12); padding: 0 0 14px;
+}
+.header {
+ background: linear-gradient(90deg, var(--navy), var(--navy-2));
+ color: #fff; padding: 12px 20px 9px; font-size: 18px; font-weight: 700; letter-spacing: .03em;
+}
+.header .sub { display: block; margin-top: 4px; font-size: 11px; font-weight: 500; opacity: .88; letter-spacing: 0; }
+.wrap { padding: 10px 16px 6px; }
+.box { border: 1.5px solid #ccc; border-radius: 8px; padding: 8px 11px 7px; margin: 0 0 8px; }
+.box h2 { margin: 0 0 6px; font-size: 13.5px; font-weight: 800; }
+.s1 { background: var(--blue-bg); border-color: var(--blue-bd); }
+.s2 { background: var(--green-bg); border-color: var(--green-bd); }
+.s3 { background: var(--pink-bg); border-color: var(--pink-bd); }
+.s4 { background: var(--yellow-bg); border-color: var(--yellow-bd); }
+.s5 { background: var(--purple-bg); border-color: var(--purple-bd); }
+.risk { background: var(--red-bg); border-color: var(--red-bd); }
+.sum { background: #eaf2fb; border-color: #7ea4d2; }
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px; margin: 0 0 8px; }
+.kpi { background: #f4f6f9; border: 1px solid #d5dbe3; border-radius: 6px; padding: 7px 8px; }
+.kpi .v { font-size: 16px; font-weight: 800; color: var(--navy); }
+.kpi .l { font-size: 10.5px; color: var(--muted); margin-top: 2px; }
+table { width: 100%; border-collapse: collapse; font-size: 11.5px; }
+th, td { text-align: left; padding: 3px 5px; border-bottom: 1px solid rgba(0,0,0,.08); vertical-align: top; }
+th { font-size: 10.5px; color: var(--muted); font-weight: 700; }
+td.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ok { color: var(--ok); } .warn { color: var(--warn); } .bad { color: var(--bad); } .mid { color: var(--mid); }
+.note { color: var(--muted); font-size: 11px; }
+ul { margin: 3px 0 0; padding-left: 17px; } li { margin: 0 0 2px; }
+.footer {
+ display: flex; justify-content: space-between; align-items: center;
+ padding: 2px 16px 0; color: var(--muted); font-size: 11px;
+}
+.disclaimer { color: #c0392b; font-weight: 700; }
+.sources a { color: #1d4f91; word-break: break-all; }
+.two { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 8px; }
+.flow {
+ font-family: ui-monospace, "SF Mono", Menlo, monospace;
+ font-size: 10.5px; line-height: 1.45; background: #f7f8fa; border-radius: 6px;
+ padding: 8px 10px; white-space: pre; overflow-x: auto;
+}
+@media print { body { background: #fff; } .page { box-shadow: none; margin: 0; page-break-after: always; } }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="header">SPCX Q3 2026 營運簡報：財務如何支撐未來營運
+    <span class="sub">SpaceX（Nasdaq: SPCX）· 基準日 2026-10-29（台北時間）· 資料：10-Q 2026-10-22 + 法說 2026-10-20 · 單位百萬美元</span>
+  </div>
+  <div class="wrap">
+    <div class="box sum">
+      <h2>一句話</h2>
+      Q3 不是利潤高峰，而是把「已簽約算力 + 預收現金 + 帳上流動性」換成「Q4 加倍 capex、Q1 營收跳升」的轉換季。該盯的不是 62% 毛利率，而是 backlog 一年內可認列金額、每瓦回收期、以及現金能不能墊過 Q4 的資本支出高峰。
+    </div>
+    <div class="kpis">
+      <div class="kpi"><div class="v">$14.6B</div><div class="l">Q3 營收 · YoY +161%</div></div>
+      <div class="kpi"><div class="v">$63.0B</div><div class="l">Backlog · 67% 一年內認列</div></div>
+      <div class="kpi"><div class="v">$35–40B</div><div class="l">Q4 capex 指引（Q3 $19.6B）</div></div>
+      <div class="kpi"><div class="v">$33–37B</div><div class="l">Q1 2027 營收指引</div></div>
+    </div>
+
+    <div class="box s1">
+      <h2>1. 本季財報重點</h2>
+      <table>
+        <tr><th>項目</th><th class="n">Q3'25</th><th class="n">Q2'26</th><th class="n">Q3'26</th><th class="n">YoY</th><th class="n">QoQ</th></tr>
+        <tr><td>總營收</td><td class="n">5,576</td><td class="n">7,814</td><td class="n"><b>14,575</b></td><td class="n ok">+161%</td><td class="n ok">+87%</td></tr>
+        <tr><td>SI（佔比 51.9%）</td><td class="n">813</td><td class="n">2,560</td><td class="n"><b>7,560</b></td><td class="n ok">+830%</td><td class="n ok">+195%</td></tr>
+        <tr><td>Connectivity（36.0%）</td><td class="n">3,097</td><td class="n">4,292</td><td class="n"><b>5,248</b></td><td class="n ok">+70%</td><td class="n ok">+22%</td></tr>
+        <tr><td>Space（12.1%）</td><td class="n">1,666</td><td class="n">962</td><td class="n"><b>1,767</b></td><td class="n">+6%</td><td class="n ok">+84%</td></tr>
+        <tr><td>毛利率</td><td class="n">43.0%</td><td class="n">55.3%</td><td class="n">62.4%</td><td class="n ok">+19ppt</td><td class="n">+7ppt</td></tr>
+        <tr><td>營業利益 / 淨利</td><td class="n">−1,084 / −1,097</td><td class="n">1,180 / 1,247</td><td class="n"><b>2,791 / 4,404</b></td><td class="n ok">轉正</td><td class="n ok">+137% / +253%</td></tr>
+        <tr><td>Adj. EBITDA</td><td class="n">2,158</td><td class="n">4,083</td><td class="n"><b>8,762</b></td><td class="n ok">+306%</td><td class="n ok">+115%</td></tr>
+        <tr><td>Capex（SI）</td><td class="n">—</td><td class="n">16,032（14,103）</td><td class="n"><b>19,593（16,444）</b></td><td class="n">—</td><td class="n">+22%</td></tr>
+      </table>
+      <ul>
+        <li><b>SI</b>：Solutions &amp; Infra $7.0B，Cursor 中季併入貢獻 $608M；排除後仍 QoQ +192%。部門營業利益 $431M，扣 Cursor SBC ~$1.2B 後約 $1.6B。$23.4B SBC 分約 3 年攤——會計稀釋、非現金。</li>
+        <li><b>Connectivity</b>：營業利益 $2,367M、<b>45.1%</b>。用戶 13.6M（+1.6M）、ARPU $69。政企 YoY +91%。航空簽約 ~12,000／已裝 &gt;3,800。Mobile 月活 22M（+37%）。毛利率 55% 含 ~3ppt 關稅退稅；Q4 公司 GM 將回到接近 Q2（55.3%），<span class="mid">62% 不可外推</span>。</li>
+        <li><b>Space</b>：35 次發射、入軌質量 ~90%。Flight 14 軌道 + 26 顆 V3（~26 Tbps ≈ 10× Falcon 9）。部門 −$8M，Starship R&amp;D $1,225M。</li>
+        <li><b>集中度</b>：Customer B（僅 SI）佔 Q3 營收 <b>34.5%</b>（~$5.0B）；Customer A 16.6%。單一客戶佔 AR <b>27.7%</b>。</li>
+      </ul>
+    </div>
+
+    <div class="box s2">
+      <h2>2. 核心方程式：GW × 每瓦單價 ≈ Q1 指引</h2>
+      <div class="two">
+        <div>
+          <table>
+            <tr><th>時點</th><th>名牌算力</th></tr>
+            <tr><td>Q2 末</td><td>1.4 GW</td></tr>
+            <tr><td>Q3 末</td><td><b>1.7 GW</b></td></tr>
+            <tr><td>10 月底（CFO）</td><td>~2.2 GW</td></tr>
+            <tr><td>2026 Q4 末指引</td><td><b>2.5–3.0 GW</b></td></tr>
+            <tr><td>2027 年底（Musk，「會意外若低於」）</td><td>≥13 GW</td></tr>
+            <tr><td>2027 電力／冷卻基礎設施</td><td>再 +20 GW</td></tr>
+          </table>
+        </div>
+        <div>
+          <ul>
+            <li>Q3 已實現混合產出：SI $7.56B ÷ 1.7 GW ≈ <b>每年每瓦 $18</b>（含訓練／未滿季）。</li>
+            <li>CFO：新增部署現貨略高於 <b>$30–50/瓦</b> 上緣，<b>回收期 &lt; 1 年</b>。</li>
+            <li>約 2–3× 產出缺口 = Q1 $33–37B（年化 $132–148B）的來源：量（1.7→2.7 GW）+ 價／利用率（向 $40–50 靠攏）。</li>
+            <li>驗算：2.7 GW × $40/W ≈ 年化 SI $108B（單季 ~$27B）+ 星鏈 ~$21B + Space ~$7B ≈ <b>單季 $35B</b>，對上指引中位數。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><span>SPCX Q3 2026 營運簡報 · p.1 / 3</span><span class="disclaimer">非投資建議</span></div>
+</div>
+
+<div class="page">
+  <div class="header">四條資金水管 → 三塊資本支出
+    <span class="sub">Q4 capex $35–40B 是把流動性換成 GW 的主動決策，不是失控燒錢</span>
+  </div>
+  <div class="wrap">
+    <div class="box s3">
+      <h2>3. 財務數據如何養未來營運</h2>
+      <table>
+        <tr><th>水管</th><th>Q3 證據</th><th>養什麼</th></tr>
+        <tr>
+          <td><b>A. 合約預收</b></td>
+          <td>遞延收入 $12.1B → <b>$17.5B</b>。9M OCF 中遞延收入 <b>+$4.52B</b>（Space + 星鏈政企）。</td>
+          <td>客戶先付錢。墊發射、衛星、套件庫存。</td>
+        </tr>
+        <tr>
+          <td><b>B. 一年內 backlog</b></td>
+          <td>Backlog <b>$62.96B</b>（Q2 ~$47.5B，+32%）。<b>67% ≈ $42.2B 一年內認列</b>；27% 在 1–3 年。</td>
+          <td>Q1 $33–37B 的能見度基礎。CFO：未來六個月 compute pipeline 才敢給指引。</td>
+        </tr>
+        <tr>
+          <td><b>C. 星鏈現金引擎</b></td>
+          <td>營業利益 $2.37B／季、<b>45.1%</b>。ARPU $69；航空產能 YTD 4×、年底再倍增。9M 庫存 +$1.0B = V5 假期鋪貨。</td>
+          <td>養 Falcon／Dragon 與 Starship R&amp;D（Q3 $1.23B）。V3 讓未來每 Gbps capex 下降。</td>
+        </tr>
+        <tr>
+          <td><b>D. 帳上流動性</b></td>
+          <td>現金 $51.3B + 短券 $38.6B = <b>$89.9B</b>；淨現金 ~$51.1B。未動用授信 $5.25B。應付 PP&amp;E $11.8B + 其他融資 PP&amp;E $3.9B 平滑現金口。</td>
+          <td>墊 Q4 $35–40B capex。回收 &lt;1 年 = 先墊後收，不是永久虧損。</td>
+        </tr>
+      </table>
+      <div class="flow">星鏈 45% 營業利益 + 發射／政企預收（遞延收入 YTD +$5.4B）
+        → 經常性現金 ──► Starship / 衛星 / 套件
+帳上 $90B 流動性 + 授信 ──► Q4 SI capex $35–40B → 2.5–3.0 GW
+        → 現貨 &gt;$50/W、回收 &lt;1 年 → Q1 2027 營收 $33–37B
+        → 現金回流，墊 2027 的 +10 GW</div>
+    </div>
+
+    <div class="box s4">
+      <h2>4. 現金流細項：9M FCF −$35B 為什麼仍能擴產</h2>
+      <table>
+        <tr><th>9M 2026</th><th class="n">金額</th><th>對營運的含義</th></tr>
+        <tr><td>營業活動</td><td class="n ok">+13,097</td><td>YoY +8,977。獲利（剔除非現金）+ 預收，扣 AR +1,948、AP −1,638、庫存 +1,003。</td></tr>
+        <tr><td>投資活動</td><td class="n bad">−84,611</td><td>PP&amp;E −48,069（資料中心+發射場）；IPO／票據資金暫存短券。</td></tr>
+        <tr><td>FCF（OCF−capex）</td><td class="n bad">−34,972</td><td>結構性先建後收。CFO 定義為 demand-led。</td></tr>
+        <tr><td>Q4 capex 指引</td><td class="n mid">35,000–40,000</td><td>單季接近前九個月的 70–80%。<b>2026 現金最低點候選窗口</b>。</td></tr>
+        <tr><td>年底 ARR 目標</td><td class="n">100,000（12 月年化）</td><td>12 月單月 ~$8.3B；Q1 指引已高於這個 run-rate。</td></tr>
+      </table>
+      <p class="note" style="margin:6px 0 0;">EchoStar 頻譜總對價 ~$19.6B = 股票 $11.1B（2.618 億股 @ $42.40）+ 清償債務上限 $8.5B。Credit Agreement 2026 預計 $1,241M，9/30 已付 $856M。800 MHz 是另一筆，服務 2028 Mobile，不是 Q4 capex 主因。看「能不能養營運」用 Adj. EBITDA $8.8B 與 OCF，不要用 GAAP 營業利益 $2.8B。</p>
+    </div>
+
+    <div class="box s5">
+      <h2>5. 未來展望（分層：CFO 指引 vs 產能目標）</h2>
+      <table>
+        <tr><th>時點</th><th>事件</th><th>對財務的作用</th></tr>
+        <tr><td>2026 Q4</td><td>Capex $35–40B；GM 回到 Q2 附近；算力 2.5–3.0 GW；ARR $100B</td><td>墊資換產能。檢查點：10 月 2.2 GW 是否落地。</td></tr>
+        <tr><td>2026-11 Flight 15</td><td>嘗試 booster+ship 雙捕獲（「較可能但不保證」）</td><td>可重複使用一旦成立，發射邊際成本階梯下降。</td></tr>
+        <tr><td><b>2027 Q1</b></td><td><b>總營收 $33–37B</b></td><td>整份財報最硬的 2027 數字。相對 Q3 為 2.3–2.5×。</td></tr>
+        <tr><td>2027 H1</td><td>Starship 週頻；軌道加油；第二級複飛</td><td>衛星產能脫離 Falcon 瓶頸。</td></tr>
+        <tr><td>2027 全年</td><td>V3 放量；Mobile V2 上 Starship；單次下行 &gt;20× Falcon 9</td><td>星鏈 capex／bit 下降，把現金讓給 SI。</td></tr>
+        <tr><td>2027 Q2 末</td><td>44 萬顆 Vera Rubin 訓練叢集</td><td>Grok 自用 vs CSA 爭產能。</td></tr>
+        <tr><td>2027 年底</td><td>≥13 GW 算力；電力基礎設施挑戰 +20 GW</td><td>Musk ARR $500B–$1T 為上限選擇權，<span class="mid">非正式財測</span>。</td></tr>
+        <tr><td>2028 年初</td><td>Starlink Mobile 美國商用</td><td>寬頻訂閱 → 電信 ARPU。</td></tr>
+        <tr><td>2028 Q3</td><td>Terafab 放量（「可能集合內」）</td><td>近兩年 capex 仍買 NVIDIA／AMD。</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="footer"><span>SPCX Q3 2026 營運簡報 · p.2 / 3</span><span class="disclaimer">非投資建議</span></div>
+</div>
+
+<div class="page">
+  <div class="header">產業趨勢、脆弱點、領先指標
+    <span class="sub">三條供給約束對上三個部門 · 財務敏感度排序</span>
+  </div>
+  <div class="wrap">
+    <div class="box s1">
+      <h2>6. 產業趨勢</h2>
+      <ul>
+        <li><b>算力（對 SI）</b>：TrendForce 九大 CSP capex 2026 <b>$957B（+106%）</b>、2027 <b>&gt;$1.5T（+60%）</b>，兩次上修。原因是整機漲價、零組件短缺、供應商要求預付。AI 伺服器營收 2027 近 $920B（+90%）。Reuters：真正風險常是電網／變壓器／冷卻讓錢<i>花不出去</i>。SPCX 賣的是「數月內可上線的 MW」；Q3 證據是 CSA 已出帳、且敢給六個月營收指引。</li>
+        <li><b>衛星寬頻（對 Connectivity）</b>：需求從「人」轉「代理人」。消費 13.6M 只是底盤，政企／航空／Starshield 更快。轉折是 Starship×V3（單次 ~26 Tbps）。3 年 100× 頻寬、3–5 年或 1,000× 需求是方向不是財測。FCC 15,000 顆 Mobile V2 + 800 MHz → 2028 美國行動電信商。</li>
+        <li><b>發射（對 Space）</b>：入軌質量 ~90% 已是護城河。Space 營收 YoY 只 +6%，因為內部星鏈發射資本化進 PP&amp;E、不計部門營收——利用率被低估。近地軌道資料中心：賣方共識仍是十年後。Starship 對 SI 的近端價值是把衛星送上去做大星鏈現金引擎，不是 2027 在軌訓練。</li>
+      </ul>
+    </div>
+
+    <div class="box risk">
+      <h2>7. 這套資金結構的脆弱點</h2>
+      <ul>
+        <li><b>Customer B = 34.5% 單季營收且全是 SI。</b> Q1 指引與 &lt;1 年回收期綁在這類雲合約。AR 單一客戶 27.7%：營收與現金回收雙集中。</li>
+        <li><b>Q4 是現金最低點窗口。</b> 若 2.2–3.0 GW 延遲，capex 已出、CSA 還沒帳單，回收期拉長，Q1 $33–37B 失守。</li>
+        <li><b>62% 毛利率含一次性。</b> 內部融資能力要用 ~55% 思考，不是 62%。</li>
+        <li><b>Starship 頻寬槓桿尚未入帳。</b> 每 bit 成本下降要等 2027 週頻。Flight 15 不保證成功。</li>
+      </ul>
+    </div>
+
+    <div class="box sum">
+      <h2>8. 可執行結論與領先指標</h2>
+      <ul>
+        <li>公司已能用合約與預收，為未來 12 個月大部分營收融資（$63B backlog、67% 一年內、$17.5B 遞延收入）。</li>
+        <li>Q4 $35–40B 是把 $90B 流動性換成 GW；檢查點是 10 月 2.2 GW 與年底 2.5–3.0 GW。</li>
+        <li>星鏈 45% 營業利益率是穩定器：SI 墊資期間支付 Starship R&amp;D；週頻後變成更輕 capex 的現金牛。</li>
+        <li><b>領先指標（財務敏感度排序）</b>：(a) 名牌 GW 2.2 → 2.5–3.0；(b) Customer B／前兩大是否續約、AR 是否惡化；(c) Q4 GM 是否只回到 ~55% 而不是更差；(d) Flight 15 與 2027 H1 週頻；(e) 年末現金是否仍明顯高於 EchoStar 現金腿 + 營運緩衝。</li>
+        <li>不要把 $500B–$1T ARR 寫進 2027 基本情境。基本情境停在 Q1 $33–37B 與年底 $100B ARR，再看每瓦產出有沒有往 $40–50 收斂。</li>
+      </ul>
+    </div>
+
+    <div class="box s4 sources">
+      <h2>資料來源</h2>
+      <ol>
+        <li>Form 10-Q（2026-09-30 / 申報 2026-10-22）<br /><a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm">https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm</a></li>
+        <li>Q3 2026 8-K Exhibit 99.1（2026-10-20）<br /><a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm">https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm</a></li>
+        <li>法說逐字稿 <a href="https://www.fool.com/earnings/call-transcripts/2026/10/20/spacex-spcx-q3-2026-earnings-call-transcript/">Motley Fool</a> · <a href="https://stockanalysis.com/stocks/spcx/transcripts/723936-q3-2026/">StockAnalysis</a></li>
+        <li>TrendForce 2026-10-14 九大 CSP capex <a href="https://www.trendforce.com/presscenter/news/20261014-13269.html">$957B / &gt;$1.5T</a></li>
+        <li>PwC Data Centre Outlook · Reuters 2026-07-10 近端 AI 回收在地面</li>
+      </ol>
+    </div>
+  </div>
+  <div class="footer"><span>SPCX Q3 2026 營運簡報 · p.3 / 3</span><span class="disclaimer">非投資建議 · GAAP 淨利含稅務與其他收益</span></div>
+</div>
+
+</body>
+</html>
