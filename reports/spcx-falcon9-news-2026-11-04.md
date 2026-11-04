@@ -6,7 +6,7 @@
 
 ## 1. 這一週在飛什麼
 
-**剛完成**：10 月 30 日 21:04 PDT（11 月 1 日 12:04 台北時間）Vandenberg SLC-4E 發射 Starlink Group 15-18，27 顆 V2 Mini Optimized。這是 **Falcon 9 第 700 次發射**。一級 B1093 第 18 飛，約 T+8:20 降落太平洋無人船 *Of Course I Still Love You*。累計 Falcon 助推器著陸約 675 次。來源：[SpaceX 任務頁](https://www.spacex.com/launches/sl-15-18)、[Spaceflight Now](https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/)。
+**剛完成**：10 月 30 日 21:04 PDT（10 月 31 日 12:04 台北時間）Vandenberg SLC-4E 發射 Starlink Group 15-18，27 顆 V2 Mini Optimized。這是 **Falcon 9 第 700 次發射**。一級 B1093 第 18 飛，約 T+8:20 降落太平洋無人船 *Of Course I Still Love You*。累計 Falcon 助推器著陸約 675 次。來源：[SpaceX 任務頁](https://www.spacex.com/launches/sl-15-18)、[Spaceflight Now](https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/)。
 
 **接下來一週（全在 Vandenberg，國安任務）**：
 
