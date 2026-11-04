@@ -3,33 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AMD 最新財報、展望與產業趨勢 - 2026年08月27日</title>
+  <title>AMD 最新財報、展望與產業趨勢 - 2026年11月04日</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
     :root { --navy:#0b1f4a; --green:#166534; --amber:#b45309; --red:#b91c1c; }
     * { box-sizing:border-box; margin:0; padding:0; }
-    body { font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif; background:#c5cdd8; color:#1a2332; line-height:1.4; }
+    body { font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif; background:#c5cdd8; color:#1a2332; line-height:1.38; }
     .sheet { width:210mm; min-height:297mm; margin:12px auto; background:#fff; padding:8mm 9mm 7.5mm; box-shadow:0 8px 28px rgba(15,23,42,.18); display:flex; flex-direction:column; }
     header.top { background:linear-gradient(90deg,#0b1f4a,#132a62); color:#fff; border-radius:6px; padding:8px 13px; display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:7px; }
-    header.top h1 { font-size:16.5px; font-weight:800; }
-    header.top .meta { font-size:10.4px; opacity:.92; text-align:right; }
+    header.top h1 { font-size:16.2px; font-weight:800; }
+    header.top .meta { font-size:10.3px; opacity:.92; text-align:right; line-height:1.4; }
     .box { border:1.55px solid; border-radius:7px; padding:6px 8px 7px; margin-bottom:6px; }
-    .box h2 { font-size:12.3px; font-weight:800; margin-bottom:4px; }
+    .box h2 { font-size:12.2px; font-weight:800; margin-bottom:4px; }
     .earn { border-color:#38bdf8; background:#f0f9ff; } .earn h2 { color:#075985; }
     .out { border-color:#4ade80; background:#f0fdf4; } .out h2 { color:#166534; }
     .ind { border-color:#f9a8d4; background:#fdf2f8; } .ind h2 { color:#9d174d; }
-    table { width:100%; border-collapse:collapse; font-size:10.4px; }
-    th, td { text-align:left; padding:2.6px 5px; border-bottom:1px solid #e5e7eb; vertical-align:top; }
-    th { color:#4b5563; font-size:10px; }
+    .bs { border-color:#fbbf24; background:#fffbeb; } .bs h2 { color:#92400e; }
+    table { width:100%; border-collapse:collapse; font-size:10.2px; }
+    th, td { text-align:left; padding:2.4px 5px; border-bottom:1px solid #e5e7eb; vertical-align:top; }
+    th { color:#4b5563; font-size:9.8px; }
+    .num { text-align:right; font-variant-numeric:tabular-nums; }
     .g { color:var(--green); font-weight:800; } .a { color:var(--amber); font-weight:800; } .r { color:var(--red); font-weight:800; }
-    ul { padding-left:15px; font-size:10.6px; } li { margin:1.8px 0; }
-    p { font-size:10.6px; }
-    footer.bar { margin-top:auto; display:flex; justify-content:space-between; font-size:9.3px; color:#6b7280; padding-top:4px; border-top:1px solid #e5e7eb; }
+    ul { padding-left:15px; font-size:10.5px; } li { margin:1.6px 0; }
+    p { font-size:10.5px; }
+    footer.bar { margin-top:auto; display:flex; justify-content:space-between; font-size:9.2px; color:#6b7280; padding-top:4px; border-top:1px solid #e5e7eb; }
     footer.bar .disc { color:#dc2626; font-weight:700; }
-    .src { font-size:8.4px; color:#4b5563; line-height:1.38; margin-top:4px; }
+    .src { font-size:8.3px; color:#4b5563; line-height:1.36; margin-top:4px; }
     .src a { color:#1d4ed8; text-decoration:none; }
+    .kpis { display:grid; grid-template-columns:repeat(5,1fr); gap:5px; margin:4px 0 5px; }
+    .kpi { background:#fff; border:1px solid #d1d5db; border-radius:6px; padding:5px 6px 4px; }
+    .kpi .l { font-size:8.8px; color:#6b7280; } .kpi .v { font-size:13.5px; font-weight:800; } .kpi .s { font-size:9px; color:#4b5563; }
     @media print { body { background:#fff; } .sheet { box-shadow:none; margin:0; page-break-after:always; } }
   </style>
 </head>
@@ -38,62 +43,97 @@
   <header class="top">
     <div>
       <h1>AMD 最新財報重點、未來展望及產業趨勢</h1>
-      <div style="font-size:11px;opacity:.9;margin-top:2px;">NASDAQ: AMD｜財報日 2026-08-04｜整理 2026-08-27</div>
+      <div style="font-size:11px;opacity:.9;margin-top:2px;">NASDAQ: AMD｜Q3 財報 2026-11-03｜整理 2026-11-04｜季底 2026-09-26</div>
     </div>
-    <div class="meta">Q2'26 實際｜Q3'26 指引｜2027 管理層展望</div>
+    <div class="meta">主軸：財務數字怎麼支撐 2027<br/>正盤收 $483.90｜盤後約 $516–523</div>
   </header>
 
   <section class="box earn">
-    <h2>一、最新財報重點（2026 年第 2 季，截至 6/27）</h2>
-    <p style="margin-bottom:4px;">連續第 <b>6</b> 季營收 YoY &gt;30%。Beat 來自資料中心，不是 PC。資料中心佔比從一年前 42% 升至 <b>58%</b>，公司體質已換成 AI／伺服器驅動。</p>
+    <h2>一、Q3 損益：營收 +45%，獲利更快——槓桿已經印在報表上</h2>
+    <p style="margin-bottom:3px;">Q3 營收 <b>$133.8 億</b>，超過上季指引上沿（$130 億 ±$3 億 → 高標 $133 億），也超過共識約 $130.9 億。Beat 幾乎全部來自資料中心。更重要的是<b>獲利增速明顯快於營收</b>：non-GAAP EPS +74%、營業利益 +75%，對營收 +45%。這就是 2027「公司 +80%、費用不到一半增速」那套模型的預演。</p>
+    <div class="kpis">
+      <div class="kpi"><div class="l">營收</div><div class="v g">$133.8 億</div><div class="s">+45% YoY、+16% QoQ</div></div>
+      <div class="kpi"><div class="l">non-GAAP EPS</div><div class="v g">$2.09</div><div class="s">+74% YoY；共識 $1.95</div></div>
+      <div class="kpi"><div class="l">non-GAAP OM</div><div class="v g">29%</div><div class="s">Q2 27% → Q3'25 24%</div></div>
+      <div class="kpi"><div class="l">資料中心佔比</div><div class="v g">64%</div><div class="s">一年前 47%、上季 58%</div></div>
+      <div class="kpi"><div class="l">GAAP EPS</div><div class="v a">$1.46</div><div class="s">含認股權評價 $11 億</div></div>
+    </div>
     <table>
-      <thead><tr><th style="width:18%">項目</th><th>數字</th><th>解讀</th></tr></thead>
+      <thead>
+        <tr>
+          <th>項目</th>
+          <th class="num">Q1'26</th>
+          <th class="num">Q2'26</th>
+          <th class="num">Q3'26</th>
+          <th class="num">Q3 vs Q2</th>
+          <th>對未來營運的含義</th>
+        </tr>
+      </thead>
       <tbody>
-        <tr><td>總營收</td><td><b>$115.4 億，+50% YoY、+13% QoQ</b>（共識約 $112.8–113.1 億）</td><td class="g">連續加速，不是一次性。</td></tr>
-        <tr><td>EPS</td><td>GAAP $1.38；non-GAAP <b>$1.66</b>（共識 $1.62），可比口徑約 <b>+82% YoY</b></td><td class="g">獲利增速快於營收＝開始有營運槓桿。</td></tr>
-        <tr><td>資料中心</td><td><b>$67.2 億，+107% YoY、+16% QoQ</b>；營運利益 $21.0 億、部門利潤率 31%</td><td class="g">主引擎。EPYC 雲端與企業各 +70%+；Instinct 亦翻倍（MI350 放量）。伺服器 CPU 連 5 季創新高。</td></tr>
-        <tr><td>Client／Gaming</td><td>合計 $38.4 億 +6%。Client $31 億 <b>+23%</b>（筆電創新高，Ryzen Pro +50%）；Gaming $7.8 億 <b>−31%</b></td><td class="a">AI PC／商用還在長；主機 SoC 與顯卡都受週期與記憶體漲價拖累。</td></tr>
-        <tr><td>Embedded</td><td>$9.8 億 <b>+19%</b>（逾三年最強），部門利潤率 40%</td><td class="g">庫存調整結束；嵌入式 x86 被雲端拿去當網路／控制平面 CPU。全年設計贏單追蹤 &gt;$180 億。</td></tr>
-        <tr><td>利潤率</td><td>GAAP 毛利率 54%、OM 17%；non-GAAP 毛利率 <b>56%</b>（+200 bps YoY）、OM <b>27%</b></td><td class="g">組合轉向資料中心。CFO：AI GPU 毛利率略低於公司平均，靠 EPYC／Embedded 拉回。</td></tr>
-        <tr><td>現金與 capex</td><td>現金短投 $131 億、負債 $32 億；營運現金 $24 億、FCF $16 億；capex $8.08 億；庫存 $85 億</td><td class="a">仍淨現金，但 capex／庫存明顯為 Helios 與伺服器備貨，已不像傳統輕資產 fabless。</td></tr>
+        <tr>
+          <td>營收</td>
+          <td class="num">$102.5 億</td>
+          <td class="num">$115.4 億</td>
+          <td class="num"><b>$133.8 億</b></td>
+          <td class="num g">+$18.4 億</td>
+          <td>QoQ 斜率從 Q2 的 +13% 升到 +16%。Q4 指引再跳到 +27%。成長在加速，不是高峰後減速。</td>
+        </tr>
+        <tr>
+          <td>資料中心</td>
+          <td class="num">$57.8 億（56%）</td>
+          <td class="num">$67.2 億（58%）</td>
+          <td class="num"><b>$85.5 億（64%）</b></td>
+          <td class="num g">+$18.3 億</td>
+          <td><b>本季幾乎所有增量都是 DC。</b> Client+Gaming −$1.2 億、Embedded +$1.3 億。體質已換成伺服器／AI。</td>
+        </tr>
+        <tr>
+          <td>DC 部門營業利益／利潤率</td>
+          <td class="num">$16.0 億／28%</td>
+          <td class="num">$21.0 億／31%</td>
+          <td class="num"><b>$28.8 億／34%</b></td>
+          <td class="num g">利潤率 +3ppt</td>
+          <td>部門利潤率一年從 25% 拉到 34%。規模上來後，固定研發被營收攤薄——這是 2027 OM 擴張的核心證據。</td>
+        </tr>
+        <tr>
+          <td>non-GAAP 毛利率</td>
+          <td class="num">55%</td>
+          <td class="num">56%</td>
+          <td class="num">56%</td>
+          <td class="num">持平</td>
+          <td>YoY +190 bps，靠產品組合。Q4 指引降到 ~55%：Helios／Instinct 毛利率略低於公司平均，<b>賺的是毛利額不是毛利率</b>。</td>
+        </tr>
+        <tr>
+          <td>non-GAAP 費用／佔營收</td>
+          <td class="num">—</td>
+          <td class="num">$33.9 億／29%</td>
+          <td class="num">$35.6 億／27%</td>
+          <td class="num g">費用 +5%、營收 +16%</td>
+          <td>費用增速遠低於營收。CFO：2027 費用增速「不到營收增速的一半」。Q3 已經在演示這個不等式。</td>
+        </tr>
+        <tr>
+          <td>non-GAAP 營業利益</td>
+          <td class="num">$25 億</td>
+          <td class="num">$30.9 億</td>
+          <td class="num"><b>$39.2 億</b></td>
+          <td class="num g">+27% QoQ</td>
+          <td>營收 +16% 時 OI +27%。GAAP OM 14%→17%→21%。槓桿是真的，不是指引畫餅。</td>
+        </tr>
+        <tr>
+          <td>Client／Gaming／Embedded</td>
+          <td class="num">$28.9／7.2／8.7 億</td>
+          <td class="num">$30.6／7.8／9.8 億</td>
+          <td class="num">$29.5／7.7／11.1 億</td>
+          <td class="num">C −4%；G 持平；E +14%</td>
+          <td>PC 被記憶體漲價壓住；主機週期向下。Embedded 四季加速、部門 OM <b>41%</b>，是被低估的穩定獲利墊。</td>
+        </tr>
       </tbody>
     </table>
-    <p style="margin-top:5px;"><b>產品面同期發生的事：</b>第 6 代 EPYC「Venice」（2nm／Zen 6）已量產，每瓦效能自稱較領先 x86 高 1 倍以上、較領先 Arm 高達 3.3 倍，雲端預計今年稍晚部署、需求強過歷代 EPYC。Helios 機櫃（Venice CPU + MI450 GPU + Pensando + ROCm）已量產。ROCm 宣稱 300 萬個模型可開箱跑、開源貢獻一年增 10 倍；新平台 ROCm.ai 自稱較 ROCm 7 訓練快 1 倍、推理快 3 倍。</p>
-  </section>
-
-  <section class="box out">
-    <h2>二、未來展望——公司自己講的時間表</h2>
-    <table>
-      <thead><tr><th style="width:16%">時間</th><th>管理層指引／展望</th><th>含義</th></tr></thead>
-      <tbody>
-        <tr>
-          <td><b>Q3'26</b></td>
-          <td>營收約 <b>$130 億 ±$3 億</b>（中點 YoY +41%、QoQ +13%）。毛利率 ~56%，opex ~$36.5 億，稀釋股數 ~16.6 億。資料中心與 Embedded 強勁雙位數成長；Client 微增被 Gaming 雙位數下滑抵銷。</td>
-          <td>高於共識約 $125 億，低於部分 $140 億樂觀預期。Helios <b>本季末才開始出貨</b>，這季仍主要是 EPYC + MI350。</td>
-        </tr>
-        <tr>
-          <td><b>2026 H2</b></td>
-          <td>資料中心加速。伺服器營收 H2 YoY <b>&gt;80%</b>。Q3、Q4 伺服器與資料中心 AI 都會成長，Q4 斜率更高。Helios：Q3 起點 → Q4 上台階。</td>
-          <td>H2 的關鍵不是再報一個 EPYC 季，而是 Helios 能不能在 Q4 變成看得見的營收。</td>
-        </tr>
-        <tr>
-          <td><b>2027</b></td>
-          <td>資料中心營收 <b>YoY 再翻倍（&gt;100%）</b>。其中伺服器 CPU 仍 &gt;70%（更高基期）；資料中心 AI 增速高於 CPU、帶動部門翻倍。Helios 2027 全年爬坡；Anthropic 第一 GW 在 2027 H1。下一世代機櫃：MI500 + 下一代 EPYC + 銅／光學互連，自稱 Instinct 史上最大代際跳躍，四年推理效能挑戰 2,000 倍。</td>
-          <td>這是估值從「2026E ~60x」能不能落到「2027E ~30x」的年份。每 GW 變現仍稱 <b>double-digit billions</b>；管理層稱供給足以覆蓋已給的指引、還有上檔。</td>
-        </tr>
-        <tr>
-          <td><b>3–5 年</b></td>
-          <td>法說：可<b>顯著超過</b> Analyst Day 的營收 CAGR &gt;35%、non-GAAP EPS &gt;$20。TAM 上修：AI 加速器 2030 年約 <b>$1.4 兆（CAGR &gt;45%）</b>；伺服器 CPU 約 <b>$2,200 億（CAGR &gt;50%）</b>；整體 AI 運算接近 $2 兆、年增約 40%。</td>
-          <td>公司把長期目標往上調，但兌現仍取決於 Helios／MI500 出貨與 ROCm 是否進生產環境。</td>
-        </tr>
-      </tbody>
-    </table>
-    <p style="margin-top:5px;"><b>訂單能見度：</b>OpenAI 最高 6 GW、Meta 最高 6 GW、Anthropic 最高 2 GW（第一 GW 於 2027 H1）；Microsoft 將在 Azure 大規模部署 Helios 做前沿模型推理。Helios 需求「強於內部原預估」。風險面：下半年 PC 因記憶體與元件漲價偏弱；Gaming 持續週期下行；AI GPU 放量時毛利率略低於公司平均。</p>
+    <p style="margin-top:4px;"><b>GAAP 有一個必須拆開的項目：</b>Q3 開始認列客戶認股權。GAAP EPS $1.46 含 <b>$10.97 億</b>非現金評價損失（約 $0.66／股），隨股價與達標機率波動，CFO 說之後還會變大。這<b>不影響 non-GAAP、也不影響自由現金流</b>。營收數字已是扣除認股權「授予日公允價值」後的淨額。稀釋股數要等出貨與商業條件都達標才進分母；Q4 指引 16.7 億股是併購（Taalas、World Labs），不是認股權。</p>
   </section>
 
   <footer class="bar">
-    <span>第 1 頁 / 共 2 頁</span>
-    <span>來源：AMD Q2'26 財報與 2026-08-04 法說</span>
+    <span>第 1 頁 / 共 3 頁</span>
+    <span>來源：AMD Q3'26 財報與 2026-11-03 法說</span>
     <span class="disc">僅為報告參考，非投資建議</span>
   </footer>
 </article>
@@ -101,75 +141,186 @@
 <article class="sheet">
   <header class="top">
     <div>
-      <h1>AMD 產業趨勢與對公司的含義</h1>
-      <div style="font-size:11px;opacity:.9;margin-top:2px;">2026 年 8 月｜超大規模資本支出 × 機櫃化 × 自研 ASIC</div>
+      <h1>資產負債與現金流：報表怎麼在預支 2027 的出貨</h1>
+      <div style="font-size:11px;opacity:.9;margin-top:2px;">庫存 +$30 億、應付帳款大增、發債 $47.5 億、後端產能 capex——都是同一件事</div>
     </div>
-    <div class="meta">搭配第 1 頁財報與展望閱讀</div>
+    <div class="meta">Q4 指引 $170 億｜2027 公司營收 &gt;80%</div>
+  </header>
+
+  <section class="box bs">
+    <h2>二、現金、庫存、債務：看起來「變重」，其實是在為 Helios 全年爬坡備貨</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>科目</th>
+          <th class="num">FY25 底</th>
+          <th class="num">Q2'26</th>
+          <th class="num">Q3'26</th>
+          <th>怎麼支援未來營運</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>現金＋短投</td>
+          <td class="num">$105.5 億</td>
+          <td class="num">$131.1 億</td>
+          <td class="num"><b>$157.8 億</b></td>
+          <td>帳上現金創新高。8 月發 <b>$47.5 億</b>優先票據後，現金與負債同時上升——是在鎖 2027 營運資金與產能，不是週轉不靈。</td>
+        </tr>
+        <tr>
+          <td>總負債（本金）</td>
+          <td class="num">$32.2 億</td>
+          <td class="num">$32.3 億</td>
+          <td class="num">$70.8 億</td>
+          <td>淨現金仍約 <b>$87 億</b>（157.8−70.8）。用低成本長債去養高週轉的 AI 機櫃，比等自由現金流慢慢滾更對得上出貨斜率。</td>
+        </tr>
+        <tr>
+          <td>存貨</td>
+          <td class="num">$79.2 億</td>
+          <td class="num">$84.7 億</td>
+          <td class="num"><b>$114.6 億</b></td>
+          <td>單季 +$30 億（+35%）。CFO 明講：為資料中心需求備貨，2027 還會繼續投庫存與產能。Q4 指引跳 $36 億營收，沒這批貨出不去。</td>
+        </tr>
+        <tr>
+          <td>應收帳款</td>
+          <td class="num">$63.2 億</td>
+          <td class="num">$72.8 億</td>
+          <td class="num">$92.1 億</td>
+          <td>隨大客戶機櫃出貨拉長收款。約 63 天（上季約 57 天）。超大規模客戶帳期本來就比較長，是成長的影子，不是壞帳訊號。</td>
+        </tr>
+        <tr>
+          <td>應付帳款</td>
+          <td class="num">$29.3 億</td>
+          <td class="num">—</td>
+          <td class="num"><b>$77.6 億</b></td>
+          <td>YTD +$48 億，大於存貨 YTD +$35 億。<b>供應鏈在幫 AMD 融資這波備貨</b>。晶圓、基板、封裝、HBM 的長約，反映在 AP 而不是只反映在現金流出。</td>
+        </tr>
+        <tr>
+          <td>不動產設備淨額</td>
+          <td class="num">$23.1 億</td>
+          <td class="num">—</td>
+          <td class="num">$39.3 億</td>
+          <td>9M capex $18.5 億 vs 去年同期 $7.5 億。CFO：後端產能專門撐資料中心。Fabless 正在變「輕晶圓、重封裝與測試」。</td>
+        </tr>
+        <tr>
+          <td>季自由現金流</td>
+          <td class="num">—</td>
+          <td class="num">$15.6 億</td>
+          <td class="num a">$5.5 億</td>
+          <td>OCF $12.0 億、capex $6.5 億。被庫存與應收吃掉，不是獲利品質變差：9M FCF 仍 <b>$46.8 億</b>（去年同期 $34.4 億）。Q4／2027 出貨後，這批營運資金會轉成營收。</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:4px;">讀這張表的正確方式：<b>獲利表在展示槓桿，資產負債表在展示產能。</b> 若 Helios Q4 沒跳、2027 沒到 +80%，$114 億存貨會變成問題。若路徑兌現，現在看起來「變重」的科目，就是明年的出貨。</p>
+  </section>
+
+  <section class="box out">
+    <h2>三、公司自己講的時間表——每一句都能對回上面的數字</h2>
+    <table>
+      <thead><tr><th style="width:16%">時間</th><th>指引／展望</th><th>財務上要發生什麼</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><b>Q4'26</b></td>
+          <td>營收約 <b>$170 億 ±3%</b>（中點 YoY +66%、QoQ +27%）。non-GAAP 毛利率 ~55%，opex ~$37.5 億，稅率 13%，稀釋股 ~16.7 億。資料中心 QoQ 約 <b>+50%</b>；Client+Gaming &gt;−20%；Embedded 雙位數。Q4 是資料中心 AI（美元）<b>首次超過伺服器 CPU</b>。</td>
+          <td>中點 $170 億相對 Q3 再加 <b>$36 億</b>。DC +50% ≈ +$43 億，被 PC／遊戲下滑抵銷一部分。毛利率掉 1 個百分點，但毛利額從 $75 億跳到約 $94 億。opex 只從 $35.6 億到 $37.5 億（+5%）。粗估 non-GAAP OI 約 $56 億、EPS 約 <b>$2.9</b>。FY26 營收約 <b>$522 億</b>（+51%），non-GAAP EPS 約 <b>$8.0</b>（Q1–Q3 已 $5.12）。</td>
+        </tr>
+        <tr>
+          <td><b>FY26 DC</b></td>
+          <td>全年資料中心營收「超過翻倍」（vs FY25 $166 億）。Q4 加速。</td>
+          <td>9M DC 已 $210 億；Q4 若 +50% → 約 $128 億；全年約 <b>$339 億（+104%）</b>。Q3 說的「H2 伺服器 &gt;80%」已被實際路徑超過。</td>
+        </tr>
+        <tr>
+          <td><b>2027</b></td>
+          <td>公司營收 <b>&gt;80%</b>（Analyst Day 長期模型的兩倍以上）。伺服器營收<b>翻倍</b>（90 天前是 &gt;70%）。資料中心 AI「比 90 天前預期更快」、顯著超過翻倍。資料中心將佔總營收 <b>&gt;80%</b>。費用增速不到營收一半 →「非常顯著」的營業利益率擴張。Embedded 強雙位數。PC 市場單位數<b>雙位數下滑</b>，AMD 打算在商用／高階跑贏大盤。</td>
+          <td>以 FY26 ~$522 億 × 1.8 ≈ <b>$940 億</b>。DC 佔 80% ≈ <b>$750 億+</b>，相對 FY26 DC ~$339 億再翻倍有餘。伺服器 CPU 翻倍、AI 更快，Q4 已經 AI&gt;CPU，2027 結構會更偏 GPU／機櫃。需求仍大於供給；Lisa Su：晶圓、基板、先進封裝、記憶體都已鎖，但仍在加供給。</td>
+        </tr>
+        <tr>
+          <td><b>產品節奏</b></td>
+          <td>Helios／MI455X：Q3 開始認列營收，Anthropic、Meta、Microsoft、OpenAI、Oracle 已上機；Q4 產量「大幅」上台階，HPE／Dell／Lenovo／Supermicro 出系統。Venice：Q3 開始出貨，OEM 平台 &gt;240（較 Turin +20%），雲端本季部署、實例 2027 初。Helion 全 CPU 機櫃（最多 144 顆 Venice／約 7.4 萬執行緒）本季出貨。MI500 已與多家前沿實驗室共設計、規劃多 GW。</td>
+          <td>Q3 是「從 0 到 1」；Q4 的 +$43 億 DC 增量，本質是 Helios 從樣品變成量。庫存 $115 億就是這條產線的在製品。</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:4px;">認股權三件套（CFO）：（1）營收已淨額；（2）股數要等出貨＋商業條件，2027 才給明確指引；（3）每季評價是非現金，不進 non-GAAP／FCF。每 GW 變現仍稱約 <b>$150–200 億</b>；HBM 漲價會跟客戶分攤，賣點是 tokens／美元不是絕對晶片價。</p>
+  </section>
+
+  <footer class="bar">
+    <span>第 2 頁 / 共 3 頁</span>
+    <span>Q4 指引與 2027 模型對回 Q3 資產負債表</span>
+    <span class="disc">僅為報告參考，非投資建議</span>
+  </footer>
+</article>
+
+<article class="sheet">
+  <header class="top">
+    <div>
+      <h1>產業趨勢，以及哪些財務訊號能驗證（或推翻）2027</h1>
+      <div style="font-size:11px;opacity:.9;margin-top:2px;">2026 年 11 月｜CSP capex 上修 × 機櫃化 × HBM／記憶體通膨 × ASIC</div>
+    </div>
+    <div class="meta">搭配第 1–2 頁財務橋梁閱讀</div>
   </header>
 
   <section class="box ind">
-    <h2>三、產業趨勢</h2>
+    <h2>四、產業趨勢——每一條對應 AMD 報表上的一個科目</h2>
     <table>
-      <thead><tr><th style="width:22%">趨勢</th><th>正在發生什麼</th><th>對 AMD 的含義</th></tr></thead>
+      <thead><tr><th style="width:20%">趨勢</th><th>正在發生什麼</th><th>已反映在 AMD 哪裡／下一步看什麼</th></tr></thead>
       <tbody>
         <tr>
-          <td><b>1. 推理大於訓練</b></td>
-          <td>AMD 估 2026 年全球 AI 算力約 60% 用於推理；agentic AI 讓「主機節點 CPU」重新變關鍵。伺服器 CPU TAM 被從約 18% CAGR 上修到 &gt;50%、2030 年約 $2,200 億。</td>
-          <td class="g">這解釋為什麼 Q2 真正暴衝的是 EPYC（雲＋企業各 +70%），而不只是 GPU。Helios 的賣點也是 tokens／美元與 50% 更多 HBM，不是純訓練 FLOPS。</td>
+          <td><b>1. CSP capex 還在上修，價格也在上修</b></td>
+          <td>TrendForce（10/14）：九大 CSP 2026 capex <b>$9,570 億（+106%）</b>，2027 <b>&gt;$1.5 兆（+60%）</b>，兩年都上修。AI 伺服器 2026 營收約 $4,790 億；2027 上看約 $9,200 億（+90%+），佔整體伺服器約 81%。訂單單位是 NVIDIA GB300／VR200 與 <b>AMD Helios</b> 這類整櫃。</td>
+          <td class="g">這是 2027 公司 +80% 的需求側。AMD Q4 DC +50%、2027 DC 佔比 &gt;80%，與「市場價值比出貨量長得更快」（缺貨漲價）一致。要盯四大雲下次 capex 與 OCF 覆蓋率——預算若改用負債，第二供應商份額先被砍。</td>
         </tr>
         <tr>
-          <td><b>2. 競爭單位變成一櫃／一 GW</b></td>
-          <td>NVIDIA 賣 NVL72 級整櫃；AMD 用 Helios（72 GPU）對打，並宣告之後每年一代機櫃（2027 為 MI500）。資料中心業者已按 246 kW 液冷機櫃、叢集可到 10 MW 級做參考設計。</td>
-          <td class="g">不會做機櫃的供應商會被擠出超大規模標案。Q3 末出貨、Q4 爬坡，是 AMD 從「賣芯片」轉「賣 AI 工廠積木」的驗收點。</td>
+          <td><b>2. 記憶體變成 capex 本體</b></td>
+          <td>TrendForce：2027 九大 CSP capex 逾 <b>60%</b> 會花在 DRAM／NAND／HBM。HBM 長約大漲；供應商產能優先伺服器。PC 被同一波漲價抽走單位數。</td>
+          <td class="a">Q3 Client −4% QoQ、Q4 Client+Gaming 指引 &gt;−20%、2027 PC 市場雙位數下滑——已經在損益裡。Helios 多 HBM 的機櫃，毛利率 Q4 指引 55%（−1ppt）就是這筆帳單。CFO：毛利<b>額</b>仍大增；成本與客戶分攤。觀察 Q1'27 毛利率會不會再被 HBM 咬一口。</td>
         </tr>
         <tr>
-          <td><b>3. 買家預算仍在上修，現金流已繃</b></td>
-          <td>TrendForce：2026 年九大 CSP capex 合計超 <b>$8,867 億</b>，北美五家約 90%。BofA：2026 超大規模 capex 可超 $8,600 億（+80%），2027 有路徑到 $1.2 兆。UBS 更激進：2026 約 $1.0 兆、2027 $1.45 兆。四大雲 Q2 capex 幾乎吃光當季 OCF。</td>
-          <td class="a">需求端還沒見頂。但下一階段風險是「用負債或遞延 GPU 採購」時，第二供應商份額先被砍。要盯的是四大雲下次 capex 指引，不是再聽一次 TAM 故事。</td>
+          <td><b>3. 競爭單位是機櫃，不是單卡</b></td>
+          <td>Q3 是 Helios 第一次認列營收；Q4 OEM 放量。Lisa Su：TCO／tokens 每美元決定配置，一般用途 GPU 比 ASIC 更能跨工作負載。MI500／MI600 已與前沿實驗室共設計。</td>
+          <td class="g">Q4 DC AI 美元超過 CPU，是機櫃化在報表上的分界點。庫存 +$30 億、PPE +70% YTD，是「做機櫃」的資產負債表版本。</td>
         </tr>
         <tr>
-          <td><b>4. 第二來源是真的，CUDA 也還在</b></td>
-          <td>TrendForce：Meta 2026 以 NVIDIA GB/VR <b>與</b> AMD Helios 雙軌，2027 再加速自研 ASIC。NVIDIA 估仍握 AI 加速器約 70–75%；AMD 約 5–10%，有機構看 2027 到 8–12% 或 10–15%。</td>
-          <td class="a">OpenAI／Meta／Anthropic／Azure 進標案＝產能與議價，不是 ROCm 已經贏。市佔從 5% 到 10% 可以很快；要到 20% 必須看到生產級軟體遷移。</td>
+          <td><b>4. Agentic 把 CPU 又做大</b></td>
+          <td>伺服器 CPU 展望從「&gt;70%」上修到 <b>2027 翻倍</b>。雲＋企業出貨都年增一倍以上。Turin 公有雲 &gt;540 實例；OpenAI 選 EPYC 當自研加速器的 host CPU。Helion 全 CPU 機櫃本季出貨。</td>
+          <td class="g">這解釋為什麼 DC 不是「只靠 GPU 故事」。CPU 毛利率高於 Instinct，是公司守住 55% 毛利率地板的平衡錘。Venice 單位數＋核心數（不是純漲 ASP）撐 100% 伺服器成長。</td>
         </tr>
         <tr>
-          <td><b>5. 自研 ASIC 是比 AMD 更快的變數</b></td>
-          <td>TrendForce：客製 ASIC 伺服器出貨年增約 45%，2026 年估佔加速器伺服器約 <b>28%</b>，增速遠高於商用 GPU（約 16%）。Google TPU、AWS Trainium、Microsoft Maia、Meta 自研都在加碼，尤其是推理。</td>
-          <td class="r">這塊 TAM 商用 GPU 雙方都拿不到。餅夠大時 NVIDIA 與 AMD 仍可一起長；餅一慢，ASIC 會先切推理增量。</td>
+          <td><b>5. ASIC 仍在搶推理增量</b></td>
+          <td>Google TPU、AWS Trainium、MSFT Maia、Meta MTIA 續走。客製 ASIC 伺服器增速仍高於商用 GPU。AMD 的回答是：Helios TCO、與實驗室共設計、買 Taalas（低延遲推理矽）和 World Labs（模型／空間智能，Fei-Fei Li 任首席科學家）。</td>
+          <td class="a">併購會進 Q4 股數（~16.7 億）。這是「用資產負債表買軟體／模型能力」，不是當季 EPS 故事。ASIC 若在 2028 吃推理，MI500 的 GW 規劃就要打折。</td>
         </tr>
         <tr>
-          <td><b>6. 記憶體／電力成為產能上限</b></td>
-          <td>Helios 較競品多約 50% HBM，有利大模型推理，也更暴露在 HBM 漲價。PC 端記憶體漲價已讓管理層預告下半年 PC 偏弱。電力與液冷決定 GW 能否落地。</td>
-          <td class="a">毛利率 56% 能不能在 Helios 放量時守住，幾乎等於「HBM 成本 vs tokens 溢價」。這是 2027 EPS 能不能靠近 Street $15 的關鍵假設。</td>
+          <td><b>6. 供給是上限，不是需求</b></td>
+          <td>Lisa Su：需求大於供給；晶圓／基板／先進封裝／記憶體已鎖，但仍在加。伺服器 TAM 2030 約 $2,200 億。約 3 GW 級 2027 錨定客戶的土地、電力、機殼，公司說與客戶對過部署點。</td>
+          <td class="a">+80% 是「目前鎖到的供給」不是需求天花板。上檔來自再加到的產能；下檔來自 HBM／封裝跟不上或客戶融資／電力 delay。</td>
         </tr>
       </tbody>
     </table>
   </section>
 
   <section class="box earn">
-    <h2>四、三句話串起來</h2>
+    <h2>五、三句話串起來（財務 → 營運）</h2>
     <ul>
-      <li><b>財報已換軌：</b>Q2 營收 +50%、資料中心翻倍並佔 58%，EPYC 與 Instinct 雙引擎都在跑，毛利率 56%、non-GAAP OM 27%。這是「已經發生」的。</li>
-      <li><b>展望看 Q4 與 2027：</b>Q3 指引 $130 億只是 Helios 起點；管理層要的畫面是 H2 伺服器 +80%、2027 資料中心再翻倍。訂單能見度來自最高約 14 GW（OpenAI 6 + Meta 6 + Anthropic 2）與 Azure 部署。</li>
-      <li><b>產業仍在擴，但結構在變：</b>超大規模 capex 2026–27 還在上修；競爭單位變成機櫃；真正搶市佔的對手除了 NVIDIA，還有客戶自己的 ASIC。AMD 的位置是「推理＋CPU＋第二供應商」，不是下一個 CUDA。</li>
+      <li><b>已經發生：</b>DC 從一年前 47% 到 64%，部門 OM 25%→34%；公司 non-GAAP OM 24%→29%；費用佔營收 30%→27%。Q3 增量營收幾乎 100% 是資料中心。Helios 已從 0 變成有營收。</li>
+      <li><b>正在預支：</b>存貨 $115 億、應付 $78 億、發債 $48 億、9M capex $18.5 億、Q3 FCF 暫時掉到 $5.5 億——這是 Q4 $170 億與 2027 +80% 的在製品。不是獲利品質惡化（9M FCF 仍 +36% YoY）。</li>
+      <li><b>還要驗證：</b>Q4 DC 是否真的 +50%、AI 是否超過 CPU、毛利率守在 ~55%；2027 費用是否真的低於營收增速一半；認股權何時進股數；HBM 會不會把 55% 地板鑿穿。產業 capex 與機櫃化站在同一邊，ASIC 與記憶體通膨是主要對沖。</li>
     </ul>
+    <p class="src">
+      <b>資料來源：</b>
+      <a href="https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results" target="_blank">AMD Q3'26 財報（2026-11-03）</a> ·
+      <a href="https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000188/amdq32026earningsslidesf.htm" target="_blank">Q3 法說投影片</a> ·
+      <a href="https://stockanalysis.com/stocks/amd/transcripts/724028-q3-2026/" target="_blank">Q3 法說逐字稿</a> ·
+      <a href="https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results" target="_blank">Q1'26 財報</a> ·
+      <a href="https://www.trendforce.com/presscenter/news/20261014-13269.html" target="_blank">TrendForce：2027 CSP capex &gt;$1.5T</a> ·
+      <a href="https://www.trendforce.com/research/download/RP261016JQ" target="_blank">TrendForce：記憶體佔 capex 60%+</a> ·
+      價格：Yahoo 2026-11-03 收盤 $483.90；盤後約 $516–523。
+    </p>
   </section>
 
-  <div class="src">
-    <b>資料來源：</b>
-    <a href="https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results" target="_blank">AMD Q2'26 財報</a> ·
-    <a href="https://www.fool.com/earnings/call-transcripts/2026/08/11/amd-amd-q2-2026-earnings-call-transcript/" target="_blank">Q2'26 法說逐字稿</a> ·
-    <a href="https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html" target="_blank">CNBC 財報整理</a> ·
-    <a href="https://www.thelec.net/news/articleView.html?idxno=12851" target="_blank">Lisa Su：2027 資料中心翻倍</a> ·
-    <a href="https://newsroom.amd.com/news/aai-2026-helios-update/" target="_blank">Helios 發表</a> ·
-    <a href="https://www.trendforce.com/presscenter/news/20260803-13161.html" target="_blank">TrendForce：2026 CSP capex $8,867 億</a> ·
-    <a href="https://pro.edgex.exchange/en-US/news/article/bofa-hyperscaler-capex-forecast-2026" target="_blank">BofA capex 展望</a> ·
-    <a href="https://247wallst.com/investing/2026/08/22/ais-absurd-spending-boom-hyperscalers-are-spending-102-of-cloud-revenue-on-capex/" target="_blank">UBS 2026–28 capex</a> ·
-    <a href="https://alatirok.com/ai-chip-market-share-2026/" target="_blank">2026 AI 晶片市佔／ASIC</a>
-  </div>
   <footer class="bar">
-    <span>第 2 頁 / 共 2 頁</span>
-    <span>估值七步見 amd-modern-value-report.html　客人與花錢位置見 amd-customers-outlook.html</span>
+    <span>第 3 頁 / 共 3 頁</span>
+    <span>進出價討論見 amd-price-plan-330.html</span>
     <span class="disc">僅為報告參考，非投資建議</span>
   </footer>
 </article>
