@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AMD 現代價值投資報告 - 2026年08月25日</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0b1f4a;
+      --navy-2: #132a62;
+      --ink: #1a2332;
+      --muted: #4b5563;
+      --line: #d7dee8;
+      --green: #166534;
+      --green-bg: #dcfce7;
+      --red: #b91c1c;
+      --red-bg: #fee2e2;
+      --amber: #b45309;
+      --amber-bg: #fef3c7;
+      --blue: #1d4ed8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+      background: #c5cdd8;
+      color: var(--ink);
+      line-height: 1.35;
+    }
+    .sheet {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 12px auto;
+      background: #fff;
+      padding: 8.5mm 9mm 8mm;
+      box-shadow: 0 8px 28px rgba(15, 23, 42, 0.18);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    header.top {
+      background: linear-gradient(90deg, var(--navy) 0%, var(--navy-2) 100%);
+      color: #fff;
+      border-radius: 6px;
+      padding: 9px 14px 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 7px;
+    }
+    header.top h1 { font-size: 17.5px; font-weight: 800; letter-spacing: 0.2px; }
+    header.top .meta { font-size: 10.5px; opacity: 0.92; text-align: right; line-height: 1.4; }
+    .box {
+      border: 1.6px solid;
+      border-radius: 7px;
+      padding: 6px 8px 7px;
+      margin-bottom: 6px;
+    }
+    .box h2 {
+      font-size: 12.4px;
+      font-weight: 800;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .box h2 .sub { font-size: 10.5px; font-weight: 600; opacity: 0.78; }
+    .s1 { border-color: #60a5fa; background: #eff6ff; }
+    .s1 h2 { color: #1d4ed8; }
+    .s2 { border-color: #4ade80; background: #f0fdf4; }
+    .s2 h2 { color: #166534; }
+    .s3 { border-color: #f9a8d4; background: #fdf2f8; }
+    .s3 h2 { color: #9d174d; }
+    .s4 { border-color: #fbbf24; background: #fffbeb; }
+    .s4 h2 { color: #92400e; }
+    .s5 { border-color: #c4b5fd; background: #f5f3ff; }
+    .s5 h2 { color: #5b21b6; }
+    .risk { border-color: #f87171; background: #fff1f2; }
+    .risk h2 { color: #9f1239; }
+    .sum { border-color: #38bdf8; background: #f0f9ff; }
+    .sum h2 { color: #075985; }
+    .row {
+      display: grid;
+      grid-template-columns: 92px 1fr 118px;
+      gap: 6px;
+      align-items: start;
+      padding: 2.2px 0;
+      border-bottom: 1px dashed #e5e7eb;
+      font-size: 10.6px;
+    }
+    .row:last-child { border-bottom: 0; }
+    .k { font-weight: 700; color: #111827; }
+    .v { color: #1f2937; }
+    .v b { font-weight: 700; }
+    .tag {
+      font-size: 10px;
+      font-weight: 800;
+      text-align: right;
+      white-space: nowrap;
+      padding-top: 1px;
+    }
+    .g { color: var(--green); }
+    .r { color: var(--red); }
+    .a { color: var(--amber); }
+    .note { font-size: 10.3px; color: #374151; margin-top: 3px; }
+    .moat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 10px; }
+    .moat-item { font-size: 10.4px; }
+    .moat-item .hd {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 800;
+      margin-bottom: 1px;
+    }
+    .moat-item ul { padding-left: 14px; margin: 0; }
+    .moat-item li { margin: 0.5px 0; }
+    .scorebar {
+      margin-top: 6px;
+      background: #ede9fe;
+      border: 1px solid #c4b5fd;
+      border-radius: 999px;
+      padding: 4px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11.5px;
+      font-weight: 800;
+      color: #5b21b6;
+    }
+    .pill {
+      background: #f59e0b;
+      color: #fff;
+      border-radius: 999px;
+      padding: 2px 10px;
+      font-size: 11px;
+    }
+    .risk ul, .sum ul { padding-left: 16px; font-size: 10.6px; }
+    .risk li { margin: 2.2px 0; }
+    .verdict {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+      margin: 5px 0 6px;
+    }
+    .chip {
+      border-radius: 6px;
+      padding: 5px 4px;
+      text-align: center;
+      font-size: 10.6px;
+      font-weight: 800;
+      border: 1px solid;
+    }
+    .chip.ok { background: #dcfce7; border-color: #86efac; color: #166534; }
+    .chip.warn { background: #ffedd5; border-color: #fdba74; color: #9a3412; }
+    footer.bar {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      font-size: 9.4px;
+      color: #6b7280;
+      padding-top: 4px;
+      border-top: 1px solid #e5e7eb;
+    }
+    footer.bar .disc { color: #dc2626; font-weight: 700; }
+    .src {
+      font-size: 8.6px;
+      color: #4b5563;
+      line-height: 1.38;
+      margin-top: 5px;
+    }
+    .src a { color: #1d4ed8; text-decoration: none; }
+    .src a:hover { text-decoration: underline; }
+    .formula { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 10.2px; }
+    @media print {
+      body { background: #fff; }
+      .sheet { box-shadow: none; margin: 0; page-break-after: always; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <!-- PAGE 1 -->
+  <article class="sheet">
+    <header class="top">
+      <div>
+        <h1>AMD 現代價值投資報告</h1>
+        <div style="font-size:11px;opacity:.9;margin-top:2px;">Advanced Micro Devices, Inc.（NASDAQ: AMD）｜資料截止 2026-08-24</div>
+      </div>
+      <div class="meta">
+        收盤價 <b>$456.75</b><br />
+        市值約 <b>$745B</b>（流通 16.32 億股）<br />
+        2026年08月25日
+      </div>
+    </header>
+
+    <section class="box s1">
+      <h2>步驟一：Known - 熟悉度評估 <span class="sub">釐清賺錢方式、產業鏈位置與受眾</span></h2>
+      <div class="row">
+        <div class="k">業務模式</div>
+        <div class="v">無晶圓廠（fabless）<b>高效能／AI 運算設計公司</b>，處於半導體產業鏈「IC 設計」環節：自研 CPU、GPU、FPGA、Adaptive SoC、DPU／AI NIC 與機櫃級系統，晶圓委由 <b>TSMC</b>（7nm 及更先進節點全部依賴 TSMC）與 GLOBALFOUNDRIES（較成熟節點）代工，封測交由 ATMP 合作夥伴。<sup>1,2</sup> 產品從雲端 AI 機櫃（Helios）延伸到 PC、遊戲主機 SoC 與嵌入式／國防航太。2025 年將 Client 與 Gaming 合併為單一報告部門。</div>
+        <div class="tag g">商業模式清晰</div>
+      </div>
+      <div class="row">
+        <div class="k">收入來源</div>
+        <div class="v">
+          <b>FY2025 營收 $346.4 億</b>（美元，下同）：資料中心 <b>$166.4 億（48.0%）</b>、Client <b>$106.4 億（30.7%）</b>、Gaming <b>$39.1 億（11.3%）</b>、Embedded <b>$34.5 億（10.0%）</b>。<sup>1,3</sup>
+          <b>Q2'26 結構已轉向 AI</b>：資料中心 <b>$67.2 億（58.2%）</b>、Client $31 億、Gaming $7.8 億、Embedded $9.8 億。<sup>4</sup>
+        </div>
+        <div class="tag g">AI 占比快速提升</div>
+      </div>
+      <div class="row">
+        <div class="k">客戶群體</div>
+        <div class="v">以 <b>B2B</b> 為主：超大規模雲端／AI 實驗室（OpenAI、Meta、Microsoft Azure、Anthropic、Oracle 等）、伺服器 OEM／ODM、PC OEM、Sony／Microsoft 遊戲主機、航太國防與工業嵌入式客戶。FY2025／FY2024 <b>無單一客戶佔合併營收 ≥10%</b>（FY2023 曾有 Client &amp; Gaming 客戶佔 18%）。<sup>2</sup> 國際銷售（以開票地）FY2025 佔 67%；中國（含香港）開票 <b>$77.5 億（22.4%）</b>、美國 32.8%、台灣 15.0%。<sup>2</sup> Q2'26 國際銷售 70%。<sup>5</sup></div>
+        <div class="tag a">帳面分散、AI 合約趨於集中</div>
+      </div>
+    </section>
+
+    <section class="box s2">
+      <h2>步驟二：Growth - 增長分析 <span class="sub">成長動能、賽道空間與可持續性</span></h2>
+      <div class="row">
+        <div class="k">總收入與 YoY</div>
+        <div class="v"><b>FY2025：$346.4 億，YoY +34.3%</b>（$257.9 億 → $346.4 億）。GAAP 稀釋 EPS $2.65（+165%）；non-GAAP EPS $4.17（+26%）。<sup>1</sup> <b>Q2'26：$115.4 億，YoY +50%</b>；H1'26 $217.9 億，YoY +44%。<sup>4</sup> TTM 營收約 <b>$413.1 億</b>（Q3'25–Q2'26）。</div>
+        <div class="tag g">遠超 20% 標準</div>
+      </div>
+      <div class="row">
+        <div class="k">未來增長指引</div>
+        <div class="v">
+          2025/11 Analyst Day：未來 3–5 年公司營收 CAGR <b>&gt;35%</b>、資料中心 CAGR &gt;60%、資料中心 AI CAGR &gt;80%、non-GAAP 營運利潤率 &gt;35%、non-GAAP EPS <b>&gt;$20</b>。<sup>6</sup>
+          Street：Yahoo Finance 共識 FY2026 營收 <b>$508 億（+46.7%）</b>、FY2027 <b>$874.5 億（+72.2%）</b>；EPS $7.56 / $15.49。<sup>7</sup> ChartMill 2028 營收 $1,035 億、EPS $18.23 → <b>2025–2028 營收 CAGR 約 44%</b>。<sup>8</sup>
+          Q3'26 公司指引營收約 <b>$130 億 ±$3 億</b>（中點 YoY +41%、QoQ +13%）。<sup>4</sup>
+        </div>
+        <div class="tag g">遠超 20% 標準</div>
+      </div>
+      <div class="row">
+        <div class="k">市場空間 TAM</div>
+        <div class="v">
+          <b>大 M（TAM）</b>：管理層上修資料中心 AI 加速器市場至 <b>2030 年約 $1.4 兆、年增 &gt;45%</b>；伺服器 CPU 市場 2030 年約 <b>$2,200 億、年增 &gt;50%</b>；可觸及運算市場接近 <b>$2 兆</b>。<sup>9,10</sup><br />
+          <b>SAM（商用加速器）</b>：IDC 估 2026 年 AI 資料中心晶片 NVIDIA 約 81%、AMD 約 5–10%（較 2024 年約 5% 翻倍）。<sup>11,12</sup><br />
+          <b>SOM（AMD 實際切到的）</b>：FY2025 資料中心 $166 億；Q2'26 單季 $67 億，年化約 $269 億，仍遠小於 TAM，滲透空間大。
+        </div>
+        <div class="tag g">超大型市場空間</div>
+      </div>
+      <div class="row">
+        <div class="k">業務部門增長</div>
+        <div class="v">
+          <b>資料中心</b>是主引擎：FY2025 +32% 至 $166 億（EPYC + Instinct MI350）；<b>Q2'26 +107% 至 $67.2 億</b>，營運利益 $21.0 億、部門利潤率 31%。<sup>1,4</sup>
+          Client FY2025 +51%（出貨 +15%、ASP +31%）；Q2'26 Client +23% 至 $31 億。<sup>3,4</sup>
+          Gaming FY2025 +51%，但 <b>Q2'26 −31% 至 $7.8 億</b>（半客製主機 SoC 下滑）。Embedded FY2025 −3%，Q2'26 +19% 至 $9.8 億（庫存調整結束）。<sup>1,4</sup>
+        </div>
+        <div class="tag g">AI／伺服器驅動</div>
+      </div>
+      <div class="row">
+        <div class="k">增長持續性</div>
+        <div class="v">
+          能見度來自<b>吉瓦級綁定訂單</b>而非傳統 RPO（一年以上剩餘履約義務僅 $2.22 億，幾乎無參考價值）。<sup>5</sup>
+          OpenAI：部署 <b>6 GW</b> Instinct，並獲 1.6 億股 $0.01 認股權；Meta：同樣最高 <b>6 GW</b> + 1.6 億股認股權；Anthropic：最高 <b>2 GW</b> MI450／Helios。<sup>2,5,10</sup>
+          Helios 機櫃（72 GPU、對標 NVIDIA Vera Rubin NVL72）已開始出貨，Q3 起量、Q4 再上台階、2027 續爬坡；Lisa Su 稱 2027 每 GW 變現仍在「double-digit billions」區間。<sup>9,10</sup>
+          EPYC 伺服器營收市佔 Q1'26 創紀錄 <b>46.2%</b>（Mercury；單位市佔 33.2%）。<sup>13</sup>
+        </div>
+        <div class="tag g">訂單能見度拉長至 2027</div>
+      </div>
+    </section>
+
+    <section class="box s3">
+      <h2>步驟三：Valuation - 估值評估 <span class="sub">對標行業、預期 PE 與潛在價值空間</span></h2>
+      <div class="row">
+        <div class="k">當前估值對比</div>
+        <div class="v">
+          以 2026-08-24 收盤 <b>$456.75</b>、約 16.325 億股計，市值 <b>~$745B</b>。<sup>14</sup><br />
+          <b>PE（GAAP TTM）117.4x</b>（TTM EPS $3.89）vs 半導體公司中位數 <b>40.2x</b>、五年均值 40.6x。<sup>14,15</sup> → <span class="r">顯著高於行業</span><br />
+          non-GAAP TTM EPS $5.76 → PE <b>79.3x</b>，仍貴。<br />
+          <b>PS（TTM）18.1x</b>（TTM 營收 $413 億）vs 半導體全體中位數 4.4x；大型 AI 同業約 15–20x。<sup>16</sup> → <span class="a">高於行業中位數、接近大型成長股上沿</span><br />
+          <b>P/FCF 88.7x</b>（TTM FCF $84.0 億）vs 樣本行業約 50x。<sup>17</sup> → <span class="r">高於行業</span>
+        </div>
+        <div class="tag r">當前倍數偏貴</div>
+      </div>
+      <div class="row">
+        <div class="k">預期 PE</div>
+        <div class="v">
+          以 Yahoo 共識 EPS（46–50 位分析師，Q2 後上修）與 ChartMill 2028：<br />
+          FY2026E $7.56 → <b>60.4x</b>　｜　FY2027E $15.49 → <b>29.5x</b>　｜　FY2028E $18.23 → <b>25.1x</b><br />
+          <b>三年平均預期 PE = (60.4 + 29.5 + 25.1) / 3 = 38.3x</b><sup>7,8</sup><br />
+          保守口徑（Barchart 19 位分析師：$6.44 / $13.47）三年平均約 43x，Forward PE 更高。<sup>18</sup>
+        </div>
+        <div class="tag a">近兩年倍數仍高、2027 後回落</div>
+      </div>
+      <div class="row">
+        <div class="k">合理估值依據</div>
+        <div class="v">
+          給予 <b>38–45x</b> 合理 PE、中樞 <b>42x</b>：&gt;35% 營收 CAGR 與 AI TAM 擴張可拿成長溢價；但（1）Instinct／ROCm 市佔仍僅約 5–10%、CUDA 生態落差未解；（2）毛利率 54% 遠低於 NVIDIA ~70%；（3）OpenAI+Meta 認股權最多 3.2 億股（約稀釋 20%）應折價。不宜給 NVDA 等級的長期 50x+。
+        </div>
+        <div class="tag a">合理 PE 38–45x</div>
+      </div>
+      <div class="row">
+        <div class="k">潛在價值空間</div>
+        <div class="v">
+          <span class="formula">(合理 PE ÷ 三年平均預期 PE − 1) × 100% = (42 ÷ 38.3 − 1) × 100% ≈ <b>9.7%</b></span><br />
+          若用區間下限 38x：約 <b>−0.8%</b>；上限 45x：約 <b>17.5%</b>。結論取決於 2027 EPS 能否接近 $15。以中樞計，安全邊際薄。
+        </div>
+        <div class="tag a">估值大致合理、空間有限</div>
+      </div>
+    </section>
+
+    <section class="box s4">
+      <h2>步驟四：Profitability - 盈利能力 <span class="sub">賺錢效率、股東回報與財務安全</span></h2>
+      <div class="row">
+        <div class="k">利潤率指標</div>
+        <div class="v">
+          <b>毛利率</b>：FY2025 GAAP 50%／non-GAAP 52%；<b>TTM 約 53.2%</b>；Q2'26 GAAP 54%、non-GAAP 56%（Q3 指引維持 ~56%）。行業 TTM 約 <b>44.0%</b>。<sup>1,4,19</sup> → <span class="g">遠超 30% 標準、優於行業</span><br />
+          <b>營運利潤率</b>：FY2025 GAAP 11%／non-GAAP 22%；TTM GAAP 約 15.7%；Q2'26 GAAP 17%、non-GAAP <b>27%</b>。行業約 29–31%。<sup>1,4</sup> → <span class="r">低於行業，但斜率向上</span><br />
+          <b>淨利率</b>：FY2025 12.5%；TTM 約 15.6%；Q2'26 19.9%。行業 TTM 約 <b>28.0%</b>。<sup>1,4,19</sup> → <span class="r">低於行業</span><br />
+          公司目標 3–5 年 non-GAAP OM &gt;35%，若達成將是估值重估的核心觸發點。<sup>6</sup>
+        </div>
+        <div class="tag a">毛利達標，費用率仍高</div>
+      </div>
+      <div class="row">
+        <div class="k">股東回報</div>
+        <div class="v">
+          <b>股息率 0%</b>，不配息。<sup>18</sup>
+          FY2025 回購 1,200 萬股／<b>$13 億</b>，授權餘額 $94 億（總授權 $140 億）。<sup>2</sup> H1'26 僅回購 110 萬股／<b>$2.21 億</b>，同期 SBC 約 $9.9 億。<sup>5</sup>
+          稀釋後股數 Q2'25 16.30 億 → Q2'26 <b>16.59 億（+1.8%）</b>。<sup>4</sup> OpenAI+Meta 認股權各 1.6 億股、合計最多 <b>3.2 億股</b>，截至 2026-06-27 均未歸屬。<sup>5</sup>
+        </div>
+        <div class="tag r">回購弱、認股權稀釋風險大</div>
+      </div>
+      <div class="row">
+        <div class="k">資本效率與安全</div>
+        <div class="v">
+          Q2'26 現金及短投 <b>$131.1 億</b> vs 有息負債本金 <b>$32.3 億</b>（淨現金約 $88 億）；股東權益 $672 億，其中商譽+購併無形資產 $411 億。<sup>4,5</sup>
+          <b>TTM ROIC ≈ 9.8%</b>（NOPAT $56.4 億／投入資本 $573 億，含商譽）；若剔除購併無形／商譽，有形 ROIC 可至約 30%+。帳面 ROIC 被 Xilinx 購併資產壓低，核心 fabless 經濟模型較佳。
+          FY2025 利息費用 $1.31 億，利息覆蓋 <b>28x</b>；TTM 約 <b>44x</b>。<sup>2,5</sup> R&amp;D FY2025 $80.9 億（營收 23.4%），Q2'26 $25.3 億（21.9%）。<sup>2,4</sup>
+        </div>
+        <div class="tag g">財務安全；帳面 ROIC 受商譽稀釋</div>
+      </div>
+    </section>
+
+    <footer class="bar">
+      <span>第 1 頁 / 共 2 頁</span>
+      <span>價格基準：2026-08-24 收盤 $456.75｜財報：FY2025、Q2'26</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </article>
+
+  <!-- PAGE 2 -->
+  <article class="sheet">
+    <header class="top">
+      <div>
+        <h1>AMD 現代價值投資報告</h1>
+        <div style="font-size:11px;opacity:.9;margin-top:2px;">護城河、風險與綜合觀點｜2026年08月25日</div>
+      </div>
+      <div class="meta">NASDAQ: AMD<br />資料截止 2026-08-24</div>
+    </header>
+
+    <section class="box s5">
+      <h2>步驟五：Moat - 護城河評估 <span class="sub">五維各 0–1.0，滿分 5.0</span></h2>
+      <div class="moat-grid">
+        <div class="moat-item">
+          <div class="hd"><span>成本優勢</span><span>0.6 / 1.0</span></div>
+          <ul>
+            <li>輕資產 fabless，避開 Intel 級晶圓廠資本支出；先進製程綁 TSMC 取得製程紅利，但也把成本與產能定價權交給代工廠。<sup>2</sup></li>
+            <li>GAAP 毛利率從 FY2024 49% 升至 Q2'26 54%、non-GAAP 56%，仍明顯低於 NVIDIA ~70%、Broadcom ~68%。<sup>4,19</sup></li>
+            <li>Helios 自稱較競品多約 30% tokens／美元，屬「性價比」而非絕對定價權。<sup>20</sup></li>
+            <li>中國出口管制曾提列 MI308 庫存損失 $8 億，顯示監管可直接侵蝕毛利。<sup>4</sup></li>
+          </ul>
+        </div>
+        <div class="moat-item">
+          <div class="hd"><span>網絡效應</span><span>0.6 / 1.0</span></div>
+          <ul>
+            <li>x86 授權形成與 Intel 的雙寡頭；EPYC 在雲端／企業有真實轉換成本，伺服器營收市佔已至 46.2%。<sup>13</sup></li>
+            <li>ROCm.ai 與 Zyphra ZAYA1（全數在 MI300X 上訓練的大型 MoE）顯示軟體可用性過門檻，但仍遠落後 CUDA 十年開發者鎖定。<sup>1,12</sup></li>
+            <li>開放架構是搶 NVIDIA 客戶的策略，本身網絡效應弱於 CUDA。</li>
+          </ul>
+        </div>
+        <div class="moat-item">
+          <div class="hd"><span>品牌優勢</span><span>0.8 / 1.0</span></div>
+          <ul>
+            <li>Brand Finance 2026：品牌價值 <b>$192 億（+75%）</b>，全球半導體品牌第 4、已超越 Intel 的 $139 億；擠入全球科技品牌前 30。<sup>21,22</sup></li>
+            <li>EPYC／Ryzen／Instinct／Helios 已從「平價 Intel」轉為高效能與 AI 基礎設施品牌。</li>
+          </ul>
+        </div>
+        <div class="moat-item">
+          <div class="hd"><span>技術門檻</span><span>0.8 / 1.0</span></div>
+          <ul>
+            <li>截至 2025-12-27：全球約 <b>12,600 件已核准專利、18,900 件專利事項</b>（含 6,300 件申請中）；美國約 7,200 件。<sup>2</sup></li>
+            <li>x86 指令集授權、chiplet／Infinity Fabric、Xilinx FPGA／Versal、Pensando 網路、Helios 72 GPU 機櫃（宣稱較 Rubin NVL72 多 15% FP4 算力、50% HBM 容量）。<sup>20</sup></li>
+            <li>Instinct 年更節奏（MI350 → MI400／MI450）與 6th Gen EPYC「Venice」構成完整 AI 堆疊，但訓練生態仍非領導者。</li>
+          </ul>
+        </div>
+      </div>
+      <div class="moat-item" style="margin-top:5px;">
+        <div class="hd"><span>業務韌性</span><span>0.7 / 1.0</span></div>
+        <ul>
+          <li>收入仍比 NVIDIA 多元：Q2'26 資料中心 58%、Client+Gaming 33%、Embedded 8.5%；FY2025 無 10% 大客戶。<sup>2,4</sup></li>
+          <li>資產負債表強：現金短投 $131 億、負債 $32 億、利息覆蓋 ~44x。<sup>4</sup></li>
+          <li>隱憂：AI 成長正把收入綁向少數吉瓦級客戶（OpenAI／Meta／Anthropic）；中國開票 22%；先進製程 100% TSMC／台灣；認股權與 $41 億合作夥伴租賃保證增加或有槓桿。<sup>2,5</sup></li>
+        </ul>
+      </div>
+      <div class="scorebar">
+        <span>護城河總評　<b>3.5 / 5.0</b></span>
+        <span class="pill">中等護城河</span>
+      </div>
+    </section>
+
+    <section class="box risk">
+      <h2>主要風險</h2>
+      <ul>
+        <li><b>CUDA／NVIDIA 生態碾壓：</b>AI 加速器市佔仍約 5–10% vs NVIDIA ~81%。硬體性價比無法自動轉成訓練／推理預設平台，ROCm 若無法成為生產級替代，Instinct 只能吃「第二供應商」份額。<sup>11,12</sup></li>
+        <li><b>認股權循環融資與稀釋：</b>OpenAI、Meta 各獲最多 1.6 億股、行權價 $0.01，合計最多約稀釋 20%。這是用股權補貼大客戶採購，若歸屬將直接壓低每股價值；本質接近「以股換單」。<sup>5,23</sup></li>
+        <li><b>出口管制與中國：</b>MI308 曾一次性庫存損失 $8 億；FY2025 中國開票 $77.5 億（22%）。美方曾放話對許可銷中抽 15% 營收，規則未落地但政策風險極高。<sup>3,4</sup></li>
+        <li><b>超大規模客戶自研 ASIC：</b>Google TPU、AWS Trainium、Microsoft Maia 等會先切推理增量，壓縮 merchant GPU 的 SAM。AMD 自己也警示客戶可能內部開發競品。<sup>2</sup></li>
+        <li><b>供應鏈地理單點：</b>7nm 及以下 CPU／GPU 晶圓全部 TSMC；HBM 與先進封裝同樣緊張。台海或產能分配（NVIDIA 優先）會直接限制 Helios 爬坡。</li>
+        <li><b>估值與週期：</b>GAAP TTM PE 117x、2026E 60x，股價已從 2026Q1 的 $203 衝到 Q2 末 $581 再回落到 $457。任何 Helios 延遲、毛利率停滯或 2027 EPS 不及 $15，都可能引發倍數壓縮。Gaming 已現 −31% 週期下滑。</li>
+      </ul>
+    </section>
+
+    <section class="box sum">
+      <h2>綜合分析與觀點</h2>
+      <div class="verdict">
+        <div class="chip ok">✓ 增長優異</div>
+        <div class="chip warn">▲ 價值空間有限</div>
+        <div class="chip warn">▲ 中等護城河</div>
+        <div class="chip warn">▲ 盈利改善中</div>
+      </div>
+      <p class="note" style="font-size:10.7px;">
+        AMD 是一檔典型的<b>趨勢成長股（AI 基礎設施／第二供應商）</b>，不是高確定性的寬護城河複利股。亮點非常具體：FY2025 營收 +34% 至 $346 億，Q2'26 再加速到 +50%、資料中心翻倍至季營收 $67 億並佔比 58%；EPYC 伺服器營收市佔 46%；OpenAI／Meta／Anthropic 合計最高 14 GW 的部署敘事，加上 Helios 機櫃開始出貨，使 2026–2028 的營收 CAGR（Street 約 44%、公司目標 &gt;35%）遠超 20% 門檻。弱點同樣具體：CUDA 仍是真正的護城河所在，AMD 只拿到中等 3.5/5.0；GAAP 營運／淨利率仍低於行業約 10–12 個百分點；回購追不上 SBC，還有最多約 20% 的大客戶認股權稀釋。以 $456.75 對應三年平均預期 PE 38.3x、合理中樞 42x，公式得出的潛在價值空間僅約 <b>9.7%</b>——意思是「成長故事可以成立，但現價已經把 2027 年盈利放量預支了大部分」。適合作為 AI 算力擴散的衛星倉、用倉位與催化劑（Helios 放量、non-GAAP OM 朝 35% 走、ROCm 生態證據）管理，而不是按傳統價值股的安全邊際去加碼。
+      </p>
+    </section>
+
+    <div class="src">
+      <b>資料來源（點擊可開）：</b>
+      1. <a href="https://www.amd.com/en/newsroom/press-releases/2026-2-3-amd-reports-fourth-quarter-and-full-year-2025-fina.html" target="_blank">AMD FY2025／Q4'25 財報</a>　
+      2. <a href="https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm" target="_blank">AMD FY2025 Form 10-K</a>　
+      3. <a href="https://www.sec.gov/Archives/edgar/data/2488/000000248826000021/amd-20251227.htm" target="_blank">AMD 10-K/A（部門與中國管制）</a>　
+      4. <a href="https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results" target="_blank">AMD Q2'26 財報</a>　
+      5. <a href="https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/q22026991.htm" target="_blank">AMD Q2'26 10-Q／新聞稿附財務表</a>　
+      6. <a href="https://ir.amd.com/news-events/press-releases/detail/1266/amd-unveils-strategy-to-lead-the-1-trillion-compute-market-and-accelerate-next-phase-of-growth" target="_blank">AMD Financial Analyst Day 2025</a>　
+      7. <a href="https://finance.yahoo.com/quote/AMD/analysis/" target="_blank">Yahoo Finance 分析師共識</a>　
+      8. <a href="https://www.chartmill.com/stock/quote/AMD/analyst-ratings" target="_blank">ChartMill 2026–2028 預估</a>　
+      9. <a href="https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-inc-amd-050250626.html" target="_blank">Q2'26 法說重點（TAM／GW）</a>　
+      10. <a href="https://www.fierce-network.com/cloud/amd-launches-full-stack-ai-compute-agentic-era" target="_blank">Fierce Network：Helios／$1.4T TAM</a>　
+      11. <a href="https://commandlinux.com/ai/ai-chip-market-share/" target="_blank">IDC AI 晶片市佔 2026</a>　
+      12. <a href="https://axis-intelligence.com/amd-statistics/" target="_blank">Axis Intelligence：EPYC／Instinct 市佔</a>　
+      13. <a href="https://hothardware.com/news/amd-epyc-server-revenue-share-epyc-gains-intel-xeon" target="_blank">Mercury Research：EPYC 46.2%</a>　
+      14. <a href="https://www.macrotrends.net/stocks/charts/AMD/amd/pe-ratio" target="_blank">MacroTrends：價格與 PE</a>　
+      15. <a href="https://csimarket.com/Industry/industry_valuation_ttm.php?ind=1010" target="_blank">CSIMarket 半導體估值</a>　
+      16. <a href="https://www.gurufocus.com/term/ps-ratio/AMD" target="_blank">GuruFocus PS／行業中位數</a>　
+      17. <a href="https://stockanalysis.com/stocks/amd/financials/" target="_blank">StockAnalysis：TTM FCF／現金負債</a>　
+      18. <a href="https://www.barchart.com/stocks/quotes/AMD/earnings-estimates" target="_blank">Barchart EPS 與 Forward PE</a>　
+      19. <a href="https://csimarket.com/Industry/Industry_Profitability.php?ind=1010" target="_blank">CSIMarket 半導體利潤率</a>　
+      20. <a href="https://www.amd.com/en/blogs/2026/amd-launches-helios-the-highest-performing-rackscale-ai-infrastructure-solution.html" target="_blank">AMD Helios 技術規格</a>　
+      21. <a href="https://brandfinance.com/press-releases/ai-at-full-tilt-nvidias-brand-now-more-valuable-than-facebook-and-walmartnew-data-from-brand-finance-reveals-worlds-500-most-valuable-and-strongest-brands-in-2026" target="_blank">Brand Finance Global 500 2026</a>　
+      22. <a href="https://brandfinance.com/insights/amd-transforming-brand-strategy-for-a-connected-ai-driven-future" target="_blank">Brand Finance：AMD 品牌 $192 億</a>　
+      23. <a href="https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/0001193125-25-230895.pdf" target="_blank">AMD–OpenAI Warrant 8-K</a>
+    </div>
+
+    <footer class="bar">
+      <span>第 2 頁 / 共 2 頁</span>
+      <span>計算備註：市值 = $456.75 × 16.32475 億股；TTM = Q3'25+Q4'25+Q1'26+Q2'26</span>
+      <span class="disc">僅為報告參考，非投資建議</span>
+    </footer>
+  </article>
+</body>
+</html>
