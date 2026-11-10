@@ -952,6 +952,12 @@ PS = 市值 / 年營收。它不問「今年賺不賺錢」，只問「市場願
 28. [MarketWatch RKLB Analyst Estimates](https://www.marketwatch.com/investing/stock/rklb/analystestimates)
 29. [WallStreetZen RKLB 三年 EPS / 營收](https://www.wallstreetzen.com/stocks/us/nasdaq/rklb/stock-forecast)
 30. [ChartMill RKLB 遠年營收路徑](https://www.chartmill.com/stock/quote/RKLB/analyst-ratings)
+31. [Q3 2026 新聞稿](https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-third-quarter-2026-financial-results-posts)
+32. [Q3 2026 Form 10-Q](https://investors.rocketlabcorp.com/static-files/e7184018-2d30-4ec7-afed-7ed8659bd281)
+33. [Q3 2026 財報會逐字稿](https://www.investing.com/news/transcripts/earnings-call-transcript-rocket-lab-beats-revenue-in-q3-2026-stock-swings-lower-after-hours-93CH-5013696)
+34. [Neutron 星座發射合約（底價 $70M）](https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-lands-over-515m-neutron-launch-deals-constellation)
+35. [Quilty / Ars：至 2030 發射短缺](https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/)
+36. [SatNews：Falcon 9 收單與發射漲價](https://satnews.com/2026/10/28/the-launch-crunch-is-coming-as-falcon-9-winds-down/)
 
 ---
 
